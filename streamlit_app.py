@@ -2,7 +2,7 @@ import streamlit as st
 import polars as pl
 from datetime import datetime,date
 from scipy.stats import poisson
-import plotly.express as px
+
 
 
 class liga():
