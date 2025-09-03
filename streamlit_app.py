@@ -314,15 +314,23 @@ def main():
                 
                 c.metric(visita,format(1/df_total.VictoriaVisita(LigasDisponibles,local,visita),'.2f'),border=True)
             
-            with st.expander("Doble Opòrtunidad:",expanded=True):
+            with st.expander("Ambos Equipos Marcan:",expanded=True):
+                a,b=st.columns(2)
+    
+                a.metric("SI",format(1/df_total.ambosmarcan(LigasDisponibles,local,visita),'.2f'),border=True)       
                 
+                b.metric("NO",format(1/df_total.solounomarca(LigasDisponibles,local,visita),'.2f'),border=True) 
+
+                
+            with st.expander("Doble Opòrtunidad:",expanded=True):
+
                 a,b,c=st.columns(3)
               
-                a.metric(local+" - Empate",format(1/(df_total.VictoriaLocal(LigasDisponibles,local,visita)+df_total.EmpateResultado(LigasDisponibles,local,visita)),'.2f'),border=True)
+                a.metric(local+" O Empate",format(1/(df_total.VictoriaLocal(LigasDisponibles,local,visita)+df_total.EmpateResultado(LigasDisponibles,local,visita)),'.2f'),border=True)
                 
-                b.metric(local+" - "+visita,format(1/(df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita)),'.2f') ,border=True)
+                b.metric(local+" O "+visita,format(1/(df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita)),'.2f') ,border=True)
                 
-                c.metric("Empate - "+visita,format(1/(df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita)),'.2f'),border=True) 
+                c.metric("Empate O "+visita,format(1/(df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita)),'.2f'),border=True) 
 
 
         with tab2:
