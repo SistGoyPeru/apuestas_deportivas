@@ -62,10 +62,10 @@ class liga():
         return self.PromGECV(liga,visita) / self.PGFliga(liga)
     
     def fuerzaPromedioLocal(self, liga,local, visita):
-        return (self.fuerzaOfensivaLocal(liga,local) * self.fuerzaDefensivaVisita(liga,visita)) 
+        return ((self.PromGEFL(liga,local) * self.PromGECV(liga,visita))/self.medialiga(liga)) 
     
     def fuerzaPromedioVisita(self, liga,local, visita):
-        return (self.fuerzaOfensivaVisita(liga,visita) * self.fuerzaDefensivaLocal(liga,local)) 
+        return ((self.PromGEFV(liga,visita) * self.PromGECL(liga,local))/self.medialiga(liga)) 
     
 
     def VictoriaLocal(self, liga,local, visita):
