@@ -177,6 +177,42 @@ class liga():
                     
         return masde25
     
+    def masde35goles(self, liga,local, visita):
+        masde35 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 3:
+                    masde35 += prob_local_x * prob_visita_y
+                    
+        return masde35
+    
+    def masde45goles(self, liga,local, visita):
+        masde45 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 4:
+                    masde45 += prob_local_x * prob_visita_y
+                    
+        return masde45
+    
     def menosde05goles(self,liga, local, visita):
         menosde05 = 0.0
         fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
@@ -230,6 +266,24 @@ class liga():
                     menosde25 += prob_local_x * prob_visita_y
                     
         return menosde25
+    
+    def menosde35goles(self,liga, local, visita):
+        menosde35 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) < 4:
+                    menosde35 += prob_local_x * prob_visita_y
+                    
+        return menosde35
     
     def cerogoles(self, liga,local, visita):
         cerogoles = 0.0
@@ -302,7 +356,7 @@ def main():
         
         st.badge(local+" vs "+visita,color="gray") 
 
-        tab1, tab2, tab3 = st.tabs(["Principal", "Goles", "Owl"])
+        tab1, tab2, tab3 = st.tabs(["Principal", "Goles", "Otros"])
         with tab1:
             with st.expander("Probabilidades de Resultado ( 1-X-2 ):",expanded=True):
             
@@ -334,7 +388,35 @@ def main():
 
 
         with tab2:
-            st.header("A dog")
+            with st.expander("Va Haber Goles:",expanded=True):
+                a,b=st.columns(2)
+    
+                a.metric("NO",format(1/df_total.cerogoles(LigasDisponibles,local,visita),'.2f'),border=True)       
+                
+                b.metric("SI",format(1/df_total.congoles(LigasDisponibles,local,visita),'.2f'),border=True) 
+            
+            with st.expander("Goles Totales - Más/Menos:",expanded=True):
+                a,b,c,d=st.columns(4)
+              
+                a.metric("Más de 0.5",format(1/df_total.masde05goles(LigasDisponibles,local,visita),'.2f'),border=True)
+                
+                b.metric("Más de 1.5",format(1/df_total.masde15goles(LigasDisponibles,local,visita),'.2f') ,border=True)
+                
+                c.metric("Más de 2.5",format(1/df_total.masde25goles(LigasDisponibles,local,visita),'.2f'),border=True) 
+
+                d.metric("Más de 3.5",format(1/df_total.masde35goles(LigasDisponibles,local,visita),'.2f'),border=True)
+                
+                
+                d,e,f,g=st.columns(4)
+              
+                d.metric("Menos de 0.5",format(1/df_total.menosde05goles(LigasDisponibles,local,visita),'.2f'),border=True)
+                
+                e.metric("Menos de 1.5",format(1/df_total.menosde15goles(LigasDisponibles,local,visita),'.2f') ,border=True)
+                
+                f.metric("Menos de 2.5",format(1/df_total.menosde25goles(LigasDisponibles,local,visita),'.2f'),border=True)
+                
+                g.metric("Menos de 3.5",format(1/df_total.menosde35goles(LigasDisponibles,local,visita),'.2f'),border=True)
+            
             
 
         
