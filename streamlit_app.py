@@ -20,8 +20,7 @@ def main():
   
   st.sidebar.title("**Ligas Disponibles**")
   ligas=df_final['Liga'].unique().sort()   
-  LigasDisponibles=st.sidebar.selectbox("Liga Para Pronosticar",ligas)
-  df_final=df_final.filter(pl.col("Liga")==LigasDisponibles)
+ 
 
 if __name__ == "__main__":
   main()
