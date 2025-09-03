@@ -1,5 +1,5 @@
 import streamlit as st
-
+import polars as pl
 
 class liga():
     def __init__(self, archivo):
