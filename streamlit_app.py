@@ -34,7 +34,22 @@ def main():
   ld=dfecha['Liga'].unique().sort() 
   LigasDisponibles=st.sidebar.selectbox("Liga Para Pronosticar",ld) 
   df_final=dfecha.filter(pl.col("Liga")==LigasDisponibles)
-  st.dataframe(df_final)
+
+  event=st.dataframe(
+        df_final,
+        on_select='rerun',
+        selection_mode='single-row'
+
+    )
+  
+  if len(event.selection['rows']):
+        selected_row = event.selection['rows'][0]
+        local = df_final[selected_row, 'Local']
+        visita = df_final[selected_row, 'Visita']
+        lg= df_final[selected_row, 'Liga']
+        a, b = st.columns(2)
+        a.write("**"+local+" vs "+visita+"**") 
+        b.write("**Fecha:** "+df_final[selected_row, 'Fecha'])
 
  
     
