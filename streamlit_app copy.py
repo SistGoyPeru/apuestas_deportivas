@@ -300,36 +300,63 @@ def main():
         visita = df_final[selected_row, 'Visita']
         
         
-        st.badge(local+" vs "+visita,color="gray") 
+        st.header(local+" vs "+visita) 
+        
 
-        tab1, tab2, tab3 = st.tabs(["Principal", "Goles", "Owl"])
-        with tab1:
-            with st.expander("Probabilidades de Resultado ( 1-X-2 ):",expanded=True):
-            
-                a,b,c=st.columns(3)
-            
-                a.metric(local,format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
-                
-                b.metric("Empate",format(1/df_total.EmpateResultado(LigasDisponibles,local,visita),'.2f'),border=True)
-                
-                c.metric(visita,format(1/df_total.VictoriaVisita(LigasDisponibles,local,visita),'.2f'),border=True)
-            
-            with st.expander("Doble Opòrtunidad:",expanded=True):
-                
-                a,b,c=st.columns(3)
+        st.subheader("Probabilidades de Resultado ( 1-X-2 ):")
+        a,b,c=st.columns(3)
+        
+        a.metric("Kpi Victoria Local",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
+        
+        b.metric("Kpi Empate",format(df_total.EmpateResultado(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.EmpateResultado(LigasDisponibles,local,visita),'.2f'),border=True)
+        
+        c.metric("Kpi Victoria Visita",format(df_total.VictoriaVisita(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaVisita(LigasDisponibles,local,visita),'.2f'),border=True)
+
+        st.subheader("Doble Opòrtunidad:")
+        
+        a,b,c=st.columns(3)
               
-                a.metric(local+" - Empate",format(1/(df_total.VictoriaLocal(LigasDisponibles,local,visita)+df_total.EmpateResultado(LigasDisponibles,local,visita)),'.2f'),border=True)
-                
-                b.metric(local+" - "+visita,format(1/(df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita)),'.2f') ,border=True)
-                
-                c.metric("Empate - "+visita,format(1/(df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita)),'.2f'),border=True) 
+        a.metric("Kpi 1X",format((df_total.VictoriaLocal(LigasDisponibles,local,visita)+df_total.EmpateResultado(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.VictoriaLocal(LigasDisponibles,local,visita)+df_total.EmpateResultado(LigasDisponibles,local,visita)),'.2f'),border=True)
+           
+        b.metric("Kpi 12",format((df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita)),'.2f') ,border=True)
+         
+        c.metric("Kpi 2X",format((df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita)),'.2f'),border=True) 
 
+        st.subheader("Mas 2.5 Goles:")      
+        a,b,c=st.columns(3)
 
-        with tab2:
-            st.header("A dog")
-            
+        a.metric("Kpi Mas 0.5 Goles",format(df_total.masde05goles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.masde05goles(LigasDisponibles,local,visita),'.2f'),border=True)    
+        b.metric("Kpi Mas 1.5 Goles",format(df_total.masde15goles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.masde15goles(LigasDisponibles,local,visita),'.2f'),border=True)    
+        c.metric("Kpi Mas 2.5 Goles",format(df_total.masde25goles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.masde25goles(LigasDisponibles,local,visita),'.2f'),border=True)    
+      
+        st.subheader("Menos 2.5 Goles:")      
+        a,b,c=st.columns(3)
+
+        a.metric("Kpi Menos 0.5 Goles",format(df_total.menosde05goles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.menosde05goles(LigasDisponibles,local,visita),'.2f'),border=True)    
+        b.metric("Kpi Menos 1.5 Goles",format(df_total.menosde15goles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.menosde15goles(LigasDisponibles,local,visita),'.2f'),border=True)    
+        c.metric("Kpi Menos 2.5 Goles",format(df_total.menosde25goles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.menosde25goles(LigasDisponibles,local,visita),'.2f'),border=True)    
+      
+        st.subheader("Ambos Equipos Anotan:")
+        a,b=st.columns(2)
+    
+        a.metric("Kpi Si",format(df_total.ambosmarcan(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.ambosmarcan(LigasDisponibles,local,visita),'.2f'),border=True)       
+         
+        b.metric("Kpi No",format(df_total.solounomarca(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.solounomarca(LigasDisponibles,local,visita),'.2f'),border=True) 
+
+        st.subheader("Va Haber Goles:")
+        a,b=st.columns(2)
+    
+        a.metric("Kpi No",format(df_total.cerogoles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.cerogoles(LigasDisponibles,local,visita),'.2f'),border=True)       
+         
+        b.metric("Kpi Si",format(df_total.congoles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.congoles(LigasDisponibles,local,visita),'.2f'),border=True) 
+
 
         
+        
+
+       
+
+ 
     
  
 
