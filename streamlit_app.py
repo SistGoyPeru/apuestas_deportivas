@@ -1,5 +1,5 @@
 import streamlit as st
-from scraper import FootballDataScraper
+
 
 def main():
   st.write("alex")
