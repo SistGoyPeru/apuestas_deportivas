@@ -162,23 +162,23 @@ def main():
         
 
         st.subheader("Probabilidades de Resultado ( 1-X-2 ):")
-        c1,c2,c3=st.columns(3,gap='large')
-        with c1:
-              st.metric("Kpi Victoria Local",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
-        with c2:
-              st.metric("Kpi Empate",format(df_total.EmpateResultado(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.EmpateResultado(LigasDisponibles,local,visita),'.2f'),border=True)
-        with c3:
-              st.metric("Kpi Victoria Visita",format(df_total.VictoriaVisita(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaVisita(LigasDisponibles,local,visita),'.2f'),border=True)
+        a,b,c=st.columns(3)
+        
+        a.metric("Kpi Victoria Local",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
+        
+        b.metric("Kpi Empate",format(df_total.EmpateResultado(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.EmpateResultado(LigasDisponibles,local,visita),'.2f'),border=True)
+        
+        c.metric("Kpi Victoria Visita",format(df_total.VictoriaVisita(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaVisita(LigasDisponibles,local,visita),'.2f'),border=True)
 
         st.subheader("Doble Opòrtunidad:")
         
-        c1,c2,c3=st.columns(3,gap='large')
-        with c1:      
-              st.metric("Kpi 1X",format((df_total.VictoriaLocal(LigasDisponibles,local,visita)+df_total.EmpateResultado(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.VictoriaLocal(LigasDisponibles,local,visita)+df_total.EmpateResultado(LigasDisponibles,local,visita)),'.2f'),border=True)
-        with c2:    
-              st.metric("Kpi 12",format((df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita)),'.2f') ,border=True)
-        with c3:  
-              st.metric("Kpi 2X",format((df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita)),'.2f'),border=True) 
+        a,b,c=st.columns(3)
+              
+        a.metric("Kpi 1X",format((df_total.VictoriaLocal(LigasDisponibles,local,visita)+df_total.EmpateResultado(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.VictoriaLocal(LigasDisponibles,local,visita)+df_total.EmpateResultado(LigasDisponibles,local,visita)),'.2f'),border=True)
+           
+        b.metric("Kpi 12",format((df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita)),'.2f') ,border=True)
+         
+        c.metric("Kpi 2X",format((df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita)),'.2f'),border=True) 
               
         
 
