@@ -4,8 +4,8 @@ from clases import liga
 
 
 def main():
-  ligas=liga("data_ligas.csv")
-  st.write(ligas.data())
+  
+  st.write("alex")
 
 if __name__ == "__main__":
   main()
