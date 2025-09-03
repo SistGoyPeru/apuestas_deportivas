@@ -157,11 +157,11 @@ def main():
         local = df_final[selected_row, 'Local']
         visita = df_final[selected_row, 'Visita']
         
-        a, b = st.columns(2)
-        a.write("**"+local+" vs "+visita+"**") 
-        b.write("**Fecha:** "+df_final[selected_row, 'Fecha'])
+        
+        st.header(local+" vs "+visita) 
+        
 
-        st.markdown("**Probabilidades de Resultado ( 1-X-2 ):**")
+        st.subheader("Probabilidades de Resultado ( 1-X-2 ):")
         c1,c2,c3=st.columns(3,gap='large')
         with c1:
               st.metric("Kpi Victoria Local",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
@@ -170,7 +170,7 @@ def main():
         with c3:
               st.metric("Kpi Victoria Visita",format(df_total.VictoriaVisita(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaVisita(LigasDisponibles,local,visita),'.2f'),border=True)
 
-        st.markdown("**Doble Opòrtunidad:**")
+        st.subheader("Doble Opòrtunidad:")
         
         c1,c2,c3=st.columns(3,gap='large')
         with c1:      
