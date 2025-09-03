@@ -13,8 +13,8 @@ class liga():
 
 
 def main():
-  
-  st.write("alex")
+  ligas=liga("data_liga.csv")
+  st.write(ligas.data())
 
 if __name__ == "__main__":
   main()
