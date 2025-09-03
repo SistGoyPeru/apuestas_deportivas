@@ -62,10 +62,10 @@ class liga():
         return self.PromGECV(liga,visita) / self.PGFliga(liga)
     
     def fuerzaPromedioLocal(self, liga,local, visita):
-        return (self.fuerzaOfensivaLocal(liga,local) * self.fuerzaDefensivaVisita(liga,visita)*self.medialiga(liga)) 
+        return (self.fuerzaOfensivaLocal(liga,local) * self.fuerzaDefensivaVisita(liga,visita)) 
     
     def fuerzaPromedioVisita(self, liga,local, visita):
-        return (self.fuerzaOfensivaVisita(liga,visita) * self.fuerzaDefensivaLocal(liga,local)*self.medialiga(liga)) 
+        return (self.fuerzaOfensivaVisita(liga,visita) * self.fuerzaDefensivaLocal(liga,local)) 
     
 
     def VictoriaLocal(self, liga,local, visita):
@@ -123,6 +123,60 @@ class liga():
             
         return victoria
     
+    def masde05goles(self, liga,local, visita):
+        masde05 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 0:
+                    masde05 += prob_local_x * prob_visita_y
+                    
+        return masde05
+    
+    def masde15goles(self,liga, local, visita):
+        masde15 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 1:
+                    masde15 += prob_local_x * prob_visita_y
+                    
+        return masde15
+    
+    def masde25goles(self, liga,local, visita):
+        masde25 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 2:
+                    masde25 += prob_local_x * prob_visita_y
+                    
+        return masde25
+    
     
        
     
@@ -179,7 +233,14 @@ def main():
         b.metric("Kpi 12",format((df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.VictoriaVisita(LigasDisponibles,local,visita)+df_total.VictoriaLocal(LigasDisponibles,local,visita)),'.2f') ,border=True)
          
         c.metric("Kpi 2X",format((df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita))*100,'.2f')+"%",format(1/(df_total.EmpateResultado(LigasDisponibles,local,visita)+df_total.VictoriaVisita(LigasDisponibles,local,visita)),'.2f'),border=True) 
-              
+
+        st.subheader("Mas 2.5 Goles:")      
+        a,b,c=st.columns(3)
+
+        a.metric("Kpi Mas 0.5 Goles",format(df_total.masde05goles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.masde05goles(LigasDisponibles,local,visita),'.2f'),border=True)    
+        b.metric("Kpi Mas 1.5 Goles",format(df_total.masde15goles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.masde15goles(LigasDisponibles,local,visita),'.2f'),border=True)    
+        c.metric("Kpi Mas 2.5 Goles",format(df_total.masde25goles(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.masde25goles(LigasDisponibles,local,visita),'.2f'),border=True)    
+      
         
 
         
