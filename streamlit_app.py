@@ -1,6 +1,7 @@
 import streamlit as st
+from scraper import FootballDataScraper
 
-st.title("alex goyzuet")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+def main():
+  st.write("alex")
+if __name__ == "__main__":
+  main()
