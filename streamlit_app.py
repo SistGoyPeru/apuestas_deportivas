@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 import bs4 as bs
 import requests
 import polars as pl
