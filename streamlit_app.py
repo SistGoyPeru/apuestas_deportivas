@@ -29,7 +29,12 @@ def main():
   df=df_final.data()
   
   dfecha=df.filter(pl.col("Fecha")==fecha.strftime("%d.%m.%Y")).sort("Liga")
-  st.dataframe(dfecha)
+  
+  st.sidebar.title("**Ligas Disponibles**")
+  ld=dfecha['Liga'].unique().sort() 
+  LigasDisponibles=st.sidebar.selectbox("Liga Para Pronosticar",ld) 
+  df_final=dfecha.filter(pl.col("Liga")==LigasDisponibles)
+  st.dataframe(df_final)
 
  
     
