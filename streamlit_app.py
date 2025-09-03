@@ -1,5 +1,6 @@
 import streamlit as st
 import polars as pl
+from datetime import datetime,date
 
 class liga():
     def __init__(self, archivo):
@@ -8,6 +9,12 @@ class liga():
 
     def data(self):
         return self.df
+    
+    def ligas(self):
+       return self.df['Liga'].unique().sort().to_list()  
+    
+    
+       
     
 
 
@@ -18,8 +25,14 @@ class liga():
 def main():
   df_final=liga("data_ligas.csv")
   
-  st.sidebar.title("**Ligas Disponibles**")
-  ligas=df_final['Liga'].unique().sort()   
+  fecha=st.sidebar.date_input("Selecciona la Fecha para Pronosticar",date.today())
+  df=df_final.data()
+  
+  dfecha=df.filter(pl.col("Fecha")==fecha.strftime("%d.%m.%Y")).sort("Liga")
+  st.dataframe(dfecha)
+
+ 
+    
  
 
 if __name__ == "__main__":
