@@ -13,6 +13,22 @@ class liga():
     def ligas(self):
        return self.df['Liga'].unique().sort().to_list()  
     
+    def PGFliga(self,liga):
+        df=self.df.filter(pl.col('Liga') == liga)
+        
+        return df["GA"].mean()
+    
+    def PGCliga(self,liga):
+        df=self.df.filter(pl.col('Liga') == liga)
+        
+        return df["GC"].mean()
+    
+    def PromGEFL(self,liga,local):
+        df=self.df.filter(pl.col('Liga') == liga)
+        pfl=df.filter(pl.col('Local')==local)
+        return pfl["GA"].mean()
+        
+    
     
        
     
@@ -23,10 +39,10 @@ class liga():
 #================================================================================================
 
 def main():
-  df_final=liga("data_ligas.csv")
+  df_total=liga("data_ligas.csv")
   
   fecha=st.sidebar.date_input("Selecciona la Fecha para Pronosticar",date.today())
-  df=df_final.data()
+  df=df_total.data()
   
   dfecha=df.filter(pl.col("Fecha")==fecha.strftime("%d.%m.%Y")).sort("Liga")
   
@@ -46,10 +62,16 @@ def main():
         selected_row = event.selection['rows'][0]
         local = df_final[selected_row, 'Local']
         visita = df_final[selected_row, 'Visita']
-        lg= df_final[selected_row, 'Liga']
+        
         a, b = st.columns(2)
         a.write("**"+local+" vs "+visita+"**") 
         b.write("**Fecha:** "+df_final[selected_row, 'Fecha'])
+
+        st.write(df_total.PGFliga(LigasDisponibles))
+        st.write(df_total.PGCliga(LigasDisponibles))
+        st.write(df_total.PromGEFL(LigasDisponibles,local))
+
+       
 
  
     
