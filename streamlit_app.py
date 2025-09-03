@@ -24,7 +24,10 @@ class liga():
     def PGCliga(self,liga):
         df=self.df.filter(pl.col('Liga') == liga)
         
-        return df["GC"].mean()
+        return df["GC"].mean()  
+    
+    def medialiga(self,liga):
+        return self.PGFliga(liga)+self.PGCliga(liga)
     
     def PromGEFL(self,liga,local):
         df=self.df.filter(pl.col('Liga') == liga)
@@ -59,10 +62,10 @@ class liga():
         return self.PromGECV(liga,visita) / self.PGFliga(liga)
     
     def fuerzaPromedioLocal(self, liga,local, visita):
-        return (self.fuerzaOfensivaLocal(liga,local) * self.fuerzaDefensivaVisita(liga,visita)) 
+        return (self.fuerzaOfensivaLocal(liga,local) * self.fuerzaDefensivaVisita(liga,visita)*self.medialiga(liga)) 
     
     def fuerzaPromedioVisita(self, liga,local, visita):
-        return (self.fuerzaOfensivaVisita(liga,visita) * self.fuerzaDefensivaLocal(liga,local)) 
+        return (self.fuerzaOfensivaVisita(liga,visita) * self.fuerzaDefensivaLocal(liga,local)*self.medialiga(liga)) 
     
 
     def VictoriaLocal(self, liga,local, visita):
@@ -78,6 +81,45 @@ class liga():
             prob_local_mas_y = 1 - poisson.cdf(y, fuerza_local)
             
             victoria += prob_visita_y * prob_local_mas_y
+            
+        return victoria
+    
+    def EmpateResultado(self,liga, local, visita):
+        empate = 0.0
+    
+        fuerza_promedio_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_promedio_visita = self.fuerzaPromedioVisita(liga,local, visita)
+    
+        umbral = 1e-10
+    
+        for x in range(11):
+        
+            prob_local = poisson.pmf(x, fuerza_promedio_local)
+            prob_visita = poisson.pmf(x, fuerza_promedio_visita)
+            
+           
+            prob_empate_actual = prob_local * prob_visita
+            empate += prob_empate_actual
+         
+            if prob_local < umbral or prob_visita < umbral:
+                break
+            
+        return empate
+    
+    
+    def VictoriaVisita(self, liga,local, visita):
+        victoria = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Probabilidad de que el visitante marque más de x goles
+            prob_visita_mas_x = 1 - poisson.cdf(x, fuerza_visita)
+            
+            victoria += prob_local_x * prob_visita_mas_x
             
         return victoria
     
@@ -124,11 +166,11 @@ def main():
         with c1:
               st.metric("Kpi Victoria Local",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
         with c2:
-              st.metric("Kpi Empate",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
+              st.metric("Kpi Empate",format(df_total.EmpateResultado(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.EmpateResultado(LigasDisponibles,local,visita),'.2f'),border=True)
         with c3:
-              st.metric("Kpi Victoria Visita",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
+              st.metric("Kpi Victoria Visita",format(df_total.VictoriaVisita(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaVisita(LigasDisponibles,local,visita),'.2f'),border=True)
 
-
+        
         
 
         
