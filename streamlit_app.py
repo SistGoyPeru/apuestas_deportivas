@@ -2,6 +2,7 @@ import streamlit as st
 import polars as pl
 from datetime import datetime,date
 from scipy.stats import poisson
+import plotly.express as px
 
 
 class liga():
@@ -122,6 +123,11 @@ def main():
         c1,c2,c3=st.columns(3,gap='large')
         with c1:
               st.metric("Kpi Victoria Local",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
+        with c2:
+              st.metric("Kpi Empate",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
+        with c3:
+              st.metric("Kpi Victoria Visita",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
+
 
         
 
