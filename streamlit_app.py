@@ -1,5 +1,5 @@
 import streamlit as st
-from scraper import FootballDataScraper
+
 
 import bs4 as bs
 import requests
