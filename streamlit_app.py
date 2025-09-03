@@ -1,4 +1,5 @@
 import streamlit as st
+from clases import liga
 
 
 
