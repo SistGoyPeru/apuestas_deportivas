@@ -1,6 +1,7 @@
 import streamlit as st
 import polars as pl
 from datetime import datetime,date
+from scipy.stats import poisson
 
 
 class liga():
@@ -63,6 +64,21 @@ class liga():
         return (self.fuerzaOfensivaVisita(liga,visita) * self.fuerzaDefensivaLocal(liga,local)) 
     
 
+    def VictoriaLocal(self, liga,local, visita):
+        victoria = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+        for y in range(21):
+            prob_visita_y = poisson.pmf(y, fuerza_visita)
+            
+            # Probabilidad de que el local marque más de y goles
+            prob_local_mas_y = 1 - poisson.cdf(y, fuerza_local)
+            
+            victoria += prob_visita_y * prob_local_mas_y
+            
+        return victoria
     
     
        
@@ -101,6 +117,13 @@ def main():
         a, b = st.columns(2)
         a.write("**"+local+" vs "+visita+"**") 
         b.write("**Fecha:** "+df_final[selected_row, 'Fecha'])
+
+        st.markdown("**Probabilidades de Resultado ( 1-X-2 ):**")
+        c1,c2,c3=st.columns(3,gap='large')
+        with c1:
+              st.metric("Kpi Victoria Local",format(df_total.VictoriaLocal(LigasDisponibles,local,visita)*100,'.2f')+"%",format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
+
+        
 
         
         
