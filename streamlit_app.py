@@ -1,7 +1,7 @@
 import streamlit as st
 import polars as pl
 from datetime import datetime,date
-from scipy.stats import poisson
+
 
 class liga():
     def __init__(self, archivo):
