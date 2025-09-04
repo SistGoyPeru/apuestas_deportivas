@@ -356,7 +356,7 @@ def main():
         
         st.badge(local+" vs "+visita,color="gray") 
 
-        tab1, tab2, tab3 = st.tabs(["Principal", "Goles", "Otros"])
+        tab1, tab2, tab3 = st.tabs(["Principal", "Goles", "Combinaciones"])
         with tab1:
             with st.expander("Probabilidades de Resultado ( 1-X-2 ):",expanded=True):
             
