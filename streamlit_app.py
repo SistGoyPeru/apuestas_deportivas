@@ -358,15 +358,63 @@ def main():
 
         tab1, tab2, tab3 = st.tabs(["Principal", "Goles", "Combinaciones"])
         with tab1:
-            with st.expander("Probabilidades de Resultado ( 1-X-2 ):",expanded=True):
-            
-                a,b,c=st.columns(3)
-            
-                a.metric(local,format(1/df_total.VictoriaLocal(LigasDisponibles,local,visita),'.2f'),border=True)
+            with st.expander("Probabilidades de Resultado ( 1-X-2 ) ⚽:",expanded=True):
                 
-                b.metric("Empate",format(1/df_total.EmpateResultado(LigasDisponibles,local,visita),'.2f'),border=True)
+                st.set_page_config(layout="wide") # Utiliza el ancho completo de la página
+
                 
-                c.metric(visita,format(1/df_total.VictoriaVisita(LigasDisponibles,local,visita),'.2f'),border=True)
+
+                # Valores de ejemplo para el pronóstico (podrían ser porcentajes o votos)
+                # Aquí usamos valores aleatorios para simular un pronóstico dinámico
+                prob_local = df_total.VictoriaLocal(LigasDisponibles,local, visita)*100
+                prob_empate = df_total.EmpateResultado(LigasDisponibles,local, visita)*100
+                prob_visitante = df_total.VictoriaVisita(LigasDisponibles,local, visita)*100
+
+                # Colores y títulos personalizados para cada pronóstico
+                colores = {
+                    "Local": "#28a745",     # Verde para victoria local
+                    "Empate": "#ffc107",    # Amarillo para empate
+                    "Visitante": "#dc3545"  # Rojo para victoria visitante
+                }
+
+                # Crear las tres columnas para el pronóstico
+                col1, col2, col3 = st.columns(3)
+
+            # --- Columna de Pronóstico Local ---
+            with col1:
+                st.markdown(f"""
+                <div style="background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; border-left: 5px solid {colores['Local']};">
+                    <h3 style="margin: 0; font-size: 1.2rem; color: #555;">Victoria Local</h3>
+                    <p style="font-size: 2.5rem; font-weight: bold; color: {colores['Local']}; margin: 5px 0 0 0;">
+                        {prob_local:.2f}%
+                    </p>
+                </div>
+                """, unsafe_allow_html=True)
+
+            # --- Columna de Pronóstico de Empate ---
+            with col2:
+                st.markdown(f"""
+                <div style="background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; border-left: 5px solid {colores['Empate']};">
+                    <h3 style="margin: 0; font-size: 1.2rem; color: #555;">Empate</h3>
+                    <p style="font-size: 2.5rem; font-weight: bold; color: {colores['Empate']}; margin: 5px 0 0 0;">
+                        {prob_empate:.2f}%
+                    </p>
+                </div>
+                """, unsafe_allow_html=True)
+
+            # --- Columna de Pronóstico Visitante ---
+            with col3:
+                st.markdown(f"""
+                <div style="background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; border-left: 5px solid {colores['Visitante']};">
+                    <h3 style="margin: 0; font-size: 1.2rem; color: #555;">Victoria Visitante</h3>
+                    <p style="font-size: 2.5rem; font-weight: bold; color: {colores['Visitante']}; margin: 5px 0 0 0;">
+                        {prob_visitante:.2f}%
+                    </p>
+                </div>
+                """, unsafe_allow_html=True)
+
+            
+                
             
             with st.expander("Ambos Equipos Marcan:",expanded=True):
                 a,b=st.columns(2)
