@@ -752,15 +752,15 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 10,27.09.2025,Gimnasia de La Plata,Rosario Central,,,Liga Argentina
 10,27.09.2025,Aldosivi,Argentinos Juniors,,,Liga Argentina
 10,27.09.2025,San Lorenzo,Godoy Cruz,,,Liga Argentina
-10,28.09.2025,Vélez Sarsfield,Atlético Tucumán,,,Liga Argentina
-10,28.09.2025,Newell's Old Boys,Estudiantes,,,Liga Argentina
-10,28.09.2025,Barracas Central,Belgrano,,,Liga Argentina
 10,28.09.2025,Defensa y Justicia,Boca Juniors,,,Liga Argentina
 10,28.09.2025,Talleres de Córdoba,Sarmiento de Junín,,,Liga Argentina
 10,28.09.2025,Racing Club,Independiente,,,Liga Argentina
 10,28.09.2025,River Plate,Deportivo Riestra,,,Liga Argentina
 10,29.09.2025,Instituto de Córdoba,CA Lanús,,,Liga Argentina
 10,29.09.2025,Independiente Rivadavia,Huracán,,,Liga Argentina
+10,29.09.2025,Barracas Central,Belgrano,,,Liga Argentina
+10,30.09.2025,Vélez Sarsfield,Atlético Tucumán,,,Liga Argentina
+10,01.10.2025,Newell's Old Boys,Estudiantes,,,Liga Argentina
 11,05.10.2025,Godoy Cruz,Independiente,,,Liga Argentina
 11,05.10.2025,Talleres de Córdoba,Belgrano,,,Liga Argentina
 11,05.10.2025,San Martín de San Juan,Instituto de Córdoba,,,Liga Argentina
@@ -883,14 +883,14 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 4,17.08.2025,Sint-Truidense VV,RAAL La Louviére,2,1,Liga Belgica
 4,17.08.2025,Sporting Charleroi,Royal Antwerp FC,1,1,Liga Belgica
 4,17.08.2025,Cercle Brugge,KVC Westerlo,4,1,Liga Belgica
-5,23.08.2025,Club Brugge KV,KVC Westerlo,,,Liga Belgica
-5,23.08.2025,KRC Genk,Sporting Charleroi,,,Liga Belgica
 5,23.08.2025,Standard Liège,Cercle Brugge,0,3,Liga Belgica
 5,23.08.2025,SV Zulte Waregem,Sint-Truidense VV,0,2,Liga Belgica
-5,24.08.2025,RSC Anderlecht,Gante,,,Liga Belgica
 5,24.08.2025,Royal Antwerp FC,KV Mechelen,2,1,Liga Belgica
 5,24.08.2025,RAAL La Louviére,Union Saint-Gilloise,0,0,Liga Belgica
 5,24.08.2025,FCV Dender EH,Oud-Heverlee Leuven,0,1,Liga Belgica
+5,17.09.2025,KRC Genk,Sporting Charleroi,,,Liga Belgica
+5,23.09.2025,RSC Anderlecht,Gante,,,Liga Belgica
+5,24.09.2025,Club Brugge KV,KVC Westerlo,,,Liga Belgica
 6,29.08.2025,Cercle Brugge,Sint-Truidense VV,1,1,Liga Belgica
 6,30.08.2025,KV Mechelen,RAAL La Louviére,3,2,Liga Belgica
 6,30.08.2025,KVC Westerlo,Royal Antwerp FC,2,0,Liga Belgica
@@ -923,94 +923,94 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 9,28.09.2025,Cercle Brugge,Gante,,,Liga Belgica
 9,28.09.2025,Sporting Charleroi,KV Mechelen,,,Liga Belgica
 9,28.09.2025,FCV Dender EH,RAAL La Louviére,,,Liga Belgica
-10,03.10.2025,Club Brugge KV,Union Saint-Gilloise,,,Liga Belgica
 10,03.10.2025,Gante,Sporting Charleroi,,,Liga Belgica
-10,03.10.2025,KRC Genk,FCV Dender EH,,,Liga Belgica
-10,03.10.2025,KV Mechelen,Sint-Truidense VV,,,Liga Belgica
-10,03.10.2025,KVC Westerlo,Oud-Heverlee Leuven,,,Liga Belgica
-10,03.10.2025,RAAL La Louviére,SV Zulte Waregem,,,Liga Belgica
-10,03.10.2025,Royal Antwerp FC,Cercle Brugge,,,Liga Belgica
-10,03.10.2025,RSC Anderlecht,Standard Liège,,,Liga Belgica
-11,17.10.2025,Cercle Brugge,KRC Genk,,,Liga Belgica
-11,17.10.2025,FCV Dender EH,KV Mechelen,,,Liga Belgica
-11,17.10.2025,Oud-Heverlee Leuven,Club Brugge KV,,,Liga Belgica
-11,17.10.2025,RAAL La Louviére,KVC Westerlo,,,Liga Belgica
+10,04.10.2025,KV Mechelen,Sint-Truidense VV,,,Liga Belgica
+10,04.10.2025,RAAL La Louviére,SV Zulte Waregem,,,Liga Belgica
+10,04.10.2025,Royal Antwerp FC,Cercle Brugge,,,Liga Belgica
+10,05.10.2025,RSC Anderlecht,Standard Liège,,,Liga Belgica
+10,05.10.2025,KRC Genk,FCV Dender EH,,,Liga Belgica
+10,05.10.2025,Club Brugge KV,Union Saint-Gilloise,,,Liga Belgica
+10,05.10.2025,KVC Westerlo,Oud-Heverlee Leuven,,,Liga Belgica
 11,17.10.2025,Standard Liège,Royal Antwerp FC,,,Liga Belgica
-11,17.10.2025,SV Zulte Waregem,Gante,,,Liga Belgica
-11,17.10.2025,Union Saint-Gilloise,Sporting Charleroi,,,Liga Belgica
-11,17.10.2025,Sint-Truidense VV,RSC Anderlecht,,,Liga Belgica
-12,24.10.2025,Cercle Brugge,SV Zulte Waregem,,,Liga Belgica
-12,24.10.2025,Gante,Standard Liège,,,Liga Belgica
-12,24.10.2025,KRC Genk,RAAL La Louviére,,,Liga Belgica
-12,24.10.2025,KV Mechelen,Oud-Heverlee Leuven,,,Liga Belgica
-12,24.10.2025,KVC Westerlo,FCV Dender EH,,,Liga Belgica
-12,24.10.2025,Royal Antwerp FC,Club Brugge KV,,,Liga Belgica
+11,18.10.2025,RAAL La Louviére,KVC Westerlo,,,Liga Belgica
+11,18.10.2025,Oud-Heverlee Leuven,Club Brugge KV,,,Liga Belgica
+11,18.10.2025,Union Saint-Gilloise,Sporting Charleroi,,,Liga Belgica
+11,19.10.2025,Cercle Brugge,KRC Genk,,,Liga Belgica
+11,19.10.2025,FCV Dender EH,KV Mechelen,,,Liga Belgica
+11,19.10.2025,Sint-Truidense VV,RSC Anderlecht,,,Liga Belgica
+11,19.10.2025,SV Zulte Waregem,Gante,,,Liga Belgica
 12,24.10.2025,Sporting Charleroi,RSC Anderlecht,,,Liga Belgica
-12,24.10.2025,Union Saint-Gilloise,Sint-Truidense VV,,,Liga Belgica
-13,01.11.2025,Club Brugge KV,FCV Dender EH,,,Liga Belgica
-13,01.11.2025,KVC Westerlo,KRC Genk,,,Liga Belgica
-13,01.11.2025,Oud-Heverlee Leuven,Gante,,,Liga Belgica
-13,01.11.2025,RAAL La Louviére,Cercle Brugge,,,Liga Belgica
-13,01.11.2025,RSC Anderlecht,KV Mechelen,,,Liga Belgica
-13,01.11.2025,Standard Liège,Sporting Charleroi,,,Liga Belgica
+12,25.10.2025,KVC Westerlo,FCV Dender EH,,,Liga Belgica
+12,25.10.2025,KV Mechelen,Oud-Heverlee Leuven,,,Liga Belgica
+12,25.10.2025,Gante,Standard Liège,,,Liga Belgica
+12,26.10.2025,Royal Antwerp FC,Club Brugge KV,,,Liga Belgica
+12,26.10.2025,Cercle Brugge,SV Zulte Waregem,,,Liga Belgica
+12,26.10.2025,KRC Genk,RAAL La Louviére,,,Liga Belgica
+12,26.10.2025,Union Saint-Gilloise,Sint-Truidense VV,,,Liga Belgica
+13,31.10.2025,Standard Liège,Sporting Charleroi,,,Liga Belgica
 13,01.11.2025,SV Zulte Waregem,Union Saint-Gilloise,,,Liga Belgica
-13,01.11.2025,Sint-Truidense VV,Royal Antwerp FC,,,Liga Belgica
+13,01.11.2025,Club Brugge KV,FCV Dender EH,,,Liga Belgica
+13,01.11.2025,RSC Anderlecht,KV Mechelen,,,Liga Belgica
+13,02.11.2025,KVC Westerlo,KRC Genk,,,Liga Belgica
+13,02.11.2025,Oud-Heverlee Leuven,Gante,,,Liga Belgica
+13,02.11.2025,Sint-Truidense VV,Royal Antwerp FC,,,Liga Belgica
+13,02.11.2025,RAAL La Louviére,Cercle Brugge,,,Liga Belgica
+14,07.11.2025,FCV Dender EH,SV Zulte Waregem,,,Liga Belgica
 14,08.11.2025,Cercle Brugge,Oud-Heverlee Leuven,,,Liga Belgica
-14,08.11.2025,FCV Dender EH,SV Zulte Waregem,,,Liga Belgica
-14,08.11.2025,Gante,KRC Genk,,,Liga Belgica
-14,08.11.2025,KV Mechelen,Union Saint-Gilloise,,,Liga Belgica
-14,08.11.2025,Royal Antwerp FC,RAAL La Louviére,,,Liga Belgica
-14,08.11.2025,RSC Anderlecht,Club Brugge KV,,,Liga Belgica
 14,08.11.2025,Sporting Charleroi,KVC Westerlo,,,Liga Belgica
-14,08.11.2025,Sint-Truidense VV,Standard Liège,,,Liga Belgica
-15,22.11.2025,Club Brugge KV,Sporting Charleroi,,,Liga Belgica
-15,22.11.2025,KRC Genk,KV Mechelen,,,Liga Belgica
-15,22.11.2025,KVC Westerlo,Gante,,,Liga Belgica
-15,22.11.2025,Oud-Heverlee Leuven,Sint-Truidense VV,,,Liga Belgica
-15,22.11.2025,RAAL La Louviére,RSC Anderlecht,,,Liga Belgica
-15,22.11.2025,Royal Antwerp FC,FCV Dender EH,,,Liga Belgica
-15,22.11.2025,Standard Liège,SV Zulte Waregem,,,Liga Belgica
+14,08.11.2025,Royal Antwerp FC,RAAL La Louviére,,,Liga Belgica
+14,09.11.2025,RSC Anderlecht,Club Brugge KV,,,Liga Belgica
+14,09.11.2025,Sint-Truidense VV,Standard Liège,,,Liga Belgica
+14,09.11.2025,Gante,KRC Genk,,,Liga Belgica
+14,09.11.2025,KV Mechelen,Union Saint-Gilloise,,,Liga Belgica
+15,21.11.2025,Standard Liège,SV Zulte Waregem,,,Liga Belgica
 15,22.11.2025,Union Saint-Gilloise,Cercle Brugge,,,Liga Belgica
+15,22.11.2025,KVC Westerlo,Gante,,,Liga Belgica
+15,22.11.2025,Club Brugge KV,Sporting Charleroi,,,Liga Belgica
+15,23.11.2025,KRC Genk,KV Mechelen,,,Liga Belgica
+15,23.11.2025,Royal Antwerp FC,FCV Dender EH,,,Liga Belgica
+15,23.11.2025,RAAL La Louviére,RSC Anderlecht,,,Liga Belgica
+15,23.11.2025,Oud-Heverlee Leuven,Sint-Truidense VV,,,Liga Belgica
+16,28.11.2025,KV Mechelen,Standard Liège,,,Liga Belgica
 16,29.11.2025,FCV Dender EH,KVC Westerlo,,,Liga Belgica
-16,29.11.2025,Club Brugge KV,Royal Antwerp FC,,,Liga Belgica
-16,29.11.2025,Gante,Sint-Truidense VV,,,Liga Belgica
-16,29.11.2025,KRC Genk,Oud-Heverlee Leuven,,,Liga Belgica
-16,29.11.2025,KV Mechelen,Standard Liège,,,Liga Belgica
-16,29.11.2025,RSC Anderlecht,Union Saint-Gilloise,,,Liga Belgica
-16,29.11.2025,Sporting Charleroi,RAAL La Louviére,,,Liga Belgica
 16,29.11.2025,SV Zulte Waregem,Cercle Brugge,,,Liga Belgica
-17,06.12.2025,Cercle Brugge,Standard Liège,,,Liga Belgica
-17,06.12.2025,KV Mechelen,Sporting Charleroi,,,Liga Belgica
+16,29.11.2025,Sporting Charleroi,RAAL La Louviére,,,Liga Belgica
+16,30.11.2025,Club Brugge KV,Royal Antwerp FC,,,Liga Belgica
+16,30.11.2025,KRC Genk,Oud-Heverlee Leuven,,,Liga Belgica
+16,30.11.2025,RSC Anderlecht,Union Saint-Gilloise,,,Liga Belgica
+16,30.11.2025,Gante,Sint-Truidense VV,,,Liga Belgica
+17,05.12.2025,RAAL La Louviére,FCV Dender EH,,,Liga Belgica
 17,06.12.2025,KVC Westerlo,RSC Anderlecht,,,Liga Belgica
-17,06.12.2025,Oud-Heverlee Leuven,SV Zulte Waregem,,,Liga Belgica
-17,06.12.2025,RAAL La Louviére,FCV Dender EH,,,Liga Belgica
-17,06.12.2025,Royal Antwerp FC,KRC Genk,,,Liga Belgica
 17,06.12.2025,Union Saint-Gilloise,Gante,,,Liga Belgica
 17,06.12.2025,Sint-Truidense VV,Club Brugge KV,,,Liga Belgica
+17,07.12.2025,KV Mechelen,Sporting Charleroi,,,Liga Belgica
+17,07.12.2025,Cercle Brugge,Standard Liège,,,Liga Belgica
+17,07.12.2025,Royal Antwerp FC,KRC Genk,,,Liga Belgica
+17,07.12.2025,Oud-Heverlee Leuven,SV Zulte Waregem,,,Liga Belgica
+18,12.12.2025,Standard Liège,Oud-Heverlee Leuven,,,Liga Belgica
 18,13.12.2025,Cercle Brugge,KV Mechelen,,,Liga Belgica
-18,13.12.2025,FCV Dender EH,Club Brugge KV,,,Liga Belgica
-18,13.12.2025,Gante,Royal Antwerp FC,,,Liga Belgica
-18,13.12.2025,KRC Genk,KVC Westerlo,,,Liga Belgica
-18,13.12.2025,RSC Anderlecht,Sint-Truidense VV,,,Liga Belgica
-18,13.12.2025,Sporting Charleroi,Union Saint-Gilloise,,,Liga Belgica
-18,13.12.2025,Standard Liège,Oud-Heverlee Leuven,,,Liga Belgica
 18,13.12.2025,SV Zulte Waregem,RAAL La Louviére,,,Liga Belgica
+18,13.12.2025,RSC Anderlecht,Sint-Truidense VV,,,Liga Belgica
+18,14.12.2025,Gante,Royal Antwerp FC,,,Liga Belgica
+18,14.12.2025,FCV Dender EH,Club Brugge KV,,,Liga Belgica
+18,14.12.2025,Sporting Charleroi,Union Saint-Gilloise,,,Liga Belgica
+18,14.12.2025,KRC Genk,KVC Westerlo,,,Liga Belgica
+19,19.12.2025,Sporting Charleroi,KRC Genk,,,Liga Belgica
 19,20.12.2025,FCV Dender EH,Standard Liège,,,Liga Belgica
-19,20.12.2025,Club Brugge KV,Gante,,,Liga Belgica
 19,20.12.2025,KVC Westerlo,RAAL La Louviére,,,Liga Belgica
-19,20.12.2025,Oud-Heverlee Leuven,Cercle Brugge,,,Liga Belgica
-19,20.12.2025,Royal Antwerp FC,RSC Anderlecht,,,Liga Belgica
-19,20.12.2025,Sporting Charleroi,KRC Genk,,,Liga Belgica
 19,20.12.2025,Union Saint-Gilloise,SV Zulte Waregem,,,Liga Belgica
-19,20.12.2025,Sint-Truidense VV,KV Mechelen,,,Liga Belgica
-20,27.12.2025,Cercle Brugge,Union Saint-Gilloise,,,Liga Belgica
-20,27.12.2025,Gante,KVC Westerlo,,,Liga Belgica
-20,27.12.2025,KRC Genk,Club Brugge KV,,,Liga Belgica
-20,27.12.2025,KV Mechelen,FCV Dender EH,,,Liga Belgica
-20,27.12.2025,RAAL La Louviére,Oud-Heverlee Leuven,,,Liga Belgica
+19,21.12.2025,Club Brugge KV,Gante,,,Liga Belgica
+19,21.12.2025,Sint-Truidense VV,KV Mechelen,,,Liga Belgica
+19,21.12.2025,Royal Antwerp FC,RSC Anderlecht,,,Liga Belgica
+19,21.12.2025,Oud-Heverlee Leuven,Cercle Brugge,,,Liga Belgica
+20,26.12.2025,KRC Genk,Club Brugge KV,,,Liga Belgica
+20,26.12.2025,Cercle Brugge,Union Saint-Gilloise,,,Liga Belgica
+20,26.12.2025,Standard Liège,Sint-Truidense VV,,,Liga Belgica
+20,26.12.2025,RSC Anderlecht,Sporting Charleroi,,,Liga Belgica
 20,27.12.2025,Royal Antwerp FC,SV Zulte Waregem,,,Liga Belgica
-20,27.12.2025,RSC Anderlecht,Sporting Charleroi,,,Liga Belgica
-20,27.12.2025,Standard Liège,Sint-Truidense VV,,,Liga Belgica
+20,27.12.2025,RAAL La Louviére,Oud-Heverlee Leuven,,,Liga Belgica
+20,27.12.2025,KV Mechelen,FCV Dender EH,,,Liga Belgica
+20,27.12.2025,Gante,KVC Westerlo,,,Liga Belgica
 21,17.01.2026,FCV Dender EH,Royal Antwerp FC,,,Liga Belgica
 21,17.01.2026,Club Brugge KV,RAAL La Louviére,,,Liga Belgica
 21,17.01.2026,Gante,RSC Anderlecht,,,Liga Belgica
@@ -1661,16 +1661,16 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 5,16.08.2025,PFC Beroe,Botev Plovdiv,1,2,Liga Bulgaria
 5,17.08.2025,PFC Ludogorets Razgrad,Lokomotiv Sofia,0,0,Liga Bulgaria
 5,17.08.2025,Botev Vratsa,Levski Sofia,0,0,Liga Bulgaria
-5,18.08.2025,Arda Kardzhali,CSKA Sofia,,,Liga Bulgaria
 5,18.08.2025,Septemvri Sofia,FK Dobrudzha,2,1,Liga Bulgaria
+5,18.09.2025,Arda Kardzhali,CSKA Sofia,,,Liga Bulgaria
 6,22.08.2025,Lokomotiv Sofia,Spartak Varna,0,0,Liga Bulgaria
 6,23.08.2025,PFC Montana,Septemvri Sofia,2,0,Liga Bulgaria
 6,23.08.2025,Cherno More Varna,Lokomotiv Plovdiv,1,1,Liga Bulgaria
-6,24.08.2025,Botev Plovdiv,Levski Sofia,,,Liga Bulgaria
 6,24.08.2025,FK Dobrudzha,Botev Vratsa,0,2,Liga Bulgaria
 6,24.08.2025,CSKA Sofia,CSKA 1948 Sofia,0,1,Liga Bulgaria
 6,25.08.2025,Slavia Sofia,Arda Kardzhali,2,0,Liga Bulgaria
 6,27.08.2025,PFC Beroe,PFC Ludogorets Razgrad,,,Liga Bulgaria
+6,30.09.2025,Botev Plovdiv,Levski Sofia,,,Liga Bulgaria
 7,29.08.2025,PFC Montana,FK Dobrudzha,1,0,Liga Bulgaria
 7,29.08.2025,Botev Vratsa,Cherno More Varna,1,0,Liga Bulgaria
 7,29.08.2025,Septemvri Sofia,Lokomotiv Sofia,1,0,Liga Bulgaria
@@ -1689,12 +1689,12 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 8,14.09.2025,Lokomotiv Sofia,Levski Sofia,,,Liga Bulgaria
 9,19.09.2025,PFC Montana,Spartak Varna,,,Liga Bulgaria
 9,19.09.2025,Levski Sofia,PFC Ludogorets Razgrad,,,Liga Bulgaria
-9,20.09.2025,Arda Kardzhali,Cherno More Varna,,,Liga Bulgaria
-9,20.09.2025,Botev Vratsa,CSKA Sofia,,,Liga Bulgaria
 9,20.09.2025,FK Dobrudzha,Lokomotiv Sofia,,,Liga Bulgaria
 9,20.09.2025,CSKA 1948 Sofia,Lokomotiv Plovdiv,,,Liga Bulgaria
 9,21.09.2025,Septemvri Sofia,Botev Plovdiv,,,Liga Bulgaria
 9,21.09.2025,Slavia Sofia,PFC Beroe,,,Liga Bulgaria
+9,22.09.2025,Arda Kardzhali,Cherno More Varna,,,Liga Bulgaria
+9,22.09.2025,Botev Vratsa,CSKA Sofia,,,Liga Bulgaria
 19,06.12.2025,Botev Vratsa,PFC Montana,,,Liga Bulgaria
 19,06.12.2025,Cherno More Varna,CSKA Sofia,,,Liga Bulgaria
 19,06.12.2025,CSKA 1948 Sofia,FK Dobrudzha,,,Liga Bulgaria
@@ -2164,9 +2164,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 26,26.09.2025,Zhejiang Professional,Chengdu Rongcheng,,,Liga China
 26,26.09.2025,Shanghai Port FC,Wuhan Three Towns,,,Liga China
 26,27.09.2025,Changchun Yatai,Qingdao Hainiu,,,Liga China
-26,27.09.2025,Shandong Taishan,Yunnan Yukun,,,Liga China
 26,28.09.2025,Tianjin Jinmen Tiger,Henan FC,,,Liga China
 26,28.09.2025,Shenzhen Peng City,Qingdao West Coast,,,Liga China
+26,04.10.2025,Shandong Taishan,Yunnan Yukun,,,Liga China
 27,17.10.2025,Qingdao Hainiu,Shanghai Port FC,,,Liga China
 27,17.10.2025,Chengdu Rongcheng,Meizhou Hakka,,,Liga China
 27,17.10.2025,Qingdao West Coast,Shanghai Shenhua,,,Liga China
@@ -2859,36 +2859,36 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 4,14.09.2025,Osasuna,Rayo,,,Liga Española
 4,14.09.2025,Barcelona,Valencia,,,Liga Española
 4,15.09.2025,Espanyol,Mallorca,,,Liga Española
-5,21.09.2025,Alavés,Sevilla,,,Liga Española
-5,21.09.2025,Barcelona,Getafe,,,Liga Española
-5,21.09.2025,Betis,Real Sociedad,,,Liga Española
-5,21.09.2025,Elche,Real Oviedo,,,Liga Española
-5,21.09.2025,Girona,Levante,,,Liga Española
-5,21.09.2025,Valencia,Athletic,,,Liga Española
-5,21.09.2025,Mallorca,Atlético,,,Liga Española
+5,19.09.2025,Betis,Real Sociedad,,,Liga Española
+5,20.09.2025,Girona,Levante,,,Liga Española
+5,20.09.2025,Real Madrid,Espanyol,,,Liga Española
+5,20.09.2025,Alavés,Sevilla,,,Liga Española
+5,20.09.2025,Villarreal,Osasuna,,,Liga Española
+5,20.09.2025,Valencia,Athletic,,,Liga Española
 5,21.09.2025,Rayo,Celta,,,Liga Española
-5,21.09.2025,Real Madrid,Espanyol,,,Liga Española
-5,21.09.2025,Villarreal,Osasuna,,,Liga Española
+5,21.09.2025,Mallorca,Atlético,,,Liga Española
+5,21.09.2025,Elche,Real Oviedo,,,Liga Española
+5,21.09.2025,Barcelona,Getafe,,,Liga Española
 6,27.08.2025,Celta,Betis,1,1,Liga Española
-6,24.09.2025,Athletic,Girona,,,Liga Española
-6,24.09.2025,Atlético,Rayo,,,Liga Española
-6,24.09.2025,Espanyol,Valencia,,,Liga Española
-6,24.09.2025,Levante,Real Madrid,,,Liga Española
-6,24.09.2025,Sevilla,Villarreal,,,Liga Española
+6,23.09.2025,Athletic,Girona,,,Liga Española
+6,23.09.2025,Espanyol,Valencia,,,Liga Española
+6,23.09.2025,Levante,Real Madrid,,,Liga Española
+6,23.09.2025,Sevilla,Villarreal,,,Liga Española
 6,24.09.2025,Getafe,Alavés,,,Liga Española
-6,24.09.2025,Real Oviedo,Barcelona,,,Liga Española
-6,24.09.2025,Osasuna,Elche,,,Liga Española
+6,24.09.2025,Atlético,Rayo,,,Liga Española
 6,24.09.2025,Real Sociedad,Mallorca,,,Liga Española
-7,28.09.2025,Atlético,Real Madrid,,,Liga Española
-7,28.09.2025,Barcelona,Real Sociedad,,,Liga Española
-7,28.09.2025,Betis,Osasuna,,,Liga Española
-7,28.09.2025,Getafe,Levante,,,Liga Española
+6,25.09.2025,Osasuna,Elche,,,Liga Española
+6,25.09.2025,Real Oviedo,Barcelona,,,Liga Española
+7,26.09.2025,Girona,Espanyol,,,Liga Española
+7,27.09.2025,Getafe,Levante,,,Liga Española
+7,27.09.2025,Atlético,Real Madrid,,,Liga Española
+7,27.09.2025,Mallorca,Alavés,,,Liga Española
+7,27.09.2025,Villarreal,Athletic,,,Liga Española
 7,28.09.2025,Rayo,Sevilla,,,Liga Española
-7,28.09.2025,Mallorca,Alavés,,,Liga Española
-7,28.09.2025,Villarreal,Athletic,,,Liga Española
 7,28.09.2025,Elche,Celta,,,Liga Española
-7,28.09.2025,Girona,Espanyol,,,Liga Española
-7,28.09.2025,Valencia,Real Oviedo,,,Liga Española
+7,28.09.2025,Betis,Osasuna,,,Liga Española
+7,28.09.2025,Barcelona,Real Sociedad,,,Liga Española
+7,29.09.2025,Valencia,Real Oviedo,,,Liga Española
 8,05.10.2025,Alavés,Elche,,,Liga Española
 8,05.10.2025,Athletic,Mallorca,,,Liga Española
 8,05.10.2025,Girona,Valencia,,,Liga Española
@@ -3232,8 +3232,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 3,31.08.2025,Granada,Mirandés,1,2,Liga Española 2
 3,01.09.2025,Huesca,Eibar,2,1,Liga Española 2
 3,01.09.2025,Leganés,Deportivo,2,2,Liga Española 2
-4,05.09.2025,Albacete,Mirandés,,,Liga Española 2
-4,05.09.2025,Córdoba,CD Castellón,,,Liga Española 2
+4,05.09.2025,Albacete,Mirandés,1,4,Liga Española 2
+4,05.09.2025,Córdoba,CD Castellón,0,1,Liga Española 2
 4,06.09.2025,Deportivo,Sporting,,,Liga Española 2
 4,06.09.2025,Zaragoza,Valladolid,,,Liga Española 2
 4,06.09.2025,Málaga,Granada,,,Liga Española 2
@@ -3669,7 +3669,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 1,31.08.2025,SD Eibar,Sevilla,0,1,Liga Española Femenina
 1,31.08.2025,Madrid CFF,Real Sociedad,2,2,Liga Española Femenina
 1,31.08.2025,DUX Logroño,Real Madrid,2,2,Liga Española Femenina
-2,05.09.2025,Atlético,Real Madrid,,,Liga Española Femenina
+2,05.09.2025,Atlético,Real Madrid,2,1,Liga Española Femenina
 2,06.09.2025,Espanyol,Deportivo La Coruña,,,Liga Española Femenina
 2,06.09.2025,Sevilla,Costa Adeje Tenerife,,,Liga Española Femenina
 2,06.09.2025,Madrid CFF,SD Eibar,,,Liga Española Femenina
@@ -3955,15 +3955,15 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 6,28.09.2025,Lille,Lyon,,,Liga Francesa
 6,28.09.2025,Angers,Stade Brestois 29,,,Liga Francesa
 6,28.09.2025,Rennes,RC Lens,,,Liga Francesa
-7,05.10.2025,Havre AC,Rennes,,,Liga Francesa
-7,05.10.2025,AJ Auxerre,RC Lens,,,Liga Francesa
-7,05.10.2025,Mónaco,Niza,,,Liga Francesa
-7,05.10.2025,FC Metz,Marsella,,,Liga Francesa
-7,05.10.2025,Paris FC,Lorient,,,Liga Francesa
+7,03.10.2025,Paris FC,Lorient,,,Liga Francesa
+7,04.10.2025,FC Metz,Marsella,,,Liga Francesa
+7,04.10.2025,Stade Brestois 29,Nantes,,,Liga Francesa
+7,04.10.2025,AJ Auxerre,RC Lens,,,Liga Francesa
 7,05.10.2025,Lyon,Toulouse,,,Liga Francesa
-7,05.10.2025,Lille,París Saint-Germain,,,Liga Francesa
+7,05.10.2025,Havre AC,Rennes,,,Liga Francesa
+7,05.10.2025,Mónaco,Niza,,,Liga Francesa
 7,05.10.2025,RC Strasbourg,Angers,,,Liga Francesa
-7,05.10.2025,Stade Brestois 29,Nantes,,,Liga Francesa
+7,05.10.2025,Lille,París Saint-Germain,,,Liga Francesa
 8,19.10.2025,Lorient,Stade Brestois 29,,,Liga Francesa
 8,19.10.2025,Nantes,Lille,,,Liga Francesa
 8,19.10.2025,Toulouse,FC Metz,,,Liga Francesa
@@ -4424,10 +4424,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 7,31.08.2025,Juticalpa FC,Lobos UPNFM,0,2,Liga Honduras
 7,01.09.2025,Platense FC,CD Choloma,3,0,Liga Honduras
 7,01.09.2025,CF Motagua,Real España,3,2,Liga Honduras
-8,11.09.2025,Lobos UPNFM,Olancho FC,,,Liga Honduras
+8,10.09.2025,Lobos UPNFM,Olancho FC,,,Liga Honduras
+8,11.09.2025,CD Choloma,CF Motagua,,,Liga Honduras
 8,11.09.2025,Real España,CD Victoria,,,Liga Honduras
-8,11.09.2025,Platense FC,CD Marathón,,,Liga Honduras
-8,12.09.2025,CD Choloma,CF Motagua,,,Liga Honduras
+8,12.09.2025,Platense FC,CD Marathón,,,Liga Honduras
 8,12.09.2025,CD Olimpia,Génesis - Policia Nacional,,,Liga Honduras
 9,17.09.2025,CD Victoria,Juticalpa FC,,,Liga Honduras
 9,18.09.2025,CF Motagua,Lobos UPNFM,,,Liga Honduras
@@ -4480,23 +4480,23 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 4,14.09.2025,Burnley FC,Liverpool,,,Liga Inglesa
 4,14.09.2025,Manchester City,Manchester United,,,Liga Inglesa
 5,20.09.2025,Liverpool,Everton,,,Liga Inglesa
-5,20.09.2025,Bournemouth,Newcastle United,,,Liga Inglesa
 5,20.09.2025,Brighton & Hove Albion,Tottenham Hotspur,,,Liga Inglesa
 5,20.09.2025,Burnley FC,Nottingham Forest,,,Liga Inglesa
 5,20.09.2025,West Ham United,Crystal Palace,,,Liga Inglesa
 5,20.09.2025,Wolverhampton Wanderers,Leeds United,,,Liga Inglesa
 5,20.09.2025,Manchester United,Chelsea,,,Liga Inglesa
 5,20.09.2025,Fulham FC,Brentford FC,,,Liga Inglesa
+5,21.09.2025,Bournemouth,Newcastle United,,,Liga Inglesa
 5,21.09.2025,Sunderland,Aston Villa,,,Liga Inglesa
 5,21.09.2025,Arsenal,Manchester City,,,Liga Inglesa
 6,27.09.2025,Brentford FC,Manchester United,,,Liga Inglesa
-6,27.09.2025,Aston Villa,Fulham FC,,,Liga Inglesa
 6,27.09.2025,Crystal Palace,Liverpool,,,Liga Inglesa
 6,27.09.2025,Chelsea,Brighton & Hove Albion,,,Liga Inglesa
 6,27.09.2025,Leeds United,Bournemouth,,,Liga Inglesa
 6,27.09.2025,Manchester City,Burnley FC,,,Liga Inglesa
 6,27.09.2025,Nottingham Forest,Sunderland,,,Liga Inglesa
-6,28.09.2025,Tottenham Hotspur,Wolverhampton Wanderers,,,Liga Inglesa
+6,27.09.2025,Tottenham Hotspur,Wolverhampton Wanderers,,,Liga Inglesa
+6,28.09.2025,Aston Villa,Fulham FC,,,Liga Inglesa
 6,28.09.2025,Newcastle United,Arsenal,,,Liga Inglesa
 6,29.09.2025,Everton,West Ham United,,,Liga Inglesa
 7,03.10.2025,Bournemouth,Fulham FC,,,Liga Inglesa
@@ -4520,13 +4520,13 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 8,19.10.2025,Liverpool,Manchester United,,,Liga Inglesa
 8,20.10.2025,West Ham United,Brentford FC,,,Liga Inglesa
 9,24.10.2025,Leeds United,West Ham United,,,Liga Inglesa
-9,25.10.2025,Brentford FC,Liverpool,,,Liga Inglesa
-9,25.10.2025,Arsenal,Crystal Palace,,,Liga Inglesa
 9,25.10.2025,Chelsea,Sunderland,,,Liga Inglesa
 9,25.10.2025,Newcastle United,Fulham FC,,,Liga Inglesa
 9,25.10.2025,Manchester United,Brighton & Hove Albion,,,Liga Inglesa
+9,25.10.2025,Brentford FC,Liverpool,,,Liga Inglesa
 9,26.10.2025,Bournemouth,Nottingham Forest,,,Liga Inglesa
 9,26.10.2025,Aston Villa,Manchester City,,,Liga Inglesa
+9,26.10.2025,Arsenal,Crystal Palace,,,Liga Inglesa
 9,26.10.2025,Wolverhampton Wanderers,Burnley FC,,,Liga Inglesa
 9,26.10.2025,Everton,Tottenham Hotspur,,,Liga Inglesa
 10,01.11.2025,Sunderland,Everton,,,Liga Inglesa
@@ -4849,96 +4849,96 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 3,14.09.2025,Milan,Bolonia,,,Liga Italiana
 3,15.09.2025,Hellas Verona,US Cremonese,,,Liga Italiana
 3,15.09.2025,Como 1907,Génova,,,Liga Italiana
-4,21.09.2025,Fiorentina,Como 1907,,,Liga Italiana
-4,21.09.2025,Bolonia,Génova,,,Liga Italiana
-4,21.09.2025,Torino,Atalanta,,,Liga Italiana
-4,21.09.2025,Hellas Verona,Juventus,,,Liga Italiana
-4,21.09.2025,Inter,Sassuolo,,,Liga Italiana
+4,19.09.2025,US Lecce,Cagliari Calcio,,,Liga Italiana
+4,20.09.2025,Bolonia,Génova,,,Liga Italiana
+4,20.09.2025,Hellas Verona,Juventus,,,Liga Italiana
+4,20.09.2025,Udinese,Milan,,,Liga Italiana
 4,21.09.2025,Lazio,Roma,,,Liga Italiana
-4,21.09.2025,Nápoles,Pisa SC,,,Liga Italiana
-4,21.09.2025,Udinese,Milan,,,Liga Italiana
+4,21.09.2025,Torino,Atalanta,,,Liga Italiana
 4,21.09.2025,US Cremonese,Parma Calcio 1913,,,Liga Italiana
-4,21.09.2025,US Lecce,Cagliari Calcio,,,Liga Italiana
-5,28.09.2025,Milan,Nápoles,,,Liga Italiana
-5,28.09.2025,Roma,Hellas Verona,,,Liga Italiana
-5,28.09.2025,Cagliari Calcio,Inter,,,Liga Italiana
-5,28.09.2025,Génova,Lazio,,,Liga Italiana
-5,28.09.2025,Como 1907,US Cremonese,,,Liga Italiana
-5,28.09.2025,Juventus,Atalanta,,,Liga Italiana
-5,28.09.2025,Parma Calcio 1913,Torino,,,Liga Italiana
-5,28.09.2025,Pisa SC,Fiorentina,,,Liga Italiana
+4,21.09.2025,Fiorentina,Como 1907,,,Liga Italiana
+4,21.09.2025,Inter,Sassuolo,,,Liga Italiana
+4,22.09.2025,Nápoles,Pisa SC,,,Liga Italiana
+5,27.09.2025,Como 1907,US Cremonese,,,Liga Italiana
+5,27.09.2025,Juventus,Atalanta,,,Liga Italiana
+5,27.09.2025,Cagliari Calcio,Inter,,,Liga Italiana
 5,28.09.2025,Sassuolo,Udinese,,,Liga Italiana
+5,28.09.2025,Roma,Hellas Verona,,,Liga Italiana
+5,28.09.2025,Pisa SC,Fiorentina,,,Liga Italiana
 5,28.09.2025,US Lecce,Bolonia,,,Liga Italiana
-6,05.10.2025,Fiorentina,Roma,,,Liga Italiana
-6,05.10.2025,Atalanta,Como 1907,,,Liga Italiana
-6,05.10.2025,Bolonia,Pisa SC,,,Liga Italiana
-6,05.10.2025,Hellas Verona,Sassuolo,,,Liga Italiana
-6,05.10.2025,Inter,US Cremonese,,,Liga Italiana
-6,05.10.2025,Juventus,Milan,,,Liga Italiana
-6,05.10.2025,Lazio,Torino,,,Liga Italiana
-6,05.10.2025,Parma Calcio 1913,US Lecce,,,Liga Italiana
-6,05.10.2025,Nápoles,Génova,,,Liga Italiana
+5,28.09.2025,Milan,Nápoles,,,Liga Italiana
+5,29.09.2025,Parma Calcio 1913,Torino,,,Liga Italiana
+5,29.09.2025,Génova,Lazio,,,Liga Italiana
+6,03.10.2025,Hellas Verona,Sassuolo,,,Liga Italiana
+6,04.10.2025,Lazio,Torino,,,Liga Italiana
+6,04.10.2025,Parma Calcio 1913,US Lecce,,,Liga Italiana
+6,04.10.2025,Inter,US Cremonese,,,Liga Italiana
+6,04.10.2025,Atalanta,Como 1907,,,Liga Italiana
 6,05.10.2025,Udinese,Cagliari Calcio,,,Liga Italiana
-7,19.10.2025,Milan,Fiorentina,,,Liga Italiana
-7,19.10.2025,Roma,Inter,,,Liga Italiana
-7,19.10.2025,Atalanta,Lazio,,,Liga Italiana
+6,05.10.2025,Fiorentina,Roma,,,Liga Italiana
+6,05.10.2025,Bolonia,Pisa SC,,,Liga Italiana
+6,05.10.2025,Nápoles,Génova,,,Liga Italiana
+6,05.10.2025,Juventus,Milan,,,Liga Italiana
+7,18.10.2025,Pisa SC,Hellas Verona,,,Liga Italiana
+7,18.10.2025,US Lecce,Sassuolo,,,Liga Italiana
+7,18.10.2025,Torino,Nápoles,,,Liga Italiana
+7,18.10.2025,Roma,Inter,,,Liga Italiana
+7,19.10.2025,Como 1907,Juventus,,,Liga Italiana
 7,19.10.2025,Cagliari Calcio,Bolonia,,,Liga Italiana
 7,19.10.2025,Génova,Parma Calcio 1913,,,Liga Italiana
-7,19.10.2025,Como 1907,Juventus,,,Liga Italiana
-7,19.10.2025,Torino,Nápoles,,,Liga Italiana
-7,19.10.2025,Pisa SC,Hellas Verona,,,Liga Italiana
-7,19.10.2025,US Cremonese,Udinese,,,Liga Italiana
-7,19.10.2025,US Lecce,Sassuolo,,,Liga Italiana
-8,26.10.2025,Fiorentina,Bolonia,,,Liga Italiana
-8,26.10.2025,Milan,Pisa SC,,,Liga Italiana
+7,19.10.2025,Atalanta,Lazio,,,Liga Italiana
+7,19.10.2025,Milan,Fiorentina,,,Liga Italiana
+7,20.10.2025,US Cremonese,Udinese,,,Liga Italiana
+8,24.10.2025,Milan,Pisa SC,,,Liga Italiana
+8,25.10.2025,Parma Calcio 1913,Como 1907,,,Liga Italiana
+8,25.10.2025,Udinese,US Lecce,,,Liga Italiana
+8,25.10.2025,Nápoles,Inter,,,Liga Italiana
+8,25.10.2025,US Cremonese,Atalanta,,,Liga Italiana
 8,26.10.2025,Torino,Génova,,,Liga Italiana
 8,26.10.2025,Hellas Verona,Cagliari Calcio,,,Liga Italiana
-8,26.10.2025,Lazio,Juventus,,,Liga Italiana
-8,26.10.2025,Parma Calcio 1913,Como 1907,,,Liga Italiana
 8,26.10.2025,Sassuolo,Roma,,,Liga Italiana
-8,26.10.2025,Nápoles,Inter,,,Liga Italiana
-8,26.10.2025,Udinese,US Lecce,,,Liga Italiana
-8,26.10.2025,US Cremonese,Atalanta,,,Liga Italiana
+8,26.10.2025,Fiorentina,Bolonia,,,Liga Italiana
+8,26.10.2025,Lazio,Juventus,,,Liga Italiana
+9,28.10.2025,US Lecce,Nápoles,,,Liga Italiana
+9,28.10.2025,Atalanta,Milan,,,Liga Italiana
 9,29.10.2025,Roma,Parma Calcio 1913,,,Liga Italiana
-9,29.10.2025,Atalanta,Milan,,,Liga Italiana
-9,29.10.2025,Cagliari Calcio,Sassuolo,,,Liga Italiana
-9,29.10.2025,Génova,US Cremonese,,,Liga Italiana
 9,29.10.2025,Como 1907,Hellas Verona,,,Liga Italiana
+9,29.10.2025,Juventus,Udinese,,,Liga Italiana
+9,29.10.2025,Génova,US Cremonese,,,Liga Italiana
 9,29.10.2025,Bolonia,Torino,,,Liga Italiana
 9,29.10.2025,Inter,Fiorentina,,,Liga Italiana
-9,29.10.2025,Juventus,Udinese,,,Liga Italiana
-9,29.10.2025,Pisa SC,Lazio,,,Liga Italiana
-9,29.10.2025,US Lecce,Nápoles,,,Liga Italiana
-10,02.11.2025,Fiorentina,US Lecce,,,Liga Italiana
-10,02.11.2025,Milan,Roma,,,Liga Italiana
-10,02.11.2025,Torino,Pisa SC,,,Liga Italiana
+9,30.10.2025,Cagliari Calcio,Sassuolo,,,Liga Italiana
+9,30.10.2025,Pisa SC,Lazio,,,Liga Italiana
+10,01.11.2025,Udinese,Atalanta,,,Liga Italiana
+10,01.11.2025,Nápoles,Como 1907,,,Liga Italiana
+10,01.11.2025,US Cremonese,Juventus,,,Liga Italiana
 10,02.11.2025,Hellas Verona,Inter,,,Liga Italiana
-10,02.11.2025,Lazio,Cagliari Calcio,,,Liga Italiana
+10,02.11.2025,Fiorentina,US Lecce,,,Liga Italiana
+10,02.11.2025,Torino,Pisa SC,,,Liga Italiana
 10,02.11.2025,Parma Calcio 1913,Bolonia,,,Liga Italiana
-10,02.11.2025,Sassuolo,Génova,,,Liga Italiana
-10,02.11.2025,Nápoles,Como 1907,,,Liga Italiana
-10,02.11.2025,Udinese,Atalanta,,,Liga Italiana
-10,02.11.2025,US Cremonese,Juventus,,,Liga Italiana
-11,09.11.2025,Roma,Udinese,,,Liga Italiana
+10,02.11.2025,Milan,Roma,,,Liga Italiana
+10,03.11.2025,Sassuolo,Génova,,,Liga Italiana
+10,03.11.2025,Lazio,Cagliari Calcio,,,Liga Italiana
+11,07.11.2025,Pisa SC,US Cremonese,,,Liga Italiana
+11,08.11.2025,Como 1907,Cagliari Calcio,,,Liga Italiana
+11,08.11.2025,US Lecce,Hellas Verona,,,Liga Italiana
+11,08.11.2025,Juventus,Torino,,,Liga Italiana
+11,08.11.2025,Parma Calcio 1913,Milan,,,Liga Italiana
 11,09.11.2025,Atalanta,Sassuolo,,,Liga Italiana
 11,09.11.2025,Génova,Fiorentina,,,Liga Italiana
-11,09.11.2025,Como 1907,Cagliari Calcio,,,Liga Italiana
 11,09.11.2025,Bolonia,Nápoles,,,Liga Italiana
+11,09.11.2025,Roma,Udinese,,,Liga Italiana
 11,09.11.2025,Inter,Lazio,,,Liga Italiana
-11,09.11.2025,Juventus,Torino,,,Liga Italiana
-11,09.11.2025,Parma Calcio 1913,Milan,,,Liga Italiana
-11,09.11.2025,Pisa SC,US Cremonese,,,Liga Italiana
-11,09.11.2025,US Lecce,Hellas Verona,,,Liga Italiana
-12,23.11.2025,Fiorentina,Juventus,,,Liga Italiana
-12,23.11.2025,Cagliari Calcio,Génova,,,Liga Italiana
-12,23.11.2025,Torino,Como 1907,,,Liga Italiana
+12,22.11.2025,Cagliari Calcio,Génova,,,Liga Italiana
+12,22.11.2025,Udinese,Bolonia,,,Liga Italiana
+12,22.11.2025,Fiorentina,Juventus,,,Liga Italiana
+12,22.11.2025,Nápoles,Atalanta,,,Liga Italiana
 12,23.11.2025,Hellas Verona,Parma Calcio 1913,,,Liga Italiana
-12,23.11.2025,Inter,Milan,,,Liga Italiana
-12,23.11.2025,Lazio,US Lecce,,,Liga Italiana
-12,23.11.2025,Sassuolo,Pisa SC,,,Liga Italiana
-12,23.11.2025,Nápoles,Atalanta,,,Liga Italiana
-12,23.11.2025,Udinese,Bolonia,,,Liga Italiana
 12,23.11.2025,US Cremonese,Roma,,,Liga Italiana
+12,23.11.2025,Lazio,US Lecce,,,Liga Italiana
+12,23.11.2025,Inter,Milan,,,Liga Italiana
+12,24.11.2025,Torino,Como 1907,,,Liga Italiana
+12,24.11.2025,Sassuolo,Pisa SC,,,Liga Italiana
 13,30.11.2025,Milan,Lazio,,,Liga Italiana
 13,30.11.2025,Roma,Nápoles,,,Liga Italiana
 13,30.11.2025,Atalanta,Fiorentina,,,Liga Italiana
@@ -6790,8 +6790,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 9,03.09.2025,Platense Zacatecoluca,Isidro Metapán,3,0,Liga el salvador
 9,04.09.2025,Alianza,Municipal Limeño,3,1,Liga el salvador
 9,04.09.2025,Luis Ángel Firpo,Hércules,2,0,Liga el salvador
-9,04.09.2025,Fuerte San Francisco,Zacatecoluca FC,,,Liga el salvador
-9,05.09.2025,Inter FA,CD Águila,,,Liga el salvador
+9,04.09.2025,Fuerte San Francisco,Zacatecoluca FC,1,2,Liga el salvador
+9,05.09.2025,Inter FA,CD Águila,2,0,Liga el salvador
 10,06.09.2025,Hércules,Platense Zacatecoluca,,,Liga el salvador
 10,07.09.2025,Municipal Limeño,Inter FA,,,Liga el salvador
 10,07.09.2025,CD Águila,CD Cacahuatique,,,Liga el salvador

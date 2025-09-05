@@ -375,7 +375,7 @@ class liga():
         df_resultados = self.detallepronosticos(ligas, local, visita)
         
         # Filtrar las filas con probabilidad mayor o igual al 50%
-        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 75.0)
+        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 70.0)
         
         if df_filtrado.height == 0:
             return pl.DataFrame({
