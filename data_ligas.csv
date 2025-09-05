@@ -2289,7 +2289,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 9,01.09.2025,La Equidad,Deportivo Pasto,0,0,Liga Colombia
 9,01.09.2025,Deportes Tolima,Fortaleza FC,1,1,Liga Colombia
 9,02.09.2025,Santa Fe,Once Caldas,1,2,Liga Colombia
-10,06.09.2025,Deportivo Pasto,Boyacá Chicó,,,Liga Colombia
+10,06.09.2025,Deportivo Pasto,Boyacá Chicó,0,0,Liga Colombia
 10,06.09.2025,Once Caldas,Deportivo Pereira,,,Liga Colombia
 10,06.09.2025,Atlético Bucaramanga,Alianza FC,,,Liga Colombia
 10,06.09.2025,Llaneros FC,Deportes Tolima,,,Liga Colombia
@@ -5888,7 +5888,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 10,30.08.2025,Club Olimpia,Sportivo Luqueño,2,0,Liga Paraguay
 10,31.08.2025,Libertad,Cerro Porteño,1,1,Liga Paraguay
 10,31.08.2025,Guaraní,General Caballero DJLM,4,0,Liga Paraguay
-11,05.09.2025,Sportivo Luqueño,Guaraní,,,Liga Paraguay
+11,05.09.2025,Sportivo Luqueño,Guaraní,2,3,Liga Paraguay
 11,06.09.2025,Club Nacional,Deportivo Recoleta,,,Liga Paraguay
 11,06.09.2025,General Caballero DJLM,Libertad,,,Liga Paraguay
 11,07.09.2025,2 de Mayo,Club Olimpia,,,Liga Paraguay
@@ -6477,7 +6477,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 5,31.08.2025,Racing,Peñarol,1,4,Liga Uruguay
 5,01.09.2025,Boston River,Progreso,2,1,Liga Uruguay
 5,02.09.2025,Cerro Largo,Montevideo Wanderers,0,1,Liga Uruguay
-6,06.09.2025,Defensor Sporting,Juventud de Las Piedras,,,Liga Uruguay
+6,06.09.2025,Defensor Sporting,Juventud de Las Piedras,0,0,Liga Uruguay
 6,06.09.2025,Montevideo Wanderers,Danubio,,,Liga Uruguay
 6,06.09.2025,Peñarol,Plaza Colonia,,,Liga Uruguay
 6,07.09.2025,Boston River,River Plate,,,Liga Uruguay
@@ -6695,9 +6695,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 9,19.09.2025,CS Cartaginés,Municipal Pérez Zeledón,,,Liga costa Rica
 10,20.09.2025,Puntarenas FC,CS Herediano,,,Liga costa Rica
 10,21.09.2025,CS Cartaginés,LD Alajuelense,,,Liga costa Rica
-10,21.09.2025,Municipal Liberia,AD San Carlos,,,Liga costa Rica
 10,21.09.2025,Sporting FC,Deportivo Saprissa,,,Liga costa Rica
 10,21.09.2025,Municipal Pérez Zeledón,Guadalupe,,,Liga costa Rica
+10,23.09.2025,Municipal Liberia,AD San Carlos,,,Liga costa Rica
 11,28.09.2025,LD Alajuelense,Puntarenas FC,,,Liga costa Rica
 11,28.09.2025,Municipal Pérez Zeledón,Municipal Liberia,,,Liga costa Rica
 11,28.09.2025,CS Herediano,Guadalupe,,,Liga costa Rica
