@@ -20,13 +20,19 @@ class liga():
     
     def PGFliga(self,liga):
         df=self.df.filter(pl.col('Liga') == liga)
+        if df.height == 0:
+            return 0.0 
+        else: 
+            return df["GA"].mean()
         
-        return df["GA"].mean()
+        
     
     def PGCliga(self,liga):
         df=self.df.filter(pl.col('Liga') == liga)
-        
-        return df["GC"].mean()  
+        if df.height == 0:
+            return 0.0 
+        else: 
+            return df["GC"].mean()
     
     def medialiga(self,liga):
         return self.PGFliga(liga)+self.PGCliga(liga)
@@ -34,22 +40,34 @@ class liga():
     def PromGEFL(self,liga,local):
         df=self.df.filter(pl.col('Liga') == liga)
         pfl=df.filter(pl.col('Local')==local)
-        return pfl["GA"].mean()
+        if pfl.height == 0:
+            return 0.0 
+        else: 
+            return pfl["GA"].mean()
 
     def PromGECL(self,liga,local):
         df=self.df.filter(pl.col('Liga') == liga)
         pfl=df.filter(pl.col('Local')==local)
-        return pfl["GC"].mean()
+        if pfl.height == 0:
+            return 0.0 
+        else: 
+            return pfl["GC"].mean()
          
     def PromGEFV(self,liga,visita):
         df=self.df.filter(pl.col('Liga') == liga)
         pfl=df.filter(pl.col('Visita')==visita)
-        return pfl["GC"].mean()
+        if pfl.height == 0:
+            return 0.0 
+        else: 
+            return pfl["GC"].mean()
 
     def PromGECV(self,liga,visita):
         df=self.df.filter(pl.col('Liga') == liga)
         pfl=df.filter(pl.col('Visita')==visita)
-        return pfl["GA"].mean()
+        if pfl.height == 0:
+            return 0.0 
+        else: 
+            return pfl["GA"].mean()
     
     def fuerzaOfensivaLocal(self,liga,local):       
         return self.PromGEFL(liga,local) / self.PGFliga(liga)
@@ -385,6 +403,49 @@ class liga():
             })
         
         return df_filtrado.sort("Probabilidad")
+    
+    def localmas05(self, liga, local, visita):
+        return self.VictoriaLocal(liga, local, visita) * self.masde05goles(liga, local, visita) 
+    
+    def localmas15(self, liga, local, visita):
+        return self.VictoriaLocal(liga, local, visita) * self.masde15goles(liga, local, visita) 
+    
+    def localmas25(self, liga, local, visita):
+        return self.VictoriaLocal(liga, local, visita) * self.masde25goles(liga, local, visita)
+    
+    def visitamas05(self, liga, local, visita):
+        return self.VictoriaVisita(liga, local, visita) * self.masde05goles(liga, local, visita)
+    
+    def visitamas15(self, liga, local, visita):
+        return self.VictoriaVisita(liga, local, visita) * self.masde15goles(liga, local, visita) 
+       
+    def visitamas25(self, liga, local, visita):
+        return self.VictoriaVisita(liga, local, visita) * self.masde25goles(liga, local, visita)
+    
+    def empatemas05(self, liga, local, visita):
+        return self.EmpateResultado(liga, local, visita) * self.congoles(liga, local, visita)
+    def empatemas15(self, liga, local, visita):
+        return self.EmpateResultado(liga, local, visita) * self.masde15goles(liga, local, visita)
+    def empatemas25(self, liga, local, visita):
+        return self.EmpateResultado(liga, local, visita) * self.masde25goles(liga, local, visita)
+    
+    def detallepronosticoscombinados(self, ligas, local, visita):
+        resultados = {
+            "Victoria Local y Más de 0.5 Goles": self.localmas05(ligas, local, visita),
+            "Victoria Local y Más de 1.5 Goles": self.localmas15(ligas, local, visita),
+            "Victoria Local y Más de 2.5 Goles": self.localmas25(ligas, local, visita),
+            "Victoria Visita y Más de 0.5 Goles": self.visitamas05(ligas, local, visita),
+            "Victoria Visita y Más de 1.5 Goles": self.visitamas15(ligas, local, visita),
+            "Victoria Visita y Más de 2.5 Goles": self.visitamas25(ligas, local, visita),
+            "Empate y Más de 0.5 Goles": self.empatemas05(ligas, local, visita),
+            "Empate y Más de 1.5 Goles": self.empatemas15(ligas, local, visita),
+            "Empate y Más de 2.5 Goles": self.empatemas25(ligas, local, visita)
+        }
+        
+        def calcular_cuota(probabilidad):
+            return (1 / probabilidad) if probabilidad > 0 else float('inf') 
+    
+    
     
     
     
