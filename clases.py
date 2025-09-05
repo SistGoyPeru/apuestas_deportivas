@@ -14,7 +14,7 @@ class liga():
 
     def data(self):
         return self.df
-    
+    #---------
     def ligas(self):
        return self.df['Liga'].unique().sort().to_list()  
     
