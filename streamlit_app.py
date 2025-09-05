@@ -69,7 +69,7 @@ def main():
                 cuota_visitante = 100 / prob_visitante if prob_visitante > 0 else 0
 
                 col1, col2, col3 = st.columns(3)
-
+#``````
                 with col1:
                     st.markdown(f"""
                     <div style="background-color: #f0f2f6; padding: 15px; border-radius: 5px; text-align: center; border-left: 5px solid {colores['Local']};">
