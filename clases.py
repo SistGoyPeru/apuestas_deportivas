@@ -3,7 +3,7 @@ import polars as pl
 from datetime import datetime,date
 from scipy.stats import poisson
 import random
-import matplotlib.pyplot as plt
+
 
 
 
