@@ -28,7 +28,7 @@ def main():
     
     LigasDisponibles = st.selectbox("Liga Para Pronosticar", ld)
     
-    with st.expander("Precision de la 🤖:", expanded=True):
+    with st.expander("Precision de la "+LigasDisponibles+" 🤖:", expanded=True):
            
                   
                 precision_modelo = df_total.precision_modelo(LigasDisponibles)
