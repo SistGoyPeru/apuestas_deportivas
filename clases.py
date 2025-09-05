@@ -393,16 +393,32 @@ class liga():
         df_resultados = self.detallepronosticos(ligas, local, visita)
         
         # Filtrar las filas con probabilidad mayor o igual al 50%
-        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 70.0)
+        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 65.0)
         
         if df_filtrado.height == 0:
             return pl.DataFrame({
-                "Tipo de Apuesta": ["No se encontraron pronósticos con probabilidad >= 50%"],
+                "Tipo de Apuesta": ["No se encontraron pronósticos con probabilidad >= 65%"],
                 "Probabilidad": ["N/A"],
                 "Cuota Sugerida (Decimal)": ["N/A"]
             })
         
         return df_filtrado.sort("Probabilidad")
+    
+    def predictcombinados(self, ligas, local, visita):
+        df_resultados = self.detallepronosticoscombinados(ligas, local, visita)
+        
+        # Filtrar las filas con probabilidad mayor o igual al 50%
+        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 35.0)
+        
+        if df_filtrado.height == 0:
+            return pl.DataFrame({
+                "Tipo de Apuesta Combinada": ["No se encontraron pronósticos combinados con probabilidad >= 35%"],
+                "Probabilidad": ["N/A"],
+                "Cuota Sugerida (Decimal)": ["N/A"]
+            })
+        
+        return df_filtrado.sort("Probabilidad") 
+    
     
     def localmas05(self, liga, local, visita):
         return self.VictoriaLocal(liga, local, visita) * self.masde05goles(liga, local, visita) 
@@ -441,9 +457,87 @@ class liga():
             "Empate y Más de 1.5 Goles": self.empatemas15(ligas, local, visita),
             "Empate y Más de 2.5 Goles": self.empatemas25(ligas, local, visita)
         }
+        df_resultados = pl.DataFrame({
+            "Tipo de Apuesta Combinada": list(resultados.keys()),
+            "Probabilidad": [f"{value:.2%}" for value in resultados.values()],
+            "Cuota Sugerida (Decimal)": [f"{(1/value):.2f}" if value > 0 else "N/A" for value in resultados.values()]
+        })      
+        return df_resultados
+    
         
-        def calcular_cuota(probabilidad):
+    def calcular_cuota(probabilidad):
             return (1 / probabilidad) if probabilidad > 0 else float('inf') 
+        
+    
+    def precision_modelo(self, liga):
+        df_liga = self.df.filter(pl.col('Liga') == liga)
+        df_liga = df_liga.with_columns(
+            pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("1"))
+            .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
+            .otherwise(pl.lit("2"))
+            .alias("Resultado")
+        )     
+            
+             
+        
+        if df_liga.height == 0:
+            return pl.DataFrame({
+                "Métrica": ["No hay datos disponibles para la liga seleccionada."],
+                "Valor": ["N/A"]
+            })
+        
+        total_partidos = df_liga["GA"].count()
+        aciertos_local = 0
+        aciertos_empate = 0
+        aciertos_visita = 0
+        
+        for row in df_liga.iter_rows(named=True):
+            local = row['Local']
+            visita = row['Visita']
+            resultado_real = row['Resultado']  
+            
+            prob_local = self.VictoriaLocal(liga, local, visita)
+            prob_empate = self.EmpateResultado(liga, local, visita)
+            prob_visita = self.VictoriaVisita(liga, local, visita)
+            
+            prediccion = max(prob_local, prob_empate, prob_visita)
+            
+            if prediccion == prob_local and resultado_real == '1':
+                aciertos_local += 1
+            elif prediccion == prob_empate and resultado_real == 'X':
+                aciertos_empate += 1
+            elif prediccion == prob_visita and resultado_real == '2':
+                aciertos_visita += 1
+        
+        precision_local = (aciertos_local / total_partidos) * 100 if total_partidos > 0 else 0
+        precision_empate = (aciertos_empate / total_partidos) * 100 if total_partidos > 0 else 0
+        precision_visita = (aciertos_visita / total_partidos) * 100 if total_partidos > 0 else 0
+        precision_total = ((aciertos_local + aciertos_empate + aciertos_visita) / total_partidos) * 100 if total_partidos > 0 else 0
+        
+        df_precision = pl.DataFrame({
+            "Métrica": [
+                "Total de Partidos Analizados",
+                "Aciertos Victoria Local",
+                "Aciertos Empate",
+                "Aciertos Victoria Visita",
+                "Precisión Victoria Local (%)",
+                "Precisión Empate (%)",
+                "Precisión Victoria Visita (%)",
+                "Precisión Total (%)"
+            ],
+            "Valor": [
+                str(total_partidos),
+                str(aciertos_local),
+                str(aciertos_empate),
+                str(aciertos_visita),   
+                f"{precision_local:.2f}%",
+                f"{precision_empate:.2f}%",
+                f"{precision_visita:.2f}%",
+                f"{precision_total:.2f}%"
+            ]
+        })
+        return df_precision
+
     
     
     

@@ -24,8 +24,19 @@ def main():
                        fecha.strftime("%d.%m.%Y")).sort("Liga")
 
     ld = dfecha['Liga'].unique().sort()
+    
+    
     LigasDisponibles = st.selectbox("Liga Para Pronosticar", ld)
+    with st.expander("Precision de la "+LigasDisponibles+" 🤖:", expanded=True):
+           
+                  
+                precision_modelo = df_total.precision_modelo(LigasDisponibles)
+                st.dataframe(precision_modelo, use_container_width=True) 
+                
+    
     df_final = dfecha.filter(pl.col("Liga") == LigasDisponibles)
+    
+    
 
     event = st.dataframe(
         df_final,
@@ -41,8 +52,8 @@ def main():
 
         st.markdown(
             f"### Pronóstico para: {local} vs {visita} ({LigasDisponibles})")
-        tab1, tab2, tab3 = st.tabs(
-            ["📊 Resumen", "📋 Detalle de Pronósticos", "🎯 Precisión del Modelo"])
+        tab1, tab2, tab3,tab4 = st.tabs(
+            ["📊 Resumen", "📋 Detalle de Pronósticos", "📋 Detalle de Pronosticos Combinados", "🎯 Precisión del Modelo"])
         with tab1:
             with st.expander("Probabilidades de Resultado ( 1-X-2 ) ⚽:", expanded=True):
                 prob_local = df_total.VictoriaLocal(
@@ -184,13 +195,31 @@ def main():
             detalle = df_total.detallepronosticos(
                 LigasDisponibles, local, visita)
             st.dataframe(detalle, use_container_width=True)
-        
-        with tab3:  
-            st.markdown("### Precisión del Modelo 🎯")
+        with tab3:
+            st.markdown("### Detalle de Pronósticos Combinados 📋")
             st.markdown(
-                "Aquí se muestra la precisión histórica del modelo de pronósticos para la liga seleccionada.")
-            precision = df_total.predict(LigasDisponibles, local, visita)
-            st.dataframe(precision, use_container_width=True) 
+                "Aquí se muestran las probabilidades detalladas y las cuotas sugeridas para diferentes combinaciones de apuestas basadas en el análisis histórico de los equipos.")
+            detalle_combinado = df_total.detallepronosticoscombinados(
+                LigasDisponibles, local, visita)
+            st.dataframe(detalle_combinado, use_container_width=True)
+        with tab4: 
+            with st.expander("Precisión del Modelo 🎯:", expanded=True): 
+           
+                st.markdown(
+                    "Aquí se muestra la precisión histórica del modelo de pronósticos para la liga seleccionada.")
+                precision = df_total.predict(LigasDisponibles, local, visita)
+                st.dataframe(precision, use_container_width=True) 
+            with st.expander("Precisión del Modelo Combinado 🎯:", expanded=True): 
+                st.markdown(
+                    "Aquí se muestra la precisión histórica del modelo de pronósticos combinados para la liga seleccionada.")
+                precision_combinada = df_total.predictcombinados(LigasDisponibles, local, visita)
+                st.dataframe(precision_combinada, use_container_width=True)
+        
+                   
+
+                    
+                    
+                    
 
        
               
