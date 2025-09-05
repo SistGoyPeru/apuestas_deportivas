@@ -26,8 +26,9 @@ def main():
     ld = dfecha['Liga'].unique().sort()
     
     
-   
-    with st.expander("Precision de la "+LigasDisponibles+" 🤖:", expanded=True):
+    LigasDisponibles = st.selectbox("Liga Para Pronosticar", ld)
+    
+    with st.expander("Precision de la 🤖:", expanded=True):
            
                   
                 precision_modelo = df_total.precision_modelo(LigasDisponibles)
