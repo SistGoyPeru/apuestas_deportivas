@@ -20,6 +20,8 @@ def main():
     st.markdown("---")
     fecha = st.date_input("Selecciona la Fecha para Pronosticar",
                           date.today(), format="DD.MM.YYYY", width=250)
+    print(fecha)
+    
     dfecha = df.filter(pl.col("Fecha") ==
                        fecha.strftime("%d.%m.%Y")).sort("Liga")
 
