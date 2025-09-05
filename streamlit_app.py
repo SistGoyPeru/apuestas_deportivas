@@ -26,7 +26,7 @@ def main():
     ld = dfecha['Liga'].unique().sort()
     
     
-    LigasDisponibles = st.selectbox("Liga Para Pronosticar", ld)
+   
     with st.expander("Precision de la "+LigasDisponibles+" 🤖:", expanded=True):
            
                   
