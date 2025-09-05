@@ -190,7 +190,10 @@ def main():
             st.markdown(
                 "Aquí se muestra la precisión histórica del modelo de pronósticos para la liga seleccionada.")
             precision = df_total.predict(LigasDisponibles, local, visita)
-            st.dataframe(precision, use_container_width=True)       
+            st.dataframe(precision, use_container_width=True) 
+
+       
+              
 
 
 
