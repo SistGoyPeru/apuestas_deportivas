@@ -286,6 +286,24 @@ class liga():
                     
         return menosde35
     
+    def menosde45goles(self,liga, local, visita):
+        menosde45 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) < 5:
+                    menosde45 += prob_local_x * prob_visita_y
+                    
+        return menosde45
+    
     def cerogoles(self, liga,local, visita):
         cerogoles = 0.0
         fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
@@ -320,9 +338,54 @@ class liga():
     def ambosmarcan(self,liga, local, visita):
         return 1 - self.solounomarca(liga,local, visita) - self.cerogoles(liga,local, visita) 
     
+    def detallepronosticos(self, ligas, local, visita):
+        resultados = {
+            "Victoria Local": self.VictoriaLocal(ligas, local, visita),
+            "Empate": self.EmpateResultado(ligas, local, visita),
+            "Victoria Visita": self.VictoriaVisita(ligas, local, visita),
+            "1X Local o Empate": self.VictoriaLocal(ligas, local, visita) + self.EmpateResultado(ligas, local, visita),
+            "2X Visita o Empate": self.VictoriaVisita(ligas, local, visita) + self.EmpateResultado(ligas, local, visita),
+            "12 Local o Visita": self.VictoriaLocal(ligas, local, visita) + self.VictoriaVisita(ligas, local, visita),
+            "Más de 0.5 Goles": self.masde05goles(ligas, local, visita),
+            "Más de 1.5 Goles": self.masde15goles(ligas, local, visita),
+            "Más de 2.5 Goles": self.masde25goles(ligas, local, visita),
+            "Más de 3.5 Goles": self.masde35goles(ligas, local, visita),
+            "Más de 4.5 Goles": self.masde45goles(ligas, local, visita),
+            "Menos de 0.5 Goles": self.menosde05goles(ligas, local, visita),
+            "Menos de 1.5 Goles": self.menosde15goles(ligas, local, visita),
+            "Menos de 2.5 Goles": self.menosde25goles(ligas, local, visita),
+            "Menos de 3.5 Goles": self.menosde35goles(ligas, local, visita),
+            "Menos de 4.5 Goles": self.menosde45goles(ligas, local, visita),
+            "Cero Goles": self.cerogoles(ligas, local, visita),
+            "Con Goles": self.congoles(ligas, local, visita),
+            "Ambos Marcan": self.ambosmarcan(ligas, local, visita),
+            "Solo Uno Marca": self.solounomarca(ligas, local, visita)
+        }
+        
+        df_resultados = pl.DataFrame({
+            "Tipo de Apuesta": list(resultados.keys()),
+            "Probabilidad": [f"{value:.2%}" for value in resultados.values()],
+            "Cuota Sugerida (Decimal)": [f"{(1/value):.2f}" if value > 0 else "N/A" for value in resultados.values()]
+        })
+        
+        return df_resultados
     
-       
+    def predict(self, ligas, local, visita):
+        df_resultados = self.detallepronosticos(ligas, local, visita)
+        
+        # Filtrar las filas con probabilidad mayor o igual al 50%
+        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 75.0)
+        
+        if df_filtrado.height == 0:
+            return pl.DataFrame({
+                "Tipo de Apuesta": ["No se encontraron pronósticos con probabilidad >= 50%"],
+                "Probabilidad": ["N/A"],
+                "Cuota Sugerida (Decimal)": ["N/A"]
+            })
+        
+        return df_filtrado.sort("Probabilidad")
     
-
-
-
+    
+    
+      
+    
