@@ -470,7 +470,8 @@ class liga():
         
     
     def precision_modelo(self, liga):
-        df_liga = self.df.filter(pl.col('Liga') == liga)
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        
         df_liga = df_liga.with_columns(
             pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("1"))
             .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
@@ -480,13 +481,14 @@ class liga():
             
              
         
+        
         if df_liga.height == 0:
             return pl.DataFrame({
                 "Métrica": ["No hay datos disponibles para la liga seleccionada."],
                 "Valor": ["N/A"]
             })
         
-        total_partidos = df_liga["GA"].count()
+        total_partidos = df_liga.height 
         aciertos_local = 0
         aciertos_empate = 0
         aciertos_visita = 0
@@ -534,10 +536,15 @@ class liga():
                 f"{precision_empate:.2f}%",
                 f"{precision_visita:.2f}%",
                 f"{precision_total:.2f}%"
+                
             ]
         })
         return df_precision
+    
+    
 
+
+    
     
     
     

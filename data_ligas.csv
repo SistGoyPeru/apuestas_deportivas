@@ -746,6 +746,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 9,22.09.2025,Godoy Cruz,Instituto de Córdoba,,,Liga Argentina
 9,23.09.2025,Estudiantes,Defensa y Justicia,,,Liga Argentina
 9,23.09.2025,Belgrano,Newell's Old Boys,,,Liga Argentina
+10,17.09.2025,Vélez Sarsfield,Atlético Tucumán,,,Liga Argentina
 10,27.09.2025,Platense,San Martín de San Juan,,,Liga Argentina
 10,27.09.2025,Banfield,Unión de Santa Fe,,,Liga Argentina
 10,27.09.2025,Central Córdoba SdE,Tigre,,,Liga Argentina
@@ -759,7 +760,6 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 10,29.09.2025,Instituto de Córdoba,CA Lanús,,,Liga Argentina
 10,29.09.2025,Independiente Rivadavia,Huracán,,,Liga Argentina
 10,29.09.2025,Barracas Central,Belgrano,,,Liga Argentina
-10,30.09.2025,Vélez Sarsfield,Atlético Tucumán,,,Liga Argentina
 10,01.10.2025,Newell's Old Boys,Estudiantes,,,Liga Argentina
 11,05.10.2025,Godoy Cruz,Independiente,,,Liga Argentina
 11,05.10.2025,Talleres de Córdoba,Belgrano,,,Liga Argentina
@@ -1683,10 +1683,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 8,12.09.2025,Botev Plovdiv,PFC Montana,,,Liga Bulgaria
 8,13.09.2025,Spartak Varna,Arda Kardzhali,,,Liga Bulgaria
 8,13.09.2025,Cherno More Varna,FK Dobrudzha,,,Liga Bulgaria
-8,13.09.2025,CSKA 1948 Sofia,Slavia Sofia,,,Liga Bulgaria
 8,13.09.2025,CSKA Sofia,Septemvri Sofia,,,Liga Bulgaria
 8,14.09.2025,Lokomotiv Plovdiv,PFC Ludogorets Razgrad,,,Liga Bulgaria
 8,14.09.2025,Lokomotiv Sofia,Levski Sofia,,,Liga Bulgaria
+8,15.09.2025,CSKA 1948 Sofia,Slavia Sofia,,,Liga Bulgaria
 9,19.09.2025,PFC Montana,Spartak Varna,,,Liga Bulgaria
 9,19.09.2025,Levski Sofia,PFC Ludogorets Razgrad,,,Liga Bulgaria
 9,20.09.2025,FK Dobrudzha,Lokomotiv Sofia,,,Liga Bulgaria
@@ -2289,8 +2289,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 9,01.09.2025,La Equidad,Deportivo Pasto,0,0,Liga Colombia
 9,01.09.2025,Deportes Tolima,Fortaleza FC,1,1,Liga Colombia
 9,02.09.2025,Santa Fe,Once Caldas,1,2,Liga Colombia
-10,06.09.2025,Deportivo Pasto,Boyacá Chicó,0,0,Liga Colombia
-10,06.09.2025,Once Caldas,Deportivo Pereira,,,Liga Colombia
+10,06.09.2025,Deportivo Pasto,Boyacá Chicó,2,0,Liga Colombia
+10,06.09.2025,Once Caldas,Deportivo Pereira,1,0,Liga Colombia
 10,06.09.2025,Atlético Bucaramanga,Alianza FC,,,Liga Colombia
 10,06.09.2025,Llaneros FC,Deportes Tolima,,,Liga Colombia
 10,07.09.2025,Unión Magdalena,Atlético Junior,,,Liga Colombia
@@ -3234,8 +3234,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 3,01.09.2025,Leganés,Deportivo,2,2,Liga Española 2
 4,05.09.2025,Albacete,Mirandés,1,4,Liga Española 2
 4,05.09.2025,Córdoba,CD Castellón,2,1,Liga Española 2
-4,06.09.2025,Deportivo,Sporting,,,Liga Española 2
-4,06.09.2025,Zaragoza,Valladolid,,,Liga Española 2
+4,06.09.2025,Deportivo,Sporting,1,0,Liga Española 2
+4,06.09.2025,Zaragoza,Valladolid,1,1,Liga Española 2
 4,06.09.2025,Málaga,Granada,,,Liga Española 2
 4,07.09.2025,AD Ceuta FC,Huesca,,,Liga Española 2
 4,07.09.2025,Burgos CF,Las Palmas,,,Liga Española 2
@@ -3670,8 +3670,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 1,31.08.2025,Madrid CFF,Real Sociedad,2,2,Liga Española Femenina
 1,31.08.2025,DUX Logroño,Real Madrid,2,2,Liga Española Femenina
 2,05.09.2025,Atlético,Real Madrid,2,1,Liga Española Femenina
-2,06.09.2025,Espanyol,Deportivo La Coruña,,,Liga Española Femenina
-2,06.09.2025,Sevilla,Costa Adeje Tenerife,,,Liga Española Femenina
+2,06.09.2025,Espanyol,Deportivo La Coruña,1,1,Liga Española Femenina
+2,06.09.2025,Sevilla,Costa Adeje Tenerife,0,4,Liga Española Femenina
 2,06.09.2025,Madrid CFF,SD Eibar,,,Liga Española Femenina
 2,06.09.2025,DUX Logroño,Real Sociedad,,,Liga Española Femenina
 2,07.09.2025,Athletic,Barcelona,,,Liga Española Femenina
@@ -4221,13 +4221,13 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 2,31.08.2025,AEK Athen,Asteras Tripolis,1,0,Liga Grecia
 2,31.08.2025,PAOK Saloniki,Atromitos,1,0,Liga Grecia
 2,31.08.2025,Panathinaikos,Levadiakos,1,1,Liga Grecia
-3,13.09.2025,Asteras Tripolis,AE Lárissa,,,Liga Grecia
-3,13.09.2025,Atromitos,Aris Saloniki,,,Liga Grecia
 3,13.09.2025,AE Kifisias,Panathinaikos,,,Liga Grecia
-3,13.09.2025,Levadiakos,AEK Athen,,,Liga Grecia
 3,13.09.2025,Olympiacos,Panserraikos,,,Liga Grecia
-3,13.09.2025,OFI Heraklion,PAOK Saloniki,,,Liga Grecia
+3,13.09.2025,Atromitos,Aris Saloniki,,,Liga Grecia
 3,13.09.2025,Panetolikos,Volos NFC,,,Liga Grecia
+3,14.09.2025,Asteras Tripolis,AE Lárissa,,,Liga Grecia
+3,14.09.2025,Levadiakos,AEK Athen,,,Liga Grecia
+3,14.09.2025,OFI Heraklion,PAOK Saloniki,,,Liga Grecia
 4,20.09.2025,AE Lárissa,AEK Athen,,,Liga Grecia
 4,20.09.2025,Volos NFC,Asteras Tripolis,,,Liga Grecia
 4,20.09.2025,AE Kifisias,Aris Saloniki,,,Liga Grecia
@@ -5768,7 +5768,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 6,31.08.2025,Herrera FC,Árabe Unido,2,1,Liga Panama
 6,01.09.2025,UMECIT,Atlético Nacional,2,0,Liga Panama
 6,02.09.2025,Veraguas United,Sporting San Miguelito,0,0,Liga Panama
-7,06.09.2025,UD Universitario,Plaza Amador,,,Liga Panama
+7,06.09.2025,UD Universitario,Plaza Amador,1,3,Liga Panama
 7,06.09.2025,Alianza,Veraguas United,,,Liga Panama
 7,07.09.2025,San Francisco FC,UMECIT,,,Liga Panama
 7,07.09.2025,Árabe Unido,Atlético Nacional,,,Liga Panama
@@ -6477,8 +6477,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 5,31.08.2025,Racing,Peñarol,1,4,Liga Uruguay
 5,01.09.2025,Boston River,Progreso,2,1,Liga Uruguay
 5,02.09.2025,Cerro Largo,Montevideo Wanderers,0,1,Liga Uruguay
-6,06.09.2025,Defensor Sporting,Juventud de Las Piedras,0,0,Liga Uruguay
-6,06.09.2025,Montevideo Wanderers,Danubio,,,Liga Uruguay
+6,06.09.2025,Defensor Sporting,Juventud de Las Piedras,1,0,Liga Uruguay
+6,06.09.2025,Montevideo Wanderers,Danubio,0,1,Liga Uruguay
 6,06.09.2025,Peñarol,Plaza Colonia,,,Liga Uruguay
 6,07.09.2025,Boston River,River Plate,,,Liga Uruguay
 6,07.09.2025,CA Cerro,Cerro Largo,,,Liga Uruguay
@@ -6689,15 +6689,15 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 8,14.09.2025,Municipal Pérez Zeledón,Puntarenas FC,,,Liga costa Rica
 8,15.09.2025,AD San Carlos,CS Cartaginés,,,Liga costa Rica
 9,17.09.2025,LD Alajuelense,AD San Carlos,,,Liga costa Rica
+9,18.09.2025,Guadalupe,Municipal Liberia,,,Liga costa Rica
 9,18.09.2025,Puntarenas FC,Sporting FC,,,Liga costa Rica
 9,18.09.2025,CS Herediano,Deportivo Saprissa,,,Liga costa Rica
-9,19.09.2025,Guadalupe,Municipal Liberia,,,Liga costa Rica
 9,19.09.2025,CS Cartaginés,Municipal Pérez Zeledón,,,Liga costa Rica
-10,20.09.2025,Puntarenas FC,CS Herediano,,,Liga costa Rica
 10,21.09.2025,CS Cartaginés,LD Alajuelense,,,Liga costa Rica
 10,21.09.2025,Sporting FC,Deportivo Saprissa,,,Liga costa Rica
 10,21.09.2025,Municipal Pérez Zeledón,Guadalupe,,,Liga costa Rica
-10,23.09.2025,Municipal Liberia,AD San Carlos,,,Liga costa Rica
+10,21.09.2025,Puntarenas FC,CS Herediano,,,Liga costa Rica
+10,22.09.2025,Municipal Liberia,AD San Carlos,,,Liga costa Rica
 11,28.09.2025,LD Alajuelense,Puntarenas FC,,,Liga costa Rica
 11,28.09.2025,Municipal Pérez Zeledón,Municipal Liberia,,,Liga costa Rica
 11,28.09.2025,CS Herediano,Guadalupe,,,Liga costa Rica
