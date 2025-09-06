@@ -471,6 +471,7 @@ class liga():
     
     def precision_modelo(self, liga):
         df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+       
         
         df_liga = df_liga.with_columns(
             pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("1"))
