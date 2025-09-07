@@ -38,18 +38,9 @@ def main():
     })
     
     with st.expander("Ligas de Futbol ⚽:",expanded=True):  
-        
-        event = st.dataframe(
-            data,
-            on_select='rerun',
-            selection_mode='single-row',
-            
-        
-        )
-        st.session_state.expander_state = False
-        
-        if len(event.selection['rows']):
-            pass
+       st.dataframe(data,use_container_width=True)
+     
+       
             
             
             
