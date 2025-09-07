@@ -3369,9 +3369,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 4,06.09.2025,Deportivo,Sporting,1,0,Liga Española 2
 4,06.09.2025,Zaragoza,Valladolid,1,1,Liga Española 2
 4,06.09.2025,Málaga,Granada,2,2,Liga Española 2
-4,07.09.2025,AD Ceuta FC,Huesca,,,Liga Española 2
-4,07.09.2025,Burgos CF,Las Palmas,,,Liga Española 2
-4,07.09.2025,Real Sociedad B,Cádiz CF,,,Liga Española 2
+4,07.09.2025,AD Ceuta FC,Huesca,2,1,Liga Española 2
+4,07.09.2025,Burgos CF,Las Palmas,0,0,Liga Española 2
+4,07.09.2025,Real Sociedad B,Cádiz CF,3,3,Liga Española 2
 4,07.09.2025,Almería,Real Racing,,,Liga Española 2
 4,07.09.2025,CyD Leonesa,Leganés,,,Liga Española 2
 4,08.09.2025,Eibar,FC Andorra,,,Liga Española 2
@@ -3806,8 +3806,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 2,06.09.2025,Sevilla,Costa Adeje Tenerife,0,4,Liga Española Femenina
 2,06.09.2025,Madrid CFF,SD Eibar,1,0,Liga Española Femenina
 2,06.09.2025,DUX Logroño,Real Sociedad,0,1,Liga Española Femenina
-2,07.09.2025,Athletic,Barcelona,,,Liga Española Femenina
-2,07.09.2025,Granada,Levante Las Planas,,,Liga Española Femenina
+2,07.09.2025,Athletic,Barcelona,1,8,Liga Española Femenina
+2,07.09.2025,Granada,Levante Las Planas,0,2,Liga Española Femenina
 2,07.09.2025,Levante,Alhama CF,,,Liga Española Femenina
 3,12.09.2025,Barcelona,DUX Logroño,,,Liga Española Femenina
 3,13.09.2025,Real Sociedad,Sevilla,,,Liga Española Femenina
@@ -4353,11 +4353,11 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 2,31.08.2025,AEK Athen,Asteras Tripolis,1,0,Liga Grecia
 2,31.08.2025,PAOK Saloniki,Atromitos,1,0,Liga Grecia
 2,31.08.2025,Panathinaikos,Levadiakos,1,1,Liga Grecia
-3,13.09.2025,AE Kifisias,Panathinaikos,,,Liga Grecia
 3,13.09.2025,Olympiacos,Panserraikos,,,Liga Grecia
 3,13.09.2025,Atromitos,Aris Saloniki,,,Liga Grecia
 3,13.09.2025,Panetolikos,Volos NFC,,,Liga Grecia
 3,14.09.2025,Asteras Tripolis,AE Lárissa,,,Liga Grecia
+3,14.09.2025,AE Kifisias,Panathinaikos,,,Liga Grecia
 3,14.09.2025,Levadiakos,AEK Athen,,,Liga Grecia
 3,14.09.2025,OFI Heraklion,PAOK Saloniki,,,Liga Grecia
 4,20.09.2025,AE Lárissa,AEK Athen,,,Liga Grecia
@@ -6919,7 +6919,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 6,06.09.2025,Montevideo Wanderers,Danubio,0,2,Liga Uruguaya
 6,06.09.2025,Peñarol,Plaza Colonia,1,0,Liga Uruguaya
 6,07.09.2025,Boston River,River Plate,2,0,Liga Uruguaya
-6,07.09.2025,CA Cerro,Cerro Largo,,,Liga Uruguaya
+6,07.09.2025,CA Cerro,Cerro Largo,0,1,Liga Uruguaya
 6,07.09.2025,Progreso,Miramar Misiones,,,Liga Uruguaya
 6,07.09.2025,Nacional,Racing,,,Liga Uruguaya
 6,08.09.2025,Montevideo City Torque,Liverpool,,,Liga Uruguaya
