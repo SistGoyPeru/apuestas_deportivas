@@ -23,18 +23,28 @@ def main():
    
     #=================================================================
     
+    fecha = st.date_input("Selecciona la Fecha para Pronosticar",
+                          date.today(), format="DD.MM.YYYY", width=250)
+           
+    dfecha = df.filter(pl.col("Fecha") ==
+                       fecha.strftime("%d.%m.%Y")).sort("Liga")
+    
+    ld = dfecha['Liga'].unique().sort().to_list()
+    
     data=pl.DataFrame({
-        "Liga":df_total.ligas(), 
-        "Estado":[df_total.completado(liga) for liga in df_total.ligas()],
-        "% Progreso": [format(df_total.totaldisputados(liga)/df_total.TotalEncuentrosLiga(liga)*100,'.2f')+"%" for liga in df_total.ligas()],
-        "% Victoria Local": [format(df_total.totalvictorias(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in df_total.ligas()],
-        "% Empate": [format(df_total.totalempates(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in df_total.ligas()],
-        "% Victoria Visita": [format(df_total.totalperdidas(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in df_total.ligas()],
-        "Media de Goles":[format(df_total.medialiga(liga),'.2f') for liga in df_total.ligas()],
-        "% AEM":[format(df_total.AEM(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in df_total.ligas()],
-        "% +2.5 GLS":[format(df_total.liga25(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in df_total.ligas()]
+        "Liga":ld, 
+        "Estado":[df_total.completado(liga) for liga in ld],
+        "% Progreso": [format(df_total.totaldisputados(liga)/df_total.TotalEncuentrosLiga(liga)*100,'.2f')+"%" for liga in ld],
+        "% Victoria Local": [format(df_total.totalvictorias(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in ld],
+        "% Empate": [format(df_total.totalempates(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in ld],
+        "% Victoria Visita": [format(df_total.totalperdidas(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in ld],
+        "Media de Goles":[format(df_total.medialiga(liga),'.2f') for liga in ld],
+        "% AEM":[format(df_total.AEM(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in ld],
+        "% +2.5 GLS":[format(df_total.liga25(liga)/df_total.totaldisputados(liga)*100,'.2f')+"%" for liga in ld]
     
     })
+    
+    
     
     with st.expander("Ligas de Futbol ⚽:",expanded=True):  
         
@@ -66,8 +76,20 @@ def main():
             
             })
             st.dataframe(data_equipos)
-           
             
+        with st.expander("Encuentros de la "+ligas+" ⚽:",expanded=True): 
+            
+
+            df_final = dfecha.filter(pl.col("Liga") == ligas)
+            
+            event = st.dataframe(
+                df_final,
+                on_select='rerun',
+                selection_mode='single-row'
+
+            )
+
+
         
                  
                     
