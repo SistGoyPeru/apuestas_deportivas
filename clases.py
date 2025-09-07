@@ -18,6 +18,11 @@ class liga():
     def ligas(self):
        return self.df['Liga'].unique().sort().to_list()  
     
+    def equipos_ligas(self, liga):
+
+        return self.df.filter(pl.col('Liga') == liga)['Local'].unique().sort().to_list()
+    
+    
     def PGFliga(self,liga):
         df=self.df.filter(pl.col('Liga') == liga)
         if df.height == 0:

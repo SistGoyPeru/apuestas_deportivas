@@ -7,7 +7,6 @@ import pandas as pd
 
 
 
-
 def main():
 
     
@@ -38,19 +37,34 @@ def main():
     })
     
     with st.expander("Ligas de Futbol ⚽:",expanded=True):  
-       st.dataframe(data,use_container_width=True)
-     
-       
-            
-            
-            
-            
-    
         
-      
+        event = st.dataframe(
+            data,
+            on_select='rerun',
+            selection_mode='single-row',
+            
+        
+        )
+        
+        if len(event.selection['rows']):
+            selected_row = event.selection['rows'][0]
+            ligas = data[selected_row, 'Liga']
 
-    
+    if len(event.selection['rows']):
+        with st.expander("Equipos de "+ligas+" ⚽:",expanded=True): 
+            data_equipos=pl.DataFrame({
+                    "Equipos":df_total.equipos_ligas(ligas),
+        
+                })
+            
+            st.dataframe(data_equipos)
+           
+            
+        
+                 
+                    
 
-
+            
+        
 if __name__ == "__main__":
-    main()
+  main()
