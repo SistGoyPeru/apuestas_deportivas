@@ -37,7 +37,7 @@ def main():
     
     })
     
-    with st.expander("Ligas de Futbol ⚽:"):  
+    with st.expander("Ligas de Futbol ⚽:",expanded=True):  
         
         event = st.dataframe(
             data,
