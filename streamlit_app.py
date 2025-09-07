@@ -2,20 +2,24 @@ import streamlit as st
 from clases import liga
 import polars as pl
 from datetime import datetime, date
+import polars as pl
+
+
 
 
 def main():
 
-    colores = {
-        "Local": "#28a745",     # Verde para victoria local
-        "Empate": "#ffc107",    # Amarillo para empate
-        "Visitante": "#dc3545"  # Rojo para victoria visitante
-    }
+
 
     df_total = liga("data_ligas.csv")
     df = df_total.data()
-    st.set_page_config(page_title="Pronósticos de Ligas del Mundo - SistGoy")
+    st.set_page_config(page_title="Pronósticos de Ligas del Mundo - SistGoy",layout="wide")
+
+    st.title("Pronósticos Deportivos ⚽")
+    st.markdown("---")
     
+  
+
     #=================================================================
     
     data={
@@ -33,15 +37,23 @@ def main():
     
     data=pl.DataFrame(data)
     
-    st.dataframe(data)
-    
-   
-    
-    
-    
-   
+    event = st.dataframe(
+        data,
+        on_select='rerun',
+        selection_mode='single-row',
+        height=200
+        
+         
+        
+        
+       
 
+    )
+    
+    if len(event.selection['rows']):
+        selected_row = event.selection['rows'][0]   
 
+    
 
 
 if __name__ == "__main__":
