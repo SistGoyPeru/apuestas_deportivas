@@ -10,11 +10,13 @@ import pandas as pd
 
 def main():
 
-
+    
 
     df_total = liga("data_ligas.csv")
     df = df_total.data()
     st.set_page_config(page_title="Pronósticos de Ligas del Mundo - SistGoy",layout="wide",page_icon="🏠",)
+    
+    
 
     st.title("Pronósticos Deportivos ⚽")
     st.markdown("---")
@@ -35,16 +37,24 @@ def main():
     
     })
     
-      
-    event = st.dataframe(
-        data,
-        on_select='rerun',
-        selection_mode='single-row',
+    with st.expander("Ligas de Futbol ⚽:"):  
         
-    )
+        event = st.dataframe(
+            data,
+            on_select='rerun',
+            selection_mode='single-row',
+            
+        
+        )
+        st.session_state.expander_state = False
+        
+        if len(event.selection['rows']):
+            pass
+            
+            
+            
+            
     
-    if len(event.selection['rows']):
-        selected_row = event.selection['rows'][0]
         
       
 
