@@ -48,6 +48,8 @@ class liga():
             return 0.0 
         else: 
             return df.height
+        
+    
     
     def totaldisputados(self,liga):
         df=self.df.filter(pl.col('Liga') == liga)
@@ -55,6 +57,23 @@ class liga():
             return 0.0 
         else: 
             return df["GA"].count()  
+        
+    def TotalDisputadosEquipoLocal(self,liga,local):
+        df=self.df.filter(pl.col('Liga') == liga)
+        df=df.filter(pl.col('Local') == local)
+        if df.height == 0:
+            return 0.0 
+        else: 
+            return df["GA"].count() 
+        
+    def TotalDisputadosEquipoVisita(self,liga,visita):
+        df=self.df.filter(pl.col('Liga') == liga)
+        df=df.filter(pl.col('Visita') == visita)
+        if df.height == 0:
+            return 0.0 
+        else: 
+            return df["GC"].count() 
+    
         
     def PorcentajeDisputados(self,liga):
         df=self.df.filter(pl.col('Liga') == liga)
@@ -606,6 +625,94 @@ class liga():
         df_liga =df_liga.filter(pl.col('Resultado') == "1")
                 
         return df_liga['Resultado'].count()
+    
+    
+    def TotalVictoriasEquipoVisita(self, liga, visita):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Visita') == visita)
+        
+       
+        
+        df_liga = df_liga.with_columns(
+            pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("2"))
+            .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
+            .otherwise(pl.lit("1"))
+            .alias("Resultado")
+        )   
+        
+        df_liga =df_liga.filter(pl.col('Resultado') == "1")
+                
+        return df_liga['Resultado'].count()
+    
+    def TotalEmpatesEquipoLocal(self, liga, local): 
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Local') == local)
+        
+       
+        
+        df_liga = df_liga.with_columns(
+            pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("1"))
+            .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
+            .otherwise(pl.lit("2"))
+            .alias("Resultado")
+        )   
+        
+        df_liga =df_liga.filter(pl.col('Resultado') == "X")
+                
+        return df_liga['Resultado'].count()
+    
+    def TotalEmpatesEquipoVisita(self, liga, visita): 
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Visita') == visita)
+        
+       
+        
+        df_liga = df_liga.with_columns(
+            pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("1"))
+            .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
+            .otherwise(pl.lit("2"))
+            .alias("Resultado")
+        )   
+        
+        df_liga =df_liga.filter(pl.col('Resultado') == "X")
+                
+        return df_liga['Resultado'].count()
+    
+    
+    def TotalPerdidasEquipoLocal(self, liga, local): 
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Local') == local)
+        
+       
+        
+        df_liga = df_liga.with_columns(
+            pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("1"))
+            .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
+            .otherwise(pl.lit("2"))
+            .alias("Resultado")
+        )   
+        
+        df_liga =df_liga.filter(pl.col('Resultado') == "2")
+                
+        return df_liga['Resultado'].count()
+    
+    def TotalPerdidasEquipoVisita(self, liga, visita): 
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Visita') == visita)
+        
+       
+        
+        df_liga = df_liga.with_columns(
+            pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("2"))
+            .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
+            .otherwise(pl.lit("1"))
+            .alias("Resultado")
+        )   
+        
+        df_liga =df_liga.filter(pl.col('Resultado') == "2")
+                
+        return df_liga['Resultado'].count()        
+
 
     
     def totalempates(self, liga):

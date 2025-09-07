@@ -54,7 +54,14 @@ def main():
         with st.expander("Equipos de "+ligas+" ⚽:",expanded=True): 
             data_equipos=pl.DataFrame({
                     "Equipos":df_total.equipos_ligas(ligas),
-                    "% Victoria Local": df_total.TotalVictoriasEquipoLocal(ligas,"Bolívar"),
+                    "% Victoria Local":[format(df_total.TotalVictoriasEquipoLocal(ligas,local)/df_total.TotalDisputadosEquipoLocal(ligas,local)*100,'.2f')+"%" for local in df_total.equipos_ligas(ligas)],
+                    "% Empate Local":[format(df_total.TotalEmpatesEquipoLocal(ligas,local)/df_total.TotalDisputadosEquipoLocal(ligas,local)*100,'.2f')+"%" for local in df_total.equipos_ligas(ligas)],
+                    "% Perdida Local":[format(df_total.TotalPerdidasEquipoLocal(ligas,local)/df_total.TotalDisputadosEquipoLocal(ligas,local)*100,'.2f')+"%" for local in df_total.equipos_ligas(ligas)],
+                    "% Victoria Visita":[format(df_total.TotalVictoriasEquipoVisita(ligas,visita)/df_total.TotalDisputadosEquipoVisita(ligas,visita)*100,'.2f')+"%" for visita in df_total.equipos_ligas(ligas)],
+                    "% Empate Visita":[format(df_total.TotalEmpatesEquipoVisita(ligas,visita)/df_total.TotalDisputadosEquipoVisita(ligas,visita)*100,'.2f')+"%" for visita in df_total.equipos_ligas(ligas)],
+                    "% Perdida Visita":[format(df_total.TotalPerdidasEquipoVisita(ligas,visita)/df_total.TotalDisputadosEquipoVisita(ligas,visita)*100,'.2f')+"%" for visita in df_total.equipos_ligas(ligas)],
+                    
+                    
             
             
             })
