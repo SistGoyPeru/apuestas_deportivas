@@ -2291,9 +2291,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 9,02.09.2025,Santa Fe,Once Caldas,1,2,Liga Colombia
 10,06.09.2025,Deportivo Pasto,Boyacá Chicó,2,0,Liga Colombia
 10,06.09.2025,Once Caldas,Deportivo Pereira,1,0,Liga Colombia
-10,06.09.2025,Atlético Bucaramanga,Alianza FC,,,Liga Colombia
-10,06.09.2025,Llaneros FC,Deportes Tolima,,,Liga Colombia
-10,07.09.2025,Unión Magdalena,Atlético Junior,,,Liga Colombia
+10,06.09.2025,Atlético Bucaramanga,Alianza FC,3,1,Liga Colombia
+10,06.09.2025,Llaneros FC,Deportes Tolima,1,0,Liga Colombia
+10,07.09.2025,Unión Magdalena,Atlético Junior,2,1,Liga Colombia
 10,07.09.2025,Millonarios,Santa Fe,,,Liga Colombia
 10,07.09.2025,Envigado FC,Águilas Doradas,,,Liga Colombia
 10,07.09.2025,América de Cali,Deportivo Cali,,,Liga Colombia
@@ -3236,7 +3236,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 4,05.09.2025,Córdoba,CD Castellón,2,1,Liga Española 2
 4,06.09.2025,Deportivo,Sporting,1,0,Liga Española 2
 4,06.09.2025,Zaragoza,Valladolid,1,1,Liga Española 2
-4,06.09.2025,Málaga,Granada,,,Liga Española 2
+4,06.09.2025,Málaga,Granada,2,2,Liga Española 2
 4,07.09.2025,AD Ceuta FC,Huesca,,,Liga Española 2
 4,07.09.2025,Burgos CF,Las Palmas,,,Liga Española 2
 4,07.09.2025,Real Sociedad B,Cádiz CF,,,Liga Española 2
@@ -3672,8 +3672,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 2,05.09.2025,Atlético,Real Madrid,2,1,Liga Española Femenina
 2,06.09.2025,Espanyol,Deportivo La Coruña,1,1,Liga Española Femenina
 2,06.09.2025,Sevilla,Costa Adeje Tenerife,0,4,Liga Española Femenina
-2,06.09.2025,Madrid CFF,SD Eibar,,,Liga Española Femenina
-2,06.09.2025,DUX Logroño,Real Sociedad,,,Liga Española Femenina
+2,06.09.2025,Madrid CFF,SD Eibar,1,0,Liga Española Femenina
+2,06.09.2025,DUX Logroño,Real Sociedad,0,1,Liga Española Femenina
 2,07.09.2025,Athletic,Barcelona,,,Liga Española Femenina
 2,07.09.2025,Granada,Levante Las Planas,,,Liga Española Femenina
 2,07.09.2025,Levante,Alhama CF,,,Liga Española Femenina
@@ -5769,7 +5769,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 6,01.09.2025,UMECIT,Atlético Nacional,2,0,Liga Panama
 6,02.09.2025,Veraguas United,Sporting San Miguelito,0,0,Liga Panama
 7,06.09.2025,UD Universitario,Plaza Amador,1,3,Liga Panama
-7,06.09.2025,Alianza,Veraguas United,,,Liga Panama
+7,06.09.2025,Alianza,Veraguas United,1,0,Liga Panama
 7,07.09.2025,San Francisco FC,UMECIT,,,Liga Panama
 7,07.09.2025,Árabe Unido,Atlético Nacional,,,Liga Panama
 7,07.09.2025,Herrera FC,Tauro FC,,,Liga Panama
@@ -5889,8 +5889,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 10,31.08.2025,Libertad,Cerro Porteño,1,1,Liga Paraguay
 10,31.08.2025,Guaraní,General Caballero DJLM,4,0,Liga Paraguay
 11,05.09.2025,Sportivo Luqueño,Guaraní,2,3,Liga Paraguay
-11,06.09.2025,Club Nacional,Deportivo Recoleta,,,Liga Paraguay
-11,06.09.2025,General Caballero DJLM,Libertad,,,Liga Paraguay
+11,06.09.2025,Club Nacional,Deportivo Recoleta,1,0,Liga Paraguay
+11,06.09.2025,General Caballero DJLM,Libertad,0,0,Liga Paraguay
 11,07.09.2025,2 de Mayo,Club Olimpia,,,Liga Paraguay
 11,07.09.2025,Cerro Porteño,Atlético Tembetary,,,Liga Paraguay
 11,08.09.2025,Sportivo Trinidense,Sportivo Ameliano,,,Liga Paraguay
@@ -6157,7 +6157,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 3,24.08.2025,Oporto,Casa Pia AC,4,0,Liga Portugal
 3,24.08.2025,Sporting Braga,AVS,2,2,Liga Portugal
 3,25.08.2025,Estrela Amadora,FC Alverca,2,2,Liga Portugal
-3,06.09.2025,GD Estoril,CD Santa Clara,,,Liga Portugal
+3,06.09.2025,GD Estoril,CD Santa Clara,0,1,Liga Portugal
 4,29.08.2025,Gil Vicente,Moreirense FC,2,0,Liga Portugal
 4,30.08.2025,Casa Pia AC,CD Nacional,0,2,Liga Portugal
 4,30.08.2025,AVS,FC Famalicão,0,1,Liga Portugal
@@ -6478,9 +6478,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 5,01.09.2025,Boston River,Progreso,2,1,Liga Uruguay
 5,02.09.2025,Cerro Largo,Montevideo Wanderers,0,1,Liga Uruguay
 6,06.09.2025,Defensor Sporting,Juventud de Las Piedras,1,0,Liga Uruguay
-6,06.09.2025,Montevideo Wanderers,Danubio,0,1,Liga Uruguay
-6,06.09.2025,Peñarol,Plaza Colonia,,,Liga Uruguay
-6,07.09.2025,Boston River,River Plate,,,Liga Uruguay
+6,06.09.2025,Montevideo Wanderers,Danubio,0,2,Liga Uruguay
+6,06.09.2025,Peñarol,Plaza Colonia,1,0,Liga Uruguay
+6,07.09.2025,Boston River,River Plate,2,0,Liga Uruguay
 6,07.09.2025,CA Cerro,Cerro Largo,,,Liga Uruguay
 6,07.09.2025,Progreso,Miramar Misiones,,,Liga Uruguay
 6,07.09.2025,Nacional,Racing,,,Liga Uruguay
