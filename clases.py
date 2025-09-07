@@ -514,6 +514,7 @@ class liga():
                 "Valor": ["N/A"]
             })
         
+        
         total_partidos = df_liga.height 
         aciertos_local = 0
         aciertos_empate = 0
