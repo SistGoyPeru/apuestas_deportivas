@@ -626,6 +626,23 @@ class liga():
         
 
         return  df_liga.height
+    
+    def liga25(self, liga):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        
+        df_liga = df_liga.with_columns(
+            pl.when((pl.col("GA") + pl.col("GC"))>2).then(pl.lit("25"))
+            .alias("Resultado")
+        )   
+        
+        df_liga =df_liga.filter(pl.col('Resultado') == "25")
+                
+        return df_liga['Resultado'].count()
+           
+
+        
+        
+        
         
       
         
