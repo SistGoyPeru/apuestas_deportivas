@@ -14,7 +14,7 @@ class liga():
 
     def data(self):
         return self.df
-    #---------____________________
+ 
     def ligas(self):
        return self.df['Liga'].unique().sort().to_list()  
     
@@ -36,6 +36,31 @@ class liga():
     
     def medialiga(self,liga):
         return self.PGFliga(liga)+self.PGCliga(liga)
+    
+    def TotalEncuentrosLiga(self,liga):
+        df=self.df.filter(pl.col('Liga') == liga)
+        if df.height == 0:
+            return 0.0 
+        else: 
+            return df.height
+    
+    def totaldisputados(self,liga):
+        df=self.df.filter(pl.col('Liga') == liga)
+        if df.height == 0:
+            return 0.0 
+        else: 
+            return df["GA"].count()  
+        
+    def PorcentajeDisputados(self,liga):
+        df=self.df.filter(pl.col('Liga') == liga)
+        if df.height == 0:
+            return 0.0 
+        else:
+            return self.totaldisputados(liga)/self.TotalEncuentrosLiga(liga)
+        
+                   
+                
+                      
     
     def PromGEFL(self,liga,local):
         df=self.df.filter(pl.col('Liga') == liga)
@@ -536,11 +561,88 @@ class liga():
                 f"{precision_local:.2f}%",
                 f"{precision_empate:.2f}%",
                 f"{precision_visita:.2f}%",
-                f"{precision_total:.2f}%"
+                f"{precision_total:.2f}%"   
                 
             ]
         })
+        
         return df_precision
+    
+    
+    def totalvictorias(self, liga):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+       
+        
+        df_liga = df_liga.with_columns(
+            pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("1"))
+            .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
+            .otherwise(pl.lit("2"))
+            .alias("Resultado")
+        )   
+        
+        df_liga =df_liga.filter(pl.col('Resultado') == "1")
+                
+        return df_liga['Resultado'].count()
+    
+    def totalempates(self, liga):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+       
+        
+        df_liga = df_liga.with_columns(
+            pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("1"))
+            .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
+            .otherwise(pl.lit("2"))
+            .alias("Resultado")
+        )   
+        
+        df_liga =df_liga.filter(pl.col('Resultado') == "X")
+                
+        return df_liga['Resultado'].count()
+    
+    def totalperdidas(self, liga):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+       
+        
+        df_liga = df_liga.with_columns(
+            pl.when(pl.col("GA") > pl.col("GC")).then(pl.lit("1"))
+            .when(pl.col("GA") == pl.col("GC")).then(pl.lit("X"))
+            .otherwise(pl.lit("2"))
+            .alias("Resultado")
+        )   
+        
+        df_liga =df_liga.filter(pl.col('Resultado') == "2")
+                
+        return df_liga['Resultado'].count()
+    
+    def completado(self, liga):
+        if self.totaldisputados(liga)==self.TotalEncuentrosLiga(liga):
+            return "COMPLETADO"
+        else:
+            return "EN PROGRESO"
+        
+    def AEM(self, liga):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga= df_liga.filter(pl.col('GA') !=0).filter(pl.col('GC') !=0)
+        
+
+        return  df_liga.height
+        
+      
+        
+            
+        
+        
+   
+           
+            
+       
+               
+
+
+        
+
+    
+    
     
     
 
