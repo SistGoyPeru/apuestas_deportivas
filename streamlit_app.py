@@ -54,9 +54,10 @@ def main():
         with st.expander("Equipos de "+ligas+" ⚽:",expanded=True): 
             data_equipos=pl.DataFrame({
                     "Equipos":df_total.equipos_ligas(ligas),
-        
-                })
+                    "% Victoria Local": df_total.TotalVictoriasEquipoLocal(ligas,"Bolívar"),
             
+            
+            })
             st.dataframe(data_equipos)
            
             
@@ -66,5 +67,5 @@ def main():
 
             
         
-if __name__ == "__main__":
+if __name__ == "__main__":  
   main()
