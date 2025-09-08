@@ -1846,7 +1846,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 16,20.07.2025,Audax Italiano,Universidad Católica,1,1,Liga Chilena
 16,20.07.2025,Ñublense,Universidad de Chile,2,2,Liga Chilena
 16,22.07.2025,Huachipato,O'Higgins,2,1,Liga Chilena
-16,07.09.2025,Cobresal,Palestino,,,Liga Chilena
+16,07.09.2025,Cobresal,Palestino,2,1,Liga Chilena
 17,26.07.2025,Limache,Ñublense,0,1,Liga Chilena
 17,26.07.2025,La Serena,Cobresal,0,2,Liga Chilena
 17,26.07.2025,Everton,Huachipato,4,1,Liga Chilena
@@ -2295,9 +2295,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 10,06.09.2025,Llaneros FC,Deportes Tolima,1,0,Liga Colombiana
 10,07.09.2025,Unión Magdalena,Atlético Junior,3,1,Liga Colombiana
 10,07.09.2025,Millonarios,Santa Fe,0,0,Liga Colombiana
-10,07.09.2025,Envigado FC,Águilas Doradas,,,Liga Colombiana
-10,07.09.2025,América de Cali,Deportivo Cali,,,Liga Colombiana
-10,08.09.2025,Independiente Medellín,Atlético Nacional,,,Liga Colombiana
+10,07.09.2025,Envigado FC,Águilas Doradas,1,1,Liga Colombiana
+10,07.09.2025,América de Cali,Deportivo Cali,0,0,Liga Colombiana
+10,08.09.2025,Independiente Medellín,Atlético Nacional,0,0,Liga Colombiana
 10,08.09.2025,Fortaleza FC,La Equidad,,,Liga Colombiana
 11,13.09.2025,Águilas Doradas,Independiente Medellín,,,Liga Colombiana
 11,13.09.2025,Atlético Junior,La Equidad,,,Liga Colombiana
@@ -2874,9 +2874,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 9,04.09.2025,Fuerte San Francisco,Zacatecoluca FC,1,2,Liga El salvador
 9,05.09.2025,Inter FA,CD Águila,2,0,Liga El salvador
 10,07.09.2025,Municipal Limeño,Inter FA,1,0,Liga El salvador
-10,07.09.2025,CD Águila,CD Cacahuatique,,,Liga El salvador
-10,07.09.2025,Fuerte San Francisco,Isidro Metapán,,,Liga El salvador
-10,07.09.2025,Zacatecoluca FC,Alianza,,,Liga El salvador
+10,07.09.2025,CD Águila,CD Cacahuatique,0,3,Liga El salvador
+10,07.09.2025,Fuerte San Francisco,Isidro Metapán,1,0,Liga El salvador
+10,07.09.2025,Zacatecoluca FC,Alianza,0,1,Liga El salvador
 10,08.09.2025,FAS,Luis Ángel Firpo,,,Liga El salvador
 10,12.09.2025,Hércules,Platense Zacatecoluca,,,Liga El salvador
 11,13.09.2025,Alianza,Fuerte San Francisco,,,Liga El salvador
@@ -3372,8 +3372,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 4,07.09.2025,AD Ceuta FC,Huesca,2,1,Liga Española 2
 4,07.09.2025,Burgos CF,Las Palmas,0,0,Liga Española 2
 4,07.09.2025,Real Sociedad B,Cádiz CF,3,3,Liga Española 2
-4,07.09.2025,Almería,Real Racing,,,Liga Española 2
-4,07.09.2025,CyD Leonesa,Leganés,,,Liga Española 2
+4,07.09.2025,Almería,Real Racing,2,3,Liga Española 2
+4,07.09.2025,CyD Leonesa,Leganés,0,0,Liga Española 2
 4,08.09.2025,Eibar,FC Andorra,,,Liga Española 2
 5,12.09.2025,Las Palmas,Real Sociedad B,,,Liga Española 2
 5,13.09.2025,Cádiz CF,Eibar,,,Liga Española 2
@@ -3808,7 +3808,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 2,06.09.2025,DUX Logroño,Real Sociedad,0,1,Liga Española Femenina
 2,07.09.2025,Athletic,Barcelona,1,8,Liga Española Femenina
 2,07.09.2025,Granada,Levante Las Planas,0,2,Liga Española Femenina
-2,07.09.2025,Levante,Alhama CF,,,Liga Española Femenina
+2,07.09.2025,Levante,Alhama CF,0,0,Liga Española Femenina
 3,12.09.2025,Barcelona,DUX Logroño,,,Liga Española Femenina
 3,13.09.2025,Real Sociedad,Sevilla,,,Liga Española Femenina
 3,13.09.2025,Costa Adeje Tenerife,Espanyol,,,Liga Española Femenina
@@ -6210,7 +6210,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 7,06.09.2025,Alianza,Veraguas United,1,0,Liga Panama
 7,07.09.2025,San Francisco FC,UMECIT,0,0,Liga Panama
 7,07.09.2025,Árabe Unido,Atlético Nacional,2,0,Liga Panama
-7,07.09.2025,Herrera FC,Tauro FC,,,Liga Panama
+7,07.09.2025,Herrera FC,Tauro FC,1,2,Liga Panama
 7,08.09.2025,Sporting San Miguelito,Independiente de La Chorrera,,,Liga Panama
 8,13.09.2025,UD Universitario,UMECIT,,,Liga Panama
 8,13.09.2025,Independiente de La Chorrera,Árabe Unido,,,Liga Panama
@@ -6329,7 +6329,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 11,05.09.2025,Sportivo Luqueño,Guaraní,2,3,Liga Paraguaya
 11,06.09.2025,Club Nacional,Deportivo Recoleta,1,0,Liga Paraguaya
 11,06.09.2025,General Caballero DJLM,Libertad,0,0,Liga Paraguaya
-11,07.09.2025,2 de Mayo,Club Olimpia,,,Liga Paraguaya
+11,07.09.2025,2 de Mayo,Club Olimpia,3,2,Liga Paraguaya
 11,08.09.2025,Sportivo Trinidense,Sportivo Ameliano,,,Liga Paraguaya
 11,18.09.2025,Cerro Porteño,Atlético Tembetary,,,Liga Paraguaya
 12,"",Sportivo Trinidense,Deportivo Recoleta,,,Liga Paraguaya
@@ -6470,8 +6470,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 8,14.09.2025,FBC Melgar,Universitario de Deportes,,,Liga Peruana
 8,15.09.2025,Deportivo Binacional,AD Tarma,,,Liga Peruana
 8,15.09.2025,Cusco FC,Sporting Cristal,,,Liga Peruana
-9,16.09.2025,AD Tarma,Universidad Técnica,,,Liga Peruana
-9,17.09.2025,Sporting Cristal,Alianza Atlético,,,Liga Peruana
+9,17.09.2025,AD Tarma,Universidad Técnica,,,Liga Peruana
+9,18.09.2025,Sporting Cristal,Alianza Atlético,,,Liga Peruana
 9,18.09.2025,Cienciano,Sport Boys,,,Liga Peruana
 9,18.09.2025,Ayacucho FC,Cusco FC,,,Liga Peruana
 9,18.09.2025,Los Chankas,Alianza Lima,,,Liga Peruana
@@ -6920,8 +6920,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 6,06.09.2025,Peñarol,Plaza Colonia,1,0,Liga Uruguaya
 6,07.09.2025,Boston River,River Plate,2,0,Liga Uruguaya
 6,07.09.2025,CA Cerro,Cerro Largo,0,1,Liga Uruguaya
-6,07.09.2025,Progreso,Miramar Misiones,,,Liga Uruguaya
-6,07.09.2025,Nacional,Racing,,,Liga Uruguaya
+6,07.09.2025,Progreso,Miramar Misiones,3,2,Liga Uruguaya
+6,07.09.2025,Nacional,Racing,3,0,Liga Uruguaya
 6,08.09.2025,Montevideo City Torque,Liverpool,,,Liga Uruguaya
 7,13.09.2025,River Plate,Progreso,,,Liga Uruguaya
 7,13.09.2025,Racing,Boston River,,,Liga Uruguaya
@@ -7117,7 +7117,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga
 6,01.09.2025,CS Herediano,Municipal Liberia,1,0,Liga costa Rica
 6,02.09.2025,AD San Carlos,Municipal Pérez Zeledón,0,1,Liga costa Rica
 7,07.09.2025,Municipal Pérez Zeledón,LD Alajuelense,2,1,Liga costa Rica
-7,08.09.2025,Municipal Liberia,Sporting FC,,,Liga costa Rica
+7,08.09.2025,Municipal Liberia,Sporting FC,1,1,Liga costa Rica
 7,11.09.2025,Puntarenas FC,Deportivo Saprissa,,,Liga costa Rica
 7,11.09.2025,CS Cartaginés,CS Herediano,,,Liga costa Rica
 7,12.09.2025,Guadalupe,AD San Carlos,,,Liga costa Rica

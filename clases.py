@@ -11,8 +11,10 @@ class liga():
     def __init__(self, archivo):
         self.archivo = archivo
         self.df=pl.read_csv(archivo)
-
+        
+          
     def data(self):
+        
         return self.df
  
     def ligas(self):
@@ -131,10 +133,11 @@ class liga():
         return self.PromGECV(liga,visita) / self.PGFliga(liga)
     
     def fuerzaPromedioLocal(self, liga,local, visita):
-        return ((self.PromGEFL(liga,local) * self.PromGECV(liga,visita))/self.medialiga(liga)) 
+        return self.PromGEFL(liga,local) * self.fuerzaDefensivaVisita(liga,visita)
     
     def fuerzaPromedioVisita(self, liga,local, visita):
-        return ((self.PromGEFV(liga,visita) * self.PromGECL(liga,local))/self.medialiga(liga)) 
+        return self.PromGEFV(liga,visita) * self.fuerzaDefensivaLocal(liga,local)
+    
     
 
     def VictoriaLocal(self, liga,local, visita):
@@ -569,7 +572,7 @@ class liga():
         
         df_precision = pl.DataFrame({
             "Métrica": [
-                "Total de Partidos Analizados",
+                "Total de Partidos Analizados de la "+liga,
                 "Aciertos Victoria Local",
                 "Aciertos Empate",
                 "Aciertos Victoria Visita",
@@ -593,6 +596,11 @@ class liga():
         
         return df_precision
     
+    
+    
+        
+         
+            
     
     def totalvictorias(self, liga):
         df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
