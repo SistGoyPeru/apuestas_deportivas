@@ -41,6 +41,7 @@ def main():
             on_select='rerun',
             selection_mode='single-row',
         )
+        
     if len(event.selection['rows']): 
         selected_row = event.selection['rows'][0]
         ligas = data[selected_row, 'Liga'] 
