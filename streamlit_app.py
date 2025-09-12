@@ -53,7 +53,7 @@ def main():
 
         with st.expander("Encuentros de la "+ligas, expanded=True):
             df_final = data_filtro_fecha.filter(pl.col("Liga") == ligas)
-
+#´´´´
             event = st.dataframe(
                 df_final,
                 on_select='rerun',
