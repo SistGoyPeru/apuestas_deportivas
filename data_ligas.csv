@@ -314,8 +314,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 1,30.08.2025,Al Fateh,Al Fayha,1,2,Liga Arabia Saudita,2
 1,30.08.2025,Al Okhdood,Al Ittihad,2,5,Liga Arabia Saudita,2
 1,30.08.2025,Al Qadsiah,Al Najma,3,1,Liga Arabia Saudita,1
-2,12.09.2025,Al Ettifaq,Al Ahli SFC,,,Liga Arabia Saudita,
-2,12.09.2025,Al Shabab,Al Hazem,,,Liga Arabia Saudita,
+2,12.09.2025,Al Ettifaq,Al Ahli SFC,0,0,Liga Arabia Saudita,X
+2,12.09.2025,Al Shabab,Al Hazem,1,0,Liga Arabia Saudita,1
 2,12.09.2025,Al Ittihad,Al Fateh,,,Liga Arabia Saudita,
 2,13.09.2025,Al Khaleej,Al Fayha,,,Liga Arabia Saudita,
 2,13.09.2025,Al Okhdood,Al Taawoun,,,Liga Arabia Saudita,
@@ -1399,14 +1399,12 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 13,12.07.2025,Internacional,Vitória - BA,1,0,Liga Brasileña,1
 13,12.07.2025,Vasco da Gama - RJ,Botafogo - RJ,0,2,Liga Brasileña,2
 13,13.07.2025,Santos FC,Palmeiras,,,Liga Brasileña,
-13,13.07.2025,Mirassol - SP,Fluminense RJ,,,Liga Brasileña,
 13,13.07.2025,Bahia - BA,Atlético Mineiro,2,1,Liga Brasileña,1
 13,14.07.2025,Corinthians SP,Red Bull Bragantino,1,2,Liga Brasileña,2
 13,14.07.2025,Cruzeiro,Grêmio Porto Alegre,4,1,Liga Brasileña,1
 13,14.07.2025,Fortaleza - CE,Ceará - CE,0,1,Liga Brasileña,2
 13,15.07.2025,Juventude - RS,Sport Recife - PE,2,0,Liga Brasileña,1
-14,16.07.2025,Atlético Mineiro,Sport Recife - PE,,,Liga Brasileña,
-14,16.07.2025,Bahia - BA,Internacional,,,Liga Brasileña,
+13,09.10.2025,Mirassol - SP,Fluminense RJ,,,Liga Brasileña,
 14,17.07.2025,Palmeiras,Mirassol - SP,1,1,Liga Brasileña,X
 14,17.07.2025,Ceará - CE,Corinthians SP,0,1,Liga Brasileña,2
 14,17.07.2025,Santos FC,Flamengo RJ,1,0,Liga Brasileña,1
@@ -1415,6 +1413,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 14,18.07.2025,Fluminense RJ,Cruzeiro,0,2,Liga Brasileña,2
 14,30.07.2025,Grêmio Porto Alegre,Fortaleza - CE,2,1,Liga Brasileña,1
 14,21.08.2025,Juventude - RS,Vasco da Gama - RJ,2,0,Liga Brasileña,1
+14,09.10.2025,Atlético Mineiro,Sport Recife - PE,,,Liga Brasileña,
+14,23.10.2025,Bahia - BA,Internacional,,,Liga Brasileña,
 15,19.07.2025,Fortaleza - CE,Bahia - BA,1,1,Liga Brasileña,X
 15,19.07.2025,Vasco da Gama - RJ,Grêmio Porto Alegre,1,1,Liga Brasileña,X
 15,19.07.2025,Mirassol - SP,Santos FC,3,0,Liga Brasileña,1
@@ -1711,8 +1711,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,31.08.2025,Arda Kardzhali,PFC Beroe,2,2,Liga Bulgaria,X
 7,31.08.2025,Levski Sofia,CSKA 1948 Sofia,2,1,Liga Bulgaria,1
 7,31.08.2025,PFC Ludogorets Razgrad,Botev Plovdiv,2,1,Liga Bulgaria,1
-8,12.09.2025,PFC Beroe,Botev Vratsa,,,Liga Bulgaria,
-8,12.09.2025,Botev Plovdiv,PFC Montana,,,Liga Bulgaria,
+8,12.09.2025,PFC Beroe,Botev Vratsa,2,0,Liga Bulgaria,1
+8,12.09.2025,Botev Plovdiv,PFC Montana,0,0,Liga Bulgaria,X
 8,13.09.2025,Spartak Varna,Arda Kardzhali,,,Liga Bulgaria,
 8,13.09.2025,CSKA Sofia,Septemvri Sofia,,,Liga Bulgaria,
 8,14.09.2025,Lokomotiv Plovdiv,PFC Ludogorets Razgrad,,,Liga Bulgaria,
@@ -1722,11 +1722,11 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 9,19.09.2025,PFC Montana,Spartak Varna,,,Liga Bulgaria,
 9,19.09.2025,Levski Sofia,PFC Ludogorets Razgrad,,,Liga Bulgaria,
 9,20.09.2025,FK Dobrudzha,Lokomotiv Sofia,,,Liga Bulgaria,
-9,20.09.2025,Botev Vratsa,CSKA Sofia,,,Liga Bulgaria,
 9,20.09.2025,CSKA 1948 Sofia,Lokomotiv Plovdiv,,,Liga Bulgaria,
 9,21.09.2025,Septemvri Sofia,Botev Plovdiv,,,Liga Bulgaria,
 9,21.09.2025,Slavia Sofia,PFC Beroe,,,Liga Bulgaria,
 9,22.09.2025,Arda Kardzhali,Cherno More Varna,,,Liga Bulgaria,
+9,22.09.2025,Botev Vratsa,CSKA Sofia,,,Liga Bulgaria,
 10,25.09.2025,Botev Plovdiv,CSKA 1948 Sofia,,,Liga Bulgaria,
 10,26.09.2025,Lokomotiv Plovdiv,Levski Sofia,,,Liga Bulgaria,
 10,27.09.2025,Cherno More Varna,Septemvri Sofia,,,Liga Bulgaria,
@@ -2319,10 +2319,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 23,31.08.2025,Shenzhen Peng City,Meizhou Hakka,2,0,Liga China,1
 23,31.08.2025,Shandong Taishan,Beijing Guoan,6,0,Liga China,1
 23,04.10.2025,Dalian Yingbo,Qingdao West Coast,,,Liga China,
-24,12.09.2025,Shanghai Port FC,Yunnan Yukun,2,1,Liga China,1
-24,12.09.2025,Chengdu Rongcheng,Changchun Yatai,,,Liga China,
-24,12.09.2025,Henan FC,Beijing Guoan,,,Liga China,
-24,12.09.2025,Shanghai Shenhua,Shandong Taishan,,,Liga China,
+24,12.09.2025,Shanghai Port FC,Yunnan Yukun,4,2,Liga China,1
+24,12.09.2025,Chengdu Rongcheng,Changchun Yatai,1,0,Liga China,1
+24,12.09.2025,Henan FC,Beijing Guoan,2,0,Liga China,1
+24,12.09.2025,Shanghai Shenhua,Shandong Taishan,3,3,Liga China,X
 24,13.09.2025,Qingdao West Coast,Zhejiang Professional,,,Liga China,
 24,14.09.2025,Dalian Yingbo,Shenzhen Peng City,,,Liga China,
 24,14.09.2025,Tianjin Jinmen Tiger,Wuhan Three Towns,,,Liga China,
@@ -2615,11 +2615,11 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,27.09.2025,HNK Rijeka,NK Istra 1961,,,Liga Croacia,
 8,27.09.2025,NK Osijek,HNK Gorica,,,Liga Croacia,
 8,27.09.2025,NK Varaždin,NK Vukovar 91,,,Liga Croacia,
-9,04.10.2025,HNK Gorica,HNK Rijeka,,,Liga Croacia,
-9,04.10.2025,NK Istra 1961,NK Varaždin,,,Liga Croacia,
-9,04.10.2025,Lokomotiva Zagreb,Dinamo Zagreb,,,Liga Croacia,
-9,04.10.2025,Slaven Belupo,NK Osijek,,,Liga Croacia,
+9,03.10.2025,NK Istra 1961,NK Varaždin,,,Liga Croacia,
 9,04.10.2025,NK Vukovar 91,Hajduk Split,,,Liga Croacia,
+9,04.10.2025,Slaven Belupo,NK Osijek,,,Liga Croacia,
+9,05.10.2025,HNK Gorica,HNK Rijeka,,,Liga Croacia,
+9,05.10.2025,Lokomotiva Zagreb,Dinamo Zagreb,,,Liga Croacia,
 10,18.10.2025,Dinamo Zagreb,NK Osijek,,,Liga Croacia,
 10,18.10.2025,HNK Gorica,NK Varaždin,,,Liga Croacia,
 10,18.10.2025,NK Istra 1961,Hajduk Split,,,Liga Croacia,
@@ -3207,16 +3207,16 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,05.10.2025,Espanyol,Betis,,,Liga Española,
 8,05.10.2025,Real Sociedad,Rayo,,,Liga Española,
 8,05.10.2025,Celta,Atlético,,,Liga Española,
-9,19.10.2025,Alavés,Valencia,,,Liga Española,
-9,19.10.2025,Atlético,Osasuna,,,Liga Española,
-9,19.10.2025,Barcelona,Girona,,,Liga Española,
-9,19.10.2025,Celta,Real Sociedad,,,Liga Española,
-9,19.10.2025,Getafe,Real Madrid,,,Liga Española,
-9,19.10.2025,Levante,Rayo,,,Liga Española,
+9,17.10.2025,Real Oviedo,Espanyol,,,Liga Española,
+9,18.10.2025,Sevilla,Mallorca,,,Liga Española,
+9,18.10.2025,Barcelona,Girona,,,Liga Española,
+9,18.10.2025,Villarreal,Betis,,,Liga Española,
+9,18.10.2025,Atlético,Osasuna,,,Liga Española,
 9,19.10.2025,Elche,Athletic,,,Liga Española,
-9,19.10.2025,Villarreal,Betis,,,Liga Española,
-9,19.10.2025,Real Oviedo,Espanyol,,,Liga Española,
-9,19.10.2025,Sevilla,Mallorca,,,Liga Española,
+9,19.10.2025,Celta,Real Sociedad,,,Liga Española,
+9,19.10.2025,Levante,Rayo,,,Liga Española,
+9,19.10.2025,Getafe,Real Madrid,,,Liga Española,
+9,20.10.2025,Alavés,Valencia,,,Liga Española,
 10,26.10.2025,Athletic,Getafe,,,Liga Española,
 10,26.10.2025,Girona,Real Oviedo,,,Liga Española,
 10,26.10.2025,Real Sociedad,Sevilla,,,Liga Española,
@@ -3595,17 +3595,17 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,05.10.2025,Valladolid,Mirandés,,,Liga Española 2,
 8,05.10.2025,Las Palmas,Cádiz CF,,,Liga Española 2,
 8,06.10.2025,CyD Leonesa,Albacete,,,Liga Española 2,
+9,10.10.2025,Granada,Las Palmas,,,Liga Española 2,
+9,11.10.2025,Mirandés,Leganés,,,Liga Española 2,
+9,11.10.2025,Almería,Zaragoza,,,Liga Española 2,
+9,11.10.2025,Real Sociedad B,FC Andorra,,,Liga Española 2,
 9,12.10.2025,Albacete,AD Ceuta FC,,,Liga Española 2,
+9,12.10.2025,Eibar,CD Castellón,,,Liga Española 2,
+9,12.10.2025,Sporting,Real Racing,,,Liga Española 2,
 9,12.10.2025,Burgos CF,Valladolid,,,Liga Española 2,
 9,12.10.2025,Cádiz CF,Huesca,,,Liga Española 2,
-9,12.10.2025,Córdoba,CyD Leonesa,,,Liga Española 2,
-9,12.10.2025,Granada,Las Palmas,,,Liga Española 2,
-9,12.10.2025,Almería,Zaragoza,,,Liga Española 2,
-9,12.10.2025,Eibar,CD Castellón,,,Liga Española 2,
 9,12.10.2025,Málaga,Deportivo,,,Liga Española 2,
-9,12.10.2025,Mirandés,Leganés,,,Liga Española 2,
-9,12.10.2025,Sporting,Real Racing,,,Liga Española 2,
-9,12.10.2025,Real Sociedad B,FC Andorra,,,Liga Española 2,
+9,13.10.2025,Córdoba,CyD Leonesa,,,Liga Española 2,
 10,19.10.2025,AD Ceuta FC,Mirandés,,,Liga Española 2,
 10,19.10.2025,Leganés,Málaga,,,Liga Española 2,
 10,19.10.2025,FC Andorra,Granada,,,Liga Española 2,
@@ -4543,13 +4543,13 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 4,21.09.2025,AE Lárissa,AEK Athen,,,Liga Grecia,
 4,21.09.2025,Levadiakos,OFI Heraklion,,,Liga Grecia,
 4,21.09.2025,Panathinaikos,Olympiacos,,,Liga Grecia,
-5,27.09.2025,Atromitos,AE Lárissa,,,Liga Grecia,
 5,27.09.2025,Olympiacos,Levadiakos,,,Liga Grecia,
 5,27.09.2025,Aris Saloniki,Panserraikos,,,Liga Grecia,
 5,28.09.2025,AEK Athen,Volos NFC,,,Liga Grecia,
 5,28.09.2025,OFI Heraklion,AE Kifisias,,,Liga Grecia,
 5,28.09.2025,Asteras Tripolis,PAOK Saloniki,,,Liga Grecia,
 5,28.09.2025,Panetolikos,Panathinaikos,,,Liga Grecia,
+5,29.09.2025,Atromitos,AE Lárissa,,,Liga Grecia,
 6,04.10.2025,AE Lárissa,Volos NFC,,,Liga Grecia,
 6,04.10.2025,Panserraikos,Asteras Tripolis,,,Liga Grecia,
 6,04.10.2025,OFI Heraklion,Aris Saloniki,,,Liga Grecia,
@@ -4557,69 +4557,69 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 6,05.10.2025,Levadiakos,Panetolikos,,,Liga Grecia,
 6,05.10.2025,PAOK Saloniki,Olympiacos,,,Liga Grecia,
 6,05.10.2025,Panathinaikos,Atromitos,,,Liga Grecia,
-7,18.10.2025,AEK Athen,PAOK Saloniki,,,Liga Grecia,
-7,18.10.2025,Asteras Tripolis,AE Kifisias,,,Liga Grecia,
 7,18.10.2025,AE Lárissa,Olympiacos,,,Liga Grecia,
-7,18.10.2025,Aris Saloniki,Panathinaikos,,,Liga Grecia,
 7,18.10.2025,Atromitos,Levadiakos,,,Liga Grecia,
-7,18.10.2025,Volos NFC,Panserraikos,,,Liga Grecia,
 7,18.10.2025,Panetolikos,OFI Heraklion,,,Liga Grecia,
+7,19.10.2025,Asteras Tripolis,AE Kifisias,,,Liga Grecia,
+7,19.10.2025,Volos NFC,Panserraikos,,,Liga Grecia,
+7,19.10.2025,Aris Saloniki,Panathinaikos,,,Liga Grecia,
+7,19.10.2025,AEK Athen,PAOK Saloniki,,,Liga Grecia,
 8,25.10.2025,AE Kifisias,Panetolikos,,,Liga Grecia,
-8,25.10.2025,Levadiakos,Aris Saloniki,,,Liga Grecia,
-8,25.10.2025,Olympiacos,AEK Athen,,,Liga Grecia,
-8,25.10.2025,OFI Heraklion,Atromitos,,,Liga Grecia,
-8,25.10.2025,Panathinaikos,Asteras Tripolis,,,Liga Grecia,
 8,25.10.2025,Panserraikos,AE Lárissa,,,Liga Grecia,
-8,25.10.2025,PAOK Saloniki,Volos NFC,,,Liga Grecia,
-9,01.11.2025,AEK Athen,Panetolikos,,,Liga Grecia,
-9,01.11.2025,Asteras Tripolis,OFI Heraklion,,,Liga Grecia,
-9,01.11.2025,AE Lárissa,Levadiakos,,,Liga Grecia,
-9,01.11.2025,Atromitos,AE Kifisias,,,Liga Grecia,
+8,25.10.2025,OFI Heraklion,Atromitos,,,Liga Grecia,
+8,26.10.2025,Levadiakos,Aris Saloniki,,,Liga Grecia,
+8,26.10.2025,Panathinaikos,Asteras Tripolis,,,Liga Grecia,
+8,26.10.2025,PAOK Saloniki,Volos NFC,,,Liga Grecia,
+8,26.10.2025,Olympiacos,AEK Athen,,,Liga Grecia,
 9,01.11.2025,Volos NFC,Panathinaikos,,,Liga Grecia,
+9,01.11.2025,Atromitos,AE Kifisias,,,Liga Grecia,
 9,01.11.2025,Olympiacos,Aris Saloniki,,,Liga Grecia,
-9,01.11.2025,Panserraikos,PAOK Saloniki,,,Liga Grecia,
-10,08.11.2025,Aris Saloniki,Asteras Tripolis,,,Liga Grecia,
-10,08.11.2025,Atromitos,Volos NFC,,,Liga Grecia,
-10,08.11.2025,AE Kifisias,Olympiacos,,,Liga Grecia,
-10,08.11.2025,Levadiakos,Panserraikos,,,Liga Grecia,
-10,08.11.2025,OFI Heraklion,AEK Athen,,,Liga Grecia,
-10,08.11.2025,Panathinaikos,PAOK Saloniki,,,Liga Grecia,
+9,02.11.2025,AE Lárissa,Levadiakos,,,Liga Grecia,
+9,02.11.2025,Panserraikos,PAOK Saloniki,,,Liga Grecia,
+9,02.11.2025,AEK Athen,Panetolikos,,,Liga Grecia,
+9,03.11.2025,Asteras Tripolis,OFI Heraklion,,,Liga Grecia,
 10,08.11.2025,Panetolikos,AE Lárissa,,,Liga Grecia,
-11,22.11.2025,AEK Athen,Aris Saloniki,,,Liga Grecia,
+10,09.11.2025,Aris Saloniki,Asteras Tripolis,,,Liga Grecia,
+10,09.11.2025,AE Kifisias,Olympiacos,,,Liga Grecia,
+10,09.11.2025,Levadiakos,Panserraikos,,,Liga Grecia,
+10,09.11.2025,OFI Heraklion,AEK Athen,,,Liga Grecia,
+10,09.11.2025,Atromitos,Volos NFC,,,Liga Grecia,
+10,09.11.2025,Panathinaikos,PAOK Saloniki,,,Liga Grecia,
 11,22.11.2025,Asteras Tripolis,Panetolikos,,,Liga Grecia,
-11,22.11.2025,AE Lárissa,OFI Heraklion,,,Liga Grecia,
-11,22.11.2025,Volos NFC,Levadiakos,,,Liga Grecia,
 11,22.11.2025,Olympiacos,Atromitos,,,Liga Grecia,
-11,22.11.2025,Panserraikos,Panathinaikos,,,Liga Grecia,
-11,22.11.2025,PAOK Saloniki,AE Kifisias,,,Liga Grecia,
-12,29.11.2025,Aris Saloniki,AE Lárissa,,,Liga Grecia,
-12,29.11.2025,Atromitos,Asteras Tripolis,,,Liga Grecia,
-12,29.11.2025,AE Kifisias,Panserraikos,,,Liga Grecia,
-12,29.11.2025,Levadiakos,PAOK Saloniki,,,Liga Grecia,
+11,23.11.2025,Panserraikos,Panathinaikos,,,Liga Grecia,
+11,23.11.2025,PAOK Saloniki,AE Kifisias,,,Liga Grecia,
+11,23.11.2025,AEK Athen,Aris Saloniki,,,Liga Grecia,
+11,24.11.2025,Volos NFC,Levadiakos,,,Liga Grecia,
+11,24.11.2025,AE Lárissa,OFI Heraklion,,,Liga Grecia,
 12,29.11.2025,OFI Heraklion,Volos NFC,,,Liga Grecia,
-12,29.11.2025,Panathinaikos,AEK Athen,,,Liga Grecia,
-12,29.11.2025,Panetolikos,Olympiacos,,,Liga Grecia,
-13,06.12.2025,AEK Athen,Atromitos,,,Liga Grecia,
-13,06.12.2025,Asteras Tripolis,Levadiakos,,,Liga Grecia,
-13,06.12.2025,AE Lárissa,Panathinaikos,,,Liga Grecia,
-13,06.12.2025,Volos NFC,AE Kifisias,,,Liga Grecia,
+12,29.11.2025,Aris Saloniki,AE Lárissa,,,Liga Grecia,
+12,29.11.2025,AE Kifisias,Panserraikos,,,Liga Grecia,
+12,30.11.2025,Atromitos,Asteras Tripolis,,,Liga Grecia,
+12,30.11.2025,Panetolikos,Olympiacos,,,Liga Grecia,
+12,30.11.2025,Levadiakos,PAOK Saloniki,,,Liga Grecia,
+12,30.11.2025,Panathinaikos,AEK Athen,,,Liga Grecia,
 13,06.12.2025,Olympiacos,OFI Heraklion,,,Liga Grecia,
-13,06.12.2025,Panserraikos,Panetolikos,,,Liga Grecia,
-13,06.12.2025,PAOK Saloniki,Aris Saloniki,,,Liga Grecia,
-14,13.12.2025,Aris Saloniki,Olympiacos,,,Liga Grecia,
-14,13.12.2025,Atromitos,PAOK Saloniki,,,Liga Grecia,
-14,13.12.2025,AE Kifisias,Asteras Tripolis,,,Liga Grecia,
+13,06.12.2025,Volos NFC,AE Kifisias,,,Liga Grecia,
+13,07.12.2025,Asteras Tripolis,Levadiakos,,,Liga Grecia,
+13,07.12.2025,AE Lárissa,Panathinaikos,,,Liga Grecia,
+13,07.12.2025,PAOK Saloniki,Aris Saloniki,,,Liga Grecia,
+13,07.12.2025,AEK Athen,Atromitos,,,Liga Grecia,
+13,08.12.2025,Panserraikos,Panetolikos,,,Liga Grecia,
 14,13.12.2025,Levadiakos,AE Lárissa,,,Liga Grecia,
 14,13.12.2025,OFI Heraklion,Panserraikos,,,Liga Grecia,
-14,13.12.2025,Panathinaikos,Volos NFC,,,Liga Grecia,
-14,13.12.2025,Panetolikos,AEK Athen,,,Liga Grecia,
-15,20.12.2025,AEK Athen,OFI Heraklion,,,Liga Grecia,
+14,13.12.2025,AE Kifisias,Asteras Tripolis,,,Liga Grecia,
+14,14.12.2025,Panetolikos,AEK Athen,,,Liga Grecia,
+14,14.12.2025,Atromitos,PAOK Saloniki,,,Liga Grecia,
+14,14.12.2025,Aris Saloniki,Olympiacos,,,Liga Grecia,
+14,14.12.2025,Panathinaikos,Volos NFC,,,Liga Grecia,
 15,20.12.2025,Asteras Tripolis,Aris Saloniki,,,Liga Grecia,
-15,20.12.2025,AE Lárissa,Atromitos,,,Liga Grecia,
 15,20.12.2025,Volos NFC,Panetolikos,,,Liga Grecia,
 15,20.12.2025,Olympiacos,AE Kifisias,,,Liga Grecia,
-15,20.12.2025,Panserraikos,Levadiakos,,,Liga Grecia,
-15,20.12.2025,PAOK Saloniki,Panathinaikos,,,Liga Grecia,
+15,21.12.2025,AE Lárissa,Atromitos,,,Liga Grecia,
+15,21.12.2025,PAOK Saloniki,Panathinaikos,,,Liga Grecia,
+15,21.12.2025,AEK Athen,OFI Heraklion,,,Liga Grecia,
+15,22.12.2025,Panserraikos,Levadiakos,,,Liga Grecia,
 16,10.01.2026,Aris Saloniki,AEK Athen,,,Liga Grecia,
 16,10.01.2026,Atromitos,Olympiacos,,,Liga Grecia,
 16,10.01.2026,AE Kifisias,AE Lárissa,,,Liga Grecia,
@@ -5802,9 +5802,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 28,31.08.2025,Shonan Bellmare,Gamba Osaka,4,5,Liga Japonesa,2
 28,31.08.2025,Nagoya Grampus,FC Tokyo,1,1,Liga Japonesa,X
 28,31.08.2025,Cerezo Osaka,Sanfrecce Hiroshima,1,1,Liga Japonesa,X
-29,12.09.2025,FC Machida Zelvia,Yokohama FC,0,0,Liga Japonesa,X
+29,12.09.2025,FC Machida Zelvia,Yokohama FC,1,1,Liga Japonesa,X
 29,12.09.2025,Vissel Kobe,Kashiwa Reysol,0,0,Liga Japonesa,X
-29,12.09.2025,Sanfrecce Hiroshima,Kyoto Sanga FC,0,0,Liga Japonesa,X
+29,12.09.2025,Sanfrecce Hiroshima,Kyoto Sanga FC,1,1,Liga Japonesa,X
 29,13.09.2025,Avispa Fukuoka,Cerezo Osaka,,,Liga Japonesa,
 29,13.09.2025,Fagiano Okayama,Nagoya Grampus,,,Liga Japonesa,
 29,13.09.2025,Kashima Antlers,Shonan Bellmare,,,Liga Japonesa,
@@ -7382,11 +7382,11 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 2,06.09.2025,Arenas de Getxo,CP Cacereño,2,2,Primera Federacion gp 1 España,X
 2,06.09.2025,Ponferradina,Pontevedra CF,0,1,Primera Federacion gp 1 España,2
 2,06.09.2025,Tenerife,Mérida AD,3,0,Primera Federacion gp 1 España,1
-2,07.09.2025,Real Madrid Castilla,Racing de Ferrol,,,Primera Federacion gp 1 España,
 2,07.09.2025,CF Talavera,Bilbao Athletic,1,1,Primera Federacion gp 1 España,X
 2,07.09.2025,Celta B,CD Guadalajara,0,1,Primera Federacion gp 1 España,2
 2,07.09.2025,Osasuna B,Ourense CF,1,1,Primera Federacion gp 1 España,X
 2,07.09.2025,CD Arenteiro,Unionistas CF,1,0,Primera Federacion gp 1 España,1
+2,17.09.2025,Real Madrid Castilla,Racing de Ferrol,,,Primera Federacion gp 1 España,
 3,12.09.2025,Barakaldo CF,Arenas de Getxo,,,Primera Federacion gp 1 España,
 3,13.09.2025,Mérida AD,Celta B,,,Primera Federacion gp 1 España,
 3,14.09.2025,Ourense CF,CF Talavera,,,Primera Federacion gp 1 España,
@@ -7398,12 +7398,12 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 3,14.09.2025,Zamora CF,Lugo,,,Primera Federacion gp 1 España,
 3,14.09.2025,Racing de Ferrol,Ponferradina,,,Primera Federacion gp 1 España,
 4,19.09.2025,Ponferradina,CD Guadalajara,,,Primera Federacion gp 1 España,
-4,19.09.2025,Osasuna B,Real Madrid Castilla,,,Primera Federacion gp 1 España,
 4,20.09.2025,CD Arenteiro,Zamora CF,,,Primera Federacion gp 1 España,
 4,20.09.2025,Bilbao Athletic,Pontevedra CF,,,Primera Federacion gp 1 España,
 4,20.09.2025,CP Cacereño,Mérida AD,,,Primera Federacion gp 1 España,
 4,21.09.2025,Tenerife,Ourense CF,,,Primera Federacion gp 1 España,
 4,21.09.2025,CF Talavera,Barakaldo CF,,,Primera Federacion gp 1 España,
+4,21.09.2025,Osasuna B,Real Madrid Castilla,,,Primera Federacion gp 1 España,
 4,21.09.2025,Lugo,Racing de Ferrol,,,Primera Federacion gp 1 España,
 4,21.09.2025,Celta B,Arenas de Getxo,,,Primera Federacion gp 1 España,
 4,21.09.2025,Unionistas CF,Real Avilés,,,Primera Federacion gp 1 España,
