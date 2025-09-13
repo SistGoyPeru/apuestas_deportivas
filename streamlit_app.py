@@ -134,6 +134,8 @@ def main():
                     })
                     st.dataframe(EVisita)
                 
+                
+                
                 st.subheader("Pronosticos Encuentro")
                 pronostico = pl.DataFrame({
                         "Resultado ( 1-X-2 )": [
@@ -180,108 +182,108 @@ def main():
                     })
                 st.dataframe(pronostico)
 
-        if len(event.selection['rows']):
+        
            
-            col1, col2,col3 = st.columns(3)
+                col1, col2,col3 = st.columns(3)
 
-            with col1:
+                with col1:
 
-                pronostico = pl.DataFrame({
-                        "Mas Goles": [
-                                "Mas 0.5",
-                                "Mas 1.5",
-                                "Mas 2.5",
-                                "Mas 3.5",
-                                "Mas 4.5",
-                                "Mas 5.5"
+                    pronostico = pl.DataFrame({
+                            "Mas Goles": [
+                                    "Mas 0.5",
+                                    "Mas 1.5",
+                                    "Mas 2.5",
+                                    "Mas 3.5",
+                                    "Mas 4.5",
+                                    "Mas 5.5"
+                                    
                                 
-                               
-                        ],
+                            ],
 
-                        "Valor": [format(df_total.masde05goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.masde15goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.masde25goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.masde35goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.masde45goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.masde55goles(ligas, local, visita)*100, '.2f')+"%"
+                            "Valor": [format(df_total.masde05goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.masde15goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.masde25goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.masde35goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.masde45goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.masde55goles(ligas, local, visita)*100, '.2f')+"%"
 
-                                  ],
+                                    ],
+                            
+                            "Cuota": [format(1/(df_total.masde05goles(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.masde15goles(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.masde25goles(ligas, local, visita)), '.2f'),       
+                                    format(1/(df_total.masde35goles(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.masde45goles(ligas, local, visita)), '.2f') ,
+                                    format(1/(df_total.masde55goles(ligas, local, visita)), '.2f')
+                                    
+                                    ],
+
+                        })
+                    st.dataframe(pronostico)
+
+                with col2:
+
+                    pronostico = pl.DataFrame({
+                            "Menos Goles": [
+                                    "Menos 0.5",
+                                    "Menos 1.5",
+                                    "Menos 2.5",
+                                    "Menos 3.5",
+                                    "Menos 4.5" ,
+                                    "Menos 5.5" 
+
+                                    ],
+
+                            "Valor": [format(df_total.menosde05goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.menosde15goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.menosde25goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.menosde35goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.menosde45goles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.menosde55goles(ligas, local, visita)*100, '.2f')+"%"
+                                    ] ,
+
+                            "Cuota": [format(1/(df_total.menosde05goles(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.menosde15goles(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.menosde25goles(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.menosde35goles(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.menosde45goles(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.menosde55goles(ligas, local, visita)), '.2f')
+                                    ],
+
+                        })
+                    st.dataframe(pronostico)
+                
+                with col3: 
+                    pronostico = pl.DataFrame({
+                            "Otros": ["Ambos Marcan Si",
+                                    "Ambos Marcan No",
+                                    "Hay Goles",
+                                    "No Hay Goles"
+                                    ],
+
+                            "Valor": [format(df_total.ambosmarcan(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.solounomarca(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.congoles(ligas, local, visita)*100, '.2f')+"%",
+                                    format(df_total.cerogoles(ligas, local, visita)*100, '.2f')+"%"
+                                    ] ,
+
+                            "Cuota": [format(1/(df_total.ambosmarcan(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.solounomarca(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.congoles(ligas, local, visita)), '.2f'),
+                                    format(1/(df_total.cerogoles(ligas, local, visita)), '.2f'   )
+                                    ],
+
+                        })
+                    st.dataframe(pronostico)
+
+                col1, col2 = st.columns(2)
+
+                with col1:
+                    st.dataframe(df_total.predict(ligas, local, visita))
+                with col2:
+                    st.dataframe(df_total.predictcombinados(ligas, local, visita))
+
                         
-                        "Cuota": [format(1/(df_total.masde05goles(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.masde15goles(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.masde25goles(ligas, local, visita)), '.2f'),       
-                                  format(1/(df_total.masde35goles(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.masde45goles(ligas, local, visita)), '.2f') ,
-                                  format(1/(df_total.masde55goles(ligas, local, visita)), '.2f')
-                                  
-                                  ],
-
-                    })
-                st.dataframe(pronostico)
-
-            with col2:
-
-                pronostico = pl.DataFrame({
-                        "Menos Goles": [
-                                "Menos 0.5",
-                                "Menos 1.5",
-                                "Menos 2.5",
-                                "Menos 3.5",
-                                "Menos 4.5" ,
-                                "Menos 5.5" 
-
-                                ],
-
-                        "Valor": [format(df_total.menosde05goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.menosde15goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.menosde25goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.menosde35goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.menosde45goles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.menosde55goles(ligas, local, visita)*100, '.2f')+"%"
-                                  ] ,
-
-                        "Cuota": [format(1/(df_total.menosde05goles(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.menosde15goles(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.menosde25goles(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.menosde35goles(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.menosde45goles(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.menosde55goles(ligas, local, visita)), '.2f')
-                                  ],
-
-                    })
-                st.dataframe(pronostico)
-            
-            with col3: 
-                pronostico = pl.DataFrame({
-                        "Otros": ["Ambos Marcan Si",
-                                  "Ambos Marcan No",
-                                  "Hay Goles",
-                                  "No Hay Goles"
-                                ],
-
-                        "Valor": [format(df_total.ambosmarcan(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.solounomarca(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.congoles(ligas, local, visita)*100, '.2f')+"%",
-                                  format(df_total.cerogoles(ligas, local, visita)*100, '.2f')+"%"
-                                  ] ,
-
-                        "Cuota": [format(1/(df_total.ambosmarcan(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.solounomarca(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.congoles(ligas, local, visita)), '.2f'),
-                                  format(1/(df_total.cerogoles(ligas, local, visita)), '.2f'   )
-                                  ],
-
-                    })
-                st.dataframe(pronostico)
-
-            col1, col2 = st.columns(2)
-
-            with col1:
-                st.dataframe(df_total.predict(ligas, local, visita))
-            with col2:
-                st.dataframe(df_total.predictcombinados(ligas, local, visita))
-
-                     
 
 
 
