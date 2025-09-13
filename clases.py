@@ -466,3 +466,223 @@ class liga():
         df_liga = df_liga.filter(pl.col('Resultado') == "1")
 
         return df_liga['Resultado'].count()
+    
+    def masde05goles(self, liga,local, visita):
+        masde05 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 0:
+                    masde05 += prob_local_x * prob_visita_y
+                    
+        return masde05
+    
+    def masde15goles(self,liga, local, visita):
+        masde15 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 1:
+                    masde15 += prob_local_x * prob_visita_y
+                    
+        return masde15
+    
+    def masde25goles(self, liga,local, visita):
+        masde25 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 2:
+                    masde25 += prob_local_x * prob_visita_y
+                    
+        return masde25
+    
+    def masde35goles(self, liga,local, visita):
+        masde35 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 3:
+                    masde35 += prob_local_x * prob_visita_y
+                    
+        return masde35
+    
+    def masde45goles(self, liga,local, visita):
+        masde45 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 4:
+                    masde45 += prob_local_x * prob_visita_y
+                    
+        return masde45
+    
+    def masde55goles(self, liga,local, visita):
+        masde55 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) > 5:
+                    masde55 += prob_local_x * prob_visita_y
+                    
+        return masde55
+    
+    def menosde05goles(self,liga, local, visita):
+        menosde05 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) < 1:
+                    menosde05 += prob_local_x * prob_visita_y
+                    
+        return menosde05
+    
+    def menosde15goles(self,liga, local, visita):
+        menosde15 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) < 2:
+                    menosde15 += prob_local_x * prob_visita_y
+                    
+        return menosde15
+    
+    def menosde25goles(self,liga, local, visita):
+        menosde25 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) < 3:
+                    menosde25 += prob_local_x * prob_visita_y
+                    
+        return menosde25
+    
+    def menosde35goles(self,liga, local, visita):
+        menosde35 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) < 4:
+                    menosde35 += prob_local_x * prob_visita_y
+                    
+        return menosde35
+    
+    def menosde45goles(self,liga, local, visita):
+        menosde45 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) < 5:
+                    menosde45 += prob_local_x * prob_visita_y
+                    
+        return menosde45
+    
+    def menosde55goles(self,liga, local, visita):
+        menosde55 = 0.0
+        fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
+        fuerza_visita = self.fuerzaPromedioVisita(liga,local, visita)
+        
+        # Buclea solo los goles del equipo local (hasta un límite razonable)
+        for x in range(21):
+            prob_local_x = poisson.pmf(x, fuerza_local)
+            
+            # Buclea solo los goles del equipo visitante (hasta un límite razonable)
+            for y in range(21):
+                prob_visita_y = poisson.pmf(y, fuerza_visita)
+                
+                if (x + y) < 6:
+                    menosde55 += prob_local_x * prob_visita_y
+                    
+        return menosde55
+    
+    
+    
+
