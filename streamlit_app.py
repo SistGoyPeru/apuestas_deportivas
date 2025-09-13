@@ -115,8 +115,7 @@ def main():
                             "% +0.5 Visita",
                             "% +1.5 Visita",
                             "% +2.5 Visita"
-                            
-
+                        
                         ],
 
                         "Valor": [[format(df_total.TotalVictoriasEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(ligas, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(ligas, visita) > 0 else "0.00%"],
