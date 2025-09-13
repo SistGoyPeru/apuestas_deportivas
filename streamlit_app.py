@@ -153,7 +153,7 @@ def main():
                         
                         "Cuota": [format(1/df_total.VictoriaLocal(ligas, local, visita), '.2f'),
                                   format(1/df_total.EmpateResultado(ligas, local, visita), '.2f'),
-                                  format(1/df_total.VictoriaVisita(ligas, local, visita), '.2f')
+                                  format(1/df_total.VictoriaVisita(ligas, local, visita), '.2f') 
                                   ]
 
                     })
