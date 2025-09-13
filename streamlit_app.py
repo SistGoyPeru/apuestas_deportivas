@@ -90,7 +90,8 @@ def main():
 
                         "Valor": [[format(df_total.TotalVictoriasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100, '.2f')+"%"if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.TotalEmpatesEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
-                                  [format(df_total.TotalPerdidasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
+                                  [format(df_total.TotalPerdidasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100, '.2f')+"%"if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
+                                 
                                   [format(df_total.AEMLocal(liga_E,local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100,'.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.liga05Local(liga_E,local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100,'.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.liga15Local(liga_E,local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100,'.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
@@ -178,7 +179,7 @@ def main():
 
                     })
                 st.dataframe(pronostico)
-#+++
+
 
 if __name__ == "__main__":
     main()
