@@ -180,8 +180,8 @@ def main():
                     })
                 st.dataframe(pronostico)
 
-
-            col1, col2 = st.columns(2)
+        if len(event.selection['rows']):
+            col1, col2,col3 = st.columns(3)
 
             with col1:
 
@@ -248,7 +248,39 @@ def main():
                                   ],
 
                     })
-                st.dataframe(pronostico)    
+                st.dataframe(pronostico)
+            
+            with col3: 
+                pronostico = pl.DataFrame({
+                        "Otros": ["Ambos Marcan Si",
+                                  "Ambos Marcan No",
+                                  "Hay Goles",
+                                  "No Hay Goles"
+                                ],
+
+                        "Valor": [format(df_total.ambosmarcan(ligas, local, visita)*100, '.2f')+"%",
+                                  format(df_total.solounomarca(ligas, local, visita)*100, '.2f')+"%",
+                                  format(df_total.congoles(ligas, local, visita)*100, '.2f')+"%",
+                                  format(df_total.cerogoles(ligas, local, visita)*100, '.2f')+"%"
+                                  ] ,
+
+                        "Cuota": [format(1/(df_total.ambosmarcan(ligas, local, visita)), '.2f'),
+                                  format(1/(df_total.solounomarca(ligas, local, visita)), '.2f'),
+                                  format(1/(df_total.congoles(ligas, local, visita)), '.2f'),
+                                  format(1/(df_total.cerogoles(ligas, local, visita)), '.2f'   )
+                                  ],
+
+                    })
+                st.dataframe(pronostico)
+
+            col1, col2 = st.columns(2)
+
+            with col1:
+                st.dataframe(df_total.predict(ligas, local, visita))
+            with col2:
+                st.dataframe(df_total.predictcombinados(ligas, local, visita))
+
+                     
 
 
 
