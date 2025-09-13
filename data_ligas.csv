@@ -718,10 +718,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,02.09.2025,Platense,Godoy Cruz,1,3,Liga Argentina,2
 8,12.09.2025,Belgrano,San Martín de San Juan,0,0,Liga Argentina,X
 8,12.09.2025,Deportivo Riestra,Central Córdoba SdE,2,0,Liga Argentina,1
-8,13.09.2025,Racing Club,San Lorenzo,0,0,Liga Argentina,X
+8,13.09.2025,Racing Club,San Lorenzo,2,0,Liga Argentina,1
 8,13.09.2025,Huracán,Vélez Sarsfield,0,0,Liga Argentina,X
-8,13.09.2025,Newell's Old Boys,Atlético Tucumán,,,Liga Argentina,
-8,13.09.2025,CA Lanús,Independiente Rivadavia,,,Liga Argentina,
+8,13.09.2025,Newell's Old Boys,Atlético Tucumán,0,0,Liga Argentina,X
+8,13.09.2025,CA Lanús,Independiente Rivadavia,1,0,Liga Argentina,1
 8,13.09.2025,Godoy Cruz,Barracas Central,,,Liga Argentina,
 8,13.09.2025,Independiente,Banfield,,,Liga Argentina,
 8,14.09.2025,Estudiantes,River Plate,,,Liga Argentina,
@@ -2071,8 +2071,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 22,31.08.2025,Deportes Iquique,Limache,2,1,Liga Chilena,1
 22,31.08.2025,Colo-Colo,Universidad de Chile,1,0,Liga Chilena,1
 22,01.09.2025,Ñublense,Unión Española,1,2,Liga Chilena,2
-23,12.09.2025,Coquimbo Unido,Ñublense,0,0,Liga Chilena,X
-23,13.09.2025,Unión La Calera,Everton,,,Liga Chilena,
+23,12.09.2025,Coquimbo Unido,Ñublense,2,1,Liga Chilena,1
+23,13.09.2025,Unión La Calera,Everton,1,0,Liga Chilena,1
 23,13.09.2025,Unión Española,Audax Italiano,,,Liga Chilena,
 23,13.09.2025,Palestino,O'Higgins,,,Liga Chilena,
 23,13.09.2025,Cobresal,Huachipato,,,Liga Chilena,
@@ -2476,7 +2476,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 10,08.09.2025,Independiente Medellín,Atlético Nacional,3,3,Liga Colombiana,X
 10,08.09.2025,Fortaleza FC,La Equidad,1,0,Liga Colombiana,1
 11,13.09.2025,Águilas Doradas,Independiente Medellín,,,Liga Colombiana,
-11,13.09.2025,Atlético Junior,La Equidad,,,Liga Colombiana,
+11,13.09.2025,Atlético Junior,La Equidad,0,0,Liga Colombiana,X
 11,13.09.2025,Fortaleza FC,América de Cali,,,Liga Colombiana,
 11,13.09.2025,Alianza FC,Millonarios,,,Liga Colombiana,
 11,14.09.2025,Once Caldas,Envigado FC,,,Liga Colombiana,
@@ -2971,7 +2971,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 27,31.08.2025,Deportivo Cuenca,Orense SC,1,1,Liga Ecuatoriana,X
 27,01.09.2025,Barcelona,Universidad Catolica,2,3,Liga Ecuatoriana,2
 27,02.09.2025,Delfín SC,Libertad de Loja,0,0,Liga Ecuatoriana,X
-28,13.09.2025,Libertad de Loja,LDU Quito,,,Liga Ecuatoriana,
+28,13.09.2025,Libertad de Loja,LDU Quito,0,1,Liga Ecuatoriana,2
 28,13.09.2025,Independiente del Valle,Vinotinto,,,Liga Ecuatoriana,
 28,13.09.2025,Universidad Catolica,Delfín SC,,,Liga Ecuatoriana,
 28,14.09.2025,Orense SC,Mushuc Runa,,,Liga Ecuatoriana,
@@ -5965,7 +5965,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,31.08.2025,CF América,CF Pachuca,2,0,Liga Mexicana,1
 7,01.09.2025,Pumas UNAM,Atlas Guadalajara,1,0,Liga Mexicana,1
 7,01.09.2025,Club Tijuana,Club Necaxa,3,0,Liga Mexicana,1
-8,13.09.2025,Club Necaxa,FC Juárez,,,Liga Mexicana,
+8,13.09.2025,Club Necaxa,FC Juárez,0,1,Liga Mexicana,2
 8,13.09.2025,Mazatlán FC,Pumas UNAM,,,Liga Mexicana,
 8,14.09.2025,CF Pachuca,Cruz Azul,,,Liga Mexicana,
 8,14.09.2025,Atlas Guadalajara,Santos Laguna,,,Liga Mexicana,
@@ -6524,7 +6524,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 11,08.09.2025,Sportivo Trinidense,Sportivo Ameliano,1,0,Liga Paraguaya,1
 11,18.09.2025,Cerro Porteño,Atlético Tembetary,,,Liga Paraguaya,
 12,12.09.2025,Atlético Tembetary,Sportivo Ameliano,2,3,Liga Paraguaya,2
-12,13.09.2025,2 de Mayo,Guaraní,0,0,Liga Paraguaya,X
+12,13.09.2025,2 de Mayo,Guaraní,1,0,Liga Paraguaya,1
 12,13.09.2025,General Caballero DJLM,Cerro Porteño,,,Liga Paraguaya,
 12,14.09.2025,Sportivo Luqueño,Libertad,,,Liga Paraguaya,
 12,14.09.2025,Club Nacional,Club Olimpia,,,Liga Paraguaya,
@@ -6661,7 +6661,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,14.09.2025,FBC Melgar,Universitario de Deportes,,,Liga Peruana,
 8,15.09.2025,Deportivo Binacional,AD Tarma,,,Liga Peruana,
 8,15.09.2025,Cusco FC,Sporting Cristal,,,Liga Peruana,
-9,17.09.2025,AD Tarma,Universidad Técnica,,,Liga Peruana,
+9,16.09.2025,AD Tarma,Universidad Técnica,,,Liga Peruana,
 9,18.09.2025,Sporting Cristal,Alianza Atlético,,,Liga Peruana,
 9,18.09.2025,Cienciano,Sport Boys,,,Liga Peruana,
 9,18.09.2025,Ayacucho FC,Cusco FC,,,Liga Peruana,
@@ -7249,8 +7249,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 9,01.09.2025,Anzoátegui FC,Academia Puerto Cabello,1,0,Liga Venezolana,1
 9,01.09.2025,Deportivo Táchira,Estudiantes de Mérida,4,0,Liga Venezolana,1
 9,02.09.2025,Caracas FC,Yaracuyanos FC,3,1,Liga Venezolana,1
-10,12.09.2025,Yaracuyanos FC,Anzoátegui FC,,,Liga Venezolana,
-10,13.09.2025,Metropolitanos FC,Estudiantes de Mérida,,,Liga Venezolana,
+10,12.09.2025,Yaracuyanos FC,Anzoátegui FC,2,1,Liga Venezolana,1
+10,13.09.2025,Metropolitanos FC,Estudiantes de Mérida,1,0,Liga Venezolana,1
 10,13.09.2025,Zamora FC,Rayo Zuliano,,,Liga Venezolana,
 10,14.09.2025,Academia Puerto Cabello,Deportivo La Guaira,,,Liga Venezolana,
 10,14.09.2025,Portuguesa FC,Deportivo Táchira,,,Liga Venezolana,
