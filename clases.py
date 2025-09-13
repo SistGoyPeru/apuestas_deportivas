@@ -77,6 +77,22 @@ class liga():
         df_liga = df_liga.filter(pl.col('GA') != 0).filter(pl.col('GC') != 0)
 
         return df_liga.height
+    
+    def AEMLocal(self,liga,local):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Local') == local)
+        
+        df_liga = df_liga.filter(pl.col('GA') != 0).filter(pl.col('GC') != 0)
+        
+        
+        return df_liga.height
+        
+    def AEMVisita(self,liga,visita):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Visita') == visita)
+        df_liga = df_liga.filter(pl.col('GA') != 0).filter(pl.col('GC') != 0)
+
+        return df_liga.height
 
     def PromGEFL(self, liga, local):
         df = self.df.filter(pl.col('Liga') == liga)
@@ -262,7 +278,7 @@ class liga():
 
     def liga05(self, liga):
         df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
-
+             
         df_liga = df_liga.with_columns(
             pl.when((pl.col("GA") + pl.col("GC")) > 0).then(pl.lit("05"))
             .alias("mas05")
@@ -271,6 +287,88 @@ class liga():
         df_liga = df_liga.filter(pl.col('mas05') == "05")
 
         return df_liga['mas05'].count()
+    
+    def liga05Local(self, liga,local):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        
+        df_liga = df_liga.filter(pl.col('Local') == local)
+      
+
+        df_liga = df_liga.with_columns(
+            pl.when((pl.col("GA") + pl.col("GC")) > 0).then(pl.lit("05"))
+            .alias("mas05")
+        )
+
+        df_liga = df_liga.filter(pl.col('mas05') == "05")
+        
+        return df_liga['mas05'].count()
+    
+    def liga15Local(self, liga,local):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Local') == local)
+
+        df_liga = df_liga.with_columns(
+            pl.when((pl.col("GA") + pl.col("GC")) > 1).then(pl.lit("15"))
+            .alias("mas15")
+        )
+
+        df_liga = df_liga.filter(pl.col('mas15') == "15")
+
+        return df_liga['mas15'].count()
+    
+    def liga25Local(self, liga,local):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Local') == local)
+
+        df_liga = df_liga.with_columns(
+            pl.when((pl.col("GA") + pl.col("GC")) > 2).then(pl.lit("25"))
+            .alias("mas25")
+        )
+
+        df_liga = df_liga.filter(pl.col('mas25') == "25")
+
+        return df_liga['mas25'].count()
+    
+    def liga05Visita(self, liga,visita):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        
+        df_liga = df_liga.filter(pl.col('Visita') == visita)
+      
+
+        df_liga = df_liga.with_columns(
+            pl.when((pl.col("GA") + pl.col("GC")) > 0).then(pl.lit("05"))
+            .alias("mas05")
+        )
+
+        df_liga = df_liga.filter(pl.col('mas05') == "05")
+        
+        return df_liga['mas05'].count()
+    
+    def liga15Visita(self, liga,visita):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Visita') == visita)
+
+        df_liga = df_liga.with_columns(
+            pl.when((pl.col("GA") + pl.col("GC")) > 1).then(pl.lit("15"))
+            .alias("mas15")
+        )
+
+        df_liga = df_liga.filter(pl.col('mas15') == "15")
+
+        return df_liga['mas15'].count()
+    
+    def liga25Visita(self, liga,visita):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Visita') == visita)
+
+        df_liga = df_liga.with_columns(
+            pl.when((pl.col("GA") + pl.col("GC")) > 2).then(pl.lit("25"))
+            .alias("mas25")
+        )
+
+        df_liga = df_liga.filter(pl.col('mas25') == "25")
+
+        return df_liga['mas25'].count()
 
     def liga15(self, liga):
         df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
@@ -336,22 +434,35 @@ class liga():
             return 0.0
         else:
             return df_liga['Resultado'].count()
-        
-    def TotalEmpatesEquipoLocal(self, liga, local): 
+
+    def TotalEmpatesEquipoLocal(self, liga, local):
         df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
         df_liga = df_liga.filter(pl.col('Local') == local)
-        
-      
-        
-        df_liga =df_liga.filter(pl.col('Resultado') == "X")
-                
+
+        df_liga = df_liga.filter(pl.col('Resultado') == "X")
+
         return df_liga['Resultado'].count()
-    
-    def TotalEmpatesEquipoVisita(self, liga, visita): 
+
+    def TotalEmpatesEquipoVisita(self, liga, visita):
         df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
         df_liga = df_liga.filter(pl.col('Visita') == visita)
-        
-        
-        df_liga =df_liga.filter(pl.col('Resultado') == "X")
-                
+
+        df_liga = df_liga.filter(pl.col('Resultado') == "X")
+
+        return df_liga['Resultado'].count()
+
+    def TotalPerdidasEquipoLocal(self, liga, local):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Local') == local)
+
+        df_liga = df_liga.filter(pl.col('Resultado') == "2")
+
+        return df_liga['Resultado'].count()
+
+    def TotalPerdidasEquipoVisita(self, liga, visita):
+        df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
+        df_liga = df_liga.filter(pl.col('Visita') == visita)
+
+        df_liga = df_liga.filter(pl.col('Resultado') == "1")
+
         return df_liga['Resultado'].count()
