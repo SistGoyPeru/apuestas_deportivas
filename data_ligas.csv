@@ -724,8 +724,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,13.09.2025,CA Lanús,Independiente Rivadavia,1,0,Liga Argentina,1
 8,13.09.2025,Godoy Cruz,Barracas Central,0,0,Liga Argentina,X
 8,13.09.2025,Independiente,Banfield,0,1,Liga Argentina,2
-8,14.09.2025,Estudiantes,River Plate,,,Liga Argentina,
-8,14.09.2025,Sarmiento de Junín,Aldosivi,,,Liga Argentina,
+8,14.09.2025,Estudiantes,River Plate,1,2,Liga Argentina,2
+8,14.09.2025,Sarmiento de Junín,Aldosivi,2,0,Liga Argentina,1
 8,14.09.2025,Gimnasia de La Plata,Unión de Santa Fe,,,Liga Argentina,
 8,14.09.2025,Instituto de Córdoba,Argentinos Juniors,,,Liga Argentina,
 8,14.09.2025,Rosario Central,Boca Juniors,,,Liga Argentina,
@@ -1238,8 +1238,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 19,12.09.2025,Universitario de Vinto,Real Tomayapo,1,0,Liga Boliviana,1
 19,13.09.2025,Bolívar,CD Guabirá,4,0,Liga Boliviana,1
 19,13.09.2025,Oriente Petrolero,CDT Real Oruro,3,0,Liga Boliviana,1
-19,13.09.2025,Nacional Potosí,San Antonio Bulo Bulo,,,Liga Boliviana,
-19,14.09.2025,Club Aurora,The Strongest,,,Liga Boliviana,
+19,13.09.2025,Nacional Potosí,San Antonio Bulo Bulo,2,3,Liga Boliviana,2
+19,14.09.2025,Club Aurora,The Strongest,2,1,Liga Boliviana,1
 19,14.09.2025,ABB,Jorge Wilstermann,,,Liga Boliviana,
 19,14.09.2025,GV San José,Always Ready,,,Liga Boliviana,
 19,15.09.2025,Independiente Petrolero,Blooming,,,Liga Boliviana,
@@ -1497,8 +1497,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 22,01.09.2025,Sport Recife - PE,Vasco da Gama - RJ,2,3,Liga Brasileña,2
 23,13.09.2025,Grêmio Porto Alegre,Mirassol - SP,0,1,Liga Brasileña,2
 23,13.09.2025,Fortaleza - CE,Vitória - BA,2,0,Liga Brasileña,1
-23,13.09.2025,Palmeiras,Internacional,2,0,Liga Brasileña,1
-23,14.09.2025,Fluminense RJ,Corinthians SP,,,Liga Brasileña,
+23,13.09.2025,Palmeiras,Internacional,4,1,Liga Brasileña,1
+23,14.09.2025,Fluminense RJ,Corinthians SP,0,1,Liga Brasileña,2
 23,14.09.2025,Red Bull Bragantino,Sport Recife - PE,,,Liga Brasileña,
 23,14.09.2025,Atlético Mineiro,Santos FC,,,Liga Brasileña,
 23,14.09.2025,Juventude - RS,Flamengo RJ,,,Liga Brasileña,
@@ -2075,8 +2075,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 23,13.09.2025,Unión La Calera,Everton,1,0,Liga Chilena,1
 23,13.09.2025,Unión Española,Audax Italiano,3,4,Liga Chilena,2
 23,13.09.2025,Palestino,O'Higgins,1,2,Liga Chilena,2
-23,13.09.2025,Cobresal,Huachipato,2,1,Liga Chilena,1
-23,14.09.2025,Limache,Universidad Católica,,,Liga Chilena,
+23,13.09.2025,Cobresal,Huachipato,3,2,Liga Chilena,1
+23,14.09.2025,Limache,Universidad Católica,0,1,Liga Chilena,2
 23,27.09.2025,Colo-Colo,Deportes Iquique,,,Liga Chilena,
 23,28.09.2025,La Serena,Universidad de Chile,,,Liga Chilena,
 24,19.10.2025,Universidad de Chile,Palestino,,,Liga Chilena,
@@ -2478,9 +2478,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 11,13.09.2025,Águilas Doradas,Independiente Medellín,,,Liga Colombiana,
 11,13.09.2025,Atlético Junior,La Equidad,1,1,Liga Colombiana,X
 11,13.09.2025,Fortaleza FC,América de Cali,1,0,Liga Colombiana,1
-11,13.09.2025,Alianza FC,Millonarios,0,0,Liga Colombiana,X
-11,14.09.2025,Once Caldas,Envigado FC,,,Liga Colombiana,
-11,14.09.2025,Atlético Nacional,Atlético Bucaramanga,,,Liga Colombiana,
+11,13.09.2025,Alianza FC,Millonarios,3,0,Liga Colombiana,1
+11,14.09.2025,Once Caldas,Envigado FC,1,0,Liga Colombiana,1
+11,14.09.2025,Atlético Nacional,Atlético Bucaramanga,0,1,Liga Colombiana,2
 11,14.09.2025,Santa Fe,Unión Magdalena,,,Liga Colombiana,
 11,14.09.2025,Deportivo Cali,Deportivo Pasto,,,Liga Colombiana,
 11,15.09.2025,Deportivo Pereira,Llaneros FC,,,Liga Colombiana,
@@ -2755,6 +2755,187 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 36,23.05.2026,HNK Rijeka,HNK Gorica,,,Liga Croacia,
 36,23.05.2026,NK Osijek,Slaven Belupo,,,Liga Croacia,
 36,23.05.2026,NK Varaždin,NK Istra 1961,,,Liga Croacia,
+1,18.07.2025,Viborg FF,FC København,2,3,Liga Dinamarca,2
+1,20.07.2025,FC Fredericia,FC Nordsjælland,2,3,Liga Dinamarca,2
+1,20.07.2025,Vejle BK,Randers FC,1,1,Liga Dinamarca,X
+1,20.07.2025,SønderjyskE,Aarhus GF,1,1,Liga Dinamarca,X
+1,20.07.2025,FC Midtjylland,Odense BK,3,3,Liga Dinamarca,X
+1,20.07.2025,Brøndby IF,Silkeborg IF,3,0,Liga Dinamarca,1
+2,25.07.2025,Aarhus GF,Randers FC,1,2,Liga Dinamarca,2
+2,26.07.2025,FC København,Vejle BK,2,0,Liga Dinamarca,1
+2,27.07.2025,Odense BK,Viborg FF,3,1,Liga Dinamarca,1
+2,27.07.2025,Silkeborg IF,FC Fredericia,0,2,Liga Dinamarca,2
+2,27.07.2025,FC Nordsjælland,Brøndby IF,0,1,Liga Dinamarca,2
+2,28.07.2025,FC Midtjylland,SønderjyskE,6,2,Liga Dinamarca,1
+3,01.08.2025,FC Fredericia,FC København,0,2,Liga Dinamarca,2
+3,01.08.2025,Vejle BK,Odense BK,4,0,Liga Dinamarca,1
+3,03.08.2025,Randers FC,Silkeborg IF,1,0,Liga Dinamarca,1
+3,03.08.2025,SønderjyskE,FC Nordsjælland,3,2,Liga Dinamarca,1
+3,03.08.2025,Aarhus GF,FC Midtjylland,0,0,Liga Dinamarca,X
+3,03.08.2025,Brøndby IF,Viborg FF,0,2,Liga Dinamarca,2
+4,08.08.2025,FC København,Aarhus GF,2,3,Liga Dinamarca,2
+4,08.08.2025,Viborg FF,SønderjyskE,1,0,Liga Dinamarca,1
+4,10.08.2025,FC Midtjylland,FC Fredericia,3,3,Liga Dinamarca,X
+4,10.08.2025,Silkeborg IF,FC Nordsjælland,4,2,Liga Dinamarca,1
+4,10.08.2025,Brøndby IF,Vejle BK,2,1,Liga Dinamarca,1
+4,11.08.2025,Odense BK,Randers FC,3,2,Liga Dinamarca,1
+5,15.08.2025,FC Nordsjælland,FC København,1,3,Liga Dinamarca,2
+5,15.08.2025,FC Fredericia,SønderjyskE,3,2,Liga Dinamarca,1
+5,17.08.2025,Vejle BK,FC Midtjylland,0,2,Liga Dinamarca,2
+5,17.08.2025,Viborg FF,Silkeborg IF,2,3,Liga Dinamarca,2
+5,17.08.2025,Randers FC,Brøndby IF,0,2,Liga Dinamarca,2
+5,18.08.2025,Odense BK,Aarhus GF,1,5,Liga Dinamarca,2
+6,23.08.2025,FC København,Odense BK,1,1,Liga Dinamarca,X
+6,24.08.2025,FC Fredericia,Randers FC,1,0,Liga Dinamarca,1
+6,24.08.2025,FC Midtjylland,Silkeborg IF,4,2,Liga Dinamarca,1
+6,24.08.2025,SønderjyskE,Brøndby IF,2,0,Liga Dinamarca,1
+6,24.08.2025,Aarhus GF,Vejle BK,1,0,Liga Dinamarca,1
+6,25.08.2025,FC Nordsjælland,Viborg FF,1,0,Liga Dinamarca,1
+7,29.08.2025,Vejle BK,Viborg FF,1,2,Liga Dinamarca,2
+7,31.08.2025,Aarhus GF,FC Fredericia,4,1,Liga Dinamarca,1
+7,31.08.2025,Silkeborg IF,SønderjyskE,0,2,Liga Dinamarca,2
+7,31.08.2025,Odense BK,FC Nordsjælland,1,2,Liga Dinamarca,2
+7,31.08.2025,Randers FC,FC København,1,5,Liga Dinamarca,2
+7,31.08.2025,Brøndby IF,FC Midtjylland,1,3,Liga Dinamarca,2
+8,12.09.2025,SønderjyskE,Randers FC,0,1,Liga Dinamarca,2
+8,13.09.2025,Brøndby IF,FC København,2,1,Liga Dinamarca,1
+8,14.09.2025,Viborg FF,Aarhus GF,,,Liga Dinamarca,
+8,14.09.2025,FC Nordsjælland,FC Midtjylland,,,Liga Dinamarca,
+8,14.09.2025,Silkeborg IF,Odense BK,,,Liga Dinamarca,
+8,15.09.2025,FC Fredericia,Vejle BK,,,Liga Dinamarca,
+9,19.09.2025,Odense BK,FC Fredericia,,,Liga Dinamarca,
+9,20.09.2025,FC Midtjylland,Viborg FF,,,Liga Dinamarca,
+9,21.09.2025,Vejle BK,SønderjyskE,,,Liga Dinamarca,
+9,21.09.2025,FC København,Silkeborg IF,,,Liga Dinamarca,
+9,21.09.2025,Aarhus GF,Brøndby IF,,,Liga Dinamarca,
+9,22.09.2025,Randers FC,FC Nordsjælland,,,Liga Dinamarca,
+10,27.09.2025,SønderjyskE,FC København,,,Liga Dinamarca,
+10,28.09.2025,Viborg FF,FC Fredericia,,,Liga Dinamarca,
+10,28.09.2025,Silkeborg IF,Vejle BK,,,Liga Dinamarca,
+10,28.09.2025,FC Nordsjælland,Aarhus GF,,,Liga Dinamarca,
+10,28.09.2025,Brøndby IF,Odense BK,,,Liga Dinamarca,
+10,29.09.2025,FC Midtjylland,Randers FC,,,Liga Dinamarca,
+11,03.10.2025,Odense BK,SønderjyskE,,,Liga Dinamarca,
+11,05.10.2025,Randers FC,Viborg FF,,,Liga Dinamarca,
+11,05.10.2025,Vejle BK,FC Nordsjælland,,,Liga Dinamarca,
+11,05.10.2025,Aarhus GF,Silkeborg IF,,,Liga Dinamarca,
+11,05.10.2025,FC København,FC Midtjylland,,,Liga Dinamarca,
+11,05.10.2025,FC Fredericia,Brøndby IF,,,Liga Dinamarca,
+12,17.10.2025,Silkeborg IF,FC København,,,Liga Dinamarca,
+12,19.10.2025,FC Nordsjælland,Randers FC,,,Liga Dinamarca,
+12,19.10.2025,Viborg FF,Odense BK,,,Liga Dinamarca,
+12,19.10.2025,Brøndby IF,Aarhus GF,,,Liga Dinamarca,
+12,19.10.2025,FC Midtjylland,Vejle BK,,,Liga Dinamarca,
+12,20.10.2025,SønderjyskE,FC Fredericia,,,Liga Dinamarca,
+13,24.10.2025,Aarhus GF,FC Nordsjælland,,,Liga Dinamarca,
+13,26.10.2025,FC Fredericia,FC Midtjylland,,,Liga Dinamarca,
+13,26.10.2025,Vejle BK,Silkeborg IF,,,Liga Dinamarca,
+13,26.10.2025,Randers FC,SønderjyskE,,,Liga Dinamarca,
+13,26.10.2025,FC København,Viborg FF,,,Liga Dinamarca,
+13,27.10.2025,Odense BK,Brøndby IF,,,Liga Dinamarca,
+14,01.11.2025,FC København,FC Fredericia,,,Liga Dinamarca,
+14,02.11.2025,Viborg FF,Randers FC,,,Liga Dinamarca,
+14,02.11.2025,SønderjyskE,Vejle BK,,,Liga Dinamarca,
+14,02.11.2025,FC Nordsjælland,Odense BK,,,Liga Dinamarca,
+14,02.11.2025,Silkeborg IF,Brøndby IF,,,Liga Dinamarca,
+14,03.11.2025,FC Midtjylland,Aarhus GF,,,Liga Dinamarca,
+15,07.11.2025,Odense BK,Silkeborg IF,,,Liga Dinamarca,
+15,09.11.2025,FC Fredericia,Viborg FF,,,Liga Dinamarca,
+15,09.11.2025,Vejle BK,FC København,,,Liga Dinamarca,
+15,09.11.2025,Randers FC,FC Midtjylland,,,Liga Dinamarca,
+15,09.11.2025,Aarhus GF,SønderjyskE,,,Liga Dinamarca,
+15,09.11.2025,Brøndby IF,FC Nordsjælland,,,Liga Dinamarca,
+16,21.11.2025,Silkeborg IF,Aarhus GF,,,Liga Dinamarca,
+16,23.11.2025,FC København,Brøndby IF,,,Liga Dinamarca,
+16,23.11.2025,Viborg FF,Vejle BK,,,Liga Dinamarca,
+16,23.11.2025,FC Nordsjælland,FC Fredericia,,,Liga Dinamarca,
+16,23.11.2025,SønderjyskE,FC Midtjylland,,,Liga Dinamarca,
+16,24.11.2025,Randers FC,Odense BK,,,Liga Dinamarca,
+17,28.11.2025,SønderjyskE,Viborg FF,,,Liga Dinamarca,
+17,30.11.2025,Aarhus GF,FC København,,,Liga Dinamarca,
+17,30.11.2025,Silkeborg IF,Randers FC,,,Liga Dinamarca,
+17,30.11.2025,FC Midtjylland,FC Nordsjælland,,,Liga Dinamarca,
+17,30.11.2025,Odense BK,Vejle BK,,,Liga Dinamarca,
+17,01.12.2025,Brøndby IF,FC Fredericia,,,Liga Dinamarca,
+18,05.12.2025,FC Fredericia,Odense BK,,,Liga Dinamarca,
+18,07.12.2025,FC Nordsjælland,Silkeborg IF,,,Liga Dinamarca,
+18,07.12.2025,Viborg FF,FC Midtjylland,,,Liga Dinamarca,
+18,07.12.2025,Randers FC,Aarhus GF,,,Liga Dinamarca,
+18,07.12.2025,FC København,SønderjyskE,,,Liga Dinamarca,
+18,08.12.2025,Vejle BK,Brøndby IF,,,Liga Dinamarca,
+19,08.02.2026,Aarhus GF,Odense BK,,,Liga Dinamarca,
+19,08.02.2026,Brøndby IF,Randers FC,,,Liga Dinamarca,
+19,08.02.2026,FC Midtjylland,FC København,,,Liga Dinamarca,
+19,08.02.2026,FC Nordsjælland,SønderjyskE,,,Liga Dinamarca,
+19,08.02.2026,Silkeborg IF,Viborg FF,,,Liga Dinamarca,
+19,08.02.2026,Vejle BK,FC Fredericia,,,Liga Dinamarca,
+20,15.02.2026,FC Fredericia,Aarhus GF,,,Liga Dinamarca,
+20,15.02.2026,FC København,FC Nordsjælland,,,Liga Dinamarca,
+20,15.02.2026,Odense BK,FC Midtjylland,,,Liga Dinamarca,
+20,15.02.2026,Randers FC,Vejle BK,,,Liga Dinamarca,
+20,15.02.2026,SønderjyskE,Silkeborg IF,,,Liga Dinamarca,
+20,15.02.2026,Viborg FF,Brøndby IF,,,Liga Dinamarca,
+21,22.02.2026,Aarhus GF,Viborg FF,,,Liga Dinamarca,
+21,22.02.2026,Brøndby IF,SønderjyskE,,,Liga Dinamarca,
+21,22.02.2026,FC Nordsjælland,Vejle BK,,,Liga Dinamarca,
+21,22.02.2026,Odense BK,FC København,,,Liga Dinamarca,
+21,22.02.2026,Randers FC,FC Fredericia,,,Liga Dinamarca,
+21,22.02.2026,Silkeborg IF,FC Midtjylland,,,Liga Dinamarca,
+22,01.03.2026,FC Fredericia,Silkeborg IF,,,Liga Dinamarca,
+22,01.03.2026,FC København,Randers FC,,,Liga Dinamarca,
+22,01.03.2026,FC Midtjylland,Brøndby IF,,,Liga Dinamarca,
+22,01.03.2026,SønderjyskE,Odense BK,,,Liga Dinamarca,
+22,01.03.2026,Vejle BK,Aarhus GF,,,Liga Dinamarca,
+22,01.03.2026,Viborg FF,FC Nordsjælland,,,Liga Dinamarca,
+1,16.08.2025,Shabab Al Ahli Club,Al Dhafra,2,0,Liga EAU,1
+1,16.08.2025,Dibba Al Fujairah,Sharjah FC,1,3,Liga EAU,2
+1,16.08.2025,Al Ain FC,Al Bataeh,2,1,Liga EAU,1
+1,16.08.2025,Ittihad Kalba SCC,Al Nasr SC,0,1,Liga EAU,2
+1,17.08.2025,Ajman Club,Al Wahda,0,2,Liga EAU,2
+1,17.08.2025,Khor Fakkan Club,Al Jazira Club,3,2,Liga EAU,1
+1,17.08.2025,Al Wasl,Baniyas SC,2,0,Liga EAU,1
+2,22.08.2025,Baniyas SC,Ittihad Kalba SCC,0,1,Liga EAU,2
+2,22.08.2025,Sharjah FC,Al Jazira Club,0,1,Liga EAU,2
+2,23.08.2025,Al Dhafra,Al Wasl,3,1,Liga EAU,1
+2,23.08.2025,Dibba Al Fujairah,Al Ain FC,2,3,Liga EAU,2
+2,23.08.2025,Al Wahda,Shabab Al Ahli Club,0,0,Liga EAU,X
+2,24.08.2025,Al Bataeh,Khor Fakkan Club,2,1,Liga EAU,1
+2,24.08.2025,Al Nasr SC,Ajman Club,1,0,Liga EAU,1
+3,11.09.2025,Ittihad Kalba SCC,Al Wahda,0,0,Liga EAU,X
+3,11.09.2025,Shabab Al Ahli Club,Baniyas SC,1,0,Liga EAU,1
+3,11.09.2025,Khor Fakkan Club,Sharjah FC,2,2,Liga EAU,X
+3,12.09.2025,Al Dhafra,Dibba Al Fujairah,2,1,Liga EAU,1
+3,12.09.2025,Ajman Club,Al Bataeh,1,0,Liga EAU,1
+3,13.09.2025,Al Jazira Club,Al Nasr SC,0,0,Liga EAU,X
+3,13.09.2025,Al Wasl,Al Ain FC,1,1,Liga EAU,X
+4,19.09.2025,Al Wahda,Al Dhafra,,,Liga EAU,
+4,19.09.2025,Baniyas SC,Al Jazira Club,,,Liga EAU,
+4,20.09.2025,Al Ain FC,Khor Fakkan Club,,,Liga EAU,
+4,20.09.2025,Dibba Al Fujairah,Ittihad Kalba SCC,,,Liga EAU,
+4,20.09.2025,Al Nasr SC,Shabab Al Ahli Club,,,Liga EAU,
+4,21.09.2025,Al Bataeh,Al Wasl,,,Liga EAU,
+4,21.09.2025,Sharjah FC,Ajman Club,,,Liga EAU,
+5,24.09.2025,Khor Fakkan Club,Ittihad Kalba SCC,,,Liga EAU,
+5,24.09.2025,Al Jazira Club,Al Wahda,,,Liga EAU,
+5,25.09.2025,Shabab Al Ahli Club,Al Ain FC,,,Liga EAU,
+5,25.09.2025,Al Wasl,Sharjah FC,,,Liga EAU,
+5,26.09.2025,Al Dhafra,Al Bataeh,,,Liga EAU,
+5,26.09.2025,Baniyas SC,Ajman Club,,,Liga EAU,
+5,26.09.2025,Al Nasr SC,Dibba Al Fujairah,,,Liga EAU,
+6,16.10.2025,Al Bataeh,Al Wahda,,,Liga EAU,
+6,16.10.2025,Sharjah FC,Al Dhafra,,,Liga EAU,
+6,16.10.2025,Ittihad Kalba SCC,Shabab Al Ahli Club,,,Liga EAU,
+6,17.10.2025,Ajman Club,Khor Fakkan Club,,,Liga EAU,
+6,17.10.2025,Dibba Al Fujairah,Al Jazira Club,,,Liga EAU,
+6,17.10.2025,Al Wasl,Al Nasr SC,,,Liga EAU,
+6,17.10.2025,Al Ain FC,Baniyas SC,,,Liga EAU,
+7,30.10.2025,Al Wahda,Al Nasr SC,,,Liga EAU,
+7,30.10.2025,Ajman Club,Al Ain FC,,,Liga EAU,
+7,30.10.2025,Shabab Al Ahli Club,Sharjah FC,,,Liga EAU,
+7,31.10.2025,Baniyas SC,Dibba Al Fujairah,,,Liga EAU,
+7,31.10.2025,Khor Fakkan Club,Al Wasl,,,Liga EAU,
+7,01.11.2025,Al Dhafra,Ittihad Kalba SCC,,,Liga EAU,
+7,01.11.2025,Al Jazira Club,Al Bataeh,,,Liga EAU,
 1,15.02.2025,Manta,Barcelona,2,3,Liga Ecuatoriana,2
 1,15.02.2025,Aucas,Técnico Universitario,4,1,Liga Ecuatoriana,1
 1,15.02.2025,Libertad de Loja,Independiente del Valle,2,0,Liga Ecuatoriana,1
@@ -2973,8 +3154,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 27,02.09.2025,Delfín SC,Libertad de Loja,0,0,Liga Ecuatoriana,X
 28,13.09.2025,Libertad de Loja,LDU Quito,0,1,Liga Ecuatoriana,2
 28,13.09.2025,Independiente del Valle,Vinotinto,3,1,Liga Ecuatoriana,1
-28,13.09.2025,Universidad Catolica,Delfín SC,0,0,Liga Ecuatoriana,X
-28,14.09.2025,Orense SC,Mushuc Runa,,,Liga Ecuatoriana,
+28,13.09.2025,Universidad Catolica,Delfín SC,1,1,Liga Ecuatoriana,X
+28,14.09.2025,Orense SC,Mushuc Runa,3,1,Liga Ecuatoriana,1
 28,14.09.2025,El Nacional,Macará,,,Liga Ecuatoriana,
 28,14.09.2025,Técnico Universitario,Deportivo Cuenca,,,Liga Ecuatoriana,
 28,15.09.2025,Emelec,Barcelona,,,Liga Ecuatoriana,
@@ -3055,9 +3236,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 10,07.09.2025,Zacatecoluca FC,Alianza,0,1,Liga El salvador,2
 10,08.09.2025,FAS,Luis Ángel Firpo,2,3,Liga El salvador,2
 10,12.09.2025,Hércules,Platense Zacatecoluca,1,3,Liga El salvador,2
-11,14.09.2025,Inter FA,Zacatecoluca FC,,,Liga El salvador,
-11,14.09.2025,Luis Ángel Firpo,CD Águila,,,Liga El salvador,
-11,14.09.2025,Isidro Metapán,Hércules,,,Liga El salvador,
+11,14.09.2025,Inter FA,Zacatecoluca FC,1,1,Liga El salvador,X
+11,14.09.2025,Luis Ángel Firpo,CD Águila,1,0,Liga El salvador,1
+11,14.09.2025,Isidro Metapán,Hércules,3,1,Liga El salvador,1
 11,14.09.2025,Alianza,Fuerte San Francisco,,,Liga El salvador,
 11,14.09.2025,CD Cacahuatique,Municipal Limeño,,,Liga El salvador,
 11,14.09.2025,Platense Zacatecoluca,FAS,,,Liga El salvador,
@@ -4515,6 +4696,312 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 34,16.05.2026,Lille,AJ Auxerre,,,Liga Francesa,
 34,16.05.2026,RC Strasbourg,Mónaco,,,Liga Francesa,
 34,16.05.2026,Stade Brestois 29,Angers,,,Liga Francesa,
+1,12.09.2025,Hearts of Oak,Hohoe United,0,0,Liga Ghana,X
+1,13.09.2025,Berekum Chelsea,Asante Kotoko,0,1,Liga Ghana,2
+1,13.09.2025,Bibiani Gold Stars,Bechem United,2,1,Liga Ghana,1
+1,14.09.2025,Heart of Lions,Dreams FC,,,Liga Ghana,
+1,14.09.2025,Basake Holy Stars,Eleven Wonders,,,Liga Ghana,
+1,14.09.2025,Karela United,Aduana Stars,,,Liga Ghana,
+1,14.09.2025,Nations FC,All Blacks,,,Liga Ghana,
+1,14.09.2025,Vision FC,Samartex,,,Liga Ghana,
+1,14.09.2025,Young Apostles,Medeama SC,,,Liga Ghana,
+2,20.09.2025,Aduana Stars,Nations FC,,,Liga Ghana,
+2,20.09.2025,Asante Kotoko,Bibiani Gold Stars,,,Liga Ghana,
+2,20.09.2025,Bechem United,Basake Holy Stars,,,Liga Ghana,
+2,20.09.2025,Dreams FC,Hearts of Oak,,,Liga Ghana,
+2,20.09.2025,Eleven Wonders,Heart of Lions,,,Liga Ghana,
+2,20.09.2025,Hohoe United,Young Apostles,,,Liga Ghana,
+2,20.09.2025,Medeama SC,Vision FC,,,Liga Ghana,
+2,20.09.2025,Samartex,Karela United,,,Liga Ghana,
+2,20.09.2025,All Blacks,Berekum Chelsea,,,Liga Ghana,
+3,27.09.2025,Aduana Stars,All Blacks,,,Liga Ghana,
+3,27.09.2025,Bibiani Gold Stars,Berekum Chelsea,,,Liga Ghana,
+3,27.09.2025,Heart of Lions,Bechem United,,,Liga Ghana,
+3,27.09.2025,Hearts of Oak,Eleven Wonders,,,Liga Ghana,
+3,27.09.2025,Basake Holy Stars,Asante Kotoko,,,Liga Ghana,
+3,27.09.2025,Karela United,Medeama SC,,,Liga Ghana,
+3,27.09.2025,Nations FC,Samartex,,,Liga Ghana,
+3,27.09.2025,Vision FC,Hohoe United,,,Liga Ghana,
+3,27.09.2025,Young Apostles,Dreams FC,,,Liga Ghana,
+4,04.10.2025,Asante Kotoko,Heart of Lions,,,Liga Ghana,
+4,04.10.2025,Bechem United,Hearts of Oak,,,Liga Ghana,
+4,04.10.2025,Berekum Chelsea,Basake Holy Stars,,,Liga Ghana,
+4,04.10.2025,Dreams FC,Vision FC,,,Liga Ghana,
+4,04.10.2025,Eleven Wonders,Young Apostles,,,Liga Ghana,
+4,04.10.2025,Hohoe United,Karela United,,,Liga Ghana,
+4,04.10.2025,Medeama SC,Nations FC,,,Liga Ghana,
+4,04.10.2025,Samartex,Aduana Stars,,,Liga Ghana,
+4,04.10.2025,All Blacks,Bibiani Gold Stars,,,Liga Ghana,
+5,11.10.2025,Aduana Stars,Medeama SC,,,Liga Ghana,
+5,11.10.2025,Heart of Lions,Berekum Chelsea,,,Liga Ghana,
+5,11.10.2025,Hearts of Oak,Asante Kotoko,,,Liga Ghana,
+5,11.10.2025,Basake Holy Stars,Bibiani Gold Stars,,,Liga Ghana,
+5,11.10.2025,Karela United,Dreams FC,,,Liga Ghana,
+5,11.10.2025,Nations FC,Hohoe United,,,Liga Ghana,
+5,11.10.2025,Samartex,All Blacks,,,Liga Ghana,
+5,11.10.2025,Vision FC,Eleven Wonders,,,Liga Ghana,
+5,11.10.2025,Young Apostles,Bechem United,,,Liga Ghana,
+6,18.10.2025,Asante Kotoko,Young Apostles,,,Liga Ghana,
+6,18.10.2025,Bechem United,Vision FC,,,Liga Ghana,
+6,18.10.2025,Berekum Chelsea,Hearts of Oak,,,Liga Ghana,
+6,18.10.2025,Bibiani Gold Stars,Heart of Lions,,,Liga Ghana,
+6,18.10.2025,Dreams FC,Nations FC,,,Liga Ghana,
+6,18.10.2025,Eleven Wonders,Karela United,,,Liga Ghana,
+6,18.10.2025,Hohoe United,Aduana Stars,,,Liga Ghana,
+6,18.10.2025,Medeama SC,Samartex,,,Liga Ghana,
+6,18.10.2025,All Blacks,Basake Holy Stars,,,Liga Ghana,
+7,25.10.2025,Aduana Stars,Dreams FC,,,Liga Ghana,
+7,25.10.2025,Heart of Lions,Basake Holy Stars,,,Liga Ghana,
+7,25.10.2025,Hearts of Oak,Bibiani Gold Stars,,,Liga Ghana,
+7,25.10.2025,Karela United,Bechem United,,,Liga Ghana,
+7,25.10.2025,Medeama SC,All Blacks,,,Liga Ghana,
+7,25.10.2025,Nations FC,Eleven Wonders,,,Liga Ghana,
+7,25.10.2025,Samartex,Hohoe United,,,Liga Ghana,
+7,25.10.2025,Vision FC,Asante Kotoko,,,Liga Ghana,
+7,25.10.2025,Young Apostles,Berekum Chelsea,,,Liga Ghana,
+8,01.11.2025,Asante Kotoko,Karela United,,,Liga Ghana,
+8,01.11.2025,Bechem United,Nations FC,,,Liga Ghana,
+8,01.11.2025,Berekum Chelsea,Vision FC,,,Liga Ghana,
+8,01.11.2025,Bibiani Gold Stars,Young Apostles,,,Liga Ghana,
+8,01.11.2025,Dreams FC,Samartex,,,Liga Ghana,
+8,01.11.2025,Eleven Wonders,Aduana Stars,,,Liga Ghana,
+8,01.11.2025,Hohoe United,Medeama SC,,,Liga Ghana,
+8,01.11.2025,Basake Holy Stars,Hearts of Oak,,,Liga Ghana,
+8,01.11.2025,All Blacks,Heart of Lions,,,Liga Ghana,
+9,08.11.2025,Aduana Stars,Bechem United,,,Liga Ghana,
+9,08.11.2025,Hearts of Oak,Heart of Lions,,,Liga Ghana,
+9,08.11.2025,Hohoe United,All Blacks,,,Liga Ghana,
+9,08.11.2025,Karela United,Berekum Chelsea,,,Liga Ghana,
+9,08.11.2025,Medeama SC,Dreams FC,,,Liga Ghana,
+9,08.11.2025,Nations FC,Asante Kotoko,,,Liga Ghana,
+9,08.11.2025,Samartex,Eleven Wonders,,,Liga Ghana,
+9,08.11.2025,Vision FC,Bibiani Gold Stars,,,Liga Ghana,
+9,08.11.2025,Young Apostles,Basake Holy Stars,,,Liga Ghana,
+10,15.11.2025,Asante Kotoko,Aduana Stars,,,Liga Ghana,
+10,15.11.2025,Bechem United,Samartex,,,Liga Ghana,
+10,15.11.2025,Berekum Chelsea,Nations FC,,,Liga Ghana,
+10,15.11.2025,Bibiani Gold Stars,Karela United,,,Liga Ghana,
+10,15.11.2025,Dreams FC,Hohoe United,,,Liga Ghana,
+10,15.11.2025,Eleven Wonders,Medeama SC,,,Liga Ghana,
+10,15.11.2025,Heart of Lions,Young Apostles,,,Liga Ghana,
+10,15.11.2025,Basake Holy Stars,Vision FC,,,Liga Ghana,
+10,15.11.2025,All Blacks,Hearts of Oak,,,Liga Ghana,
+11,22.11.2025,Aduana Stars,Berekum Chelsea,,,Liga Ghana,
+11,22.11.2025,Dreams FC,All Blacks,,,Liga Ghana,
+11,22.11.2025,Hohoe United,Eleven Wonders,,,Liga Ghana,
+11,22.11.2025,Karela United,Basake Holy Stars,,,Liga Ghana,
+11,22.11.2025,Medeama SC,Bechem United,,,Liga Ghana,
+11,22.11.2025,Nations FC,Bibiani Gold Stars,,,Liga Ghana,
+11,22.11.2025,Samartex,Asante Kotoko,,,Liga Ghana,
+11,22.11.2025,Vision FC,Heart of Lions,,,Liga Ghana,
+11,22.11.2025,Young Apostles,Hearts of Oak,,,Liga Ghana,
+12,29.11.2025,Asante Kotoko,Medeama SC,,,Liga Ghana,
+12,29.11.2025,Bechem United,Hohoe United,,,Liga Ghana,
+12,29.11.2025,Berekum Chelsea,Samartex,,,Liga Ghana,
+12,29.11.2025,Bibiani Gold Stars,Aduana Stars,,,Liga Ghana,
+12,29.11.2025,Eleven Wonders,Dreams FC,,,Liga Ghana,
+12,29.11.2025,Heart of Lions,Karela United,,,Liga Ghana,
+12,29.11.2025,Hearts of Oak,Vision FC,,,Liga Ghana,
+12,29.11.2025,Basake Holy Stars,Nations FC,,,Liga Ghana,
+12,29.11.2025,All Blacks,Young Apostles,,,Liga Ghana,
+13,06.12.2025,Aduana Stars,Basake Holy Stars,,,Liga Ghana,
+13,06.12.2025,Dreams FC,Bechem United,,,Liga Ghana,
+13,06.12.2025,Eleven Wonders,All Blacks,,,Liga Ghana,
+13,06.12.2025,Hohoe United,Asante Kotoko,,,Liga Ghana,
+13,06.12.2025,Karela United,Hearts of Oak,,,Liga Ghana,
+13,06.12.2025,Medeama SC,Berekum Chelsea,,,Liga Ghana,
+13,06.12.2025,Nations FC,Heart of Lions,,,Liga Ghana,
+13,06.12.2025,Samartex,Bibiani Gold Stars,,,Liga Ghana,
+13,06.12.2025,Vision FC,Young Apostles,,,Liga Ghana,
+14,13.12.2025,Asante Kotoko,Dreams FC,,,Liga Ghana,
+14,13.12.2025,Bechem United,Eleven Wonders,,,Liga Ghana,
+14,13.12.2025,Berekum Chelsea,Hohoe United,,,Liga Ghana,
+14,13.12.2025,Bibiani Gold Stars,Medeama SC,,,Liga Ghana,
+14,13.12.2025,Heart of Lions,Aduana Stars,,,Liga Ghana,
+14,13.12.2025,Hearts of Oak,Nations FC,,,Liga Ghana,
+14,13.12.2025,Basake Holy Stars,Samartex,,,Liga Ghana,
+14,13.12.2025,All Blacks,Vision FC,,,Liga Ghana,
+14,13.12.2025,Young Apostles,Karela United,,,Liga Ghana,
+15,20.12.2025,Aduana Stars,Hearts of Oak,,,Liga Ghana,
+15,20.12.2025,Bechem United,All Blacks,,,Liga Ghana,
+15,20.12.2025,Dreams FC,Berekum Chelsea,,,Liga Ghana,
+15,20.12.2025,Eleven Wonders,Asante Kotoko,,,Liga Ghana,
+15,20.12.2025,Hohoe United,Bibiani Gold Stars,,,Liga Ghana,
+15,20.12.2025,Karela United,Vision FC,,,Liga Ghana,
+15,20.12.2025,Medeama SC,Basake Holy Stars,,,Liga Ghana,
+15,20.12.2025,Nations FC,Young Apostles,,,Liga Ghana,
+15,20.12.2025,Samartex,Heart of Lions,,,Liga Ghana,
+16,27.12.2025,Asante Kotoko,Bechem United,,,Liga Ghana,
+16,27.12.2025,Berekum Chelsea,Eleven Wonders,,,Liga Ghana,
+16,27.12.2025,Bibiani Gold Stars,Dreams FC,,,Liga Ghana,
+16,27.12.2025,Heart of Lions,Medeama SC,,,Liga Ghana,
+16,27.12.2025,Hearts of Oak,Samartex,,,Liga Ghana,
+16,27.12.2025,Basake Holy Stars,Hohoe United,,,Liga Ghana,
+16,27.12.2025,All Blacks,Karela United,,,Liga Ghana,
+16,27.12.2025,Vision FC,Nations FC,,,Liga Ghana,
+16,27.12.2025,Young Apostles,Aduana Stars,,,Liga Ghana,
+17,03.01.2026,Aduana Stars,Vision FC,,,Liga Ghana,
+17,03.01.2026,Bechem United,Berekum Chelsea,,,Liga Ghana,
+17,03.01.2026,Dreams FC,Basake Holy Stars,,,Liga Ghana,
+17,03.01.2026,Eleven Wonders,Bibiani Gold Stars,,,Liga Ghana,
+17,03.01.2026,Hohoe United,Heart of Lions,,,Liga Ghana,
+17,03.01.2026,Medeama SC,Hearts of Oak,,,Liga Ghana,
+17,03.01.2026,Nations FC,Karela United,,,Liga Ghana,
+17,03.01.2026,Samartex,Young Apostles,,,Liga Ghana,
+17,03.01.2026,All Blacks,Asante Kotoko,,,Liga Ghana,
+18,10.01.2026,Aduana Stars,Karela United,,,Liga Ghana,
+18,10.01.2026,Asante Kotoko,Berekum Chelsea,,,Liga Ghana,
+18,10.01.2026,Bechem United,Bibiani Gold Stars,,,Liga Ghana,
+18,10.01.2026,Dreams FC,Heart of Lions,,,Liga Ghana,
+18,10.01.2026,Eleven Wonders,Basake Holy Stars,,,Liga Ghana,
+18,10.01.2026,Hohoe United,Hearts of Oak,,,Liga Ghana,
+18,10.01.2026,Medeama SC,Young Apostles,,,Liga Ghana,
+18,10.01.2026,Samartex,Vision FC,,,Liga Ghana,
+18,10.01.2026,All Blacks,Nations FC,,,Liga Ghana,
+19,17.01.2026,Berekum Chelsea,All Blacks,,,Liga Ghana,
+19,17.01.2026,Bibiani Gold Stars,Asante Kotoko,,,Liga Ghana,
+19,17.01.2026,Heart of Lions,Eleven Wonders,,,Liga Ghana,
+19,17.01.2026,Hearts of Oak,Dreams FC,,,Liga Ghana,
+19,17.01.2026,Basake Holy Stars,Bechem United,,,Liga Ghana,
+19,17.01.2026,Karela United,Samartex,,,Liga Ghana,
+19,17.01.2026,Nations FC,Aduana Stars,,,Liga Ghana,
+19,17.01.2026,Vision FC,Medeama SC,,,Liga Ghana,
+19,17.01.2026,Young Apostles,Hohoe United,,,Liga Ghana,
+20,24.01.2026,Asante Kotoko,Basake Holy Stars,,,Liga Ghana,
+20,24.01.2026,Bechem United,Heart of Lions,,,Liga Ghana,
+20,24.01.2026,Berekum Chelsea,Bibiani Gold Stars,,,Liga Ghana,
+20,24.01.2026,Dreams FC,Young Apostles,,,Liga Ghana,
+20,24.01.2026,Eleven Wonders,Hearts of Oak,,,Liga Ghana,
+20,24.01.2026,Hohoe United,Vision FC,,,Liga Ghana,
+20,24.01.2026,Medeama SC,Karela United,,,Liga Ghana,
+20,24.01.2026,Samartex,Nations FC,,,Liga Ghana,
+20,24.01.2026,All Blacks,Aduana Stars,,,Liga Ghana,
+21,31.01.2026,Aduana Stars,Samartex,,,Liga Ghana,
+21,31.01.2026,Bibiani Gold Stars,All Blacks,,,Liga Ghana,
+21,31.01.2026,Heart of Lions,Asante Kotoko,,,Liga Ghana,
+21,31.01.2026,Hearts of Oak,Bechem United,,,Liga Ghana,
+21,31.01.2026,Basake Holy Stars,Berekum Chelsea,,,Liga Ghana,
+21,31.01.2026,Karela United,Hohoe United,,,Liga Ghana,
+21,31.01.2026,Nations FC,Medeama SC,,,Liga Ghana,
+21,31.01.2026,Vision FC,Dreams FC,,,Liga Ghana,
+21,31.01.2026,Young Apostles,Eleven Wonders,,,Liga Ghana,
+22,14.02.2026,Asante Kotoko,Hearts of Oak,,,Liga Ghana,
+22,14.02.2026,Bechem United,Young Apostles,,,Liga Ghana,
+22,14.02.2026,Berekum Chelsea,Heart of Lions,,,Liga Ghana,
+22,14.02.2026,Bibiani Gold Stars,Basake Holy Stars,,,Liga Ghana,
+22,14.02.2026,Dreams FC,Karela United,,,Liga Ghana,
+22,14.02.2026,Eleven Wonders,Vision FC,,,Liga Ghana,
+22,14.02.2026,Hohoe United,Nations FC,,,Liga Ghana,
+22,14.02.2026,Medeama SC,Aduana Stars,,,Liga Ghana,
+22,14.02.2026,All Blacks,Samartex,,,Liga Ghana,
+23,21.02.2026,Aduana Stars,Hohoe United,,,Liga Ghana,
+23,21.02.2026,Heart of Lions,Bibiani Gold Stars,,,Liga Ghana,
+23,21.02.2026,Hearts of Oak,Berekum Chelsea,,,Liga Ghana,
+23,21.02.2026,Basake Holy Stars,All Blacks,,,Liga Ghana,
+23,21.02.2026,Karela United,Eleven Wonders,,,Liga Ghana,
+23,21.02.2026,Nations FC,Dreams FC,,,Liga Ghana,
+23,21.02.2026,Samartex,Medeama SC,,,Liga Ghana,
+23,21.02.2026,Vision FC,Bechem United,,,Liga Ghana,
+23,21.02.2026,Young Apostles,Asante Kotoko,,,Liga Ghana,
+24,28.02.2026,Asante Kotoko,Vision FC,,,Liga Ghana,
+24,28.02.2026,Bechem United,Karela United,,,Liga Ghana,
+24,28.02.2026,Berekum Chelsea,Young Apostles,,,Liga Ghana,
+24,28.02.2026,Bibiani Gold Stars,Hearts of Oak,,,Liga Ghana,
+24,28.02.2026,Dreams FC,Aduana Stars,,,Liga Ghana,
+24,28.02.2026,Eleven Wonders,Nations FC,,,Liga Ghana,
+24,28.02.2026,Hohoe United,Samartex,,,Liga Ghana,
+24,28.02.2026,Basake Holy Stars,Heart of Lions,,,Liga Ghana,
+24,28.02.2026,All Blacks,Medeama SC,,,Liga Ghana,
+25,07.03.2026,Aduana Stars,Eleven Wonders,,,Liga Ghana,
+25,07.03.2026,Heart of Lions,All Blacks,,,Liga Ghana,
+25,07.03.2026,Hearts of Oak,Basake Holy Stars,,,Liga Ghana,
+25,07.03.2026,Karela United,Asante Kotoko,,,Liga Ghana,
+25,07.03.2026,Medeama SC,Hohoe United,,,Liga Ghana,
+25,07.03.2026,Nations FC,Bechem United,,,Liga Ghana,
+25,07.03.2026,Samartex,Dreams FC,,,Liga Ghana,
+25,07.03.2026,Vision FC,Berekum Chelsea,,,Liga Ghana,
+25,07.03.2026,Young Apostles,Bibiani Gold Stars,,,Liga Ghana,
+26,21.03.2026,Asante Kotoko,Nations FC,,,Liga Ghana,
+26,21.03.2026,Bechem United,Aduana Stars,,,Liga Ghana,
+26,21.03.2026,Berekum Chelsea,Karela United,,,Liga Ghana,
+26,21.03.2026,Bibiani Gold Stars,Vision FC,,,Liga Ghana,
+26,21.03.2026,Dreams FC,Medeama SC,,,Liga Ghana,
+26,21.03.2026,Eleven Wonders,Samartex,,,Liga Ghana,
+26,21.03.2026,Heart of Lions,Hearts of Oak,,,Liga Ghana,
+26,21.03.2026,Basake Holy Stars,Young Apostles,,,Liga Ghana,
+26,21.03.2026,All Blacks,Hohoe United,,,Liga Ghana,
+27,28.03.2026,Aduana Stars,Asante Kotoko,,,Liga Ghana,
+27,28.03.2026,Hearts of Oak,All Blacks,,,Liga Ghana,
+27,28.03.2026,Hohoe United,Dreams FC,,,Liga Ghana,
+27,28.03.2026,Karela United,Bibiani Gold Stars,,,Liga Ghana,
+27,28.03.2026,Medeama SC,Eleven Wonders,,,Liga Ghana,
+27,28.03.2026,Nations FC,Berekum Chelsea,,,Liga Ghana,
+27,28.03.2026,Samartex,Bechem United,,,Liga Ghana,
+27,28.03.2026,Vision FC,Basake Holy Stars,,,Liga Ghana,
+27,28.03.2026,Young Apostles,Heart of Lions,,,Liga Ghana,
+28,04.04.2026,Asante Kotoko,Samartex,,,Liga Ghana,
+28,04.04.2026,Bechem United,Medeama SC,,,Liga Ghana,
+28,04.04.2026,Berekum Chelsea,Aduana Stars,,,Liga Ghana,
+28,04.04.2026,Bibiani Gold Stars,Nations FC,,,Liga Ghana,
+28,04.04.2026,Eleven Wonders,Hohoe United,,,Liga Ghana,
+28,04.04.2026,Heart of Lions,Vision FC,,,Liga Ghana,
+28,04.04.2026,Hearts of Oak,Young Apostles,,,Liga Ghana,
+28,04.04.2026,Basake Holy Stars,Karela United,,,Liga Ghana,
+28,04.04.2026,All Blacks,Dreams FC,,,Liga Ghana,
+29,11.04.2026,Aduana Stars,Bibiani Gold Stars,,,Liga Ghana,
+29,11.04.2026,Dreams FC,Eleven Wonders,,,Liga Ghana,
+29,11.04.2026,Hohoe United,Bechem United,,,Liga Ghana,
+29,11.04.2026,Karela United,Heart of Lions,,,Liga Ghana,
+29,11.04.2026,Medeama SC,Asante Kotoko,,,Liga Ghana,
+29,11.04.2026,Nations FC,Basake Holy Stars,,,Liga Ghana,
+29,11.04.2026,Samartex,Berekum Chelsea,,,Liga Ghana,
+29,11.04.2026,Vision FC,Hearts of Oak,,,Liga Ghana,
+29,11.04.2026,Young Apostles,All Blacks,,,Liga Ghana,
+30,25.04.2026,Asante Kotoko,Hohoe United,,,Liga Ghana,
+30,25.04.2026,Bechem United,Dreams FC,,,Liga Ghana,
+30,25.04.2026,Berekum Chelsea,Medeama SC,,,Liga Ghana,
+30,25.04.2026,Bibiani Gold Stars,Samartex,,,Liga Ghana,
+30,25.04.2026,Heart of Lions,Nations FC,,,Liga Ghana,
+30,25.04.2026,Hearts of Oak,Karela United,,,Liga Ghana,
+30,25.04.2026,Basake Holy Stars,Aduana Stars,,,Liga Ghana,
+30,25.04.2026,All Blacks,Eleven Wonders,,,Liga Ghana,
+30,25.04.2026,Young Apostles,Vision FC,,,Liga Ghana,
+31,02.05.2026,Aduana Stars,Heart of Lions,,,Liga Ghana,
+31,02.05.2026,Dreams FC,Asante Kotoko,,,Liga Ghana,
+31,02.05.2026,Eleven Wonders,Bechem United,,,Liga Ghana,
+31,02.05.2026,Hohoe United,Berekum Chelsea,,,Liga Ghana,
+31,02.05.2026,Karela United,Young Apostles,,,Liga Ghana,
+31,02.05.2026,Medeama SC,Bibiani Gold Stars,,,Liga Ghana,
+31,02.05.2026,Nations FC,Hearts of Oak,,,Liga Ghana,
+31,02.05.2026,Samartex,Basake Holy Stars,,,Liga Ghana,
+31,02.05.2026,Vision FC,All Blacks,,,Liga Ghana,
+32,09.05.2026,Asante Kotoko,Eleven Wonders,,,Liga Ghana,
+32,09.05.2026,Berekum Chelsea,Dreams FC,,,Liga Ghana,
+32,09.05.2026,Bibiani Gold Stars,Hohoe United,,,Liga Ghana,
+32,09.05.2026,Heart of Lions,Samartex,,,Liga Ghana,
+32,09.05.2026,Hearts of Oak,Aduana Stars,,,Liga Ghana,
+32,09.05.2026,Basake Holy Stars,Medeama SC,,,Liga Ghana,
+32,09.05.2026,All Blacks,Bechem United,,,Liga Ghana,
+32,09.05.2026,Vision FC,Karela United,,,Liga Ghana,
+32,09.05.2026,Young Apostles,Nations FC,,,Liga Ghana,
+33,16.05.2026,Aduana Stars,Young Apostles,,,Liga Ghana,
+33,16.05.2026,Bechem United,Asante Kotoko,,,Liga Ghana,
+33,16.05.2026,Dreams FC,Bibiani Gold Stars,,,Liga Ghana,
+33,16.05.2026,Eleven Wonders,Berekum Chelsea,,,Liga Ghana,
+33,16.05.2026,Hohoe United,Basake Holy Stars,,,Liga Ghana,
+33,16.05.2026,Karela United,All Blacks,,,Liga Ghana,
+33,16.05.2026,Medeama SC,Heart of Lions,,,Liga Ghana,
+33,16.05.2026,Nations FC,Vision FC,,,Liga Ghana,
+33,16.05.2026,Samartex,Hearts of Oak,,,Liga Ghana,
+34,23.05.2026,Asante Kotoko,All Blacks,,,Liga Ghana,
+34,23.05.2026,Berekum Chelsea,Bechem United,,,Liga Ghana,
+34,23.05.2026,Bibiani Gold Stars,Eleven Wonders,,,Liga Ghana,
+34,23.05.2026,Heart of Lions,Hohoe United,,,Liga Ghana,
+34,23.05.2026,Hearts of Oak,Medeama SC,,,Liga Ghana,
+34,23.05.2026,Basake Holy Stars,Dreams FC,,,Liga Ghana,
+34,23.05.2026,Karela United,Nations FC,,,Liga Ghana,
+34,23.05.2026,Vision FC,Aduana Stars,,,Liga Ghana,
+34,23.05.2026,Young Apostles,Samartex,,,Liga Ghana,
 1,23.08.2025,Aris Saloniki,Volos NFC,2,0,Liga Grecia,1
 1,23.08.2025,Olympiacos,Asteras Tripolis,2,0,Liga Grecia,1
 1,23.08.2025,Panetolikos,Atromitos,0,2,Liga Grecia,2
@@ -4737,8 +5224,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,11.09.2025,Real España,CD Victoria,1,3,Liga Hondureña,2
 8,12.09.2025,Platense FC,CD Marathón,1,1,Liga Hondureña,X
 8,13.09.2025,CD Olimpia,Génesis - Policia Nacional,3,2,Liga Hondureña,1
-9,14.09.2025,CD Victoria,Juticalpa FC,,,Liga Hondureña,
-9,14.09.2025,CF Motagua,Lobos UPNFM,,,Liga Hondureña,
+9,14.09.2025,CD Victoria,Juticalpa FC,2,3,Liga Hondureña,2
+9,14.09.2025,CF Motagua,Lobos UPNFM,3,3,Liga Hondureña,X
 9,14.09.2025,CD Marathón,CD Choloma,,,Liga Hondureña,
 9,15.09.2025,Olancho FC,Platense FC,,,Liga Hondureña,
 9,15.09.2025,Génesis - Policia Nacional,Real España,,,Liga Hondureña,
@@ -5967,11 +6454,11 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,01.09.2025,Club Tijuana,Club Necaxa,3,0,Liga Mexicana,1
 8,13.09.2025,Club Necaxa,FC Juárez,1,1,Liga Mexicana,X
 8,13.09.2025,Mazatlán FC,Pumas UNAM,1,4,Liga Mexicana,2
-8,14.09.2025,CF Pachuca,Cruz Azul,,,Liga Mexicana,
-8,14.09.2025,Atlas Guadalajara,Santos Laguna,,,Liga Mexicana,
-8,14.09.2025,UANL Tigres,Club León,,,Liga Mexicana,
-8,14.09.2025,Deportivo Toluca,Puebla FC,,,Liga Mexicana,
-8,14.09.2025,CF América,Deportivo Guadalajara,,,Liga Mexicana,
+8,14.09.2025,CF Pachuca,Cruz Azul,0,1,Liga Mexicana,2
+8,14.09.2025,Atlas Guadalajara,Santos Laguna,2,2,Liga Mexicana,X
+8,14.09.2025,UANL Tigres,Club León,0,0,Liga Mexicana,X
+8,14.09.2025,Deportivo Toluca,Puebla FC,3,1,Liga Mexicana,1
+8,14.09.2025,CF América,Deportivo Guadalajara,1,2,Liga Mexicana,2
 8,15.09.2025,Gallos Blancos,CF Monterrey,,,Liga Mexicana,
 8,15.09.2025,Atlético San Luis,Club Tijuana,,,Liga Mexicana,
 9,20.09.2025,Club Necaxa,Puebla FC,,,Liga Mexicana,
@@ -6403,8 +6890,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,07.09.2025,Árabe Unido,Atlético Nacional,2,0,Liga Panama,1
 7,07.09.2025,Herrera FC,Tauro FC,1,2,Liga Panama,2
 7,08.09.2025,Sporting San Miguelito,Independiente de La Chorrera,2,0,Liga Panama,1
-8,14.09.2025,UD Universitario,UMECIT,,,Liga Panama,
-8,14.09.2025,Plaza Amador,Herrera FC,,,Liga Panama,
+8,14.09.2025,UD Universitario,UMECIT,2,0,Liga Panama,1
+8,14.09.2025,Plaza Amador,Herrera FC,2,2,Liga Panama,X
 8,14.09.2025,Independiente de La Chorrera,Árabe Unido,,,Liga Panama,
 8,14.09.2025,Veraguas United,Tauro FC,,,Liga Panama,
 8,15.09.2025,Sporting San Miguelito,Atlético Nacional,,,Liga Panama,
@@ -6526,7 +7013,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 12,12.09.2025,Atlético Tembetary,Sportivo Ameliano,2,3,Liga Paraguaya,2
 12,13.09.2025,2 de Mayo,Guaraní,1,0,Liga Paraguaya,1
 12,13.09.2025,General Caballero DJLM,Cerro Porteño,2,1,Liga Paraguaya,1
-12,14.09.2025,Sportivo Luqueño,Libertad,0,0,Liga Paraguaya,X
+12,14.09.2025,Sportivo Luqueño,Libertad,1,4,Liga Paraguaya,2
 12,14.09.2025,Club Nacional,Club Olimpia,,,Liga Paraguaya,
 12,15.09.2025,Sportivo Trinidense,Deportivo Recoleta,,,Liga Paraguaya,
 13,25.09.2025,Cerro Porteño,Sportivo Ameliano,,,Liga Paraguaya,
@@ -6656,7 +7143,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,12.09.2025,Sport Huancayo,Los Chankas,1,2,Liga Peruana,2
 8,13.09.2025,Sport Boys,Comerciantes Unidos,0,1,Liga Peruana,2
 8,13.09.2025,Alianza Atlético,Juan Pablo II College,0,1,Liga Peruana,2
-8,14.09.2025,Alianza Lima,Deportivo Garcilaso,,,Liga Peruana,
+8,14.09.2025,Alianza Lima,Deportivo Garcilaso,3,4,Liga Peruana,2
 8,14.09.2025,Alianza Universidad,Cienciano,,,Liga Peruana,
 8,14.09.2025,FBC Melgar,Universitario de Deportes,,,Liga Peruana,
 8,15.09.2025,Deportivo Binacional,AD Tarma,,,Liga Peruana,
@@ -6760,6 +7247,312 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 19,16.11.2025,Cienciano,Ayacucho FC,,,Liga Peruana,
 19,16.11.2025,FBC Melgar,Deportivo Binacional,,,Liga Peruana,
 19,16.11.2025,Alianza Lima,Universidad Técnica,,,Liga Peruana,
+1,18.07.2025,Jagiellonia Białystok,Bruk-Bet Termalica Nieciecza,0,4,Liga Polonia,2
+1,18.07.2025,Lech Poznań,KS Cracovia,1,4,Liga Polonia,2
+1,19.07.2025,Widzew Łódź,Zagłębie Lubin,1,0,Liga Polonia,1
+1,19.07.2025,Wisła Płock,Korona Kielce,2,0,Liga Polonia,1
+1,19.07.2025,GKS Katowice,Raków Częstochowa,0,1,Liga Polonia,2
+1,20.07.2025,Legia Warszawa,Piast Gliwice,,,Liga Polonia,
+1,20.07.2025,Górnik Zabrze,Lechia Gdańsk,2,1,Liga Polonia,1
+1,20.07.2025,Motor Lublin,Arka Gdynia,1,0,Liga Polonia,1
+1,20.07.2025,Radomiak Radom,Pogoń Szczecin,5,1,Liga Polonia,1
+2,25.07.2025,KS Cracovia,Bruk-Bet Termalica Nieciecza,2,0,Liga Polonia,1
+2,25.07.2025,Arka Gdynia,Radomiak Radom,1,1,Liga Polonia,X
+2,26.07.2025,Piast Gliwice,Górnik Zabrze,0,1,Liga Polonia,2
+2,26.07.2025,Pogoń Szczecin,Motor Lublin,4,1,Liga Polonia,1
+2,26.07.2025,Lechia Gdańsk,Lech Poznań,3,4,Liga Polonia,2
+2,27.07.2025,Raków Częstochowa,Wisła Płock,1,2,Liga Polonia,2
+2,27.07.2025,Jagiellonia Białystok,Widzew Łódź,3,2,Liga Polonia,1
+2,27.07.2025,Korona Kielce,Legia Warszawa,0,2,Liga Polonia,2
+2,28.07.2025,GKS Katowice,Zagłębie Lubin,2,2,Liga Polonia,X
+3,01.08.2025,Zagłębie Lubin,Korona Kielce,1,1,Liga Polonia,X
+3,01.08.2025,Wisła Płock,Piast Gliwice,2,0,Liga Polonia,1
+3,02.08.2025,Bruk-Bet Termalica Nieciecza,Pogoń Szczecin,1,1,Liga Polonia,X
+3,02.08.2025,Widzew Łódź,GKS Katowice,3,0,Liga Polonia,1
+3,02.08.2025,Lech Poznań,Górnik Zabrze,2,1,Liga Polonia,1
+3,03.08.2025,Motor Lublin,Jagiellonia Białystok,,,Liga Polonia,
+3,03.08.2025,KS Cracovia,Lechia Gdańsk,2,2,Liga Polonia,X
+3,03.08.2025,Radomiak Radom,Raków Częstochowa,3,1,Liga Polonia,1
+3,03.08.2025,Legia Warszawa,Arka Gdynia,0,0,Liga Polonia,X
+4,08.08.2025,Korona Kielce,Radomiak Radom,3,0,Liga Polonia,1
+4,08.08.2025,Górnik Zabrze,Bruk-Bet Termalica Nieciecza,0,1,Liga Polonia,2
+4,09.08.2025,Piast Gliwice,Lech Poznań,,,Liga Polonia,
+4,09.08.2025,Arka Gdynia,Pogoń Szczecin,2,1,Liga Polonia,1
+4,09.08.2025,Widzew Łódź,Wisła Płock,1,1,Liga Polonia,X
+4,10.08.2025,Raków Częstochowa,Zagłębie Lubin,,,Liga Polonia,
+4,10.08.2025,Jagiellonia Białystok,KS Cracovia,5,2,Liga Polonia,1
+4,10.08.2025,Legia Warszawa,GKS Katowice,3,1,Liga Polonia,1
+4,11.08.2025,Lechia Gdańsk,Motor Lublin,3,3,Liga Polonia,X
+5,15.08.2025,Zagłębie Lubin,Lechia Gdańsk,6,2,Liga Polonia,1
+5,15.08.2025,KS Cracovia,Widzew Łódź,1,0,Liga Polonia,1
+5,16.08.2025,Motor Lublin,Piast Gliwice,0,0,Liga Polonia,X
+5,16.08.2025,GKS Katowice,Arka Gdynia,4,1,Liga Polonia,1
+5,16.08.2025,Lech Poznań,Korona Kielce,1,1,Liga Polonia,X
+5,17.08.2025,Pogoń Szczecin,Górnik Zabrze,0,3,Liga Polonia,2
+5,17.08.2025,Radomiak Radom,Jagiellonia Białystok,1,2,Liga Polonia,2
+5,17.08.2025,Bruk-Bet Termalica Nieciecza,Raków Częstochowa,2,3,Liga Polonia,2
+5,17.08.2025,Wisła Płock,Legia Warszawa,1,0,Liga Polonia,1
+6,22.08.2025,Radomiak Radom,Bruk-Bet Termalica Nieciecza,1,1,Liga Polonia,X
+6,22.08.2025,Widzew Łódź,Pogoń Szczecin,1,2,Liga Polonia,2
+6,23.08.2025,Korona Kielce,Motor Lublin,2,0,Liga Polonia,1
+6,23.08.2025,Górnik Zabrze,GKS Katowice,3,0,Liga Polonia,1
+6,24.08.2025,Piast Gliwice,KS Cracovia,0,0,Liga Polonia,X
+6,24.08.2025,Lechia Gdańsk,Arka Gdynia,1,0,Liga Polonia,1
+6,25.08.2025,Wisła Płock,Zagłębie Lubin,2,1,Liga Polonia,1
+6,24.09.2025,Raków Częstochowa,Lech Poznań,,,Liga Polonia,
+6,24.09.2025,Legia Warszawa,Jagiellonia Białystok,,,Liga Polonia,
+7,29.08.2025,Arka Gdynia,Wisła Płock,1,0,Liga Polonia,1
+7,29.08.2025,GKS Katowice,Radomiak Radom,3,2,Liga Polonia,1
+7,30.08.2025,Bruk-Bet Termalica Nieciecza,Korona Kielce,1,3,Liga Polonia,2
+7,30.08.2025,Zagłębie Lubin,Piast Gliwice,2,2,Liga Polonia,X
+7,30.08.2025,Górnik Zabrze,Motor Lublin,0,1,Liga Polonia,2
+7,31.08.2025,Jagiellonia Białystok,Lechia Gdańsk,2,0,Liga Polonia,1
+7,31.08.2025,Lech Poznań,Widzew Łódź,2,1,Liga Polonia,1
+7,31.08.2025,KS Cracovia,Legia Warszawa,2,1,Liga Polonia,1
+7,31.08.2025,Pogoń Szczecin,Raków Częstochowa,2,0,Liga Polonia,1
+8,12.09.2025,Lechia Gdańsk,GKS Katowice,2,0,Liga Polonia,1
+8,12.09.2025,Lech Poznań,Zagłębie Lubin,1,2,Liga Polonia,2
+8,13.09.2025,Wisła Płock,KS Cracovia,,,Liga Polonia,
+8,13.09.2025,Korona Kielce,Pogoń Szczecin,1,0,Liga Polonia,1
+8,13.09.2025,Piast Gliwice,Jagiellonia Białystok,1,1,Liga Polonia,X
+8,14.09.2025,Motor Lublin,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+8,14.09.2025,Legia Warszawa,Radomiak Radom,,,Liga Polonia,
+8,14.09.2025,Widzew Łódź,Arka Gdynia,,,Liga Polonia,
+8,15.09.2025,Raków Częstochowa,Górnik Zabrze,,,Liga Polonia,
+9,19.09.2025,GKS Katowice,KS Cracovia,,,Liga Polonia,
+9,19.09.2025,Wisła Płock,Jagiellonia Białystok,,,Liga Polonia,
+9,20.09.2025,Radomiak Radom,Piast Gliwice,,,Liga Polonia,
+9,20.09.2025,Arka Gdynia,Korona Kielce,,,Liga Polonia,
+9,20.09.2025,Bruk-Bet Termalica Nieciecza,Lech Poznań,,,Liga Polonia,
+9,20.09.2025,Raków Częstochowa,Legia Warszawa,,,Liga Polonia,
+9,21.09.2025,Zagłębie Lubin,Motor Lublin,,,Liga Polonia,
+9,21.09.2025,Pogoń Szczecin,Lechia Gdańsk,,,Liga Polonia,
+9,21.09.2025,Górnik Zabrze,Widzew Łódź,,,Liga Polonia,
+10,26.09.2025,Wisła Płock,GKS Katowice,,,Liga Polonia,
+10,27.09.2025,Korona Kielce,Lechia Gdańsk,,,Liga Polonia,
+10,27.09.2025,Piast Gliwice,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+10,27.09.2025,KS Cracovia,Górnik Zabrze,,,Liga Polonia,
+10,28.09.2025,Widzew Łódź,Raków Częstochowa,,,Liga Polonia,
+10,28.09.2025,Lech Poznań,Jagiellonia Białystok,,,Liga Polonia,
+10,28.09.2025,Legia Warszawa,Pogoń Szczecin,,,Liga Polonia,
+10,29.09.2025,Zagłębie Lubin,Arka Gdynia,,,Liga Polonia,
+10,29.09.2025,Motor Lublin,Radomiak Radom,,,Liga Polonia,
+11,04.10.2025,Arka Gdynia,KS Cracovia,,,Liga Polonia,
+11,04.10.2025,GKS Katowice,Lech Poznań,,,Liga Polonia,
+11,04.10.2025,Jagiellonia Białystok,Korona Kielce,,,Liga Polonia,
+11,04.10.2025,Lechia Gdańsk,Wisła Płock,,,Liga Polonia,
+11,04.10.2025,Pogoń Szczecin,Piast Gliwice,,,Liga Polonia,
+11,04.10.2025,Radomiak Radom,Zagłębie Lubin,,,Liga Polonia,
+11,04.10.2025,Bruk-Bet Termalica Nieciecza,Widzew Łódź,,,Liga Polonia,
+11,04.10.2025,Górnik Zabrze,Legia Warszawa,,,Liga Polonia,
+11,04.10.2025,Raków Częstochowa,Motor Lublin,,,Liga Polonia,
+12,18.10.2025,Jagiellonia Białystok,Arka Gdynia,,,Liga Polonia,
+12,18.10.2025,Korona Kielce,Górnik Zabrze,,,Liga Polonia,
+12,18.10.2025,KS Cracovia,Raków Częstochowa,,,Liga Polonia,
+12,18.10.2025,Lech Poznań,Pogoń Szczecin,,,Liga Polonia,
+12,18.10.2025,Motor Lublin,GKS Katowice,,,Liga Polonia,
+12,18.10.2025,Piast Gliwice,Lechia Gdańsk,,,Liga Polonia,
+12,18.10.2025,Widzew Łódź,Radomiak Radom,,,Liga Polonia,
+12,18.10.2025,Wisła Płock,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+12,18.10.2025,Zagłębie Lubin,Legia Warszawa,,,Liga Polonia,
+13,25.10.2025,Arka Gdynia,Piast Gliwice,,,Liga Polonia,
+13,25.10.2025,GKS Katowice,Korona Kielce,,,Liga Polonia,
+13,25.10.2025,Górnik Zabrze,Jagiellonia Białystok,,,Liga Polonia,
+13,25.10.2025,Legia Warszawa,Lech Poznań,,,Liga Polonia,
+13,25.10.2025,Motor Lublin,Widzew Łódź,,,Liga Polonia,
+13,25.10.2025,Pogoń Szczecin,KS Cracovia,,,Liga Polonia,
+13,25.10.2025,Radomiak Radom,Wisła Płock,,,Liga Polonia,
+13,25.10.2025,Raków Częstochowa,Lechia Gdańsk,,,Liga Polonia,
+13,25.10.2025,Bruk-Bet Termalica Nieciecza,Zagłębie Lubin,,,Liga Polonia,
+14,31.10.2025,Górnik Zabrze,Arka Gdynia,,,Liga Polonia,
+14,31.10.2025,Jagiellonia Białystok,Raków Częstochowa,,,Liga Polonia,
+14,31.10.2025,KS Cracovia,Zagłębie Lubin,,,Liga Polonia,
+14,31.10.2025,Lech Poznań,Motor Lublin,,,Liga Polonia,
+14,31.10.2025,Lechia Gdańsk,Radomiak Radom,,,Liga Polonia,
+14,31.10.2025,Piast Gliwice,Korona Kielce,,,Liga Polonia,
+14,31.10.2025,Bruk-Bet Termalica Nieciecza,GKS Katowice,,,Liga Polonia,
+14,31.10.2025,Widzew Łódź,Legia Warszawa,,,Liga Polonia,
+14,31.10.2025,Wisła Płock,Pogoń Szczecin,,,Liga Polonia,
+15,08.11.2025,Arka Gdynia,Lech Poznań,,,Liga Polonia,
+15,08.11.2025,GKS Katowice,Piast Gliwice,,,Liga Polonia,
+15,08.11.2025,Korona Kielce,Raków Częstochowa,,,Liga Polonia,
+15,08.11.2025,Lechia Gdańsk,Widzew Łódź,,,Liga Polonia,
+15,08.11.2025,Legia Warszawa,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+15,08.11.2025,Motor Lublin,Wisła Płock,,,Liga Polonia,
+15,08.11.2025,Pogoń Szczecin,Jagiellonia Białystok,,,Liga Polonia,
+15,08.11.2025,Radomiak Radom,KS Cracovia,,,Liga Polonia,
+15,08.11.2025,Zagłębie Lubin,Górnik Zabrze,,,Liga Polonia,
+16,22.11.2025,Górnik Zabrze,Wisła Płock,,,Liga Polonia,
+16,22.11.2025,Jagiellonia Białystok,GKS Katowice,,,Liga Polonia,
+16,22.11.2025,KS Cracovia,Motor Lublin,,,Liga Polonia,
+16,22.11.2025,Lech Poznań,Radomiak Radom,,,Liga Polonia,
+16,22.11.2025,Legia Warszawa,Lechia Gdańsk,,,Liga Polonia,
+16,22.11.2025,Pogoń Szczecin,Zagłębie Lubin,,,Liga Polonia,
+16,22.11.2025,Raków Częstochowa,Piast Gliwice,,,Liga Polonia,
+16,22.11.2025,Bruk-Bet Termalica Nieciecza,Arka Gdynia,,,Liga Polonia,
+16,22.11.2025,Widzew Łódź,Korona Kielce,,,Liga Polonia,
+17,29.11.2025,Arka Gdynia,Raków Częstochowa,,,Liga Polonia,
+17,29.11.2025,GKS Katowice,Pogoń Szczecin,,,Liga Polonia,
+17,29.11.2025,Korona Kielce,KS Cracovia,,,Liga Polonia,
+17,29.11.2025,Lechia Gdańsk,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+17,29.11.2025,Motor Lublin,Legia Warszawa,,,Liga Polonia,
+17,29.11.2025,Piast Gliwice,Widzew Łódź,,,Liga Polonia,
+17,29.11.2025,Radomiak Radom,Górnik Zabrze,,,Liga Polonia,
+17,29.11.2025,Wisła Płock,Lech Poznań,,,Liga Polonia,
+17,29.11.2025,Zagłębie Lubin,Jagiellonia Białystok,,,Liga Polonia,
+18,06.12.2025,Arka Gdynia,Motor Lublin,,,Liga Polonia,
+18,06.12.2025,Korona Kielce,Wisła Płock,,,Liga Polonia,
+18,06.12.2025,KS Cracovia,Lech Poznań,,,Liga Polonia,
+18,06.12.2025,Lechia Gdańsk,Górnik Zabrze,,,Liga Polonia,
+18,06.12.2025,Piast Gliwice,Legia Warszawa,,,Liga Polonia,
+18,06.12.2025,Pogoń Szczecin,Radomiak Radom,,,Liga Polonia,
+18,06.12.2025,Raków Częstochowa,GKS Katowice,,,Liga Polonia,
+18,06.12.2025,Bruk-Bet Termalica Nieciecza,Jagiellonia Białystok,,,Liga Polonia,
+18,06.12.2025,Zagłębie Lubin,Widzew Łódź,,,Liga Polonia,
+19,31.01.2026,Górnik Zabrze,Piast Gliwice,,,Liga Polonia,
+19,31.01.2026,Lech Poznań,Lechia Gdańsk,,,Liga Polonia,
+19,31.01.2026,Legia Warszawa,Korona Kielce,,,Liga Polonia,
+19,31.01.2026,Motor Lublin,Pogoń Szczecin,,,Liga Polonia,
+19,31.01.2026,Radomiak Radom,Arka Gdynia,,,Liga Polonia,
+19,31.01.2026,Bruk-Bet Termalica Nieciecza,KS Cracovia,,,Liga Polonia,
+19,31.01.2026,Widzew Łódź,Jagiellonia Białystok,,,Liga Polonia,
+19,31.01.2026,Wisła Płock,Raków Częstochowa,,,Liga Polonia,
+19,31.01.2026,Zagłębie Lubin,GKS Katowice,,,Liga Polonia,
+20,07.02.2026,Arka Gdynia,Legia Warszawa,,,Liga Polonia,
+20,07.02.2026,GKS Katowice,Widzew Łódź,,,Liga Polonia,
+20,07.02.2026,Górnik Zabrze,Lech Poznań,,,Liga Polonia,
+20,07.02.2026,Jagiellonia Białystok,Motor Lublin,,,Liga Polonia,
+20,07.02.2026,Korona Kielce,Zagłębie Lubin,,,Liga Polonia,
+20,07.02.2026,Lechia Gdańsk,KS Cracovia,,,Liga Polonia,
+20,07.02.2026,Piast Gliwice,Wisła Płock,,,Liga Polonia,
+20,07.02.2026,Pogoń Szczecin,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+20,07.02.2026,Raków Częstochowa,Radomiak Radom,,,Liga Polonia,
+21,14.02.2026,GKS Katowice,Legia Warszawa,,,Liga Polonia,
+21,14.02.2026,KS Cracovia,Jagiellonia Białystok,,,Liga Polonia,
+21,14.02.2026,Lech Poznań,Piast Gliwice,,,Liga Polonia,
+21,14.02.2026,Motor Lublin,Lechia Gdańsk,,,Liga Polonia,
+21,14.02.2026,Pogoń Szczecin,Arka Gdynia,,,Liga Polonia,
+21,14.02.2026,Radomiak Radom,Korona Kielce,,,Liga Polonia,
+21,14.02.2026,Bruk-Bet Termalica Nieciecza,Górnik Zabrze,,,Liga Polonia,
+21,14.02.2026,Wisła Płock,Widzew Łódź,,,Liga Polonia,
+21,14.02.2026,Zagłębie Lubin,Raków Częstochowa,,,Liga Polonia,
+22,21.02.2026,Arka Gdynia,GKS Katowice,,,Liga Polonia,
+22,21.02.2026,Górnik Zabrze,Pogoń Szczecin,,,Liga Polonia,
+22,21.02.2026,Jagiellonia Białystok,Radomiak Radom,,,Liga Polonia,
+22,21.02.2026,Korona Kielce,Lech Poznań,,,Liga Polonia,
+22,21.02.2026,Lechia Gdańsk,Zagłębie Lubin,,,Liga Polonia,
+22,21.02.2026,Legia Warszawa,Wisła Płock,,,Liga Polonia,
+22,21.02.2026,Piast Gliwice,Motor Lublin,,,Liga Polonia,
+22,21.02.2026,Raków Częstochowa,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+22,21.02.2026,Widzew Łódź,KS Cracovia,,,Liga Polonia,
+23,28.02.2026,Arka Gdynia,Lechia Gdańsk,,,Liga Polonia,
+23,28.02.2026,GKS Katowice,Górnik Zabrze,,,Liga Polonia,
+23,28.02.2026,Jagiellonia Białystok,Legia Warszawa,,,Liga Polonia,
+23,28.02.2026,KS Cracovia,Piast Gliwice,,,Liga Polonia,
+23,28.02.2026,Lech Poznań,Raków Częstochowa,,,Liga Polonia,
+23,28.02.2026,Motor Lublin,Korona Kielce,,,Liga Polonia,
+23,28.02.2026,Pogoń Szczecin,Widzew Łódź,,,Liga Polonia,
+23,28.02.2026,Bruk-Bet Termalica Nieciecza,Radomiak Radom,,,Liga Polonia,
+23,28.02.2026,Zagłębie Lubin,Wisła Płock,,,Liga Polonia,
+24,07.03.2026,Korona Kielce,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+24,07.03.2026,Lechia Gdańsk,Jagiellonia Białystok,,,Liga Polonia,
+24,07.03.2026,Legia Warszawa,KS Cracovia,,,Liga Polonia,
+24,07.03.2026,Motor Lublin,Górnik Zabrze,,,Liga Polonia,
+24,07.03.2026,Piast Gliwice,Zagłębie Lubin,,,Liga Polonia,
+24,07.03.2026,Radomiak Radom,GKS Katowice,,,Liga Polonia,
+24,07.03.2026,Raków Częstochowa,Pogoń Szczecin,,,Liga Polonia,
+24,07.03.2026,Widzew Łódź,Lech Poznań,,,Liga Polonia,
+24,07.03.2026,Wisła Płock,Arka Gdynia,,,Liga Polonia,
+25,14.03.2026,Arka Gdynia,Widzew Łódź,,,Liga Polonia,
+25,14.03.2026,GKS Katowice,Lechia Gdańsk,,,Liga Polonia,
+25,14.03.2026,Górnik Zabrze,Raków Częstochowa,,,Liga Polonia,
+25,14.03.2026,Jagiellonia Białystok,Piast Gliwice,,,Liga Polonia,
+25,14.03.2026,KS Cracovia,Wisła Płock,,,Liga Polonia,
+25,14.03.2026,Pogoń Szczecin,Korona Kielce,,,Liga Polonia,
+25,14.03.2026,Radomiak Radom,Legia Warszawa,,,Liga Polonia,
+25,14.03.2026,Bruk-Bet Termalica Nieciecza,Motor Lublin,,,Liga Polonia,
+25,14.03.2026,Zagłębie Lubin,Lech Poznań,,,Liga Polonia,
+26,21.03.2026,Korona Kielce,Arka Gdynia,,,Liga Polonia,
+26,21.03.2026,KS Cracovia,GKS Katowice,,,Liga Polonia,
+26,21.03.2026,Lech Poznań,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+26,21.03.2026,Lechia Gdańsk,Pogoń Szczecin,,,Liga Polonia,
+26,21.03.2026,Legia Warszawa,Raków Częstochowa,,,Liga Polonia,
+26,21.03.2026,Motor Lublin,Zagłębie Lubin,,,Liga Polonia,
+26,21.03.2026,Piast Gliwice,Radomiak Radom,,,Liga Polonia,
+26,21.03.2026,Widzew Łódź,Górnik Zabrze,,,Liga Polonia,
+26,21.03.2026,Jagiellonia Białystok,Wisła Płock,,,Liga Polonia,
+27,04.04.2026,Arka Gdynia,Zagłębie Lubin,,,Liga Polonia,
+27,04.04.2026,GKS Katowice,Wisła Płock,,,Liga Polonia,
+27,04.04.2026,Górnik Zabrze,KS Cracovia,,,Liga Polonia,
+27,04.04.2026,Jagiellonia Białystok,Lech Poznań,,,Liga Polonia,
+27,04.04.2026,Lechia Gdańsk,Korona Kielce,,,Liga Polonia,
+27,04.04.2026,Pogoń Szczecin,Legia Warszawa,,,Liga Polonia,
+27,04.04.2026,Radomiak Radom,Motor Lublin,,,Liga Polonia,
+27,04.04.2026,Raków Częstochowa,Widzew Łódź,,,Liga Polonia,
+27,04.04.2026,Bruk-Bet Termalica Nieciecza,Piast Gliwice,,,Liga Polonia,
+28,11.04.2026,Korona Kielce,Jagiellonia Białystok,,,Liga Polonia,
+28,11.04.2026,KS Cracovia,Arka Gdynia,,,Liga Polonia,
+28,11.04.2026,Lech Poznań,GKS Katowice,,,Liga Polonia,
+28,11.04.2026,Legia Warszawa,Górnik Zabrze,,,Liga Polonia,
+28,11.04.2026,Motor Lublin,Raków Częstochowa,,,Liga Polonia,
+28,11.04.2026,Piast Gliwice,Pogoń Szczecin,,,Liga Polonia,
+28,11.04.2026,Widzew Łódź,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+28,11.04.2026,Wisła Płock,Lechia Gdańsk,,,Liga Polonia,
+28,11.04.2026,Zagłębie Lubin,Radomiak Radom,,,Liga Polonia,
+29,18.04.2026,Arka Gdynia,Jagiellonia Białystok,,,Liga Polonia,
+29,18.04.2026,GKS Katowice,Motor Lublin,,,Liga Polonia,
+29,18.04.2026,Górnik Zabrze,Korona Kielce,,,Liga Polonia,
+29,18.04.2026,Lechia Gdańsk,Piast Gliwice,,,Liga Polonia,
+29,18.04.2026,Legia Warszawa,Zagłębie Lubin,,,Liga Polonia,
+29,18.04.2026,Pogoń Szczecin,Lech Poznań,,,Liga Polonia,
+29,18.04.2026,Radomiak Radom,Widzew Łódź,,,Liga Polonia,
+29,18.04.2026,Raków Częstochowa,KS Cracovia,,,Liga Polonia,
+29,18.04.2026,Bruk-Bet Termalica Nieciecza,Wisła Płock,,,Liga Polonia,
+30,25.04.2026,Jagiellonia Białystok,Górnik Zabrze,,,Liga Polonia,
+30,25.04.2026,Korona Kielce,GKS Katowice,,,Liga Polonia,
+30,25.04.2026,KS Cracovia,Pogoń Szczecin,,,Liga Polonia,
+30,25.04.2026,Lech Poznań,Legia Warszawa,,,Liga Polonia,
+30,25.04.2026,Lechia Gdańsk,Raków Częstochowa,,,Liga Polonia,
+30,25.04.2026,Piast Gliwice,Arka Gdynia,,,Liga Polonia,
+30,25.04.2026,Widzew Łódź,Motor Lublin,,,Liga Polonia,
+30,25.04.2026,Wisła Płock,Radomiak Radom,,,Liga Polonia,
+30,25.04.2026,Zagłębie Lubin,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+31,02.05.2026,Arka Gdynia,Górnik Zabrze,,,Liga Polonia,
+31,02.05.2026,GKS Katowice,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+31,02.05.2026,Korona Kielce,Piast Gliwice,,,Liga Polonia,
+31,02.05.2026,Legia Warszawa,Widzew Łódź,,,Liga Polonia,
+31,02.05.2026,Motor Lublin,Lech Poznań,,,Liga Polonia,
+31,02.05.2026,Pogoń Szczecin,Wisła Płock,,,Liga Polonia,
+31,02.05.2026,Radomiak Radom,Lechia Gdańsk,,,Liga Polonia,
+31,02.05.2026,Raków Częstochowa,Jagiellonia Białystok,,,Liga Polonia,
+31,02.05.2026,Zagłębie Lubin,KS Cracovia,,,Liga Polonia,
+32,09.05.2026,Górnik Zabrze,Zagłębie Lubin,,,Liga Polonia,
+32,09.05.2026,Jagiellonia Białystok,Pogoń Szczecin,,,Liga Polonia,
+32,09.05.2026,KS Cracovia,Radomiak Radom,,,Liga Polonia,
+32,09.05.2026,Lech Poznań,Arka Gdynia,,,Liga Polonia,
+32,09.05.2026,Piast Gliwice,GKS Katowice,,,Liga Polonia,
+32,09.05.2026,Raków Częstochowa,Korona Kielce,,,Liga Polonia,
+32,09.05.2026,Bruk-Bet Termalica Nieciecza,Legia Warszawa,,,Liga Polonia,
+32,09.05.2026,Widzew Łódź,Lechia Gdańsk,,,Liga Polonia,
+32,09.05.2026,Wisła Płock,Motor Lublin,,,Liga Polonia,
+33,16.05.2026,Arka Gdynia,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
+33,16.05.2026,GKS Katowice,Jagiellonia Białystok,,,Liga Polonia,
+33,16.05.2026,Korona Kielce,Widzew Łódź,,,Liga Polonia,
+33,16.05.2026,Lechia Gdańsk,Legia Warszawa,,,Liga Polonia,
+33,16.05.2026,Motor Lublin,KS Cracovia,,,Liga Polonia,
+33,16.05.2026,Piast Gliwice,Raków Częstochowa,,,Liga Polonia,
+33,16.05.2026,Radomiak Radom,Lech Poznań,,,Liga Polonia,
+33,16.05.2026,Wisła Płock,Górnik Zabrze,,,Liga Polonia,
+33,16.05.2026,Zagłębie Lubin,Pogoń Szczecin,,,Liga Polonia,
+34,23.05.2026,Górnik Zabrze,Radomiak Radom,,,Liga Polonia,
+34,23.05.2026,Jagiellonia Białystok,Zagłębie Lubin,,,Liga Polonia,
+34,23.05.2026,KS Cracovia,Korona Kielce,,,Liga Polonia,
+34,23.05.2026,Lech Poznań,Wisła Płock,,,Liga Polonia,
+34,23.05.2026,Legia Warszawa,Motor Lublin,,,Liga Polonia,
+34,23.05.2026,Pogoń Szczecin,GKS Katowice,,,Liga Polonia,
+34,23.05.2026,Raków Częstochowa,Arka Gdynia,,,Liga Polonia,
+34,23.05.2026,Bruk-Bet Termalica Nieciecza,Lechia Gdańsk,,,Liga Polonia,
+34,23.05.2026,Widzew Łódź,Piast Gliwice,,,Liga Polonia,
 1,08.08.2025,Casa Pia AC,Sporting CP,0,2,Liga Portugal,2
 1,09.08.2025,CD Nacional,Gil Vicente,0,2,Liga Portugal,2
 1,09.08.2025,FC Arouca,AVS,3,1,Liga Portugal,1
@@ -7066,6 +7859,1248 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 34,17.05.2026,Casa Pia AC,Rio Ave FC,,,Liga Portugal,
 34,17.05.2026,FC Arouca,CD Tondela,,,Liga Portugal,
 34,17.05.2026,Sporting Braga,Estrela Amadora,,,Liga Portugal,
+1,18.07.2025,Dinamo Moskva,Baltika Kaliningrad,1,1,Liga Rusa,X
+1,19.07.2025,Akron Tolyatti,Krylia Sovetov,1,1,Liga Rusa,X
+1,19.07.2025,Lokomotiv Moskva,FK Sochi,3,0,Liga Rusa,1
+1,19.07.2025,Spartak Moskva,FK Dinamo Makhachkala,1,0,Liga Rusa,1
+1,20.07.2025,FK Nizhny Novgorod,FK Krasnodar,0,3,Liga Rusa,2
+1,20.07.2025,Zenit,FK Rostov,2,1,Liga Rusa,1
+1,20.07.2025,Akhmat Grozny,Rubin Kazan,0,2,Liga Rusa,2
+1,21.07.2025,FK Orenburg,CSKA Moscú,0,0,Liga Rusa,X
+2,25.07.2025,Krylia Sovetov,FK Nizhny Novgorod,2,0,Liga Rusa,1
+2,26.07.2025,Spartak Moskva,Baltika Kaliningrad,0,3,Liga Rusa,2
+2,26.07.2025,Dinamo Moskva,FK Rostov,1,0,Liga Rusa,1
+2,26.07.2025,FK Krasnodar,Lokomotiv Moskva,1,2,Liga Rusa,2
+2,26.07.2025,FK Sochi,Akron Tolyatti,0,4,Liga Rusa,2
+2,27.07.2025,CSKA Moscú,Akhmat Grozny,2,1,Liga Rusa,1
+2,27.07.2025,FK Orenburg,FK Dinamo Makhachkala,1,1,Liga Rusa,X
+2,27.07.2025,Rubin Kazan,Zenit,2,2,Liga Rusa,X
+3,02.08.2025,FK Rostov,Krylia Sovetov,1,4,Liga Rusa,2
+3,02.08.2025,FK Krasnodar,Dinamo Moskva,1,0,Liga Rusa,1
+3,02.08.2025,FK Nizhny Novgorod,Lokomotiv Moskva,2,3,Liga Rusa,2
+3,03.08.2025,Akron Tolyatti,Spartak Moskva,1,1,Liga Rusa,X
+3,03.08.2025,Baltika Kaliningrad,FK Orenburg,3,2,Liga Rusa,1
+3,03.08.2025,Zenit,CSKA Moscú,1,1,Liga Rusa,X
+3,03.08.2025,FK Dinamo Makhachkala,Akhmat Grozny,1,0,Liga Rusa,1
+3,04.08.2025,Rubin Kazan,FK Sochi,2,1,Liga Rusa,1
+4,08.08.2025,FK Dinamo Makhachkala,Akron Tolyatti,1,1,Liga Rusa,X
+4,09.08.2025,Krylia Sovetov,Baltika Kaliningrad,1,1,Liga Rusa,X
+4,09.08.2025,CSKA Moscú,Rubin Kazan,5,1,Liga Rusa,1
+4,09.08.2025,Lokomotiv Moskva,Spartak Moskva,4,2,Liga Rusa,1
+4,09.08.2025,Akhmat Grozny,Zenit,1,0,Liga Rusa,1
+4,10.08.2025,FK Orenburg,FK Krasnodar,0,1,Liga Rusa,2
+4,10.08.2025,FK Sochi,Dinamo Moskva,1,1,Liga Rusa,X
+4,10.08.2025,FK Rostov,FK Nizhny Novgorod,1,0,Liga Rusa,1
+5,16.08.2025,Baltika Kaliningrad,Lokomotiv Moskva,1,1,Liga Rusa,X
+5,16.08.2025,Spartak Moskva,Zenit,2,2,Liga Rusa,X
+5,16.08.2025,Akhmat Grozny,Krylia Sovetov,3,1,Liga Rusa,1
+5,17.08.2025,Akron Tolyatti,FK Orenburg,1,2,Liga Rusa,2
+5,17.08.2025,Rubin Kazan,FK Rostov,1,0,Liga Rusa,1
+5,17.08.2025,Dinamo Moskva,CSKA Moscú,1,3,Liga Rusa,2
+5,17.08.2025,FK Krasnodar,FK Sochi,5,1,Liga Rusa,1
+5,18.08.2025,FK Nizhny Novgorod,FK Dinamo Makhachkala,2,0,Liga Rusa,1
+6,22.08.2025,FK Orenburg,Akhmat Grozny,2,2,Liga Rusa,X
+6,23.08.2025,Rubin Kazan,Spartak Moskva,0,2,Liga Rusa,2
+6,23.08.2025,Zenit,FK Dinamo Makhachkala,4,0,Liga Rusa,1
+6,23.08.2025,Lokomotiv Moskva,FK Rostov,3,3,Liga Rusa,X
+6,23.08.2025,Dinamo Moskva,FK Nizhny Novgorod,3,0,Liga Rusa,1
+6,24.08.2025,Krylia Sovetov,FK Krasnodar,0,6,Liga Rusa,2
+6,24.08.2025,CSKA Moscú,Akron Tolyatti,3,1,Liga Rusa,1
+6,24.08.2025,FK Sochi,Baltika Kaliningrad,0,2,Liga Rusa,2
+7,30.08.2025,FK Orenburg,Rubin Kazan,2,2,Liga Rusa,X
+7,30.08.2025,Zenit,FK Nizhny Novgorod,2,0,Liga Rusa,1
+7,30.08.2025,Spartak Moskva,FK Sochi,2,1,Liga Rusa,1
+7,30.08.2025,FK Rostov,Akhmat Grozny,1,1,Liga Rusa,X
+7,31.08.2025,Akron Tolyatti,Baltika Kaliningrad,0,2,Liga Rusa,2
+7,31.08.2025,Lokomotiv Moskva,Krylia Sovetov,2,2,Liga Rusa,X
+7,31.08.2025,CSKA Moscú,FK Krasnodar,1,1,Liga Rusa,X
+7,31.08.2025,FK Dinamo Makhachkala,Dinamo Moskva,1,0,Liga Rusa,1
+8,12.09.2025,Rubin Kazan,FK Dinamo Makhachkala,1,0,Liga Rusa,1
+8,13.09.2025,FK Nizhny Novgorod,FK Orenburg,3,1,Liga Rusa,1
+8,13.09.2025,Dinamo Moskva,Spartak Moskva,2,2,Liga Rusa,X
+8,13.09.2025,Akhmat Grozny,Lokomotiv Moskva,1,1,Liga Rusa,X
+8,13.09.2025,FK Krasnodar,Akron Tolyatti,2,1,Liga Rusa,1
+8,14.09.2025,Krylia Sovetov,FK Sochi,,,Liga Rusa,
+8,14.09.2025,Baltika Kaliningrad,Zenit,,,Liga Rusa,
+8,14.09.2025,FK Rostov,CSKA Moscú,,,Liga Rusa,
+9,20.09.2025,FK Nizhny Novgorod,Akhmat Grozny,,,Liga Rusa,
+9,20.09.2025,Akron Tolyatti,Rubin Kazan,,,Liga Rusa,
+9,20.09.2025,FK Dinamo Makhachkala,Lokomotiv Moskva,,,Liga Rusa,
+9,21.09.2025,FK Orenburg,Dinamo Moskva,,,Liga Rusa,
+9,21.09.2025,Spartak Moskva,Krylia Sovetov,,,Liga Rusa,
+9,21.09.2025,Baltika Kaliningrad,FK Rostov,,,Liga Rusa,
+9,21.09.2025,FK Krasnodar,Zenit,,,Liga Rusa,
+9,22.09.2025,FK Sochi,CSKA Moscú,,,Liga Rusa,
+10,26.09.2025,Krylia Sovetov,Dinamo Moskva,,,Liga Rusa,
+10,27.09.2025,Akhmat Grozny,Akron Tolyatti,,,Liga Rusa,
+10,27.09.2025,Lokomotiv Moskva,Rubin Kazan,,,Liga Rusa,
+10,27.09.2025,FK Rostov,FK Krasnodar,,,Liga Rusa,
+10,27.09.2025,Zenit,FK Orenburg,,,Liga Rusa,
+10,28.09.2025,CSKA Moscú,Baltika Kaliningrad,,,Liga Rusa,
+10,28.09.2025,FK Dinamo Makhachkala,FK Sochi,,,Liga Rusa,
+10,28.09.2025,Spartak Moskva,FK Nizhny Novgorod,,,Liga Rusa,
+11,04.10.2025,Akron Tolyatti,Zenit,,,Liga Rusa,
+11,04.10.2025,Rubin Kazan,Krylia Sovetov,,,Liga Rusa,
+11,04.10.2025,FK Krasnodar,Akhmat Grozny,,,Liga Rusa,
+11,04.10.2025,Dinamo Moskva,Lokomotiv Moskva,,,Liga Rusa,
+11,05.10.2025,FK Orenburg,FK Rostov,,,Liga Rusa,
+11,05.10.2025,FK Sochi,FK Nizhny Novgorod,,,Liga Rusa,
+11,05.10.2025,CSKA Moscú,Spartak Moskva,,,Liga Rusa,
+11,05.10.2025,Baltika Kaliningrad,FK Dinamo Makhachkala,,,Liga Rusa,
+12,17.10.2025,FK Nizhny Novgorod,Akron Tolyatti,,,Liga Rusa,
+12,18.10.2025,Krylia Sovetov,FK Orenburg,,,Liga Rusa,
+12,18.10.2025,Spartak Moskva,FK Rostov,,,Liga Rusa,
+12,18.10.2025,FK Dinamo Makhachkala,FK Krasnodar,,,Liga Rusa,
+12,18.10.2025,Lokomotiv Moskva,CSKA Moscú,,,Liga Rusa,
+12,19.10.2025,FK Sochi,Zenit,,,Liga Rusa,
+12,19.10.2025,Rubin Kazan,Baltika Kaliningrad,,,Liga Rusa,
+12,19.10.2025,Dinamo Moskva,Akhmat Grozny,,,Liga Rusa,
+13,25.10.2025,Spartak Moskva,FK Orenburg,,,Liga Rusa,
+13,25.10.2025,FK Rostov,FK Dinamo Makhachkala,,,Liga Rusa,
+13,25.10.2025,CSKA Moscú,Krylia Sovetov,,,Liga Rusa,
+13,26.10.2025,Akron Tolyatti,Lokomotiv Moskva,,,Liga Rusa,
+13,26.10.2025,FK Nizhny Novgorod,Baltika Kaliningrad,,,Liga Rusa,
+13,26.10.2025,Zenit,Dinamo Moskva,,,Liga Rusa,
+13,26.10.2025,FK Krasnodar,Rubin Kazan,,,Liga Rusa,
+13,27.10.2025,Akhmat Grozny,FK Sochi,,,Liga Rusa,
+14,31.10.2025,Zenit,Lokomotiv Moskva,,,Liga Rusa,
+14,31.10.2025,FK Rostov,Akron Tolyatti,,,Liga Rusa,
+14,31.10.2025,FK Krasnodar,Spartak Moskva,,,Liga Rusa,
+14,31.10.2025,CSKA Moscú,FK Nizhny Novgorod,,,Liga Rusa,
+14,31.10.2025,FK Orenburg,FK Sochi,,,Liga Rusa,
+14,31.10.2025,Rubin Kazan,Dinamo Moskva,,,Liga Rusa,
+14,31.10.2025,Baltika Kaliningrad,Akhmat Grozny,,,Liga Rusa,
+14,31.10.2025,FK Dinamo Makhachkala,Krylia Sovetov,,,Liga Rusa,
+15,07.11.2025,Krylia Sovetov,Zenit,,,Liga Rusa,
+15,07.11.2025,Dinamo Moskva,Akron Tolyatti,,,Liga Rusa,
+15,07.11.2025,Lokomotiv Moskva,FK Orenburg,,,Liga Rusa,
+15,07.11.2025,Akhmat Grozny,Spartak Moskva,,,Liga Rusa,
+15,07.11.2025,FK Nizhny Novgorod,Rubin Kazan,,,Liga Rusa,
+15,07.11.2025,Baltika Kaliningrad,FK Krasnodar,,,Liga Rusa,
+15,07.11.2025,FK Dinamo Makhachkala,CSKA Moscú,,,Liga Rusa,
+15,07.11.2025,FK Sochi,FK Rostov,,,Liga Rusa,
+16,21.11.2025,Spartak Moskva,CSKA Moscú,,,Liga Rusa,
+16,21.11.2025,Krylia Sovetov,FK Rostov,,,Liga Rusa,
+16,21.11.2025,Dinamo Moskva,FK Dinamo Makhachkala,,,Liga Rusa,
+16,21.11.2025,Lokomotiv Moskva,FK Krasnodar,,,Liga Rusa,
+16,21.11.2025,FK Orenburg,Baltika Kaliningrad,,,Liga Rusa,
+16,21.11.2025,Rubin Kazan,Akhmat Grozny,,,Liga Rusa,
+16,21.11.2025,FK Nizhny Novgorod,Zenit,,,Liga Rusa,
+16,21.11.2025,Akron Tolyatti,FK Sochi,,,Liga Rusa,
+17,28.11.2025,Zenit,Rubin Kazan,,,Liga Rusa,
+17,28.11.2025,FK Rostov,Lokomotiv Moskva,,,Liga Rusa,
+17,28.11.2025,FK Krasnodar,Krylia Sovetov,,,Liga Rusa,
+17,28.11.2025,CSKA Moscú,FK Orenburg,,,Liga Rusa,
+17,28.11.2025,Akhmat Grozny,Dinamo Moskva,,,Liga Rusa,
+17,28.11.2025,Baltika Kaliningrad,Spartak Moskva,,,Liga Rusa,
+17,28.11.2025,Akron Tolyatti,FK Nizhny Novgorod,,,Liga Rusa,
+17,28.11.2025,FK Sochi,FK Dinamo Makhachkala,,,Liga Rusa,
+18,05.12.2025,Zenit,Akron Tolyatti,,,Liga Rusa,
+18,05.12.2025,Spartak Moskva,Dinamo Moskva,,,Liga Rusa,
+18,05.12.2025,FK Rostov,Rubin Kazan,,,Liga Rusa,
+18,05.12.2025,FK Krasnodar,CSKA Moscú,,,Liga Rusa,
+18,05.12.2025,Akhmat Grozny,FK Orenburg,,,Liga Rusa,
+18,05.12.2025,Baltika Kaliningrad,Krylia Sovetov,,,Liga Rusa,
+18,05.12.2025,FK Dinamo Makhachkala,FK Nizhny Novgorod,,,Liga Rusa,
+18,05.12.2025,FK Sochi,Lokomotiv Moskva,,,Liga Rusa,
+19,27.02.2026,Zenit,Baltika Kaliningrad,,,Liga Rusa,
+19,27.02.2026,FK Krasnodar,FK Rostov,,,Liga Rusa,
+19,27.02.2026,Dinamo Moskva,Krylia Sovetov,,,Liga Rusa,
+19,27.02.2026,Lokomotiv Moskva,FK Nizhny Novgorod,,,Liga Rusa,
+19,27.02.2026,Akhmat Grozny,CSKA Moscú,,,Liga Rusa,
+19,27.02.2026,FK Orenburg,Akron Tolyatti,,,Liga Rusa,
+19,27.02.2026,FK Dinamo Makhachkala,Rubin Kazan,,,Liga Rusa,
+19,27.02.2026,FK Sochi,Spartak Moskva,,,Liga Rusa,
+20,06.03.2026,Spartak Moskva,Akron Tolyatti,,,Liga Rusa,
+20,06.03.2026,FK Rostov,Baltika Kaliningrad,,,Liga Rusa,
+20,06.03.2026,Krylia Sovetov,FK Dinamo Makhachkala,,,Liga Rusa,
+20,06.03.2026,CSKA Moscú,Dinamo Moskva,,,Liga Rusa,
+20,06.03.2026,Lokomotiv Moskva,Akhmat Grozny,,,Liga Rusa,
+20,06.03.2026,FK Orenburg,Zenit,,,Liga Rusa,
+20,06.03.2026,Rubin Kazan,FK Krasnodar,,,Liga Rusa,
+20,06.03.2026,FK Nizhny Novgorod,FK Sochi,,,Liga Rusa,
+21,13.03.2026,Zenit,Spartak Moskva,,,Liga Rusa,
+21,13.03.2026,FK Rostov,Dinamo Moskva,,,Liga Rusa,
+21,13.03.2026,Rubin Kazan,Lokomotiv Moskva,,,Liga Rusa,
+21,13.03.2026,FK Nizhny Novgorod,Krylia Sovetov,,,Liga Rusa,
+21,13.03.2026,Baltika Kaliningrad,CSKA Moscú,,,Liga Rusa,
+21,13.03.2026,FK Dinamo Makhachkala,FK Orenburg,,,Liga Rusa,
+21,13.03.2026,Akron Tolyatti,Akhmat Grozny,,,Liga Rusa,
+21,13.03.2026,FK Sochi,FK Krasnodar,,,Liga Rusa,
+22,20.03.2026,FK Krasnodar,FK Nizhny Novgorod,,,Liga Rusa,
+22,20.03.2026,Krylia Sovetov,Rubin Kazan,,,Liga Rusa,
+22,20.03.2026,CSKA Moscú,FK Dinamo Makhachkala,,,Liga Rusa,
+22,20.03.2026,Dinamo Moskva,Zenit,,,Liga Rusa,
+22,20.03.2026,Lokomotiv Moskva,Akron Tolyatti,,,Liga Rusa,
+22,20.03.2026,Akhmat Grozny,FK Rostov,,,Liga Rusa,
+22,20.03.2026,FK Orenburg,Spartak Moskva,,,Liga Rusa,
+22,20.03.2026,Baltika Kaliningrad,FK Sochi,,,Liga Rusa,
+23,03.04.2026,Zenit,Krylia Sovetov,,,Liga Rusa,
+23,03.04.2026,Spartak Moskva,Lokomotiv Moskva,,,Liga Rusa,
+23,03.04.2026,Dinamo Moskva,FK Orenburg,,,Liga Rusa,
+23,03.04.2026,Akhmat Grozny,FK Krasnodar,,,Liga Rusa,
+23,03.04.2026,FK Nizhny Novgorod,FK Rostov,,,Liga Rusa,
+23,03.04.2026,FK Dinamo Makhachkala,Baltika Kaliningrad,,,Liga Rusa,
+23,03.04.2026,Akron Tolyatti,CSKA Moscú,,,Liga Rusa,
+23,03.04.2026,FK Sochi,Rubin Kazan,,,Liga Rusa,
+24,10.04.2026,Zenit,FK Krasnodar,,,Liga Rusa,
+24,10.04.2026,FK Rostov,Spartak Moskva,,,Liga Rusa,
+24,10.04.2026,Krylia Sovetov,Akhmat Grozny,,,Liga Rusa,
+24,10.04.2026,CSKA Moscú,FK Sochi,,,Liga Rusa,
+24,10.04.2026,Lokomotiv Moskva,FK Dinamo Makhachkala,,,Liga Rusa,
+24,10.04.2026,Rubin Kazan,FK Orenburg,,,Liga Rusa,
+24,10.04.2026,Baltika Kaliningrad,FK Nizhny Novgorod,,,Liga Rusa,
+24,10.04.2026,Akron Tolyatti,Dinamo Moskva,,,Liga Rusa,
+25,17.04.2026,Spartak Moskva,Akhmat Grozny,,,Liga Rusa,
+25,17.04.2026,FK Rostov,FK Sochi,,,Liga Rusa,
+25,17.04.2026,FK Krasnodar,Baltika Kaliningrad,,,Liga Rusa,
+25,17.04.2026,Krylia Sovetov,CSKA Moscú,,,Liga Rusa,
+25,17.04.2026,FK Orenburg,Lokomotiv Moskva,,,Liga Rusa,
+25,17.04.2026,Rubin Kazan,Akron Tolyatti,,,Liga Rusa,
+25,17.04.2026,FK Nizhny Novgorod,Dinamo Moskva,,,Liga Rusa,
+25,17.04.2026,FK Dinamo Makhachkala,Zenit,,,Liga Rusa,
+26,21.04.2026,Spartak Moskva,FK Krasnodar,,,Liga Rusa,
+26,21.04.2026,CSKA Moscú,FK Rostov,,,Liga Rusa,
+26,21.04.2026,Dinamo Moskva,Rubin Kazan,,,Liga Rusa,
+26,21.04.2026,Lokomotiv Moskva,Zenit,,,Liga Rusa,
+26,21.04.2026,Akhmat Grozny,Baltika Kaliningrad,,,Liga Rusa,
+26,21.04.2026,FK Orenburg,FK Nizhny Novgorod,,,Liga Rusa,
+26,21.04.2026,Akron Tolyatti,FK Dinamo Makhachkala,,,Liga Rusa,
+26,21.04.2026,FK Sochi,Krylia Sovetov,,,Liga Rusa,
+27,24.04.2026,Zenit,Akhmat Grozny,,,Liga Rusa,
+27,24.04.2026,FK Rostov,FK Orenburg,,,Liga Rusa,
+27,24.04.2026,FK Krasnodar,FK Dinamo Makhachkala,,,Liga Rusa,
+27,24.04.2026,Krylia Sovetov,Lokomotiv Moskva,,,Liga Rusa,
+27,24.04.2026,Dinamo Moskva,FK Sochi,,,Liga Rusa,
+27,24.04.2026,Rubin Kazan,CSKA Moscú,,,Liga Rusa,
+27,24.04.2026,FK Nizhny Novgorod,Spartak Moskva,,,Liga Rusa,
+27,24.04.2026,Baltika Kaliningrad,Akron Tolyatti,,,Liga Rusa,
+28,02.05.2026,Krylia Sovetov,Spartak Moskva,,,Liga Rusa,
+28,02.05.2026,CSKA Moscú,Zenit,,,Liga Rusa,
+28,03.05.2026,Lokomotiv Moskva,Dinamo Moskva,,,Liga Rusa,
+28,04.05.2026,Akhmat Grozny,FK Nizhny Novgorod,,,Liga Rusa,
+28,05.05.2026,Baltika Kaliningrad,Rubin Kazan,,,Liga Rusa,
+28,06.05.2026,FK Dinamo Makhachkala,FK Rostov,,,Liga Rusa,
+28,07.05.2026,Akron Tolyatti,FK Krasnodar,,,Liga Rusa,
+28,08.05.2026,FK Sochi,FK Orenburg,,,Liga Rusa,
+29,07.05.2026,Zenit,FK Sochi,,,Liga Rusa,
+29,07.05.2026,Spartak Moskva,Rubin Kazan,,,Liga Rusa,
+29,07.05.2026,Dinamo Moskva,FK Krasnodar,,,Liga Rusa,
+29,07.05.2026,Lokomotiv Moskva,Baltika Kaliningrad,,,Liga Rusa,
+29,07.05.2026,Akhmat Grozny,FK Dinamo Makhachkala,,,Liga Rusa,
+29,07.05.2026,FK Orenburg,Krylia Sovetov,,,Liga Rusa,
+29,07.05.2026,FK Nizhny Novgorod,CSKA Moscú,,,Liga Rusa,
+29,07.05.2026,Akron Tolyatti,FK Rostov,,,Liga Rusa,
+30,17.05.2026,FK Rostov,Zenit,,,Liga Rusa,
+30,17.05.2026,FK Krasnodar,FK Orenburg,,,Liga Rusa,
+30,17.05.2026,Krylia Sovetov,Akron Tolyatti,,,Liga Rusa,
+30,17.05.2026,CSKA Moscú,Lokomotiv Moskva,,,Liga Rusa,
+30,17.05.2026,Rubin Kazan,FK Nizhny Novgorod,,,Liga Rusa,
+30,17.05.2026,Baltika Kaliningrad,Dinamo Moskva,,,Liga Rusa,
+30,17.05.2026,FK Dinamo Makhachkala,Spartak Moskva,,,Liga Rusa,
+30,17.05.2026,FK Sochi,Akhmat Grozny,,,Liga Rusa,
+1,29.03.2025,Djurgårdens IF,Malmoe,0,1,Liga Suecia,2
+1,29.03.2025,BK Häcken,IF Brommapojkarna,2,0,Liga Suecia,1
+1,30.03.2025,Hammarby IF,IFK Göteborg,4,0,Liga Suecia,1
+1,30.03.2025,IF Elfsborg,Mjällby AIF,2,2,Liga Suecia,X
+1,30.03.2025,IFK Norrköping,Östers IF,4,3,Liga Suecia,1
+1,30.03.2025,Halmstads BK,Degerfors IF,0,5,Liga Suecia,2
+1,31.03.2025,IFK Värnamo,IK Sirius,1,2,Liga Suecia,2
+1,31.03.2025,GAIS Göteborg,AIK Solna,0,1,Liga Suecia,2
+2,05.04.2025,IFK Göteborg,Halmstads BK,1,0,Liga Suecia,1
+2,05.04.2025,IK Sirius,Djurgårdens IF,0,1,Liga Suecia,2
+2,05.04.2025,Östers IF,BK Häcken,2,0,Liga Suecia,1
+2,06.04.2025,AIK Solna,IFK Norrköping,4,3,Liga Suecia,1
+2,06.04.2025,IF Brommapojkarna,Hammarby IF,0,2,Liga Suecia,2
+2,06.04.2025,Mjällby AIF,GAIS Göteborg,1,1,Liga Suecia,X
+2,06.04.2025,Degerfors IF,IFK Värnamo,1,0,Liga Suecia,1
+2,07.04.2025,Malmoe,IF Elfsborg,2,1,Liga Suecia,1
+3,12.04.2025,BK Häcken,Mjällby AIF,0,3,Liga Suecia,2
+3,12.04.2025,IF Elfsborg,IFK Norrköping,2,0,Liga Suecia,1
+3,13.04.2025,Hammarby IF,Djurgårdens IF,2,0,Liga Suecia,1
+3,13.04.2025,IFK Värnamo,IFK Göteborg,0,1,Liga Suecia,2
+3,13.04.2025,GAIS Göteborg,Degerfors IF,2,0,Liga Suecia,1
+3,13.04.2025,IK Sirius,IF Brommapojkarna,0,3,Liga Suecia,2
+3,14.04.2025,Halmstads BK,Östers IF,1,0,Liga Suecia,1
+3,14.04.2025,AIK Solna,Malmoe,0,0,Liga Suecia,X
+4,18.04.2025,Malmoe,IK Sirius,1,1,Liga Suecia,X
+4,18.04.2025,Mjällby AIF,Hammarby IF,3,1,Liga Suecia,1
+4,19.04.2025,IFK Norrköping,Halmstads BK,3,0,Liga Suecia,1
+4,19.04.2025,Degerfors IF,IF Elfsborg,0,1,Liga Suecia,2
+4,20.04.2025,IF Brommapojkarna,IFK Värnamo,3,2,Liga Suecia,1
+4,20.04.2025,Östers IF,AIK Solna,0,1,Liga Suecia,2
+4,20.04.2025,IFK Göteborg,BK Häcken,2,3,Liga Suecia,2
+4,21.04.2025,Djurgårdens IF,GAIS Göteborg,0,0,Liga Suecia,X
+5,23.04.2025,Hammarby IF,Malmoe,2,0,Liga Suecia,1
+5,23.04.2025,IF Elfsborg,IK Sirius,4,3,Liga Suecia,1
+5,23.04.2025,BK Häcken,Degerfors IF,3,4,Liga Suecia,2
+5,23.04.2025,Halmstads BK,Mjällby AIF,1,3,Liga Suecia,2
+5,24.04.2025,Djurgårdens IF,Östers IF,1,0,Liga Suecia,1
+5,24.04.2025,GAIS Göteborg,IF Brommapojkarna,1,1,Liga Suecia,X
+5,24.04.2025,IFK Norrköping,IFK Göteborg,2,3,Liga Suecia,2
+5,24.04.2025,IFK Värnamo,AIK Solna,1,2,Liga Suecia,2
+6,27.04.2025,BK Häcken,Hammarby IF,1,1,Liga Suecia,X
+6,27.04.2025,Mjällby AIF,Degerfors IF,4,1,Liga Suecia,1
+6,27.04.2025,AIK Solna,IF Elfsborg,2,0,Liga Suecia,1
+6,27.04.2025,IK Sirius,Halmstads BK,1,1,Liga Suecia,X
+6,27.04.2025,IFK Värnamo,IFK Norrköping,1,3,Liga Suecia,2
+6,28.04.2025,IFK Göteborg,GAIS Göteborg,1,1,Liga Suecia,X
+6,29.04.2025,Malmoe,Östers IF,2,0,Liga Suecia,1
+6,29.05.2025,IF Brommapojkarna,Djurgårdens IF,0,1,Liga Suecia,2
+7,03.05.2025,Degerfors IF,IK Sirius,1,1,Liga Suecia,X
+7,03.05.2025,Halmstads BK,IFK Värnamo,4,2,Liga Suecia,1
+7,04.05.2025,Djurgårdens IF,AIK Solna,1,1,Liga Suecia,X
+7,04.05.2025,IFK Norrköping,BK Häcken,0,2,Liga Suecia,2
+7,04.05.2025,Östers IF,Hammarby IF,0,3,Liga Suecia,2
+7,04.05.2025,Mjällby AIF,IFK Göteborg,1,0,Liga Suecia,1
+7,05.05.2025,Malmoe,IF Brommapojkarna,1,2,Liga Suecia,2
+7,05.05.2025,IF Elfsborg,GAIS Göteborg,2,0,Liga Suecia,1
+8,10.05.2025,IF Brommapojkarna,Halmstads BK,0,1,Liga Suecia,2
+8,10.05.2025,GAIS Göteborg,IFK Värnamo,1,1,Liga Suecia,X
+8,10.05.2025,IK Sirius,BK Häcken,2,0,Liga Suecia,1
+8,11.05.2025,AIK Solna,Mjällby AIF,2,1,Liga Suecia,1
+8,11.05.2025,Hammarby IF,IFK Norrköping,1,1,Liga Suecia,X
+8,11.05.2025,Östers IF,IF Elfsborg,0,1,Liga Suecia,2
+8,11.05.2025,Degerfors IF,Malmoe,1,4,Liga Suecia,2
+8,12.05.2025,IFK Göteborg,Djurgårdens IF,1,2,Liga Suecia,2
+9,14.05.2025,Hammarby IF,IK Sirius,3,2,Liga Suecia,1
+9,14.05.2025,BK Häcken,AIK Solna,3,3,Liga Suecia,X
+9,14.05.2025,Halmstads BK,GAIS Göteborg,1,3,Liga Suecia,2
+9,15.05.2025,Djurgårdens IF,Mjällby AIF,1,3,Liga Suecia,2
+9,15.05.2025,IF Elfsborg,IF Brommapojkarna,4,3,Liga Suecia,1
+9,15.05.2025,IFK Göteborg,Östers IF,0,1,Liga Suecia,2
+9,15.05.2025,IFK Norrköping,Degerfors IF,1,2,Liga Suecia,2
+9,15.05.2025,IFK Värnamo,Malmoe,2,2,Liga Suecia,X
+10,18.05.2025,BK Häcken,IFK Värnamo,2,0,Liga Suecia,1
+10,18.05.2025,AIK Solna,Hammarby IF,0,0,Liga Suecia,X
+10,18.05.2025,Östers IF,GAIS Göteborg,1,1,Liga Suecia,X
+10,18.05.2025,Malmoe,Halmstads BK,3,0,Liga Suecia,1
+10,19.05.2025,Mjällby AIF,IF Brommapojkarna,1,0,Liga Suecia,1
+10,19.05.2025,IK Sirius,IFK Norrköping,1,2,Liga Suecia,2
+10,19.05.2025,Degerfors IF,IFK Göteborg,1,3,Liga Suecia,2
+10,19.05.2025,IF Elfsborg,Djurgårdens IF,4,0,Liga Suecia,1
+11,24.05.2025,IFK Värnamo,Östers IF,1,1,Liga Suecia,X
+11,24.05.2025,GAIS Göteborg,IK Sirius,2,1,Liga Suecia,1
+11,25.05.2025,IFK Göteborg,Malmoe,1,0,Liga Suecia,1
+11,25.05.2025,Halmstads BK,IF Elfsborg,1,4,Liga Suecia,2
+11,25.05.2025,Djurgårdens IF,BK Häcken,1,1,Liga Suecia,X
+11,25.05.2025,IF Brommapojkarna,AIK Solna,0,1,Liga Suecia,2
+11,26.05.2025,IFK Norrköping,Mjällby AIF,1,1,Liga Suecia,X
+11,26.05.2025,Hammarby IF,Degerfors IF,1,0,Liga Suecia,1
+12,31.05.2025,IF Elfsborg,Hammarby IF,0,2,Liga Suecia,2
+12,31.05.2025,IFK Norrköping,GAIS Göteborg,0,3,Liga Suecia,2
+12,31.05.2025,Degerfors IF,Östers IF,1,2,Liga Suecia,2
+12,01.06.2025,IF Brommapojkarna,IFK Göteborg,1,3,Liga Suecia,2
+12,01.06.2025,Malmoe,BK Häcken,3,0,Liga Suecia,1
+12,01.06.2025,Halmstads BK,Djurgårdens IF,1,0,Liga Suecia,1
+12,01.06.2025,Mjällby AIF,IFK Värnamo,2,0,Liga Suecia,1
+12,01.06.2025,IK Sirius,AIK Solna,3,1,Liga Suecia,1
+13,28.06.2025,Hammarby IF,Halmstads BK,2,0,Liga Suecia,1
+13,28.06.2025,Östers IF,IK Sirius,2,2,Liga Suecia,X
+13,29.06.2025,AIK Solna,IFK Göteborg,3,0,Liga Suecia,1
+13,29.06.2025,Degerfors IF,IF Brommapojkarna,0,3,Liga Suecia,2
+13,29.06.2025,BK Häcken,GAIS Göteborg,1,3,Liga Suecia,2
+13,29.06.2025,IFK Värnamo,IF Elfsborg,0,0,Liga Suecia,X
+13,30.06.2025,Djurgårdens IF,IFK Norrköping,1,1,Liga Suecia,X
+13,30.06.2025,Mjällby AIF,Malmoe,1,1,Liga Suecia,X
+14,05.07.2025,GAIS Göteborg,Malmoe,0,0,Liga Suecia,X
+14,05.07.2025,Östers IF,Mjällby AIF,0,1,Liga Suecia,2
+14,05.07.2025,Hammarby IF,IFK Värnamo,1,0,Liga Suecia,1
+14,06.07.2025,IFK Göteborg,IK Sirius,3,1,Liga Suecia,1
+14,06.07.2025,Halmstads BK,AIK Solna,2,0,Liga Suecia,1
+14,06.07.2025,Djurgårdens IF,Degerfors IF,5,1,Liga Suecia,1
+14,06.07.2025,IF Elfsborg,BK Häcken,0,2,Liga Suecia,2
+14,07.07.2025,IFK Norrköping,IF Brommapojkarna,0,1,Liga Suecia,2
+15,12.07.2025,IFK Göteborg,IF Elfsborg,1,2,Liga Suecia,2
+15,12.07.2025,Malmoe,IFK Norrköping,3,1,Liga Suecia,1
+15,13.07.2025,IF Brommapojkarna,Östers IF,2,0,Liga Suecia,1
+15,13.07.2025,GAIS Göteborg,Hammarby IF,3,2,Liga Suecia,1
+15,13.07.2025,AIK Solna,Degerfors IF,3,0,Liga Suecia,1
+15,13.07.2025,IFK Värnamo,Djurgårdens IF,1,0,Liga Suecia,1
+15,13.07.2025,BK Häcken,Halmstads BK,4,1,Liga Suecia,1
+15,14.07.2025,IK Sirius,Mjällby AIF,1,2,Liga Suecia,2
+16,19.07.2025,Djurgårdens IF,IF Elfsborg,1,0,Liga Suecia,1
+16,19.07.2025,Östers IF,Malmoe,0,2,Liga Suecia,2
+16,19.07.2025,Degerfors IF,GAIS Göteborg,0,3,Liga Suecia,2
+16,20.07.2025,Mjällby AIF,AIK Solna,2,0,Liga Suecia,1
+16,20.07.2025,IK Sirius,IFK Göteborg,0,1,Liga Suecia,2
+16,20.07.2025,Hammarby IF,IF Brommapojkarna,3,2,Liga Suecia,1
+16,20.07.2025,Halmstads BK,BK Häcken,0,0,Liga Suecia,X
+16,21.07.2025,IFK Norrköping,IFK Värnamo,3,1,Liga Suecia,1
+17,26.07.2025,IF Brommapojkarna,Malmoe,2,3,Liga Suecia,2
+17,26.07.2025,GAIS Göteborg,Halmstads BK,3,0,Liga Suecia,1
+17,26.07.2025,Degerfors IF,IFK Norrköping,0,0,Liga Suecia,X
+17,27.07.2025,AIK Solna,Östers IF,0,0,Liga Suecia,X
+17,27.07.2025,BK Häcken,Djurgårdens IF,1,6,Liga Suecia,2
+17,27.07.2025,Mjällby AIF,IK Sirius,2,1,Liga Suecia,1
+17,27.07.2025,IFK Värnamo,Hammarby IF,2,3,Liga Suecia,2
+17,28.07.2025,IF Elfsborg,IFK Göteborg,4,3,Liga Suecia,1
+18,22.05.2025,Hammarby IF,Mjällby AIF,1,2,Liga Suecia,2
+18,22.05.2025,Malmoe,AIK Solna,0,0,Liga Suecia,X
+18,02.08.2025,IF Brommapojkarna,IFK Norrköping,6,4,Liga Suecia,1
+18,02.08.2025,IFK Värnamo,GAIS Göteborg,2,2,Liga Suecia,X
+18,03.08.2025,Djurgårdens IF,Halmstads BK,1,1,Liga Suecia,X
+18,03.08.2025,BK Häcken,IF Elfsborg,1,2,Liga Suecia,2
+18,03.08.2025,IK Sirius,Östers IF,1,1,Liga Suecia,X
+18,04.08.2025,IFK Göteborg,Degerfors IF,3,0,Liga Suecia,1
+19,09.08.2025,Malmoe,Mjällby AIF,1,3,Liga Suecia,2
+19,09.08.2025,Halmstads BK,IK Sirius,0,1,Liga Suecia,2
+19,10.08.2025,AIK Solna,Djurgårdens IF,0,0,Liga Suecia,X
+19,10.08.2025,Degerfors IF,BK Häcken,0,0,Liga Suecia,X
+19,10.08.2025,Östers IF,IF Brommapojkarna,1,1,Liga Suecia,X
+19,10.08.2025,IFK Norrköping,Hammarby IF,0,2,Liga Suecia,2
+19,11.08.2025,IF Elfsborg,IFK Värnamo,2,2,Liga Suecia,X
+19,11.08.2025,GAIS Göteborg,IFK Göteborg,0,1,Liga Suecia,2
+20,16.08.2025,Halmstads BK,Malmoe,0,4,Liga Suecia,2
+20,16.08.2025,IFK Norrköping,IF Elfsborg,2,1,Liga Suecia,1
+20,17.08.2025,IF Brommapojkarna,IK Sirius,2,4,Liga Suecia,2
+20,17.08.2025,IFK Göteborg,AIK Solna,2,1,Liga Suecia,1
+20,17.08.2025,Hammarby IF,GAIS Göteborg,1,2,Liga Suecia,2
+20,17.08.2025,BK Häcken,Östers IF,0,2,Liga Suecia,2
+20,17.08.2025,Mjällby AIF,Djurgårdens IF,1,1,Liga Suecia,X
+20,18.08.2025,IFK Värnamo,Degerfors IF,3,2,Liga Suecia,1
+21,24.08.2025,Djurgårdens IF,IF Brommapojkarna,1,0,Liga Suecia,1
+21,24.08.2025,IK Sirius,Hammarby IF,3,1,Liga Suecia,1
+21,24.08.2025,IF Elfsborg,Halmstads BK,1,2,Liga Suecia,2
+21,24.08.2025,Malmoe,IFK Göteborg,0,0,Liga Suecia,X
+21,24.08.2025,Degerfors IF,AIK Solna,0,1,Liga Suecia,2
+21,24.08.2025,IFK Värnamo,BK Häcken,1,5,Liga Suecia,2
+21,25.08.2025,GAIS Göteborg,Mjällby AIF,0,2,Liga Suecia,2
+21,25.08.2025,Östers IF,IFK Norrköping,1,2,Liga Suecia,2
+22,30.08.2025,IF Brommapojkarna,IF Elfsborg,3,0,Liga Suecia,1
+22,30.08.2025,IFK Göteborg,IFK Värnamo,1,0,Liga Suecia,1
+22,30.08.2025,Mjällby AIF,Halmstads BK,1,0,Liga Suecia,1
+22,31.08.2025,AIK Solna,IK Sirius,2,1,Liga Suecia,1
+22,31.08.2025,Malmoe,Degerfors IF,1,1,Liga Suecia,X
+22,31.08.2025,IFK Norrköping,Djurgårdens IF,0,4,Liga Suecia,2
+22,31.08.2025,Hammarby IF,Östers IF,4,0,Liga Suecia,1
+22,31.08.2025,GAIS Göteborg,BK Häcken,2,1,Liga Suecia,1
+23,13.09.2025,Degerfors IF,Mjällby AIF,0,1,Liga Suecia,2
+23,13.09.2025,Halmstads BK,IFK Norrköping,1,1,Liga Suecia,X
+23,14.09.2025,Djurgårdens IF,Hammarby IF,,,Liga Suecia,
+23,14.09.2025,Östers IF,IFK Värnamo,,,Liga Suecia,
+23,14.09.2025,IF Elfsborg,Malmoe,,,Liga Suecia,
+23,14.09.2025,IK Sirius,GAIS Göteborg,,,Liga Suecia,
+23,15.09.2025,AIK Solna,IF Brommapojkarna,,,Liga Suecia,
+23,15.09.2025,BK Häcken,IFK Göteborg,,,Liga Suecia,
+24,20.09.2025,GAIS Göteborg,IF Elfsborg,,,Liga Suecia,
+24,20.09.2025,Malmoe,Djurgårdens IF,,,Liga Suecia,
+24,20.09.2025,Mjällby AIF,Östers IF,,,Liga Suecia,
+24,21.09.2025,Hammarby IF,BK Häcken,,,Liga Suecia,
+24,21.09.2025,IFK Göteborg,IF Brommapojkarna,,,Liga Suecia,
+24,21.09.2025,IK Sirius,Degerfors IF,,,Liga Suecia,
+24,22.09.2025,IFK Värnamo,Halmstads BK,,,Liga Suecia,
+24,22.09.2025,IFK Norrköping,AIK Solna,,,Liga Suecia,
+25,27.09.2025,IF Elfsborg,Degerfors IF,,,Liga Suecia,
+25,27.09.2025,BK Häcken,IFK Norrköping,,,Liga Suecia,
+25,28.09.2025,IF Brommapojkarna,Mjällby AIF,,,Liga Suecia,
+25,28.09.2025,Halmstads BK,Hammarby IF,,,Liga Suecia,
+25,28.09.2025,AIK Solna,GAIS Göteborg,,,Liga Suecia,
+25,28.09.2025,Malmoe,IFK Värnamo,,,Liga Suecia,
+25,29.09.2025,Djurgårdens IF,IK Sirius,,,Liga Suecia,
+25,29.09.2025,Östers IF,IFK Göteborg,,,Liga Suecia,
+26,04.10.2025,Östers IF,Halmstads BK,,,Liga Suecia,
+26,04.10.2025,Mjällby AIF,IF Elfsborg,,,Liga Suecia,
+26,04.10.2025,Degerfors IF,Djurgårdens IF,,,Liga Suecia,
+26,04.10.2025,GAIS Göteborg,IFK Norrköping,,,Liga Suecia,
+26,05.10.2025,AIK Solna,IFK Värnamo,,,Liga Suecia,
+26,05.10.2025,IFK Göteborg,Hammarby IF,,,Liga Suecia,
+26,05.10.2025,IF Brommapojkarna,BK Häcken,,,Liga Suecia,
+26,05.10.2025,IK Sirius,Malmoe,,,Liga Suecia,
+27,18.10.2025,IFK Norrköping,Malmoe,,,Liga Suecia,
+27,18.10.2025,BK Häcken,IK Sirius,,,Liga Suecia,
+27,19.10.2025,Hammarby IF,AIK Solna,,,Liga Suecia,
+27,19.10.2025,GAIS Göteborg,Djurgårdens IF,,,Liga Suecia,
+27,19.10.2025,IF Elfsborg,Östers IF,,,Liga Suecia,
+27,19.10.2025,IFK Värnamo,IF Brommapojkarna,,,Liga Suecia,
+27,20.10.2025,Degerfors IF,Halmstads BK,,,Liga Suecia,
+27,20.10.2025,IFK Göteborg,Mjällby AIF,,,Liga Suecia,
+28,25.10.2025,Djurgårdens IF,IFK Värnamo,,,Liga Suecia,
+28,25.10.2025,Östers IF,Degerfors IF,,,Liga Suecia,
+28,26.10.2025,Mjällby AIF,IFK Norrköping,,,Liga Suecia,
+28,26.10.2025,IK Sirius,IF Elfsborg,,,Liga Suecia,
+28,26.10.2025,AIK Solna,BK Häcken,,,Liga Suecia,
+28,26.10.2025,Halmstads BK,IFK Göteborg,,,Liga Suecia,
+28,27.10.2025,IF Brommapojkarna,GAIS Göteborg,,,Liga Suecia,
+28,27.10.2025,Malmoe,Hammarby IF,,,Liga Suecia,
+29,01.11.2025,BK Häcken,Malmoe,,,Liga Suecia,
+29,01.11.2025,IFK Norrköping,IK Sirius,,,Liga Suecia,
+29,02.11.2025,IF Elfsborg,AIK Solna,,,Liga Suecia,
+29,02.11.2025,Halmstads BK,IF Brommapojkarna,,,Liga Suecia,
+29,02.11.2025,Djurgårdens IF,IFK Göteborg,,,Liga Suecia,
+29,02.11.2025,GAIS Göteborg,Östers IF,,,Liga Suecia,
+29,03.11.2025,Degerfors IF,Hammarby IF,,,Liga Suecia,
+29,03.11.2025,IFK Värnamo,Mjällby AIF,,,Liga Suecia,
+30,09.11.2025,AIK Solna,Halmstads BK,,,Liga Suecia,
+30,09.11.2025,Hammarby IF,IF Elfsborg,,,Liga Suecia,
+30,09.11.2025,IF Brommapojkarna,Degerfors IF,,,Liga Suecia,
+30,09.11.2025,IFK Göteborg,IFK Norrköping,,,Liga Suecia,
+30,09.11.2025,Östers IF,Djurgårdens IF,,,Liga Suecia,
+30,09.11.2025,Malmoe,GAIS Göteborg,,,Liga Suecia,
+30,09.11.2025,Mjällby AIF,BK Häcken,,,Liga Suecia,
+30,09.11.2025,IK Sirius,IFK Värnamo,,,Liga Suecia,
+1,25.07.2025,FC Zürich,FC Sion,2,3,Liga Suiza,2
+1,26.07.2025,FC St. Gallen,Basilea,2,1,Liga Suiza,1
+1,26.07.2025,Grasshopper Club Zürich,FC Luzern,2,3,Liga Suiza,2
+1,26.07.2025,BSC Young Boys,Servette FC,3,1,Liga Suiza,1
+1,27.07.2025,FC Lausanne-Sport,FC Winterthur,3,2,Liga Suiza,1
+1,27.07.2025,FC Lugano,FC Thun Berner Oberland,1,2,Liga Suiza,2
+2,02.08.2025,FC Winterthur,BSC Young Boys,1,1,Liga Suiza,X
+2,02.08.2025,Servette FC,FC St. Gallen,1,4,Liga Suiza,2
+2,02.08.2025,Basilea,Grasshopper Club Zürich,2,1,Liga Suiza,1
+2,03.08.2025,FC Thun Berner Oberland,FC Lausanne-Sport,2,1,Liga Suiza,1
+2,03.08.2025,FC Luzern,FC Zürich,1,1,Liga Suiza,X
+2,03.08.2025,FC Sion,FC Lugano,4,0,Liga Suiza,1
+3,09.08.2025,FC St. Gallen,FC Winterthur,5,0,Liga Suiza,1
+3,09.08.2025,FC Luzern,FC Thun Berner Oberland,1,2,Liga Suiza,2
+3,10.08.2025,BSC Young Boys,FC Sion,0,0,Liga Suiza,X
+3,10.08.2025,Servette FC,Grasshopper Club Zürich,1,1,Liga Suiza,X
+3,10.08.2025,FC Lausanne-Sport,FC Zürich,1,2,Liga Suiza,2
+3,10.08.2025,FC Lugano,Basilea,3,1,Liga Suiza,1
+4,06.08.2025,Basilea,BSC Young Boys,4,1,Liga Suiza,1
+4,23.08.2025,FC Zürich,FC Thun Berner Oberland,0,4,Liga Suiza,2
+4,24.08.2025,Grasshopper Club Zürich,FC Winterthur,2,2,Liga Suiza,X
+4,24.08.2025,FC St. Gallen,FC Luzern,0,1,Liga Suiza,2
+4,17.09.2025,FC Sion,Servette FC,,,Liga Suiza,
+4,17.09.2025,FC Lugano,FC Lausanne-Sport,,,Liga Suiza,
+5,30.08.2025,FC Thun Berner Oberland,Grasshopper Club Zürich,1,1,Liga Suiza,X
+5,30.08.2025,FC Winterthur,FC Zürich,1,3,Liga Suiza,2
+5,30.08.2025,FC Sion,Basilea,0,1,Liga Suiza,2
+5,31.08.2025,FC Lausanne-Sport,FC St. Gallen,1,2,Liga Suiza,2
+5,31.08.2025,Servette FC,FC Luzern,2,2,Liga Suiza,X
+5,31.08.2025,BSC Young Boys,FC Lugano,3,1,Liga Suiza,1
+6,13.09.2025,FC Thun Berner Oberland,Basilea,1,3,Liga Suiza,2
+6,13.09.2025,FC Zürich,Servette FC,2,1,Liga Suiza,1
+6,13.09.2025,FC St. Gallen,FC Lugano,1,0,Liga Suiza,1
+6,14.09.2025,FC Winterthur,FC Sion,,,Liga Suiza,
+6,14.09.2025,FC Luzern,BSC Young Boys,,,Liga Suiza,
+6,14.09.2025,Grasshopper Club Zürich,FC Lausanne-Sport,,,Liga Suiza,
+7,27.09.2025,FC Lugano,Grasshopper Club Zürich,,,Liga Suiza,
+7,27.09.2025,Servette FC,FC Winterthur,,,Liga Suiza,
+7,27.09.2025,FC Zürich,FC St. Gallen,,,Liga Suiza,
+7,28.09.2025,BSC Young Boys,FC Thun Berner Oberland,,,Liga Suiza,
+7,28.09.2025,Basilea,FC Luzern,,,Liga Suiza,
+7,28.09.2025,FC Sion,FC Lausanne-Sport,,,Liga Suiza,
+8,04.10.2025,FC Luzern,FC Sion,,,Liga Suiza,
+8,04.10.2025,FC St. Gallen,FC Thun Berner Oberland,,,Liga Suiza,
+8,04.10.2025,Grasshopper Club Zürich,FC Zürich,,,Liga Suiza,
+8,05.10.2025,FC Lausanne-Sport,BSC Young Boys,,,Liga Suiza,
+8,05.10.2025,FC Winterthur,FC Lugano,,,Liga Suiza,
+8,05.10.2025,Servette FC,Basilea,,,Liga Suiza,
+9,18.10.2025,Basilea,FC Winterthur,,,Liga Suiza,
+9,18.10.2025,FC Thun Berner Oberland,Servette FC,,,Liga Suiza,
+9,18.10.2025,FC Lugano,FC Zürich,,,Liga Suiza,
+9,19.10.2025,Grasshopper Club Zürich,FC Sion,,,Liga Suiza,
+9,19.10.2025,FC Luzern,FC Lausanne-Sport,,,Liga Suiza,
+9,19.10.2025,BSC Young Boys,FC St. Gallen,,,Liga Suiza,
+10,25.10.2025,FC Sion,FC Thun Berner Oberland,,,Liga Suiza,
+10,25.10.2025,FC St. Gallen,Grasshopper Club Zürich,,,Liga Suiza,
+10,25.10.2025,FC Winterthur,FC Luzern,,,Liga Suiza,
+10,26.10.2025,FC Zürich,BSC Young Boys,,,Liga Suiza,
+10,26.10.2025,FC Lausanne-Sport,Basilea,,,Liga Suiza,
+10,26.10.2025,Servette FC,FC Lugano,,,Liga Suiza,
+11,29.10.2025,Basilea,FC Zürich,,,Liga Suiza,
+11,29.10.2025,FC Lausanne-Sport,Servette FC,,,Liga Suiza,
+11,29.10.2025,FC Lugano,FC Luzern,,,Liga Suiza,
+11,29.10.2025,FC Sion,FC St. Gallen,,,Liga Suiza,
+11,29.10.2025,FC Thun Berner Oberland,FC Winterthur,,,Liga Suiza,
+11,29.10.2025,Grasshopper Club Zürich,BSC Young Boys,,,Liga Suiza,
+12,01.11.2025,FC Lugano,FC St. Gallen,,,Liga Suiza,
+12,01.11.2025,FC Luzern,Grasshopper Club Zürich,,,Liga Suiza,
+12,01.11.2025,FC Thun Berner Oberland,FC Sion,,,Liga Suiza,
+12,01.11.2025,FC Winterthur,Servette FC,,,Liga Suiza,
+12,01.11.2025,FC Zürich,FC Lausanne-Sport,,,Liga Suiza,
+12,01.11.2025,BSC Young Boys,Basilea,,,Liga Suiza,
+13,08.11.2025,Basilea,FC Lugano,,,Liga Suiza,
+13,08.11.2025,FC Lausanne-Sport,FC Sion,,,Liga Suiza,
+13,08.11.2025,FC St. Gallen,BSC Young Boys,,,Liga Suiza,
+13,08.11.2025,FC Winterthur,Grasshopper Club Zürich,,,Liga Suiza,
+13,08.11.2025,FC Zürich,FC Luzern,,,Liga Suiza,
+13,08.11.2025,Servette FC,FC Thun Berner Oberland,,,Liga Suiza,
+14,22.11.2025,FC Luzern,Servette FC,,,Liga Suiza,
+14,22.11.2025,FC Sion,FC Zürich,,,Liga Suiza,
+14,22.11.2025,FC St. Gallen,FC Lausanne-Sport,,,Liga Suiza,
+14,22.11.2025,FC Thun Berner Oberland,FC Lugano,,,Liga Suiza,
+14,22.11.2025,Grasshopper Club Zürich,Basilea,,,Liga Suiza,
+14,22.11.2025,BSC Young Boys,FC Winterthur,,,Liga Suiza,
+15,29.11.2025,Basilea,FC St. Gallen,,,Liga Suiza,
+15,29.11.2025,FC Lausanne-Sport,FC Thun Berner Oberland,,,Liga Suiza,
+15,29.11.2025,FC Lugano,FC Sion,,,Liga Suiza,
+15,29.11.2025,FC Luzern,FC Winterthur,,,Liga Suiza,
+15,29.11.2025,FC Zürich,Grasshopper Club Zürich,,,Liga Suiza,
+15,29.11.2025,Servette FC,BSC Young Boys,,,Liga Suiza,
+16,06.12.2025,FC Lausanne-Sport,FC Lugano,,,Liga Suiza,
+16,06.12.2025,FC Sion,BSC Young Boys,,,Liga Suiza,
+16,06.12.2025,FC St. Gallen,FC Zürich,,,Liga Suiza,
+16,06.12.2025,FC Thun Berner Oberland,FC Luzern,,,Liga Suiza,
+16,06.12.2025,FC Winterthur,Basilea,,,Liga Suiza,
+16,06.12.2025,Grasshopper Club Zürich,Servette FC,,,Liga Suiza,
+17,13.12.2025,Basilea,FC Lausanne-Sport,,,Liga Suiza,
+17,13.12.2025,FC Lugano,Servette FC,,,Liga Suiza,
+17,13.12.2025,FC Sion,Grasshopper Club Zürich,,,Liga Suiza,
+17,13.12.2025,FC Thun Berner Oberland,FC St. Gallen,,,Liga Suiza,
+17,13.12.2025,FC Zürich,FC Winterthur,,,Liga Suiza,
+17,13.12.2025,BSC Young Boys,FC Luzern,,,Liga Suiza,
+18,16.12.2025,FC Luzern,Basilea,,,Liga Suiza,
+18,16.12.2025,FC St. Gallen,FC Sion,,,Liga Suiza,
+18,16.12.2025,FC Winterthur,FC Thun Berner Oberland,,,Liga Suiza,
+18,16.12.2025,FC Zürich,FC Lugano,,,Liga Suiza,
+18,16.12.2025,Servette FC,FC Lausanne-Sport,,,Liga Suiza,
+18,16.12.2025,BSC Young Boys,Grasshopper Club Zürich,,,Liga Suiza,
+19,20.12.2025,Basilea,Servette FC,,,Liga Suiza,
+19,20.12.2025,FC Lausanne-Sport,FC Luzern,,,Liga Suiza,
+19,20.12.2025,FC Lugano,BSC Young Boys,,,Liga Suiza,
+19,20.12.2025,FC Sion,FC Winterthur,,,Liga Suiza,
+19,20.12.2025,FC Thun Berner Oberland,FC Zürich,,,Liga Suiza,
+19,20.12.2025,Grasshopper Club Zürich,FC St. Gallen,,,Liga Suiza,
+20,17.01.2026,Basilea,FC Sion,,,Liga Suiza,
+20,17.01.2026,FC Luzern,FC Lugano,,,Liga Suiza,
+20,17.01.2026,FC Winterthur,FC St. Gallen,,,Liga Suiza,
+20,17.01.2026,Grasshopper Club Zürich,FC Thun Berner Oberland,,,Liga Suiza,
+20,17.01.2026,Servette FC,FC Zürich,,,Liga Suiza,
+20,17.01.2026,BSC Young Boys,FC Lausanne-Sport,,,Liga Suiza,
+21,24.01.2026,FC Lausanne-Sport,Grasshopper Club Zürich,,,Liga Suiza,
+21,24.01.2026,FC Lugano,FC Winterthur,,,Liga Suiza,
+21,24.01.2026,FC Sion,FC Luzern,,,Liga Suiza,
+21,24.01.2026,FC St. Gallen,Servette FC,,,Liga Suiza,
+21,24.01.2026,FC Thun Berner Oberland,BSC Young Boys,,,Liga Suiza,
+21,24.01.2026,FC Zürich,Basilea,,,Liga Suiza,
+22,31.01.2026,Basilea,FC Thun Berner Oberland,,,Liga Suiza,
+22,31.01.2026,FC Luzern,FC St. Gallen,,,Liga Suiza,
+22,31.01.2026,FC Winterthur,FC Lausanne-Sport,,,Liga Suiza,
+22,31.01.2026,Grasshopper Club Zürich,FC Lugano,,,Liga Suiza,
+22,31.01.2026,Servette FC,FC Sion,,,Liga Suiza,
+22,31.01.2026,BSC Young Boys,FC Zürich,,,Liga Suiza,
+1,15.08.2025,Ratchaburi FC,Kanchanaburi Power FC,1,1,Liga Tailandia,X
+1,16.08.2025,PT Prachuap FC,BG Pathum United,2,2,Liga Tailandia,X
+1,16.08.2025,Nakhon Ratchasima,Chonburi FC,0,0,Liga Tailandia,X
+1,16.08.2025,Lamphun Warriors,Buriram United,2,3,Liga Tailandia,2
+1,16.08.2025,Muangthong United,Sukhothai FC,1,0,Liga Tailandia,1
+1,17.08.2025,Uthai Thani FC,Chiangrai United,1,1,Liga Tailandia,X
+1,17.08.2025,Port FC,Ayutthaya United,3,1,Liga Tailandia,1
+1,17.08.2025,Bangkok United,Rayong FC,3,2,Liga Tailandia,1
+2,22.08.2025,Rayong FC,Nakhon Ratchasima,1,2,Liga Tailandia,2
+2,23.08.2025,Chiangrai United,PT Prachuap FC,2,1,Liga Tailandia,1
+2,23.08.2025,Ayutthaya United,Muangthong United,2,2,Liga Tailandia,X
+2,23.08.2025,Chonburi FC,Ratchaburi FC,0,1,Liga Tailandia,2
+2,23.08.2025,BG Pathum United,Lamphun Warriors,2,1,Liga Tailandia,1
+2,24.08.2025,Kanchanaburi Power FC,Bangkok United,3,3,Liga Tailandia,X
+2,24.08.2025,Sukhothai FC,Port FC,1,0,Liga Tailandia,1
+2,24.08.2025,Buriram United,Uthai Thani FC,5,1,Liga Tailandia,1
+3,29.08.2025,Uthai Thani FC,Ayutthaya United,1,4,Liga Tailandia,2
+3,30.08.2025,Nakhon Ratchasima,Ratchaburi FC,0,2,Liga Tailandia,2
+3,30.08.2025,Lamphun Warriors,Chonburi FC,2,2,Liga Tailandia,X
+3,30.08.2025,Bangkok United,BG Pathum United,2,1,Liga Tailandia,1
+3,30.08.2025,Port FC,Rayong FC,1,1,Liga Tailandia,X
+3,31.08.2025,Chiangrai United,Buriram United,1,2,Liga Tailandia,2
+3,31.08.2025,PT Prachuap FC,Sukhothai FC,0,0,Liga Tailandia,X
+3,31.08.2025,Muangthong United,Kanchanaburi Power FC,2,0,Liga Tailandia,1
+4,12.09.2025,Buriram United,PT Prachuap FC,2,0,Liga Tailandia,1
+4,12.09.2025,Uthai Thani FC,BG Pathum United,0,1,Liga Tailandia,2
+4,13.09.2025,Chonburi FC,Bangkok United,0,1,Liga Tailandia,2
+4,13.09.2025,Sukhothai FC,Lamphun Warriors,1,2,Liga Tailandia,2
+4,13.09.2025,Ratchaburi FC,Port FC,1,0,Liga Tailandia,1
+4,14.09.2025,Rayong FC,Muangthong United,,,Liga Tailandia,
+4,14.09.2025,Ayutthaya United,Chiangrai United,,,Liga Tailandia,
+4,14.09.2025,Kanchanaburi Power FC,Nakhon Ratchasima,,,Liga Tailandia,
+5,19.09.2025,Port FC,Chonburi FC,,,Liga Tailandia,
+5,20.09.2025,Lamphun Warriors,Nakhon Ratchasima,,,Liga Tailandia,
+5,20.09.2025,Uthai Thani FC,Sukhothai FC,,,Liga Tailandia,
+5,20.09.2025,PT Prachuap FC,Kanchanaburi Power FC,,,Liga Tailandia,
+5,21.09.2025,Chiangrai United,BG Pathum United,,,Liga Tailandia,
+5,21.09.2025,Muangthong United,Ratchaburi FC,,,Liga Tailandia,
+5,21.09.2025,Rayong FC,Ayutthaya United,,,Liga Tailandia,
+5,21.09.2025,Bangkok United,Buriram United,,,Liga Tailandia,
+6,26.09.2025,Sukhothai FC,Chiangrai United,,,Liga Tailandia,
+6,27.09.2025,Ayutthaya United,Buriram United,,,Liga Tailandia,
+6,27.09.2025,Rayong FC,Uthai Thani FC,,,Liga Tailandia,
+6,27.09.2025,Chonburi FC,PT Prachuap FC,,,Liga Tailandia,
+6,27.09.2025,Kanchanaburi Power FC,Lamphun Warriors,,,Liga Tailandia,
+6,28.09.2025,Ratchaburi FC,Bangkok United,,,Liga Tailandia,
+6,28.09.2025,Nakhon Ratchasima,Muangthong United,,,Liga Tailandia,
+6,28.09.2025,BG Pathum United,Port FC,,,Liga Tailandia,
+7,03.10.2025,Lamphun Warriors,Muangthong United,,,Liga Tailandia,
+7,04.10.2025,Chiangrai United,Rayong FC,,,Liga Tailandia,
+7,04.10.2025,Uthai Thani FC,Chonburi FC,,,Liga Tailandia,
+7,04.10.2025,Port FC,Kanchanaburi Power FC,,,Liga Tailandia,
+7,04.10.2025,Ayutthaya United,Sukhothai FC,,,Liga Tailandia,
+7,05.10.2025,Bangkok United,Nakhon Ratchasima,,,Liga Tailandia,
+7,05.10.2025,PT Prachuap FC,Ratchaburi FC,,,Liga Tailandia,
+7,05.10.2025,Buriram United,BG Pathum United,,,Liga Tailandia,
+8,18.10.2025,Nakhon Ratchasima,Port FC,,,Liga Tailandia,
+8,18.10.2025,Ratchaburi FC,Lamphun Warriors,,,Liga Tailandia,
+8,18.10.2025,Muangthong United,Bangkok United,,,Liga Tailandia,
+8,18.10.2025,BG Pathum United,Ayutthaya United,,,Liga Tailandia,
+8,19.10.2025,Rayong FC,PT Prachuap FC,,,Liga Tailandia,
+8,19.10.2025,Chonburi FC,Chiangrai United,,,Liga Tailandia,
+8,19.10.2025,Kanchanaburi Power FC,Uthai Thani FC,,,Liga Tailandia,
+8,04.01.2026,Sukhothai FC,Buriram United,,,Liga Tailandia,
+9,24.10.2025,Port FC,Muangthong United,,,Liga Tailandia,
+9,25.10.2025,Ayutthaya United,Chonburi FC,,,Liga Tailandia,
+9,25.10.2025,Chiangrai United,Kanchanaburi Power FC,,,Liga Tailandia,
+9,25.10.2025,PT Prachuap FC,Nakhon Ratchasima,,,Liga Tailandia,
+9,26.10.2025,Buriram United,Rayong FC,,,Liga Tailandia,
+9,26.10.2025,Bangkok United,Lamphun Warriors,,,Liga Tailandia,
+9,26.10.2025,Sukhothai FC,BG Pathum United,,,Liga Tailandia,
+9,26.10.2025,Uthai Thani FC,Ratchaburi FC,,,Liga Tailandia,
+10,01.11.2025,Ratchaburi FC,Chiangrai United,,,Liga Tailandia,
+10,01.11.2025,Kanchanaburi Power FC,Ayutthaya United,,,Liga Tailandia,
+10,01.11.2025,Buriram United,Nakhon Ratchasima,,,Liga Tailandia,
+10,01.11.2025,Rayong FC,Sukhothai FC,,,Liga Tailandia,
+10,02.11.2025,Muangthong United,PT Prachuap FC,,,Liga Tailandia,
+10,02.11.2025,Bangkok United,Uthai Thani FC,,,Liga Tailandia,
+10,02.11.2025,Lamphun Warriors,Port FC,,,Liga Tailandia,
+10,02.11.2025,Chonburi FC,BG Pathum United,,,Liga Tailandia,
+11,07.11.2025,PT Prachuap FC,Lamphun Warriors,,,Liga Tailandia,
+11,08.11.2025,Sukhothai FC,Kanchanaburi Power FC,,,Liga Tailandia,
+11,08.11.2025,Chiangrai United,Nakhon Ratchasima,,,Liga Tailandia,
+11,08.11.2025,Uthai Thani FC,Muangthong United,,,Liga Tailandia,
+11,09.11.2025,BG Pathum United,Rayong FC,,,Liga Tailandia,
+11,09.11.2025,Ayutthaya United,Ratchaburi FC,,,Liga Tailandia,
+11,09.11.2025,Chonburi FC,Buriram United,,,Liga Tailandia,
+11,09.11.2025,Port FC,Bangkok United,,,Liga Tailandia,
+12,22.11.2025,Port FC,Chiangrai United,,,Liga Tailandia,
+12,22.11.2025,Bangkok United,PT Prachuap FC,,,Liga Tailandia,
+12,22.11.2025,Muangthong United,Buriram United,,,Liga Tailandia,
+12,22.11.2025,Ratchaburi FC,BG Pathum United,,,Liga Tailandia,
+12,23.11.2025,Nakhon Ratchasima,Ayutthaya United,,,Liga Tailandia,
+12,23.11.2025,Kanchanaburi Power FC,Rayong FC,,,Liga Tailandia,
+12,23.11.2025,Sukhothai FC,Chonburi FC,,,Liga Tailandia,
+12,23.11.2025,Lamphun Warriors,Uthai Thani FC,,,Liga Tailandia,
+13,28.11.2025,PT Prachuap FC,Port FC,,,Liga Tailandia,
+13,29.11.2025,Uthai Thani FC,Nakhon Ratchasima,,,Liga Tailandia,
+13,29.11.2025,Ayutthaya United,Lamphun Warriors,,,Liga Tailandia,
+13,29.11.2025,Rayong FC,Chonburi FC,,,Liga Tailandia,
+13,29.11.2025,Chiangrai United,Muangthong United,,,Liga Tailandia,
+13,30.11.2025,Sukhothai FC,Bangkok United,,,Liga Tailandia,
+13,30.11.2025,BG Pathum United,Kanchanaburi Power FC,,,Liga Tailandia,
+13,30.11.2025,Buriram United,Ratchaburi FC,,,Liga Tailandia,
+14,05.12.2025,Ratchaburi FC,Sukhothai FC,,,Liga Tailandia,
+14,06.12.2025,Lamphun Warriors,Rayong FC,,,Liga Tailandia,
+14,06.12.2025,Buriram United,Kanchanaburi Power FC,,,Liga Tailandia,
+14,06.12.2025,Muangthong United,Chonburi FC,,,Liga Tailandia,
+14,06.12.2025,PT Prachuap FC,Ayutthaya United,,,Liga Tailandia,
+14,07.12.2025,Bangkok United,Chiangrai United,,,Liga Tailandia,
+14,07.12.2025,Nakhon Ratchasima,BG Pathum United,,,Liga Tailandia,
+14,07.12.2025,Port FC,Uthai Thani FC,,,Liga Tailandia,
+15,12.12.2025,Chonburi FC,Kanchanaburi Power FC,,,Liga Tailandia,
+15,13.12.2025,Sukhothai FC,Nakhon Ratchasima,,,Liga Tailandia,
+15,14.12.2025,Ayutthaya United,Bangkok United,,,Liga Tailandia,
+15,14.12.2025,Buriram United,Port FC,,,Liga Tailandia,
+15,14.12.2025,Uthai Thani FC,PT Prachuap FC,,,Liga Tailandia,
+15,14.12.2025,Chiangrai United,Lamphun Warriors,,,Liga Tailandia,
+15,14.12.2025,BG Pathum United,Muangthong United,,,Liga Tailandia,
+15,16.12.2025,Rayong FC,Ratchaburi FC,,,Liga Tailandia,
+1,22.02.2025,Los Angeles FC,Minnesota United FC,1,0,Liga USA,1
+1,23.02.2025,Inter Miami CF,New York City FC,2,2,Liga USA,X
+1,23.02.2025,Atlanta United FC,CF Montréal,3,2,Liga USA,1
+1,23.02.2025,Columbus Crew,Chicago Fire,4,2,Liga USA,1
+1,23.02.2025,D.C. United,Toronto FC,2,2,Liga USA,X
+1,23.02.2025,FC Cincinnati,New York RB,1,0,Liga USA,1
+1,23.02.2025,Orlando City,Philadelphia Union,2,4,Liga USA,2
+1,23.02.2025,Austin FC,Sporting Kansas City,1,0,Liga USA,1
+1,23.02.2025,Houston Dynamo,FC Dallas,1,2,Liga USA,2
+1,23.02.2025,Nashville SC,New England Revolution,0,0,Liga USA,X
+1,23.02.2025,St. Louis City SC,Colorado Rapids,0,0,Liga USA,X
+1,23.02.2025,San Jose Earthquakes,Real Salt Lake,4,0,Liga USA,1
+1,23.02.2025,Seattle Sounders,Charlotte FC,2,2,Liga USA,X
+1,23.02.2025,Portland Timbers,Vancouver Whitecaps,1,4,Liga USA,2
+1,24.02.2025,Los Angeles Galaxy,San Diego FC,0,2,Liga USA,2
+2,01.03.2025,Charlotte FC,Atlanta United FC,2,0,Liga USA,1
+2,01.03.2025,Real Salt Lake,Seattle Sounders,2,0,Liga USA,1
+2,02.03.2025,New England Revolution,Columbus Crew,0,1,Liga USA,2
+2,02.03.2025,New York RB,Nashville SC,2,0,Liga USA,1
+2,02.03.2025,Orlando City,Toronto FC,4,2,Liga USA,1
+2,02.03.2025,Philadelphia Union,FC Cincinnati,4,1,Liga USA,1
+2,02.03.2025,Chicago Fire,D.C. United,2,2,Liga USA,X
+2,02.03.2025,Minnesota United FC,CF Montréal,1,0,Liga USA,1
+2,02.03.2025,Sporting Kansas City,San Jose Earthquakes,1,2,Liga USA,2
+2,02.03.2025,Colorado Rapids,FC Dallas,3,3,Liga USA,X
+2,02.03.2025,Los Angeles FC,New York City FC,1,0,Liga USA,1
+2,02.03.2025,Portland Timbers,Austin FC,1,0,Liga USA,1
+2,02.03.2025,San Diego FC,St. Louis City SC,0,0,Liga USA,X
+2,02.03.2025,Vancouver Whitecaps,Los Angeles Galaxy,2,1,Liga USA,1
+2,03.03.2025,Houston Dynamo,Inter Miami CF,1,4,Liga USA,2
+3,08.03.2025,Columbus Crew,Houston Dynamo,0,0,Liga USA,X
+3,08.03.2025,Seattle Sounders,Los Angeles FC,5,2,Liga USA,1
+3,09.03.2025,Atlanta United FC,New York RB,0,0,Liga USA,X
+3,09.03.2025,D.C. United,Sporting Kansas City,2,1,Liga USA,1
+3,09.03.2025,FC Cincinnati,Toronto FC,2,0,Liga USA,1
+3,09.03.2025,New England Revolution,Philadelphia Union,0,2,Liga USA,2
+3,09.03.2025,New York City FC,Orlando City,2,1,Liga USA,1
+3,09.03.2025,Austin FC,Colorado Rapids,0,1,Liga USA,2
+3,09.03.2025,FC Dallas,Chicago Fire,1,3,Liga USA,2
+3,09.03.2025,Nashville SC,Portland Timbers,2,0,Liga USA,1
+3,09.03.2025,Real Salt Lake,San Diego FC,1,3,Liga USA,2
+3,09.03.2025,Vancouver Whitecaps,CF Montréal,2,0,Liga USA,1
+3,09.03.2025,San Jose Earthquakes,Minnesota United FC,0,1,Liga USA,2
+3,09.03.2025,Inter Miami CF,Charlotte FC,1,0,Liga USA,1
+3,10.03.2025,Los Angeles Galaxy,St. Louis City SC,0,3,Liga USA,2
+4,15.03.2025,New York RB,Orlando City,2,2,Liga USA,X
+4,15.03.2025,Toronto FC,Chicago Fire,1,2,Liga USA,2
+4,15.03.2025,Los Angeles FC,Austin FC,0,1,Liga USA,2
+4,16.03.2025,Charlotte FC,FC Cincinnati,2,0,Liga USA,1
+4,16.03.2025,D.C. United,CF Montréal,0,0,Liga USA,X
+4,16.03.2025,New York City FC,New England Revolution,2,1,Liga USA,1
+4,16.03.2025,Sporting Kansas City,Minnesota United FC,3,3,Liga USA,X
+4,16.03.2025,FC Dallas,Vancouver Whitecaps,0,1,Liga USA,2
+4,16.03.2025,Houston Dynamo,Real Salt Lake,1,2,Liga USA,2
+4,16.03.2025,St. Louis City SC,Seattle Sounders,1,0,Liga USA,1
+4,16.03.2025,San Diego FC,Columbus Crew,1,1,Liga USA,X
+4,16.03.2025,San Jose Earthquakes,Colorado Rapids,1,2,Liga USA,2
+4,16.03.2025,Philadelphia Union,Nashville SC,1,3,Liga USA,2
+4,16.03.2025,Portland Timbers,Los Angeles Galaxy,1,1,Liga USA,X
+4,17.03.2025,Atlanta United FC,Inter Miami CF,1,2,Liga USA,2
+5,22.03.2025,FC Cincinnati,Atlanta United FC,2,2,Liga USA,X
+5,22.03.2025,Minnesota United FC,Los Angeles Galaxy,2,2,Liga USA,X
+5,23.03.2025,Charlotte FC,San Jose Earthquakes,4,1,Liga USA,1
+5,23.03.2025,Columbus Crew,New York City FC,0,0,Liga USA,X
+5,23.03.2025,New York RB,Toronto FC,2,1,Liga USA,1
+5,23.03.2025,Orlando City,D.C. United,4,1,Liga USA,1
+5,23.03.2025,Philadelphia Union,St. Louis City SC,1,0,Liga USA,1
+5,23.03.2025,Nashville SC,CF Montréal,3,0,Liga USA,1
+5,23.03.2025,Sporting Kansas City,Los Angeles FC,0,2,Liga USA,2
+5,23.03.2025,Colorado Rapids,Portland Timbers,0,3,Liga USA,2
+5,23.03.2025,Real Salt Lake,FC Dallas,0,1,Liga USA,2
+5,23.03.2025,Seattle Sounders,Houston Dynamo,0,0,Liga USA,X
+5,23.03.2025,Vancouver Whitecaps,Chicago Fire,1,3,Liga USA,2
+5,23.03.2025,Austin FC,San Diego FC,2,1,Liga USA,1
+6,29.03.2025,New England Revolution,New York RB,2,1,Liga USA,1
+6,29.03.2025,Toronto FC,Vancouver Whitecaps,0,0,Liga USA,X
+6,29.03.2025,Colorado Rapids,Charlotte FC,2,0,Liga USA,1
+6,30.03.2025,Atlanta United FC,New York City FC,4,3,Liga USA,1
+6,30.03.2025,D.C. United,Columbus Crew,1,2,Liga USA,2
+6,30.03.2025,Inter Miami CF,Philadelphia Union,2,1,Liga USA,1
+6,30.03.2025,Chicago Fire,CF Montréal,1,1,Liga USA,X
+6,30.03.2025,FC Dallas,Sporting Kansas City,2,1,Liga USA,1
+6,30.03.2025,Minnesota United FC,Real Salt Lake,2,0,Liga USA,1
+6,30.03.2025,Nashville SC,FC Cincinnati,1,2,Liga USA,2
+6,30.03.2025,Los Angeles Galaxy,Orlando City,1,2,Liga USA,2
+6,30.03.2025,San Diego FC,Los Angeles FC,3,2,Liga USA,1
+6,30.03.2025,San Jose Earthquakes,Seattle Sounders,1,1,Liga USA,X
+6,30.03.2025,St. Louis City SC,Austin FC,0,1,Liga USA,2
+6,31.03.2025,Portland Timbers,Houston Dynamo,3,1,Liga USA,1
+7,05.04.2025,Charlotte FC,Nashville SC,2,1,Liga USA,1
+7,05.04.2025,Real Salt Lake,Los Angeles Galaxy,2,0,Liga USA,1
+7,06.04.2025,Atlanta United FC,FC Dallas,1,1,Liga USA,X
+7,06.04.2025,Columbus Crew,CF Montréal,2,1,Liga USA,1
+7,06.04.2025,FC Cincinnati,New England Revolution,1,0,Liga USA,1
+7,06.04.2025,New York RB,Chicago Fire,2,1,Liga USA,1
+7,06.04.2025,Philadelphia Union,Orlando City,0,0,Liga USA,X
+7,06.04.2025,Austin FC,Portland Timbers,0,0,Liga USA,X
+7,06.04.2025,Houston Dynamo,Los Angeles FC,1,0,Liga USA,1
+7,06.04.2025,Sporting Kansas City,St. Louis City SC,2,0,Liga USA,1
+7,06.04.2025,Vancouver Whitecaps,Colorado Rapids,2,0,Liga USA,1
+7,06.04.2025,San Diego FC,Seattle Sounders,3,0,Liga USA,1
+7,06.04.2025,New York City FC,Minnesota United FC,1,2,Liga USA,2
+7,06.04.2025,San Jose Earthquakes,D.C. United,6,1,Liga USA,1
+7,07.04.2025,Inter Miami CF,Toronto FC,1,1,Liga USA,X
+8,12.04.2025,Toronto FC,Minnesota United FC,0,0,Liga USA,X
+8,12.04.2025,Atlanta United FC,New England Revolution,0,1,Liga USA,2
+8,12.04.2025,Orlando City,New York RB,0,0,Liga USA,X
+8,13.04.2025,D.C. United,FC Cincinnati,0,1,Liga USA,2
+8,13.04.2025,New York City FC,Philadelphia Union,1,0,Liga USA,1
+8,13.04.2025,Vancouver Whitecaps,Austin FC,5,1,Liga USA,1
+8,13.04.2025,CF Montréal,Charlotte FC,0,1,Liga USA,2
+8,13.04.2025,FC Dallas,Seattle Sounders,0,1,Liga USA,2
+8,13.04.2025,Nashville SC,Real Salt Lake,2,1,Liga USA,1
+8,13.04.2025,Colorado Rapids,San Diego FC,3,2,Liga USA,1
+8,13.04.2025,Los Angeles Galaxy,Houston Dynamo,1,1,Liga USA,X
+8,13.04.2025,Los Angeles FC,San Jose Earthquakes,2,1,Liga USA,1
+8,13.04.2025,Sporting Kansas City,Portland Timbers,2,4,Liga USA,2
+8,13.04.2025,Chicago Fire,Inter Miami CF,0,0,Liga USA,X
+8,14.04.2025,St. Louis City SC,Columbus Crew,1,2,Liga USA,2
+9,19.04.2025,Austin FC,Los Angeles Galaxy,1,0,Liga USA,1
+9,19.04.2025,Columbus Crew,Inter Miami CF,0,1,Liga USA,2
+9,20.04.2025,CF Montréal,Orlando City,0,0,Liga USA,X
+9,20.04.2025,Charlotte FC,San Diego FC,3,0,Liga USA,1
+9,20.04.2025,New England Revolution,New York City FC,2,0,Liga USA,1
+9,20.04.2025,New York RB,D.C. United,1,2,Liga USA,2
+9,20.04.2025,Philadelphia Union,Atlanta United FC,3,0,Liga USA,1
+9,20.04.2025,Seattle Sounders,Nashville SC,3,0,Liga USA,1
+9,20.04.2025,Chicago Fire,FC Cincinnati,2,3,Liga USA,2
+9,20.04.2025,Houston Dynamo,Colorado Rapids,2,2,Liga USA,X
+9,20.04.2025,Minnesota United FC,FC Dallas,0,0,Liga USA,X
+9,20.04.2025,St. Louis City SC,Vancouver Whitecaps,0,0,Liga USA,X
+9,20.04.2025,Real Salt Lake,Toronto FC,0,1,Liga USA,2
+9,20.04.2025,Portland Timbers,Los Angeles FC,3,3,Liga USA,X
+9,20.04.2025,San Jose Earthquakes,Sporting Kansas City,3,5,Liga USA,2
+10,26.04.2025,FC Cincinnati,Sporting Kansas City,2,1,Liga USA,1
+10,26.04.2025,Toronto FC,New York City FC,0,1,Liga USA,2
+10,26.04.2025,New York RB,CF Montréal,1,0,Liga USA,1
+10,26.04.2025,Philadelphia Union,D.C. United,3,0,Liga USA,1
+10,27.04.2025,Orlando City,Atlanta United FC,3,0,Liga USA,1
+10,27.04.2025,Charlotte FC,New England Revolution,0,1,Liga USA,2
+10,27.04.2025,Columbus Crew,San Jose Earthquakes,2,1,Liga USA,1
+10,27.04.2025,San Diego FC,Real Salt Lake,1,3,Liga USA,2
+10,27.04.2025,Houston Dynamo,Austin FC,2,0,Liga USA,1
+10,27.04.2025,Nashville SC,Chicago Fire,7,2,Liga USA,1
+10,27.04.2025,Colorado Rapids,Seattle Sounders,1,1,Liga USA,X
+10,27.04.2025,Minnesota United FC,Vancouver Whitecaps,1,3,Liga USA,2
+10,27.04.2025,Inter Miami CF,FC Dallas,3,4,Liga USA,2
+10,28.04.2025,Los Angeles FC,St. Louis City SC,2,2,Liga USA,X
+10,28.04.2025,Los Angeles Galaxy,Portland Timbers,2,4,Liga USA,2
+11,03.05.2025,Atlanta United FC,Nashville SC,1,1,Liga USA,X
+11,03.05.2025,Toronto FC,New England Revolution,0,2,Liga USA,2
+11,04.05.2025,CF Montréal,Philadelphia Union,1,2,Liga USA,2
+11,04.05.2025,Columbus Crew,Charlotte FC,4,2,Liga USA,1
+11,04.05.2025,D.C. United,Colorado Rapids,2,1,Liga USA,1
+11,04.05.2025,Inter Miami CF,New York RB,4,1,Liga USA,1
+11,04.05.2025,Austin FC,Minnesota United FC,0,3,Liga USA,2
+11,04.05.2025,Chicago Fire,Orlando City,0,0,Liga USA,X
+11,04.05.2025,San Diego FC,FC Dallas,5,0,Liga USA,1
+11,04.05.2025,Vancouver Whitecaps,Real Salt Lake,2,1,Liga USA,1
+11,04.05.2025,Los Angeles FC,Houston Dynamo,2,0,Liga USA,1
+11,04.05.2025,San Jose Earthquakes,Portland Timbers,4,1,Liga USA,1
+11,04.05.2025,Seattle Sounders,St. Louis City SC,4,1,Liga USA,1
+11,04.05.2025,New York City FC,FC Cincinnati,1,0,Liga USA,1
+11,05.05.2025,Sporting Kansas City,Los Angeles Galaxy,1,0,Liga USA,1
+12,10.05.2025,Chicago Fire,Atlanta United FC,2,1,Liga USA,1
+12,10.05.2025,Minnesota United FC,Inter Miami CF,4,1,Liga USA,1
+12,10.05.2025,Toronto FC,D.C. United,2,0,Liga USA,1
+12,11.05.2025,FC Cincinnati,Austin FC,2,1,Liga USA,1
+12,11.05.2025,New York City FC,CF Montréal,0,1,Liga USA,2
+12,11.05.2025,New York RB,Los Angeles Galaxy,7,0,Liga USA,1
+12,11.05.2025,Orlando City,New England Revolution,3,3,Liga USA,X
+12,11.05.2025,Philadelphia Union,Columbus Crew,2,2,Liga USA,X
+12,11.05.2025,FC Dallas,Real Salt Lake,1,1,Liga USA,X
+12,11.05.2025,Houston Dynamo,Seattle Sounders,1,3,Liga USA,2
+12,11.05.2025,Nashville SC,Charlotte FC,2,1,Liga USA,1
+12,11.05.2025,St. Louis City SC,San Diego FC,1,2,Liga USA,2
+12,11.05.2025,Colorado Rapids,San Jose Earthquakes,0,2,Liga USA,2
+12,11.05.2025,Portland Timbers,Sporting Kansas City,1,0,Liga USA,1
+12,12.05.2025,Vancouver Whitecaps,Los Angeles FC,2,2,Liga USA,X
+13,15.05.2025,CF Montréal,Columbus Crew,1,1,Liga USA,X
+13,15.05.2025,D.C. United,New York City FC,0,0,Liga USA,X
+13,15.05.2025,Orlando City,Charlotte FC,3,1,Liga USA,1
+13,15.05.2025,Philadelphia Union,Los Angeles Galaxy,3,2,Liga USA,1
+13,15.05.2025,Toronto FC,FC Cincinnati,0,1,Liga USA,2
+13,15.05.2025,Houston Dynamo,Minnesota United FC,2,0,Liga USA,1
+13,15.05.2025,Nashville SC,New York RB,2,1,Liga USA,1
+13,15.05.2025,St. Louis City SC,Sporting Kansas City,2,2,Liga USA,X
+13,15.05.2025,Austin FC,Atlanta United FC,1,1,Liga USA,X
+13,15.05.2025,Real Salt Lake,Portland Timbers,0,0,Liga USA,X
+13,15.05.2025,Los Angeles FC,Seattle Sounders,4,0,Liga USA,1
+13,15.05.2025,San Diego FC,Colorado Rapids,2,0,Liga USA,1
+13,15.05.2025,San Jose Earthquakes,Inter Miami CF,3,3,Liga USA,X
+13,17.05.2025,CF Montréal,Toronto FC,1,6,Liga USA,2
+13,17.05.2025,New York City FC,New York RB,2,0,Liga USA,1
+14,18.05.2025,Columbus Crew,FC Cincinnati,1,1,Liga USA,X
+14,18.05.2025,Atlanta United FC,Philadelphia Union,0,1,Liga USA,2
+14,18.05.2025,Charlotte FC,Chicago Fire,1,4,Liga USA,2
+14,18.05.2025,New England Revolution,San Jose Earthquakes,0,0,Liga USA,X
+14,18.05.2025,Austin FC,Vancouver Whitecaps,0,0,Liga USA,X
+14,18.05.2025,Minnesota United FC,St. Louis City SC,3,0,Liga USA,1
+14,18.05.2025,Nashville SC,D.C. United,0,0,Liga USA,X
+14,18.05.2025,FC Dallas,Houston Dynamo,0,2,Liga USA,2
+14,18.05.2025,Colorado Rapids,Real Salt Lake,1,0,Liga USA,1
+14,18.05.2025,Portland Timbers,Seattle Sounders,1,1,Liga USA,X
+14,18.05.2025,San Diego FC,Sporting Kansas City,0,0,Liga USA,X
+14,19.05.2025,Inter Miami CF,Orlando City,0,3,Liga USA,2
+14,19.05.2025,Los Angeles Galaxy,Los Angeles FC,2,2,Liga USA,X
+15,24.05.2025,Seattle Sounders,FC Dallas,1,0,Liga USA,1
+15,24.05.2025,San Diego FC,Los Angeles Galaxy,2,1,Liga USA,1
+15,25.05.2025,CF Montréal,Los Angeles FC,2,2,Liga USA,X
+15,25.05.2025,Charlotte FC,Columbus Crew,3,2,Liga USA,1
+15,25.05.2025,D.C. United,New York RB,0,2,Liga USA,2
+15,25.05.2025,Orlando City,Portland Timbers,1,0,Liga USA,1
+15,25.05.2025,Philadelphia Union,Inter Miami CF,3,3,Liga USA,X
+15,25.05.2025,Toronto FC,Nashville SC,1,2,Liga USA,2
+15,25.05.2025,Minnesota United FC,Austin FC,1,1,Liga USA,X
+15,25.05.2025,Sporting Kansas City,New England Revolution,3,3,Liga USA,X
+15,25.05.2025,Colorado Rapids,St. Louis City SC,1,0,Liga USA,1
+15,25.05.2025,Real Salt Lake,Vancouver Whitecaps,2,3,Liga USA,2
+15,25.05.2025,San Jose Earthquakes,Houston Dynamo,3,3,Liga USA,X
+15,25.05.2025,New York City FC,Chicago Fire,3,1,Liga USA,1
+15,26.05.2025,Atlanta United FC,FC Cincinnati,4,2,Liga USA,1
+16,29.05.2025,Atlanta United FC,Orlando City,3,2,Liga USA,1
+16,29.05.2025,D.C. United,New England Revolution,1,1,Liga USA,X
+16,29.05.2025,FC Cincinnati,FC Dallas,3,3,Liga USA,X
+16,29.05.2025,Inter Miami CF,CF Montréal,4,2,Liga USA,1
+16,29.05.2025,New York City FC,Houston Dynamo,0,3,Liga USA,2
+16,29.05.2025,New York RB,Charlotte FC,4,2,Liga USA,1
+16,29.05.2025,Toronto FC,Philadelphia Union,1,2,Liga USA,2
+16,29.05.2025,Columbus Crew,Nashville SC,2,2,Liga USA,X
+16,29.05.2025,Seattle Sounders,San Diego FC,1,0,Liga USA,1
+16,29.05.2025,Austin FC,Real Salt Lake,1,1,Liga USA,X
+16,29.05.2025,Los Angeles Galaxy,San Jose Earthquakes,0,1,Liga USA,2
+16,29.05.2025,Portland Timbers,Colorado Rapids,2,1,Liga USA,1
+16,29.05.2025,Vancouver Whitecaps,Minnesota United FC,0,0,Liga USA,X
+16,09.06.2025,Los Angeles FC,Sporting Kansas City,3,1,Liga USA,1
+17,31.05.2025,St. Louis City SC,San Jose Earthquakes,2,1,Liga USA,1
+17,31.05.2025,Nashville SC,New York City FC,2,2,Liga USA,X
+17,01.06.2025,CF Montréal,New England Revolution,0,3,Liga USA,2
+17,01.06.2025,FC Cincinnati,D.C. United,1,2,Liga USA,2
+17,01.06.2025,Inter Miami CF,Columbus Crew,5,1,Liga USA,1
+17,01.06.2025,New York RB,Atlanta United FC,2,0,Liga USA,1
+17,01.06.2025,Orlando City,Chicago Fire,1,3,Liga USA,2
+17,01.06.2025,Toronto FC,Charlotte FC,0,2,Liga USA,2
+17,01.06.2025,FC Dallas,Philadelphia Union,0,0,Liga USA,X
+17,01.06.2025,Houston Dynamo,Sporting Kansas City,1,3,Liga USA,2
+17,01.06.2025,Los Angeles Galaxy,Real Salt Lake,2,0,Liga USA,1
+17,01.06.2025,San Diego FC,Austin FC,2,0,Liga USA,1
+17,02.06.2025,Seattle Sounders,Minnesota United FC,2,3,Liga USA,2
+18,08.06.2025,D.C. United,Chicago Fire,1,7,Liga USA,2
+18,08.06.2025,Colorado Rapids,Austin FC,0,2,Liga USA,2
+18,09.06.2025,Portland Timbers,St. Louis City SC,2,1,Liga USA,1
+18,09.06.2025,Vancouver Whitecaps,Seattle Sounders,3,0,Liga USA,1
+18,13.06.2025,New York City FC,Atlanta United FC,4,0,Liga USA,1
+18,14.06.2025,Portland Timbers,San Jose Earthquakes,1,1,Liga USA,X
+18,14.06.2025,St. Louis City SC,Los Angeles Galaxy,3,3,Liga USA,X
+18,15.06.2025,Columbus Crew,Vancouver Whitecaps,2,1,Liga USA,1
+18,15.06.2025,New England Revolution,FC Cincinnati,0,1,Liga USA,2
+18,15.06.2025,Philadelphia Union,Charlotte FC,2,1,Liga USA,1
+18,15.06.2025,Austin FC,New York RB,2,1,Liga USA,1
+18,15.06.2025,Chicago Fire,Nashville SC,0,2,Liga USA,2
+18,15.06.2025,Houston Dynamo,CF Montréal,1,3,Liga USA,2
+18,15.06.2025,Minnesota United FC,San Diego FC,2,4,Liga USA,2
+18,15.06.2025,Sporting Kansas City,FC Dallas,2,4,Liga USA,2
+18,15.06.2025,Colorado Rapids,Orlando City,0,1,Liga USA,2
+18,15.06.2025,Real Salt Lake,D.C. United,2,0,Liga USA,1
+18,09.10.2025,Los Angeles FC,Toronto FC,,,Liga USA,
+19,26.06.2025,CF Montréal,FC Cincinnati,1,3,Liga USA,2
+19,26.06.2025,Columbus Crew,Atlanta United FC,3,1,Liga USA,1
+19,26.06.2025,New England Revolution,Nashville SC,2,3,Liga USA,2
+19,26.06.2025,Toronto FC,New York RB,1,1,Liga USA,X
+19,26.06.2025,Chicago Fire,Philadelphia Union,0,1,Liga USA,2
+19,26.06.2025,FC Dallas,San Jose Earthquakes,2,4,Liga USA,2
+19,26.06.2025,Minnesota United FC,Houston Dynamo,3,1,Liga USA,1
+19,26.06.2025,Sporting Kansas City,Charlotte FC,2,1,Liga USA,1
+19,26.06.2025,St. Louis City SC,Orlando City,2,4,Liga USA,2
+19,26.06.2025,Colorado Rapids,Los Angeles Galaxy,2,0,Liga USA,1
+19,26.06.2025,Vancouver Whitecaps,San Diego FC,3,5,Liga USA,2
+19,18.09.2025,Real Salt Lake,Los Angeles FC,,,Liga USA,
+20,29.06.2025,CF Montréal,New York City FC,1,0,Liga USA,1
+20,29.06.2025,D.C. United,Nashville SC,0,1,Liga USA,2
+20,29.06.2025,New England Revolution,Colorado Rapids,3,3,Liga USA,X
+20,29.06.2025,New York RB,Minnesota United FC,2,2,Liga USA,X
+20,29.06.2025,Orlando City,FC Cincinnati,1,2,Liga USA,2
+20,29.06.2025,Toronto FC,Portland Timbers,3,0,Liga USA,1
+20,29.06.2025,Chicago Fire,Charlotte FC,3,2,Liga USA,1
+20,29.06.2025,FC Dallas,San Diego FC,2,3,Liga USA,2
+20,29.06.2025,Houston Dynamo,St. Louis City SC,1,0,Liga USA,1
+20,29.06.2025,Sporting Kansas City,Real Salt Lake,1,1,Liga USA,X
+20,29.06.2025,San Jose Earthquakes,Los Angeles Galaxy,1,1,Liga USA,X
+20,29.06.2025,Seattle Sounders,Austin FC,2,0,Liga USA,1
+20,30.06.2025,Columbus Crew,Philadelphia Union,1,0,Liga USA,1
+20,30.06.2025,Los Angeles FC,Vancouver Whitecaps,0,1,Liga USA,2
+20,12.10.2025,Inter Miami CF,Atlanta United FC,,,Liga USA,
+21,04.07.2025,New York City FC,Toronto FC,3,1,Liga USA,1
+21,05.07.2025,FC Dallas,Minnesota United FC,1,2,Liga USA,2
+21,05.07.2025,Colorado Rapids,Sporting Kansas City,1,2,Liga USA,2
+21,05.07.2025,Los Angeles Galaxy,Vancouver Whitecaps,3,0,Liga USA,1
+21,06.07.2025,Charlotte FC,Orlando City,2,2,Liga USA,X
+21,06.07.2025,CF Montréal,Inter Miami CF,1,4,Liga USA,2
+21,06.07.2025,D.C. United,Atlanta United FC,0,0,Liga USA,X
+21,06.07.2025,FC Cincinnati,Chicago Fire,2,1,Liga USA,1
+21,06.07.2025,Nashville SC,Philadelphia Union,1,0,Liga USA,1
+21,06.07.2025,Real Salt Lake,St. Louis City SC,3,2,Liga USA,1
+21,06.07.2025,Portland Timbers,New England Revolution,2,1,Liga USA,1
+21,06.07.2025,San Diego FC,Houston Dynamo,3,4,Liga USA,2
+21,06.07.2025,San Jose Earthquakes,New York RB,1,1,Liga USA,X
+21,06.07.2025,Seattle Sounders,Columbus Crew,1,1,Liga USA,X
+21,13.10.2025,Austin FC,Los Angeles FC,,,Liga USA,
+22,10.07.2025,New England Revolution,Inter Miami CF,1,2,Liga USA,2
+22,10.07.2025,Los Angeles FC,Colorado Rapids,3,0,Liga USA,1
+22,13.07.2025,Charlotte FC,New York City FC,2,0,Liga USA,1
+22,13.07.2025,Orlando City,CF Montréal,1,1,Liga USA,X
+22,13.07.2025,Philadelphia Union,New York RB,2,0,Liga USA,1
+22,13.07.2025,Toronto FC,Atlanta United FC,1,1,Liga USA,X
+22,13.07.2025,Inter Miami CF,Nashville SC,2,1,Liga USA,1
+22,13.07.2025,Austin FC,New England Revolution,0,0,Liga USA,X
+22,13.07.2025,Chicago Fire,San Diego FC,1,2,Liga USA,2
+22,13.07.2025,Minnesota United FC,San Jose Earthquakes,4,1,Liga USA,1
+22,13.07.2025,Sporting Kansas City,Seattle Sounders,2,3,Liga USA,2
+22,13.07.2025,FC Cincinnati,Columbus Crew,2,4,Liga USA,2
+22,13.07.2025,Colorado Rapids,Vancouver Whitecaps,3,0,Liga USA,1
+22,13.07.2025,Real Salt Lake,Houston Dynamo,1,0,Liga USA,1
+22,13.07.2025,Los Angeles Galaxy,D.C. United,2,1,Liga USA,1
+22,13.07.2025,Los Angeles FC,FC Dallas,2,0,Liga USA,1
+22,14.07.2025,St. Louis City SC,Portland Timbers,2,1,Liga USA,1
+23,17.07.2025,Atlanta United FC,Chicago Fire,2,2,Liga USA,X
+23,17.07.2025,Charlotte FC,D.C. United,2,1,Liga USA,1
+23,17.07.2025,FC Cincinnati,Inter Miami CF,3,0,Liga USA,1
+23,17.07.2025,New York RB,New England Revolution,5,3,Liga USA,1
+23,17.07.2025,Philadelphia Union,CF Montréal,2,1,Liga USA,1
+23,17.07.2025,Orlando City,New York City FC,1,2,Liga USA,2
+23,17.07.2025,Houston Dynamo,Vancouver Whitecaps,0,3,Liga USA,2
+23,17.07.2025,Minnesota United FC,Los Angeles FC,0,1,Liga USA,2
+23,17.07.2025,Nashville SC,Columbus Crew,3,0,Liga USA,1
+23,17.07.2025,Seattle Sounders,Colorado Rapids,3,3,Liga USA,X
+23,17.07.2025,Los Angeles Galaxy,Austin FC,1,2,Liga USA,2
+23,17.07.2025,Portland Timbers,Real Salt Lake,0,1,Liga USA,2
+23,17.07.2025,San Diego FC,Toronto FC,0,1,Liga USA,2
+23,17.07.2025,San Jose Earthquakes,FC Dallas,2,2,Liga USA,X
+24,20.07.2025,Atlanta United FC,Charlotte FC,2,3,Liga USA,2
+24,20.07.2025,CF Montréal,Chicago Fire,0,2,Liga USA,2
+24,20.07.2025,Columbus Crew,D.C. United,2,1,Liga USA,1
+24,20.07.2025,New England Revolution,Orlando City,1,2,Liga USA,2
+24,20.07.2025,New York RB,Inter Miami CF,1,5,Liga USA,2
+24,20.07.2025,FC Dallas,St. Louis City SC,3,0,Liga USA,1
+24,20.07.2025,Houston Dynamo,Philadelphia Union,1,1,Liga USA,X
+24,20.07.2025,Nashville SC,Toronto FC,1,0,Liga USA,1
+24,20.07.2025,Seattle Sounders,San Jose Earthquakes,3,2,Liga USA,1
+24,20.07.2025,Sporting Kansas City,New York City FC,1,1,Liga USA,X
+24,20.07.2025,Real Salt Lake,FC Cincinnati,0,1,Liga USA,2
+24,20.07.2025,Los Angeles FC,Los Angeles Galaxy,3,3,Liga USA,X
+24,20.07.2025,Portland Timbers,Minnesota United FC,1,1,Liga USA,X
+24,20.07.2025,San Diego FC,Vancouver Whitecaps,1,1,Liga USA,X
+25,26.07.2025,Columbus Crew,Orlando City,1,3,Liga USA,2
+25,26.07.2025,New England Revolution,CF Montréal,1,3,Liga USA,2
+25,26.07.2025,FC Dallas,New York City FC,3,4,Liga USA,2
+25,26.07.2025,Los Angeles FC,Portland Timbers,0,1,Liga USA,2
+25,26.07.2025,San Diego FC,Nashville SC,1,0,Liga USA,1
+25,27.07.2025,Inter Miami CF,FC Cincinnati,0,0,Liga USA,X
+25,27.07.2025,Atlanta United FC,Seattle Sounders,2,2,Liga USA,X
+25,27.07.2025,Charlotte FC,Toronto FC,2,0,Liga USA,1
+25,27.07.2025,D.C. United,Austin FC,2,4,Liga USA,2
+25,27.07.2025,Philadelphia Union,Colorado Rapids,3,1,Liga USA,1
+25,27.07.2025,Chicago Fire,New York RB,1,0,Liga USA,1
+25,27.07.2025,St. Louis City SC,Minnesota United FC,1,2,Liga USA,2
+25,27.07.2025,Real Salt Lake,San Jose Earthquakes,2,1,Liga USA,1
+25,27.07.2025,Vancouver Whitecaps,Sporting Kansas City,3,0,Liga USA,1
+25,07.09.2025,Houston Dynamo,Los Angeles Galaxy,1,1,Liga USA,X
+26,10.08.2025,CF Montréal,Atlanta United FC,1,1,Liga USA,X
+26,10.08.2025,New England Revolution,D.C. United,2,0,Liga USA,1
+26,10.08.2025,Philadelphia Union,Toronto FC,1,1,Liga USA,X
+26,10.08.2025,Austin FC,Houston Dynamo,2,2,Liga USA,X
+26,10.08.2025,Chicago Fire,Los Angeles FC,2,2,Liga USA,X
+26,10.08.2025,FC Dallas,Portland Timbers,2,0,Liga USA,1
+26,10.08.2025,St. Louis City SC,Nashville SC,3,1,Liga USA,1
+26,10.08.2025,Sporting Kansas City,San Diego FC,0,2,Liga USA,2
+26,10.08.2025,San Jose Earthquakes,Vancouver Whitecaps,2,1,Liga USA,1
+26,11.08.2025,FC Cincinnati,Charlotte FC,0,1,Liga USA,2
+26,11.08.2025,Minnesota United FC,Colorado Rapids,1,2,Liga USA,2
+26,11.08.2025,New York RB,Real Salt Lake,2,1,Liga USA,1
+26,11.08.2025,Orlando City,Inter Miami CF,4,1,Liga USA,1
+26,11.08.2025,Los Angeles Galaxy,Seattle Sounders,0,4,Liga USA,2
+26,18.09.2025,New York City FC,Columbus Crew,,,Liga USA,
+27,17.08.2025,CF Montréal,D.C. United,1,1,Liga USA,X
+27,17.08.2025,Charlotte FC,Real Salt Lake,1,0,Liga USA,1
+27,17.08.2025,Inter Miami CF,Los Angeles Galaxy,3,1,Liga USA,1
+27,17.08.2025,New England Revolution,Los Angeles FC,0,2,Liga USA,2
+27,17.08.2025,New York RB,Philadelphia Union,1,0,Liga USA,1
+27,17.08.2025,Toronto FC,Columbus Crew,1,1,Liga USA,X
+27,17.08.2025,Austin FC,FC Dallas,1,1,Liga USA,X
+27,17.08.2025,Chicago Fire,St. Louis City SC,3,2,Liga USA,1
+27,17.08.2025,Minnesota United FC,Seattle Sounders,1,0,Liga USA,1
+27,17.08.2025,Colorado Rapids,Atlanta United FC,3,1,Liga USA,1
+27,17.08.2025,Portland Timbers,FC Cincinnati,2,3,Liga USA,2
+27,17.08.2025,Orlando City,Sporting Kansas City,3,1,Liga USA,1
+27,17.08.2025,New York City FC,Nashville SC,2,1,Liga USA,1
+27,18.08.2025,San Jose Earthquakes,San Diego FC,1,2,Liga USA,2
+27,18.08.2025,Vancouver Whitecaps,Houston Dynamo,1,1,Liga USA,X
+28,24.08.2025,CF Montréal,Austin FC,3,2,Liga USA,1
+28,24.08.2025,Columbus Crew,New England Revolution,1,2,Liga USA,2
+28,24.08.2025,D.C. United,Inter Miami CF,1,1,Liga USA,X
+28,24.08.2025,FC Cincinnati,New York City FC,0,1,Liga USA,2
+28,24.08.2025,Philadelphia Union,Chicago Fire,4,0,Liga USA,1
+28,24.08.2025,FC Dallas,Los Angeles FC,1,1,Liga USA,X
+28,24.08.2025,Houston Dynamo,San Jose Earthquakes,1,2,Liga USA,2
+28,24.08.2025,Nashville SC,Orlando City,5,1,Liga USA,1
+28,24.08.2025,Real Salt Lake,Minnesota United FC,1,3,Liga USA,2
+28,24.08.2025,Vancouver Whitecaps,St. Louis City SC,3,2,Liga USA,1
+28,24.08.2025,Los Angeles Galaxy,Colorado Rapids,3,0,Liga USA,1
+28,24.08.2025,San Diego FC,Portland Timbers,0,0,Liga USA,X
+28,24.08.2025,Atlanta United FC,Toronto FC,0,0,Liga USA,X
+28,25.08.2025,Charlotte FC,New York RB,1,0,Liga USA,1
+28,25.08.2025,Seattle Sounders,Sporting Kansas City,5,2,Liga USA,1
+29,31.08.2025,FC Cincinnati,Philadelphia Union,0,1,Liga USA,2
+29,31.08.2025,New England Revolution,Charlotte FC,1,2,Liga USA,2
+29,31.08.2025,New York City FC,D.C. United,1,2,Liga USA,2
+29,31.08.2025,New York RB,Columbus Crew,0,0,Liga USA,X
+29,31.08.2025,Toronto FC,CF Montréal,1,1,Liga USA,X
+29,31.08.2025,Austin FC,San Jose Earthquakes,3,1,Liga USA,1
+29,31.08.2025,Minnesota United FC,Portland Timbers,1,1,Liga USA,X
+29,31.08.2025,Nashville SC,Atlanta United FC,0,1,Liga USA,2
+29,31.08.2025,Sporting Kansas City,Colorado Rapids,4,2,Liga USA,1
+29,31.08.2025,St. Louis City SC,Houston Dynamo,2,3,Liga USA,2
+29,01.09.2025,Los Angeles FC,San Diego FC,1,2,Liga USA,2
+29,01.10.2025,Inter Miami CF,Chicago Fire,,,Liga USA,
+29,12.10.2025,Orlando City,Vancouver Whitecaps,,,Liga USA,
+29,12.10.2025,Seattle Sounders,Real Salt Lake,,,Liga USA,
+29,12.10.2025,Los Angeles Galaxy,FC Dallas,,,Liga USA,
+30,07.09.2025,Chicago Fire,New England Revolution,3,2,Liga USA,1
+30,07.09.2025,St. Louis City SC,FC Dallas,1,1,Liga USA,X
+30,08.09.2025,Sporting Kansas City,Austin FC,1,2,Liga USA,2
+30,14.09.2025,Atlanta United FC,Columbus Crew,4,5,Liga USA,2
+30,14.09.2025,CF Montréal,St. Louis City SC,0,2,Liga USA,2
+30,14.09.2025,Charlotte FC,Inter Miami CF,3,0,Liga USA,1
+30,14.09.2025,D.C. United,Orlando City,1,1,Liga USA,X
+30,14.09.2025,FC Cincinnati,Nashville SC,2,1,Liga USA,1
+30,14.09.2025,New England Revolution,Toronto FC,1,1,Liga USA,X
+30,14.09.2025,San Jose Earthquakes,Los Angeles FC,2,4,Liga USA,2
+30,14.09.2025,Chicago Fire,New York City FC,1,3,Liga USA,2
+30,14.09.2025,FC Dallas,Austin FC,2,0,Liga USA,1
+30,14.09.2025,Seattle Sounders,Los Angeles Galaxy,2,2,Liga USA,X
+30,14.09.2025,Colorado Rapids,Houston Dynamo,2,1,Liga USA,1
+30,14.09.2025,Real Salt Lake,Sporting Kansas City,2,1,Liga USA,1
+30,14.09.2025,Vancouver Whitecaps,Philadelphia Union,7,0,Liga USA,1
+30,14.09.2025,Portland Timbers,New York RB,2,1,Liga USA,1
+30,14.09.2025,San Diego FC,Minnesota United FC,1,3,Liga USA,2
+31,17.09.2025,Inter Miami CF,Seattle Sounders,,,Liga USA,
+31,20.09.2025,New York City FC,Charlotte FC,,,Liga USA,
+31,20.09.2025,Philadelphia Union,New England Revolution,,,Liga USA,
+31,20.09.2025,Atlanta United FC,San Diego FC,,,Liga USA,
+31,21.09.2025,CF Montréal,New York RB,,,Liga USA,
+31,21.09.2025,Columbus Crew,Toronto FC,,,Liga USA,
+31,21.09.2025,Inter Miami CF,D.C. United,,,Liga USA,
+31,21.09.2025,Orlando City,Nashville SC,,,Liga USA,
+31,21.09.2025,FC Dallas,Colorado Rapids,,,Liga USA,
+31,21.09.2025,Houston Dynamo,Portland Timbers,,,Liga USA,
+31,21.09.2025,Minnesota United FC,Chicago Fire,,,Liga USA,
+31,21.09.2025,Sporting Kansas City,Vancouver Whitecaps,,,Liga USA,
+31,21.09.2025,Los Angeles Galaxy,FC Cincinnati,,,Liga USA,
+31,21.09.2025,San Jose Earthquakes,St. Louis City SC,,,Liga USA,
+31,22.09.2025,Austin FC,Seattle Sounders,,,Liga USA,
+31,22.09.2025,Los Angeles FC,Real Salt Lake,,,Liga USA,
+32,25.09.2025,New York City FC,Inter Miami CF,,,Liga USA,
+32,25.09.2025,Vancouver Whitecaps,Portland Timbers,,,Liga USA,
+32,27.09.2025,Toronto FC,Inter Miami CF,,,Liga USA,
+32,28.09.2025,Charlotte FC,CF Montréal,,,Liga USA,
+32,28.09.2025,D.C. United,Philadelphia Union,,,Liga USA,
+32,28.09.2025,New England Revolution,Atlanta United FC,,,Liga USA,
+32,28.09.2025,New York RB,New York City FC,,,Liga USA,
+32,28.09.2025,Chicago Fire,Columbus Crew,,,Liga USA,
+32,28.09.2025,Nashville SC,Houston Dynamo,,,Liga USA,
+32,28.09.2025,St. Louis City SC,Los Angeles FC,,,Liga USA,
+32,28.09.2025,Colorado Rapids,Minnesota United FC,,,Liga USA,
+32,28.09.2025,Real Salt Lake,Austin FC,,,Liga USA,
+32,28.09.2025,Los Angeles Galaxy,Sporting Kansas City,,,Liga USA,
+32,28.09.2025,Portland Timbers,FC Dallas,,,Liga USA,
+32,28.09.2025,San Diego FC,San Jose Earthquakes,,,Liga USA,
+32,28.09.2025,Seattle Sounders,Vancouver Whitecaps,,,Liga USA,
+32,29.09.2025,FC Cincinnati,Orlando City,,,Liga USA,
+33,04.10.2025,D.C. United,Charlotte FC,,,Liga USA,
+33,04.10.2025,CF Montréal,Nashville SC,,,Liga USA,
+33,04.10.2025,FC Dallas,Los Angeles Galaxy,,,Liga USA,
+33,05.10.2025,Inter Miami CF,New England Revolution,,,Liga USA,
+33,05.10.2025,New York RB,FC Cincinnati,,,Liga USA,
+33,05.10.2025,Orlando City,Columbus Crew,,,Liga USA,
+33,05.10.2025,Philadelphia Union,New York City FC,,,Liga USA,
+33,05.10.2025,Austin FC,St. Louis City SC,,,Liga USA,
+33,05.10.2025,Chicago Fire,Toronto FC,,,Liga USA,
+33,05.10.2025,Houston Dynamo,San Diego FC,,,Liga USA,
+33,05.10.2025,Minnesota United FC,Sporting Kansas City,,,Liga USA,
+33,05.10.2025,Real Salt Lake,Colorado Rapids,,,Liga USA,
+33,05.10.2025,Seattle Sounders,Portland Timbers,,,Liga USA,
+33,06.10.2025,Vancouver Whitecaps,San Jose Earthquakes,,,Liga USA,
+33,06.10.2025,Los Angeles FC,Atlanta United FC,,,Liga USA,
+34,19.10.2025,Atlanta United FC,D.C. United,,,Liga USA,
+34,19.10.2025,Charlotte FC,Philadelphia Union,,,Liga USA,
+34,19.10.2025,Columbus Crew,New York RB,,,Liga USA,
+34,19.10.2025,FC Cincinnati,CF Montréal,,,Liga USA,
+34,19.10.2025,Nashville SC,Inter Miami CF,,,Liga USA,
+34,19.10.2025,New England Revolution,Chicago Fire,,,Liga USA,
+34,19.10.2025,New York City FC,Seattle Sounders,,,Liga USA,
+34,19.10.2025,Toronto FC,Orlando City,,,Liga USA,
+34,19.10.2025,Colorado Rapids,Los Angeles FC,,,Liga USA,
+34,19.10.2025,Los Angeles Galaxy,Minnesota United FC,,,Liga USA,
+34,19.10.2025,Portland Timbers,San Diego FC,,,Liga USA,
+34,19.10.2025,San Jose Earthquakes,Austin FC,,,Liga USA,
+34,19.10.2025,Sporting Kansas City,Houston Dynamo,,,Liga USA,
+34,19.10.2025,St. Louis City SC,Real Salt Lake,,,Liga USA,
+34,19.10.2025,Vancouver Whitecaps,FC Dallas,,,Liga USA,
 1,02.08.2025,Peñarol,Progreso,2,1,Liga Uruguaya,1
 1,02.08.2025,Juventud de Las Piedras,Cerro Largo,0,2,Liga Uruguaya,2
 1,02.08.2025,River Plate,CA Cerro,0,0,Liga Uruguaya,X
@@ -7116,7 +9151,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 6,08.09.2025,Montevideo City Torque,Liverpool,1,1,Liga Uruguaya,X
 7,13.09.2025,Racing,Boston River,0,0,Liga Uruguaya,X
 7,13.09.2025,Liverpool,Peñarol,2,2,Liga Uruguaya,X
-7,13.09.2025,Cerro Largo,Defensor Sporting,0,0,Liga Uruguaya,X
+7,13.09.2025,Cerro Largo,Defensor Sporting,1,0,Liga Uruguaya,1
 7,14.09.2025,River Plate,Progreso,,,Liga Uruguaya,
 7,14.09.2025,Juventud de Las Piedras,Montevideo City Torque,,,Liga Uruguaya,
 7,14.09.2025,Danubio,CA Cerro,,,Liga Uruguaya,
@@ -7251,25 +9286,25 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 9,02.09.2025,Caracas FC,Yaracuyanos FC,3,1,Liga Venezolana,1
 10,12.09.2025,Yaracuyanos FC,Anzoátegui FC,2,1,Liga Venezolana,1
 10,13.09.2025,Metropolitanos FC,Estudiantes de Mérida,1,0,Liga Venezolana,1
-10,14.09.2025,Zamora FC,Rayo Zuliano,,,Liga Venezolana,
-10,14.09.2025,Academia Puerto Cabello,Deportivo La Guaira,,,Liga Venezolana,
+10,14.09.2025,Zamora FC,Rayo Zuliano,1,0,Liga Venezolana,1
+10,14.09.2025,Academia Puerto Cabello,Deportivo La Guaira,1,0,Liga Venezolana,1
 10,14.09.2025,Portuguesa FC,Deportivo Táchira,,,Liga Venezolana,
 10,15.09.2025,Carabobo FC,Caracas FC,,,Liga Venezolana,
 10,15.09.2025,Monagas,Universidad Central,,,Liga Venezolana,
-11,14.09.2025,Deportivo Táchira,Academia Puerto Cabello,,,Liga Venezolana,
-11,14.09.2025,Rayo Zuliano,Monagas,,,Liga Venezolana,
-11,14.09.2025,Estudiantes de Mérida,Portuguesa FC,,,Liga Venezolana,
-11,14.09.2025,Deportivo La Guaira,Yaracuyanos FC,,,Liga Venezolana,
-11,14.09.2025,Universidad Central,Metropolitanos FC,,,Liga Venezolana,
-11,14.09.2025,Anzoátegui FC,Carabobo FC,,,Liga Venezolana,
-11,14.09.2025,Caracas FC,Zamora FC,,,Liga Venezolana,
-12,21.09.2025,Carabobo FC,Deportivo La Guaira,,,Liga Venezolana,
-12,21.09.2025,Monagas,Caracas FC,,,Liga Venezolana,
-12,21.09.2025,Academia Puerto Cabello,Estudiantes de Mérida,,,Liga Venezolana,
-12,21.09.2025,Yaracuyanos FC,Deportivo Táchira,,,Liga Venezolana,
-12,21.09.2025,Zamora FC,Anzoátegui FC,,,Liga Venezolana,
-12,21.09.2025,Universidad Central,Rayo Zuliano,,,Liga Venezolana,
-12,21.09.2025,Metropolitanos FC,Portuguesa FC,,,Liga Venezolana,
+11,21.09.2025,Caracas FC,Zamora FC,,,Liga Venezolana,
+11,21.09.2025,Deportivo Táchira,Academia Puerto Cabello,,,Liga Venezolana,
+11,21.09.2025,Rayo Zuliano,Monagas,,,Liga Venezolana,
+11,21.09.2025,Estudiantes de Mérida,Portuguesa FC,,,Liga Venezolana,
+11,21.09.2025,Deportivo La Guaira,Yaracuyanos FC,,,Liga Venezolana,
+11,21.09.2025,Universidad Central,Metropolitanos FC,,,Liga Venezolana,
+11,21.09.2025,Anzoátegui FC,Carabobo FC,,,Liga Venezolana,
+12,"",Carabobo FC,Deportivo La Guaira,,,Liga Venezolana,
+12,"",Monagas,Caracas FC,,,Liga Venezolana,
+12,"",Academia Puerto Cabello,Estudiantes de Mérida,,,Liga Venezolana,
+12,"",Yaracuyanos FC,Deportivo Táchira,,,Liga Venezolana,
+12,"",Zamora FC,Anzoátegui FC,,,Liga Venezolana,
+12,"",Universidad Central,Rayo Zuliano,,,Liga Venezolana,
+12,"",Metropolitanos FC,Portuguesa FC,,,Liga Venezolana,
 13,28.09.2025,Deportivo La Guaira,Zamora FC,,,Liga Venezolana,
 13,28.09.2025,Estudiantes de Mérida,Yaracuyanos FC,,,Liga Venezolana,
 13,28.09.2025,Rayo Zuliano,Metropolitanos FC,,,Liga Venezolana,
@@ -7312,8 +9347,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,11.09.2025,Puntarenas FC,Deportivo Saprissa,3,1,Liga costa Rica,1
 7,11.09.2025,CS Cartaginés,CS Herediano,2,0,Liga costa Rica,1
 7,12.09.2025,Guadalupe,AD San Carlos,2,3,Liga costa Rica,2
-8,14.09.2025,CS Herediano,Sporting FC,,,Liga costa Rica,
-8,14.09.2025,LD Alajuelense,Municipal Liberia,,,Liga costa Rica,
+8,14.09.2025,CS Herediano,Sporting FC,0,0,Liga costa Rica,X
+8,14.09.2025,LD Alajuelense,Municipal Liberia,2,0,Liga costa Rica,1
 8,14.09.2025,Deportivo Saprissa,Guadalupe,,,Liga costa Rica,
 8,14.09.2025,Municipal Pérez Zeledón,Puntarenas FC,,,Liga costa Rica,
 8,14.09.2025,AD San Carlos,CS Cartaginés,,,Liga costa Rica,
