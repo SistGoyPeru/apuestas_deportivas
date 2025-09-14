@@ -8,6 +8,8 @@ def main():
 
     df_total = liga("data_ligas.csv")
     df = df_total.data()
+    
+    
 
     st.set_page_config(
         page_title="Pronósticos de Ligas del Mundo - SistGoy", layout="wide", page_icon="🏠",)
@@ -65,6 +67,8 @@ def main():
                 local = df_final[selected_row, 'Local']
                 visita = df_final[selected_row, 'Visita']
                 liga_E = df_final[selected_row, 'Liga']
+                
+                
 
             if len(event.selection['rows']):
 
@@ -74,6 +78,8 @@ def main():
 
                     Elocal = pl.DataFrame({
                         "Local": [
+                            "PPP General",
+                            "PPP Local",
                             "% Victoria Local",
                             "% Empate Local",
                             "% Perdida Local",
@@ -86,7 +92,9 @@ def main():
 
                         ],
 
-                        "Valor": [[format(df_total.TotalVictoriasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100, '.2f')+"%"if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
+                        "Valor": [[format(df_total.PPP(liga_E,local), '.2f')],
+                                  [format(df_total.PPP_local(liga_E, local), '.2f')],
+                                  [format(df_total.TotalVictoriasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100, '.2f')+"%"if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.TotalEmpatesEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
                                       liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.TotalPerdidasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
@@ -113,6 +121,8 @@ def main():
 
                     EVisita = pl.DataFrame({
                         "Visita": [
+                            "PPP General",
+                            "PPP Visita",
                             "% Victoria Visita",
                             "% Empate Visita",
                             "% Perdida Visita",
@@ -123,7 +133,9 @@ def main():
 
                         ],
 
-                        "Valor": [[format(df_total.TotalVictoriasEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(ligas, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(ligas, visita) > 0 else "0.00%"],
+                        "Valor": [[format(df_total.PPP(ligas, visita), '.2f')],
+                                  [format(df_total.PPP_visita(ligas, visita), '.2f')],
+                                  [format(df_total.TotalVictoriasEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(ligas, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(ligas, visita) > 0 else "0.00%"],
                                   [format(df_total.TotalEmpatesEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(
                                       ligas, visita)*100, '.2f')+"%" if df_total.TotalEmpatesEquipoLocal(ligas, local) > 0 else "0.00%"],
                                   [format(df_total.TotalPerdidasEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(

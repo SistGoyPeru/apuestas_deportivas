@@ -24,8 +24,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 3,13.09.2025,1. FC Union Berlin,Hoffenheim,2,4,Liga Alemana,2
 3,13.09.2025,1. FC Heidenheim 1846,Borussia Dortmund,0,2,Liga Alemana,2
 3,13.09.2025,Bayern Múnich,Hamburgo,5,0,Liga Alemana,1
-3,14.09.2025,FC St. Pauli,Augsburgo,,,Liga Alemana,
-3,14.09.2025,Bor. Mönchengladbach,Werder Bremen,,,Liga Alemana,
+3,14.09.2025,FC St. Pauli,Augsburgo,2,1,Liga Alemana,1
+3,14.09.2025,Bor. Mönchengladbach,Werder Bremen,0,4,Liga Alemana,2
 4,19.09.2025,Stuttgart,FC St. Pauli,,,Liga Alemana,
 4,20.09.2025,Werder Bremen,SC Freiburg,,,Liga Alemana,
 4,20.09.2025,Augsburgo,Mainz,,,Liga Alemana,
@@ -320,9 +320,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 2,13.09.2025,Al Khaleej,Al Fayha,3,0,Liga Arabia Saudita,1
 2,13.09.2025,Al Okhdood,Al Taawoun,2,3,Liga Arabia Saudita,2
 2,13.09.2025,Al Hilal,Al Qadsiah,2,2,Liga Arabia Saudita,X
-2,14.09.2025,Al Riyadh,Al Najma,,,Liga Arabia Saudita,
-2,14.09.2025,Damac FC,NEOM SC,,,Liga Arabia Saudita,
-2,14.09.2025,Al Nassr,Al Kholood,,,Liga Arabia Saudita,
+2,14.09.2025,Al Riyadh,Al Najma,2,1,Liga Arabia Saudita,1
+2,14.09.2025,Damac FC,NEOM SC,1,2,Liga Arabia Saudita,2
+2,14.09.2025,Al Nassr,Al Kholood,2,0,Liga Arabia Saudita,1
 3,18.09.2025,Al Kholood,Damac FC,,,Liga Arabia Saudita,
 3,18.09.2025,Al Taawoun,Al Ettifaq,,,Liga Arabia Saudita,
 3,18.09.2025,NEOM SC,Al Okhdood,,,Liga Arabia Saudita,
@@ -726,9 +726,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,13.09.2025,Independiente,Banfield,0,1,Liga Argentina,2
 8,14.09.2025,Estudiantes,River Plate,1,2,Liga Argentina,2
 8,14.09.2025,Sarmiento de Junín,Aldosivi,2,0,Liga Argentina,1
-8,14.09.2025,Gimnasia de La Plata,Unión de Santa Fe,,,Liga Argentina,
-8,14.09.2025,Instituto de Córdoba,Argentinos Juniors,,,Liga Argentina,
-8,14.09.2025,Rosario Central,Boca Juniors,,,Liga Argentina,
+8,14.09.2025,Gimnasia de La Plata,Unión de Santa Fe,1,3,Liga Argentina,2
+8,14.09.2025,Instituto de Córdoba,Argentinos Juniors,2,0,Liga Argentina,1
+8,14.09.2025,Rosario Central,Boca Juniors,1,1,Liga Argentina,X
 8,15.09.2025,Tigre,Talleres de Córdoba,,,Liga Argentina,
 8,15.09.2025,Defensa y Justicia,Platense,,,Liga Argentina,
 9,19.09.2025,Deportivo Riestra,Gimnasia de La Plata,,,Liga Argentina,
@@ -903,10 +903,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,13.09.2025,SV Zulte Waregem,Oud-Heverlee Leuven,2,0,Liga Belgica,1
 7,13.09.2025,FCV Dender EH,Union Saint-Gilloise,0,1,Liga Belgica,2
 7,13.09.2025,RAAL La Louviére,Club Brugge KV,1,0,Liga Belgica,1
-7,14.09.2025,Royal Antwerp FC,Gante,,,Liga Belgica,
-7,14.09.2025,Cercle Brugge,Sporting Charleroi,,,Liga Belgica,
-7,14.09.2025,RSC Anderlecht,KRC Genk,,,Liga Belgica,
-7,14.09.2025,Sint-Truidense VV,KVC Westerlo,,,Liga Belgica,
+7,14.09.2025,Royal Antwerp FC,Gante,1,2,Liga Belgica,2
+7,14.09.2025,Cercle Brugge,Sporting Charleroi,2,3,Liga Belgica,2
+7,14.09.2025,RSC Anderlecht,KRC Genk,1,1,Liga Belgica,X
+7,14.09.2025,Sint-Truidense VV,KVC Westerlo,0,3,Liga Belgica,2
 8,19.09.2025,Gante,FCV Dender EH,,,Liga Belgica,
 8,20.09.2025,Oud-Heverlee Leuven,RAAL La Louviére,,,Liga Belgica,
 8,20.09.2025,Sporting Charleroi,SV Zulte Waregem,,,Liga Belgica,
@@ -1240,7 +1240,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 19,13.09.2025,Oriente Petrolero,CDT Real Oruro,3,0,Liga Boliviana,1
 19,13.09.2025,Nacional Potosí,San Antonio Bulo Bulo,2,3,Liga Boliviana,2
 19,14.09.2025,Club Aurora,The Strongest,2,1,Liga Boliviana,1
-19,14.09.2025,ABB,Jorge Wilstermann,,,Liga Boliviana,
+19,14.09.2025,ABB,Jorge Wilstermann,0,0,Liga Boliviana,X
 19,14.09.2025,GV San José,Always Ready,,,Liga Boliviana,
 19,15.09.2025,Independiente Petrolero,Blooming,,,Liga Boliviana,
 20,16.09.2025,San Antonio Bulo Bulo,Oriente Petrolero,,,Liga Boliviana,
@@ -1499,10 +1499,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 23,13.09.2025,Fortaleza - CE,Vitória - BA,2,0,Liga Brasileña,1
 23,13.09.2025,Palmeiras,Internacional,4,1,Liga Brasileña,1
 23,14.09.2025,Fluminense RJ,Corinthians SP,0,1,Liga Brasileña,2
-23,14.09.2025,Red Bull Bragantino,Sport Recife - PE,,,Liga Brasileña,
-23,14.09.2025,Atlético Mineiro,Santos FC,,,Liga Brasileña,
-23,14.09.2025,Juventude - RS,Flamengo RJ,,,Liga Brasileña,
-23,14.09.2025,São Paulo FC,Botafogo - RJ,,,Liga Brasileña,
+23,14.09.2025,Red Bull Bragantino,Sport Recife - PE,1,1,Liga Brasileña,X
+23,14.09.2025,Atlético Mineiro,Santos FC,1,1,Liga Brasileña,X
+23,14.09.2025,Juventude - RS,Flamengo RJ,0,2,Liga Brasileña,2
+23,14.09.2025,São Paulo FC,Botafogo - RJ,1,0,Liga Brasileña,1
 23,15.09.2025,Vasco da Gama - RJ,Ceará - CE,,,Liga Brasileña,
 23,16.09.2025,Bahia - BA,Cruzeiro,,,Liga Brasileña,
 24,20.09.2025,Vitória - BA,Fluminense RJ,,,Liga Brasileña,
@@ -1715,8 +1715,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,12.09.2025,Botev Plovdiv,PFC Montana,0,1,Liga Bulgaria,2
 8,13.09.2025,Spartak Varna,Arda Kardzhali,3,0,Liga Bulgaria,1
 8,13.09.2025,CSKA Sofia,Septemvri Sofia,3,1,Liga Bulgaria,1
-8,14.09.2025,Lokomotiv Plovdiv,PFC Ludogorets Razgrad,,,Liga Bulgaria,
-8,14.09.2025,Lokomotiv Sofia,Levski Sofia,,,Liga Bulgaria,
+8,14.09.2025,Lokomotiv Plovdiv,PFC Ludogorets Razgrad,1,1,Liga Bulgaria,X
+8,14.09.2025,Lokomotiv Sofia,Levski Sofia,1,2,Liga Bulgaria,2
 8,15.09.2025,CSKA 1948 Sofia,Slavia Sofia,,,Liga Bulgaria,
 8,15.09.2025,Cherno More Varna,FK Dobrudzha,,,Liga Bulgaria,
 9,19.09.2025,PFC Montana,Spartak Varna,,,Liga Bulgaria,
@@ -2324,8 +2324,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 24,12.09.2025,Henan FC,Beijing Guoan,2,0,Liga China,1
 24,12.09.2025,Shanghai Shenhua,Shandong Taishan,3,3,Liga China,X
 24,13.09.2025,Qingdao West Coast,Zhejiang Professional,0,2,Liga China,2
-24,14.09.2025,Dalian Yingbo,Shenzhen Peng City,,,Liga China,
-24,14.09.2025,Tianjin Jinmen Tiger,Wuhan Three Towns,,,Liga China,
+24,14.09.2025,Dalian Yingbo,Shenzhen Peng City,2,1,Liga China,1
+24,14.09.2025,Tianjin Jinmen Tiger,Wuhan Three Towns,4,0,Liga China,1
 24,04.10.2025,Meizhou Hakka,Qingdao Hainiu,,,Liga China,
 25,19.09.2025,Wuhan Three Towns,Henan FC,,,Liga China,
 25,19.09.2025,Yunnan Yukun,Dalian Yingbo,,,Liga China,
@@ -2481,8 +2481,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 11,13.09.2025,Alianza FC,Millonarios,3,0,Liga Colombiana,1
 11,14.09.2025,Once Caldas,Envigado FC,1,0,Liga Colombiana,1
 11,14.09.2025,Atlético Nacional,Atlético Bucaramanga,0,1,Liga Colombiana,2
-11,14.09.2025,Santa Fe,Unión Magdalena,,,Liga Colombiana,
-11,14.09.2025,Deportivo Cali,Deportivo Pasto,,,Liga Colombiana,
+11,14.09.2025,Santa Fe,Unión Magdalena,2,0,Liga Colombiana,1
+11,14.09.2025,Deportivo Cali,Deportivo Pasto,0,0,Liga Colombiana,X
 11,15.09.2025,Deportivo Pereira,Llaneros FC,,,Liga Colombiana,
 11,15.09.2025,Deportes Tolima,Boyacá Chicó,,,Liga Colombiana,
 12,20.09.2025,Atlético Bucaramanga,Deportes Tolima,,,Liga Colombiana,
@@ -2603,8 +2603,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 6,12.09.2025,Slaven Belupo,NK Istra 1961,2,1,Liga Croacia,1
 6,13.09.2025,NK Varaždin,Hajduk Split,2,0,Liga Croacia,1
 6,13.09.2025,HNK Rijeka,Lokomotiva Zagreb,1,1,Liga Croacia,X
-6,14.09.2025,NK Osijek,NK Vukovar 91,,,Liga Croacia,
-6,14.09.2025,Dinamo Zagreb,HNK Gorica,,,Liga Croacia,
+6,14.09.2025,NK Osijek,NK Vukovar 91,4,0,Liga Croacia,1
+6,14.09.2025,Dinamo Zagreb,HNK Gorica,1,2,Liga Croacia,2
 7,19.09.2025,NK Vukovar 91,HNK Rijeka,,,Liga Croacia,
 7,20.09.2025,Hajduk Split,Dinamo Zagreb,,,Liga Croacia,
 7,20.09.2025,Lokomotiva Zagreb,NK Varaždin,,,Liga Croacia,
@@ -2799,9 +2799,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,31.08.2025,Brøndby IF,FC Midtjylland,1,3,Liga Dinamarca,2
 8,12.09.2025,SønderjyskE,Randers FC,0,1,Liga Dinamarca,2
 8,13.09.2025,Brøndby IF,FC København,2,1,Liga Dinamarca,1
-8,14.09.2025,Viborg FF,Aarhus GF,,,Liga Dinamarca,
-8,14.09.2025,FC Nordsjælland,FC Midtjylland,,,Liga Dinamarca,
-8,14.09.2025,Silkeborg IF,Odense BK,,,Liga Dinamarca,
+8,14.09.2025,Viborg FF,Aarhus GF,1,2,Liga Dinamarca,2
+8,14.09.2025,FC Nordsjælland,FC Midtjylland,1,0,Liga Dinamarca,1
+8,14.09.2025,Silkeborg IF,Odense BK,2,1,Liga Dinamarca,1
 8,15.09.2025,FC Fredericia,Vejle BK,,,Liga Dinamarca,
 9,19.09.2025,Odense BK,FC Fredericia,,,Liga Dinamarca,
 9,20.09.2025,FC Midtjylland,Viborg FF,,,Liga Dinamarca,
@@ -3156,18 +3156,18 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 28,13.09.2025,Independiente del Valle,Vinotinto,3,1,Liga Ecuatoriana,1
 28,13.09.2025,Universidad Catolica,Delfín SC,1,1,Liga Ecuatoriana,X
 28,14.09.2025,Orense SC,Mushuc Runa,3,1,Liga Ecuatoriana,1
-28,14.09.2025,El Nacional,Macará,,,Liga Ecuatoriana,
-28,14.09.2025,Técnico Universitario,Deportivo Cuenca,,,Liga Ecuatoriana,
+28,14.09.2025,El Nacional,Macará,0,2,Liga Ecuatoriana,2
+28,14.09.2025,Técnico Universitario,Deportivo Cuenca,0,1,Liga Ecuatoriana,2
 28,15.09.2025,Emelec,Barcelona,,,Liga Ecuatoriana,
 28,16.09.2025,Manta,Aucas,,,Liga Ecuatoriana,
 29,22.09.2025,Deportivo Cuenca,Barcelona,,,Liga Ecuatoriana,
 29,22.09.2025,LDU Quito,Universidad Catolica,,,Liga Ecuatoriana,
-29,22.09.2025,Mushuc Runa,Independiente del Valle,,,Liga Ecuatoriana,
 29,22.09.2025,Emelec,El Nacional,,,Liga Ecuatoriana,
 29,22.09.2025,Delfín SC,Técnico Universitario,,,Liga Ecuatoriana,
 29,22.09.2025,Vinotinto,Manta,,,Liga Ecuatoriana,
 29,22.09.2025,Aucas,Orense SC,,,Liga Ecuatoriana,
 29,22.09.2025,Macará,Libertad de Loja,,,Liga Ecuatoriana,
+29,22.09.2025,Mushuc Runa,Independiente del Valle,,,Liga Ecuatoriana,
 30,29.09.2025,Orense SC,Emelec,,,Liga Ecuatoriana,
 30,29.09.2025,Técnico Universitario,LDU Quito,,,Liga Ecuatoriana,
 30,29.09.2025,Barcelona,Aucas,,,Liga Ecuatoriana,
@@ -3343,10 +3343,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 4,13.09.2025,Real Sociedad,Real Madrid,1,2,Liga Española,2
 4,13.09.2025,Athletic,Alavés,0,1,Liga Española,2
 4,13.09.2025,Atlético,Villarreal,2,0,Liga Española,1
-4,14.09.2025,Celta,Girona,,,Liga Española,
-4,14.09.2025,Levante,Betis,,,Liga Española,
-4,14.09.2025,Osasuna,Rayo,,,Liga Española,
-4,14.09.2025,Barcelona,Valencia,,,Liga Española,
+4,14.09.2025,Celta,Girona,1,1,Liga Española,X
+4,14.09.2025,Levante,Betis,2,2,Liga Española,X
+4,14.09.2025,Osasuna,Rayo,2,0,Liga Española,1
+4,14.09.2025,Barcelona,Valencia,6,0,Liga Española,1
 4,15.09.2025,Espanyol,Mallorca,,,Liga Española,
 5,19.09.2025,Betis,Real Sociedad,,,Liga Española,
 5,20.09.2025,Girona,Levante,,,Liga Española,
@@ -3737,11 +3737,11 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 5,13.09.2025,Mirandés,Deportivo,1,5,Liga Española 2,2
 5,13.09.2025,Huesca,Málaga,1,0,Liga Española 2,1
 5,13.09.2025,Valladolid,Almería,3,1,Liga Española 2,1
-5,14.09.2025,FC Andorra,Córdoba,,,Liga Española 2,
-5,14.09.2025,Real Racing,CyD Leonesa,,,Liga Española 2,
-5,14.09.2025,CD Castellón,AD Ceuta FC,,,Liga Española 2,
-5,14.09.2025,Sporting,Burgos CF,,,Liga Española 2,
-5,14.09.2025,Granada,Leganés,,,Liga Española 2,
+5,14.09.2025,FC Andorra,Córdoba,3,1,Liga Española 2,1
+5,14.09.2025,Real Racing,CyD Leonesa,2,4,Liga Española 2,2
+5,14.09.2025,CD Castellón,AD Ceuta FC,3,3,Liga Española 2,X
+5,14.09.2025,Sporting,Burgos CF,2,3,Liga Española 2,2
+5,14.09.2025,Granada,Leganés,0,2,Liga Española 2,2
 5,15.09.2025,Zaragoza,Albacete,,,Liga Española 2,
 6,19.09.2025,Deportivo,Huesca,,,Liga Española 2,
 6,20.09.2025,CyD Leonesa,CD Castellón,,,Liga Española 2,
@@ -4170,10 +4170,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 3,13.09.2025,Real Sociedad,Sevilla,3,0,Liga Española Femenina,1
 3,13.09.2025,Costa Adeje Tenerife,Espanyol,0,0,Liga Española Femenina,X
 3,13.09.2025,Alhama CF,Granada,1,1,Liga Española Femenina,X
-3,14.09.2025,Deportivo La Coruña,Athletic,,,Liga Española Femenina,
-3,14.09.2025,SD Eibar,Levante Las Planas,,,Liga Española Femenina,
-3,14.09.2025,Real Madrid,Madrid CFF,,,Liga Española Femenina,
-3,14.09.2025,Atlético,Levante,,,Liga Española Femenina,
+3,14.09.2025,Deportivo La Coruña,Athletic,1,0,Liga Española Femenina,1
+3,14.09.2025,SD Eibar,Levante Las Planas,0,0,Liga Española Femenina,X
+3,14.09.2025,Real Madrid,Madrid CFF,2,1,Liga Española Femenina,1
+3,14.09.2025,Atlético,Levante,4,0,Liga Española Femenina,1
 4,20.09.2025,Espanyol,Athletic,,,Liga Española Femenina,
 4,20.09.2025,Granada,SD Eibar,,,Liga Española Femenina,
 4,20.09.2025,Levante Las Planas,DUX Logroño,,,Liga Española Femenina,
@@ -4420,12 +4420,12 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 4,12.09.2025,Marsella,Lorient,4,0,Liga Francesa,1
 4,13.09.2025,Niza,Nantes,1,0,Liga Francesa,1
 4,13.09.2025,AJ Auxerre,Mónaco,1,2,Liga Francesa,2
-4,14.09.2025,Lille,Toulouse,,,Liga Francesa,
-4,14.09.2025,FC Metz,Angers,,,Liga Francesa,
-4,14.09.2025,París Saint-Germain,RC Lens,,,Liga Francesa,
-4,14.09.2025,RC Strasbourg,Havre AC,,,Liga Francesa,
-4,14.09.2025,Stade Brestois 29,Paris FC,,,Liga Francesa,
-4,14.09.2025,Rennes,Lyon,,,Liga Francesa,
+4,14.09.2025,Lille,Toulouse,2,1,Liga Francesa,1
+4,14.09.2025,FC Metz,Angers,1,1,Liga Francesa,X
+4,14.09.2025,París Saint-Germain,RC Lens,2,0,Liga Francesa,1
+4,14.09.2025,RC Strasbourg,Havre AC,1,0,Liga Francesa,1
+4,14.09.2025,Stade Brestois 29,Paris FC,1,2,Liga Francesa,2
+4,14.09.2025,Rennes,Lyon,3,1,Liga Francesa,1
 5,19.09.2025,Lyon,Angers,,,Liga Francesa,
 5,20.09.2025,Nantes,Rennes,,,Liga Francesa,
 5,20.09.2025,Stade Brestois 29,Niza,,,Liga Francesa,
@@ -4699,12 +4699,12 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 1,12.09.2025,Hearts of Oak,Hohoe United,0,0,Liga Ghana,X
 1,13.09.2025,Berekum Chelsea,Asante Kotoko,0,1,Liga Ghana,2
 1,13.09.2025,Bibiani Gold Stars,Bechem United,2,1,Liga Ghana,1
-1,14.09.2025,Heart of Lions,Dreams FC,,,Liga Ghana,
-1,14.09.2025,Basake Holy Stars,Eleven Wonders,,,Liga Ghana,
-1,14.09.2025,Karela United,Aduana Stars,,,Liga Ghana,
-1,14.09.2025,Nations FC,All Blacks,,,Liga Ghana,
-1,14.09.2025,Vision FC,Samartex,,,Liga Ghana,
-1,14.09.2025,Young Apostles,Medeama SC,,,Liga Ghana,
+1,14.09.2025,Heart of Lions,Dreams FC,1,0,Liga Ghana,1
+1,14.09.2025,Basake Holy Stars,Eleven Wonders,0,0,Liga Ghana,X
+1,14.09.2025,Karela United,Aduana Stars,1,0,Liga Ghana,1
+1,14.09.2025,Nations FC,All Blacks,2,1,Liga Ghana,1
+1,14.09.2025,Vision FC,Samartex,0,0,Liga Ghana,X
+1,14.09.2025,Young Apostles,Medeama SC,0,2,Liga Ghana,2
 2,20.09.2025,Aduana Stars,Nations FC,,,Liga Ghana,
 2,20.09.2025,Asante Kotoko,Bibiani Gold Stars,,,Liga Ghana,
 2,20.09.2025,Bechem United,Basake Holy Stars,,,Liga Ghana,
@@ -5019,10 +5019,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 3,13.09.2025,Olympiacos,Panserraikos,5,0,Liga Grecia,1
 3,13.09.2025,Atromitos,Aris Saloniki,1,2,Liga Grecia,2
 3,13.09.2025,Panetolikos,Volos NFC,1,2,Liga Grecia,2
-3,14.09.2025,Asteras Tripolis,AE Lárissa,,,Liga Grecia,
-3,14.09.2025,AE Kifisias,Panathinaikos,,,Liga Grecia,
-3,14.09.2025,Levadiakos,AEK Athen,,,Liga Grecia,
-3,14.09.2025,OFI Heraklion,PAOK Saloniki,,,Liga Grecia,
+3,14.09.2025,Asteras Tripolis,AE Lárissa,2,2,Liga Grecia,X
+3,14.09.2025,AE Kifisias,Panathinaikos,3,2,Liga Grecia,1
+3,14.09.2025,Levadiakos,AEK Athen,0,1,Liga Grecia,2
+3,14.09.2025,OFI Heraklion,PAOK Saloniki,1,2,Liga Grecia,2
 4,20.09.2025,AE Kifisias,Aris Saloniki,,,Liga Grecia,
 4,20.09.2025,Panserraikos,Atromitos,,,Liga Grecia,
 4,20.09.2025,Volos NFC,Asteras Tripolis,,,Liga Grecia,
@@ -5287,8 +5287,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 4,13.09.2025,Newcastle United,Wolverhampton Wanderers,1,0,Liga Inglesa,1
 4,13.09.2025,West Ham United,Tottenham Hotspur,0,3,Liga Inglesa,2
 4,13.09.2025,Brentford FC,Chelsea,2,2,Liga Inglesa,X
-4,14.09.2025,Burnley FC,Liverpool,,,Liga Inglesa,
-4,14.09.2025,Manchester City,Manchester United,,,Liga Inglesa,
+4,14.09.2025,Burnley FC,Liverpool,0,1,Liga Inglesa,2
+4,14.09.2025,Manchester City,Manchester United,3,0,Liga Inglesa,1
 5,20.09.2025,Liverpool,Everton,,,Liga Inglesa,
 5,20.09.2025,Brighton & Hove Albion,Tottenham Hotspur,,,Liga Inglesa,
 5,20.09.2025,Burnley FC,Nottingham Forest,,,Liga Inglesa,
@@ -5652,11 +5652,11 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 3,13.09.2025,Cagliari Calcio,Parma Calcio 1913,2,0,Liga Italiana,1
 3,13.09.2025,Juventus,Inter,4,3,Liga Italiana,1
 3,13.09.2025,Fiorentina,Nápoles,1,3,Liga Italiana,2
-3,14.09.2025,Roma,Torino,,,Liga Italiana,
-3,14.09.2025,Atalanta,US Lecce,,,Liga Italiana,
-3,14.09.2025,Pisa SC,Udinese,,,Liga Italiana,
-3,14.09.2025,Sassuolo,Lazio,,,Liga Italiana,
-3,14.09.2025,Milan,Bolonia,,,Liga Italiana,
+3,14.09.2025,Roma,Torino,0,1,Liga Italiana,2
+3,14.09.2025,Atalanta,US Lecce,4,1,Liga Italiana,1
+3,14.09.2025,Pisa SC,Udinese,0,1,Liga Italiana,2
+3,14.09.2025,Sassuolo,Lazio,1,0,Liga Italiana,1
+3,14.09.2025,Milan,Bolonia,1,0,Liga Italiana,1
 3,15.09.2025,Hellas Verona,US Cremonese,,,Liga Italiana,
 3,15.09.2025,Como 1907,Génova,,,Liga Italiana,
 4,19.09.2025,US Lecce,Cagliari Calcio,,,Liga Italiana,
@@ -6583,10 +6583,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 5,13.09.2025,Go Ahead Eagles,FC Volendam,3,0,Liga Paises bajos,1
 5,13.09.2025,Feyenoord,sc Heerenveen,1,0,Liga Paises bajos,1
 5,13.09.2025,FC Twente,NAC Breda,2,2,Liga Paises bajos,X
-5,14.09.2025,SBV Excelsior,Sparta Rotterdam,,,Liga Paises bajos,
-5,14.09.2025,FC Utrecht,FC Groningen,,,Liga Paises bajos,
-5,14.09.2025,Heracles Almelo,AZ Alkmaar,,,Liga Paises bajos,
-5,14.09.2025,Telstar,Fortuna Sittard,,,Liga Paises bajos,
+5,14.09.2025,SBV Excelsior,Sparta Rotterdam,0,1,Liga Paises bajos,2
+5,14.09.2025,FC Utrecht,FC Groningen,0,1,Liga Paises bajos,2
+5,14.09.2025,Heracles Almelo,AZ Alkmaar,1,2,Liga Paises bajos,2
+5,14.09.2025,Telstar,Fortuna Sittard,1,3,Liga Paises bajos,2
 6,19.09.2025,Sparta Rotterdam,FC Twente,,,Liga Paises bajos,
 6,20.09.2025,FC Volendam,SBV Excelsior,,,Liga Paises bajos,
 6,20.09.2025,FC Groningen,Telstar,,,Liga Paises bajos,
@@ -7014,7 +7014,7 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 12,13.09.2025,2 de Mayo,Guaraní,1,0,Liga Paraguaya,1
 12,13.09.2025,General Caballero DJLM,Cerro Porteño,2,1,Liga Paraguaya,1
 12,14.09.2025,Sportivo Luqueño,Libertad,1,4,Liga Paraguaya,2
-12,14.09.2025,Club Nacional,Club Olimpia,,,Liga Paraguaya,
+12,14.09.2025,Club Nacional,Club Olimpia,4,1,Liga Paraguaya,1
 12,15.09.2025,Sportivo Trinidense,Deportivo Recoleta,,,Liga Paraguaya,
 13,25.09.2025,Cerro Porteño,Sportivo Ameliano,,,Liga Paraguaya,
 13,25.09.2025,General Caballero DJLM,Sportivo Luqueño,,,Liga Paraguaya,
@@ -7144,12 +7144,12 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,13.09.2025,Sport Boys,Comerciantes Unidos,0,1,Liga Peruana,2
 8,13.09.2025,Alianza Atlético,Juan Pablo II College,0,1,Liga Peruana,2
 8,14.09.2025,Alianza Lima,Deportivo Garcilaso,3,4,Liga Peruana,2
-8,14.09.2025,Alianza Universidad,Cienciano,,,Liga Peruana,
-8,14.09.2025,FBC Melgar,Universitario de Deportes,,,Liga Peruana,
+8,14.09.2025,Alianza Universidad,Cienciano,0,3,Liga Peruana,2
+8,14.09.2025,FBC Melgar,Universitario de Deportes,1,1,Liga Peruana,X
 8,15.09.2025,Deportivo Binacional,AD Tarma,,,Liga Peruana,
 8,15.09.2025,Cusco FC,Sporting Cristal,,,Liga Peruana,
 9,16.09.2025,AD Tarma,Universidad Técnica,,,Liga Peruana,
-9,18.09.2025,Sporting Cristal,Alianza Atlético,,,Liga Peruana,
+9,17.09.2025,Sporting Cristal,Alianza Atlético,,,Liga Peruana,
 9,18.09.2025,Cienciano,Sport Boys,,,Liga Peruana,
 9,18.09.2025,Ayacucho FC,Cusco FC,,,Liga Peruana,
 9,18.09.2025,Los Chankas,Alianza Lima,,,Liga Peruana,
@@ -7315,9 +7315,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,13.09.2025,Wisła Płock,KS Cracovia,,,Liga Polonia,
 8,13.09.2025,Korona Kielce,Pogoń Szczecin,1,0,Liga Polonia,1
 8,13.09.2025,Piast Gliwice,Jagiellonia Białystok,1,1,Liga Polonia,X
-8,14.09.2025,Motor Lublin,Bruk-Bet Termalica Nieciecza,,,Liga Polonia,
-8,14.09.2025,Legia Warszawa,Radomiak Radom,,,Liga Polonia,
-8,14.09.2025,Widzew Łódź,Arka Gdynia,,,Liga Polonia,
+8,14.09.2025,Motor Lublin,Bruk-Bet Termalica Nieciecza,1,1,Liga Polonia,X
+8,14.09.2025,Legia Warszawa,Radomiak Radom,4,1,Liga Polonia,1
+8,14.09.2025,Widzew Łódź,Arka Gdynia,2,0,Liga Polonia,1
 8,15.09.2025,Raków Częstochowa,Górnik Zabrze,,,Liga Polonia,
 9,19.09.2025,GKS Katowice,KS Cracovia,,,Liga Polonia,
 9,19.09.2025,Wisła Płock,Jagiellonia Białystok,,,Liga Polonia,
@@ -7595,9 +7595,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 5,13.09.2025,GD Estoril,AVS,3,1,Liga Portugal,1
 5,13.09.2025,Oporto,CD Nacional,1,0,Liga Portugal,1
 5,13.09.2025,FC Famalicão,Sporting CP,1,2,Liga Portugal,2
-5,14.09.2025,Estrela Amadora,Vitória Guimarães,,,Liga Portugal,
-5,14.09.2025,FC Arouca,Casa Pia AC,,,Liga Portugal,
-5,14.09.2025,Sporting Braga,Gil Vicente,,,Liga Portugal,
+5,14.09.2025,Estrela Amadora,Vitória Guimarães,0,2,Liga Portugal,2
+5,14.09.2025,FC Arouca,Casa Pia AC,0,2,Liga Portugal,2
+5,14.09.2025,Sporting Braga,Gil Vicente,0,1,Liga Portugal,2
 6,19.09.2025,Rio Ave FC,Oporto,,,Liga Portugal,
 6,20.09.2025,CD Santa Clara,FC Alverca,,,Liga Portugal,
 6,20.09.2025,CD Nacional,FC Arouca,,,Liga Portugal,
@@ -7920,9 +7920,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 8,13.09.2025,Dinamo Moskva,Spartak Moskva,2,2,Liga Rusa,X
 8,13.09.2025,Akhmat Grozny,Lokomotiv Moskva,1,1,Liga Rusa,X
 8,13.09.2025,FK Krasnodar,Akron Tolyatti,2,1,Liga Rusa,1
-8,14.09.2025,Krylia Sovetov,FK Sochi,,,Liga Rusa,
-8,14.09.2025,Baltika Kaliningrad,Zenit,,,Liga Rusa,
-8,14.09.2025,FK Rostov,CSKA Moscú,,,Liga Rusa,
+8,14.09.2025,Krylia Sovetov,FK Sochi,2,0,Liga Rusa,1
+8,14.09.2025,Baltika Kaliningrad,Zenit,0,0,Liga Rusa,X
+8,14.09.2025,FK Rostov,CSKA Moscú,1,0,Liga Rusa,1
 9,20.09.2025,FK Nizhny Novgorod,Akhmat Grozny,,,Liga Rusa,
 9,20.09.2025,Akron Tolyatti,Rubin Kazan,,,Liga Rusa,
 9,20.09.2025,FK Dinamo Makhachkala,Lokomotiv Moskva,,,Liga Rusa,
@@ -8277,10 +8277,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 22,31.08.2025,GAIS Göteborg,BK Häcken,2,1,Liga Suecia,1
 23,13.09.2025,Degerfors IF,Mjällby AIF,0,1,Liga Suecia,2
 23,13.09.2025,Halmstads BK,IFK Norrköping,1,1,Liga Suecia,X
-23,14.09.2025,Djurgårdens IF,Hammarby IF,,,Liga Suecia,
-23,14.09.2025,Östers IF,IFK Värnamo,,,Liga Suecia,
-23,14.09.2025,IF Elfsborg,Malmoe,,,Liga Suecia,
-23,14.09.2025,IK Sirius,GAIS Göteborg,,,Liga Suecia,
+23,14.09.2025,Djurgårdens IF,Hammarby IF,3,3,Liga Suecia,X
+23,14.09.2025,Östers IF,IFK Värnamo,4,3,Liga Suecia,1
+23,14.09.2025,IF Elfsborg,Malmoe,2,2,Liga Suecia,X
+23,14.09.2025,IK Sirius,GAIS Göteborg,3,0,Liga Suecia,1
 23,15.09.2025,AIK Solna,IF Brommapojkarna,,,Liga Suecia,
 23,15.09.2025,BK Häcken,IFK Göteborg,,,Liga Suecia,
 24,20.09.2025,GAIS Göteborg,IF Elfsborg,,,Liga Suecia,
@@ -8372,9 +8372,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 6,13.09.2025,FC Thun Berner Oberland,Basilea,1,3,Liga Suiza,2
 6,13.09.2025,FC Zürich,Servette FC,2,1,Liga Suiza,1
 6,13.09.2025,FC St. Gallen,FC Lugano,1,0,Liga Suiza,1
-6,14.09.2025,FC Winterthur,FC Sion,,,Liga Suiza,
-6,14.09.2025,FC Luzern,BSC Young Boys,,,Liga Suiza,
-6,14.09.2025,Grasshopper Club Zürich,FC Lausanne-Sport,,,Liga Suiza,
+6,14.09.2025,FC Winterthur,FC Sion,2,3,Liga Suiza,2
+6,14.09.2025,FC Luzern,BSC Young Boys,1,2,Liga Suiza,2
+6,14.09.2025,Grasshopper Club Zürich,FC Lausanne-Sport,3,1,Liga Suiza,1
 7,27.09.2025,FC Lugano,Grasshopper Club Zürich,,,Liga Suiza,
 7,27.09.2025,Servette FC,FC Winterthur,,,Liga Suiza,
 7,27.09.2025,FC Zürich,FC St. Gallen,,,Liga Suiza,
@@ -8500,9 +8500,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 4,13.09.2025,Chonburi FC,Bangkok United,0,1,Liga Tailandia,2
 4,13.09.2025,Sukhothai FC,Lamphun Warriors,1,2,Liga Tailandia,2
 4,13.09.2025,Ratchaburi FC,Port FC,1,0,Liga Tailandia,1
-4,14.09.2025,Rayong FC,Muangthong United,,,Liga Tailandia,
-4,14.09.2025,Ayutthaya United,Chiangrai United,,,Liga Tailandia,
-4,14.09.2025,Kanchanaburi Power FC,Nakhon Ratchasima,,,Liga Tailandia,
+4,14.09.2025,Rayong FC,Muangthong United,2,0,Liga Tailandia,1
+4,14.09.2025,Ayutthaya United,Chiangrai United,1,1,Liga Tailandia,X
+4,14.09.2025,Kanchanaburi Power FC,Nakhon Ratchasima,0,0,Liga Tailandia,X
 5,19.09.2025,Port FC,Chonburi FC,,,Liga Tailandia,
 5,20.09.2025,Lamphun Warriors,Nakhon Ratchasima,,,Liga Tailandia,
 5,20.09.2025,Uthai Thani FC,Sukhothai FC,,,Liga Tailandia,
@@ -9152,10 +9152,10 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,13.09.2025,Racing,Boston River,0,0,Liga Uruguaya,X
 7,13.09.2025,Liverpool,Peñarol,2,2,Liga Uruguaya,X
 7,13.09.2025,Cerro Largo,Defensor Sporting,1,0,Liga Uruguaya,1
-7,14.09.2025,River Plate,Progreso,,,Liga Uruguaya,
-7,14.09.2025,Juventud de Las Piedras,Montevideo City Torque,,,Liga Uruguaya,
-7,14.09.2025,Danubio,CA Cerro,,,Liga Uruguaya,
-7,14.09.2025,Plaza Colonia,Nacional,,,Liga Uruguaya,
+7,14.09.2025,River Plate,Progreso,0,0,Liga Uruguaya,X
+7,14.09.2025,Juventud de Las Piedras,Montevideo City Torque,0,1,Liga Uruguaya,2
+7,14.09.2025,Danubio,CA Cerro,5,1,Liga Uruguaya,1
+7,14.09.2025,Plaza Colonia,Nacional,1,0,Liga Uruguaya,1
 7,15.09.2025,Miramar Misiones,Montevideo Wanderers,,,Liga Uruguaya,
 8,20.09.2025,Defensor Sporting,Danubio,,,Liga Uruguaya,
 8,20.09.2025,Montevideo City Torque,Cerro Largo,,,Liga Uruguaya,
@@ -9349,9 +9349,9 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 7,12.09.2025,Guadalupe,AD San Carlos,2,3,Liga costa Rica,2
 8,14.09.2025,CS Herediano,Sporting FC,0,0,Liga costa Rica,X
 8,14.09.2025,LD Alajuelense,Municipal Liberia,2,0,Liga costa Rica,1
-8,14.09.2025,Deportivo Saprissa,Guadalupe,,,Liga costa Rica,
-8,14.09.2025,Municipal Pérez Zeledón,Puntarenas FC,,,Liga costa Rica,
-8,14.09.2025,AD San Carlos,CS Cartaginés,,,Liga costa Rica,
+8,14.09.2025,Deportivo Saprissa,Guadalupe,3,1,Liga costa Rica,1
+8,14.09.2025,Municipal Pérez Zeledón,Puntarenas FC,0,0,Liga costa Rica,X
+8,14.09.2025,AD San Carlos,CS Cartaginés,0,1,Liga costa Rica,2
 9,17.09.2025,LD Alajuelense,AD San Carlos,,,Liga costa Rica,
 9,18.09.2025,Guadalupe,Municipal Liberia,,,Liga costa Rica,
 9,18.09.2025,Puntarenas FC,Sporting FC,,,Liga costa Rica,
@@ -9424,14 +9424,14 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 2,17.09.2025,Real Madrid Castilla,Racing de Ferrol,,,Primera Federacion gp 1 España,
 3,12.09.2025,Barakaldo CF,Arenas de Getxo,2,1,Primera Federacion gp 1 España,1
 3,13.09.2025,Mérida AD,Celta B,2,4,Primera Federacion gp 1 España,2
-3,14.09.2025,Ourense CF,CF Talavera,,,Primera Federacion gp 1 España,
-3,14.09.2025,Real Avilés,Osasuna B,,,Primera Federacion gp 1 España,
-3,14.09.2025,Bilbao Athletic,Real Madrid Castilla,,,Primera Federacion gp 1 España,
-3,14.09.2025,CP Cacereño,CD Arenteiro,,,Primera Federacion gp 1 España,
-3,14.09.2025,Pontevedra CF,Tenerife,,,Primera Federacion gp 1 España,
-3,14.09.2025,CD Guadalajara,Unionistas CF,,,Primera Federacion gp 1 España,
-3,14.09.2025,Zamora CF,Lugo,,,Primera Federacion gp 1 España,
-3,14.09.2025,Racing de Ferrol,Ponferradina,,,Primera Federacion gp 1 España,
+3,14.09.2025,Ourense CF,CF Talavera,1,2,Primera Federacion gp 1 España,2
+3,14.09.2025,Real Avilés,Osasuna B,2,0,Primera Federacion gp 1 España,1
+3,14.09.2025,Bilbao Athletic,Real Madrid Castilla,1,0,Primera Federacion gp 1 España,1
+3,14.09.2025,CP Cacereño,CD Arenteiro,0,2,Primera Federacion gp 1 España,2
+3,14.09.2025,Pontevedra CF,Tenerife,0,2,Primera Federacion gp 1 España,2
+3,14.09.2025,CD Guadalajara,Unionistas CF,2,0,Primera Federacion gp 1 España,1
+3,14.09.2025,Zamora CF,Lugo,1,0,Primera Federacion gp 1 España,1
+3,14.09.2025,Racing de Ferrol,Ponferradina,2,1,Primera Federacion gp 1 España,1
 4,19.09.2025,Ponferradina,CD Guadalajara,,,Primera Federacion gp 1 España,
 4,20.09.2025,CD Arenteiro,Zamora CF,,,Primera Federacion gp 1 España,
 4,20.09.2025,Bilbao Athletic,Pontevedra CF,,,Primera Federacion gp 1 España,
@@ -9810,8 +9810,8 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 3,13.09.2025,Gimnàstic de Tarragona,Atlético Sanluqueño CF,1,3,Primera Federacion gp 2 España,2
 3,13.09.2025,Antequera CF,Alcorcón,1,2,Primera Federacion gp 2 España,2
 3,13.09.2025,Sevilla Atlético,Betis B,1,0,Primera Federacion gp 2 España,1
-3,14.09.2025,Atlético B,Real Murcia,,,Primera Federacion gp 2 España,
-3,14.09.2025,Juventud Torremolinos,SD Tarazona,,,Primera Federacion gp 2 España,
+3,14.09.2025,Atlético B,Real Murcia,1,1,Primera Federacion gp 2 España,X
+3,14.09.2025,Juventud Torremolinos,SD Tarazona,2,1,Primera Federacion gp 2 España,1
 4,19.09.2025,Real Murcia,Villarreal B,,,Primera Federacion gp 2 España,
 4,20.09.2025,Betis B,Atlético B,,,Primera Federacion gp 2 España,
 4,20.09.2025,Algeciras CF,CE Sabadell,,,Primera Federacion gp 2 España,
@@ -10173,13 +10173,13 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 1,07.09.2025,UP Langreo,Coruxo FC,1,1,Segunda Federacion gp 1 España,X
 2,13.09.2025,UD Sámano,Real Oviedo B,0,2,Segunda Federacion gp 1 España,2
 2,13.09.2025,Marino de Luanco,UP Langreo,2,0,Segunda Federacion gp 1 España,1
-2,14.09.2025,Burgos Promesas,UD Ourense,,,Segunda Federacion gp 1 España,
-2,14.09.2025,Salamanca CF UDS,Atlético Astorga,,,Segunda Federacion gp 1 España,
-2,14.09.2025,Valladolid B,Gimnástica Segoviana,,,Segunda Federacion gp 1 España,
-2,14.09.2025,Numancia,Rayo Cantabria,,,Segunda Federacion gp 1 España,
-2,14.09.2025,Coruxo FC,Deportivo B,,,Segunda Federacion gp 1 España,
-2,14.09.2025,SD Sarriana,CD Lealtad,,,Segunda Federacion gp 1 España,
-2,14.09.2025,Real Ávila CF,Bergantiños FC,,,Segunda Federacion gp 1 España,
+2,14.09.2025,Burgos Promesas,UD Ourense,1,1,Segunda Federacion gp 1 España,X
+2,14.09.2025,Salamanca CF UDS,Atlético Astorga,2,0,Segunda Federacion gp 1 España,1
+2,14.09.2025,Valladolid B,Gimnástica Segoviana,2,2,Segunda Federacion gp 1 España,X
+2,14.09.2025,Numancia,Rayo Cantabria,2,1,Segunda Federacion gp 1 España,1
+2,14.09.2025,Coruxo FC,Deportivo B,0,2,Segunda Federacion gp 1 España,2
+2,14.09.2025,SD Sarriana,CD Lealtad,2,0,Segunda Federacion gp 1 España,1
+2,14.09.2025,Real Ávila CF,Bergantiños FC,2,1,Segunda Federacion gp 1 España,1
 3,20.09.2025,Real Oviedo B,Valladolid B,,,Segunda Federacion gp 1 España,
 3,20.09.2025,Atlético Astorga,Coruxo FC,,,Segunda Federacion gp 1 España,
 3,20.09.2025,UP Langreo,Real Ávila CF,,,Segunda Federacion gp 1 España,
@@ -10480,12 +10480,12 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 2,13.09.2025,CD Basconia,SD Logroñés,0,0,Segunda Federacion gp 2 España,X
 2,13.09.2025,UD Mutilvera,Alavés B,1,0,Segunda Federacion gp 2 España,1
 2,13.09.2025,Utebo FC,SD Gernika,3,1,Segunda Federacion gp 2 España,1
-2,14.09.2025,SD Beasain,SD Ejea,,,Segunda Federacion gp 2 España,
-2,14.09.2025,CD Ebro,SD Amorebieta,,,Segunda Federacion gp 2 España,
-2,14.09.2025,Eibar B,CD Alfaro,,,Segunda Federacion gp 2 España,
-2,14.09.2025,Real Unión,CD Tudelano,,,Segunda Federacion gp 2 España,
-2,14.09.2025,UD Logroñés,Náxara CD,,,Segunda Federacion gp 2 España,
-2,14.09.2025,Sestao River,Zaragoza B,,,Segunda Federacion gp 2 España,
+2,14.09.2025,SD Beasain,SD Ejea,2,3,Segunda Federacion gp 2 España,2
+2,14.09.2025,CD Ebro,SD Amorebieta,0,0,Segunda Federacion gp 2 España,X
+2,14.09.2025,Eibar B,CD Alfaro,4,3,Segunda Federacion gp 2 España,1
+2,14.09.2025,Real Unión,CD Tudelano,0,0,Segunda Federacion gp 2 España,X
+2,14.09.2025,UD Logroñés,Náxara CD,2,1,Segunda Federacion gp 2 España,1
+2,14.09.2025,Sestao River,Zaragoza B,2,0,Segunda Federacion gp 2 España,1
 3,20.09.2025,CD Alfaro,CD Basconia,,,Segunda Federacion gp 2 España,
 3,20.09.2025,Náxara CD,SD Gernika,,,Segunda Federacion gp 2 España,
 3,20.09.2025,Real Unión,UD Mutilvera,,,Segunda Federacion gp 2 España,
@@ -10785,13 +10785,13 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 1,07.09.2025,CD Alcoyano,Valencia Mestalla,2,2,Segunda Federacion gp 3 España,X
 2,13.09.2025,CD Castellón B,Reus FCR,3,1,Segunda Federacion gp 3 España,1
 2,13.09.2025,CE Andratx,Barcelona B,2,1,Segunda Federacion gp 3 España,1
-2,14.09.2025,Girona FC B,UD Poblense,,,Segunda Federacion gp 3 España,
-2,14.09.2025,Valencia Mestalla,Atlético Baleares,,,Segunda Federacion gp 3 España,
-2,14.09.2025,UE Olot,CD Ibiza,,,Segunda Federacion gp 3 España,
-2,14.09.2025,UE Porreres,CE Atlètic Lleida,,,Segunda Federacion gp 3 España,
-2,14.09.2025,Espanyol B,UD Barbastro,,,Segunda Federacion gp 3 España,
-2,14.09.2025,UE Sant Andreu,CD Alcoyano,,,Segunda Federacion gp 3 España,
-2,14.09.2025,Terrassa FC,Torrent CF,,,Segunda Federacion gp 3 España,
+2,14.09.2025,Girona FC B,UD Poblense,1,0,Segunda Federacion gp 3 España,1
+2,14.09.2025,Valencia Mestalla,Atlético Baleares,0,2,Segunda Federacion gp 3 España,2
+2,14.09.2025,UE Olot,CD Ibiza,1,0,Segunda Federacion gp 3 España,1
+2,14.09.2025,UE Porreres,CE Atlètic Lleida,1,1,Segunda Federacion gp 3 España,X
+2,14.09.2025,Espanyol B,UD Barbastro,1,1,Segunda Federacion gp 3 España,X
+2,14.09.2025,UE Sant Andreu,CD Alcoyano,0,0,Segunda Federacion gp 3 España,X
+2,14.09.2025,Terrassa FC,Torrent CF,1,0,Segunda Federacion gp 3 España,1
 3,20.09.2025,Atlético Baleares,UE Sant Andreu,,,Segunda Federacion gp 3 España,
 3,20.09.2025,UD Barbastro,Valencia Mestalla,,,Segunda Federacion gp 3 España,
 3,21.09.2025,CD Alcoyano,CE Andratx,,,Segunda Federacion gp 3 España,
@@ -11089,15 +11089,15 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 1,07.09.2025,Lorca Deportiva,Real Jaén,0,0,Segunda Federacion gp 4 España,X
 1,07.09.2025,CA Antoniano,CDU Malacitano,0,0,Segunda Federacion gp 4 España,X
 1,07.09.2025,Xerez DFC,Deportiva Minera,1,3,Segunda Federacion gp 4 España,2
-2,14.09.2025,Deportiva Minera,CD Estepona,,,Segunda Federacion gp 4 España,
-2,14.09.2025,CDU Malacitano,Xerez DFC,,,Segunda Federacion gp 4 España,
-2,14.09.2025,Yeclano Deportivo,UD Melilla,,,Segunda Federacion gp 4 España,
-2,14.09.2025,Linares Deportivo,Águilas FC,,,Segunda Federacion gp 4 España,
-2,14.09.2025,RC Recreativo,Puente Genil FC,,,Segunda Federacion gp 4 España,
-2,14.09.2025,Real Jaén,CD Extremadura,,,Segunda Federacion gp 4 España,
-2,14.09.2025,Xerez CD,CA Antoniano,,,Segunda Federacion gp 4 España,
-2,14.09.2025,UCAM Murcia CF,Lorca Deportiva,,,Segunda Federacion gp 4 España,
-2,14.09.2025,Atlético Malagueño,Almería B,,,Segunda Federacion gp 4 España,
+2,14.09.2025,Deportiva Minera,CD Estepona,1,0,Segunda Federacion gp 4 España,1
+2,14.09.2025,CDU Malacitano,Xerez DFC,1,1,Segunda Federacion gp 4 España,X
+2,14.09.2025,Yeclano Deportivo,UD Melilla,1,0,Segunda Federacion gp 4 España,1
+2,14.09.2025,Linares Deportivo,Águilas FC,1,1,Segunda Federacion gp 4 España,X
+2,14.09.2025,RC Recreativo,Puente Genil FC,1,2,Segunda Federacion gp 4 España,2
+2,14.09.2025,Real Jaén,CD Extremadura,0,1,Segunda Federacion gp 4 España,2
+2,14.09.2025,Xerez CD,CA Antoniano,2,0,Segunda Federacion gp 4 España,1
+2,14.09.2025,UCAM Murcia CF,Lorca Deportiva,2,1,Segunda Federacion gp 4 España,1
+2,14.09.2025,Atlético Malagueño,Almería B,0,1,Segunda Federacion gp 4 España,2
 3,20.09.2025,Lorca Deportiva,CDU Malacitano,,,Segunda Federacion gp 4 España,
 3,20.09.2025,CD Estepona,RC Recreativo,,,Segunda Federacion gp 4 España,
 3,21.09.2025,CA Antoniano,Real Jaén,,,Segunda Federacion gp 4 España,
@@ -11395,15 +11395,15 @@ Jornadas,Fecha,Local,Visita,GA,GC,Liga,Resultado
 1,07.09.2025,Las Palmas Atlético,Tenerife B,0,1,Segunda Federacion gp 5 España,2
 1,07.09.2025,Quintanar del Rey,CF Intercity,0,0,Segunda Federacion gp 5 España,X
 1,07.09.2025,Orihuela CF,CF Fuenlabrada,2,0,Segunda Federacion gp 5 España,1
-2,14.09.2025,Real Madrid C,Las Palmas Atlético,,,Segunda Federacion gp 5 España,
-2,14.09.2025,Tenerife B,Quintanar del Rey,,,Segunda Federacion gp 5 España,
-2,14.09.2025,CF Fuenlabrada,UD SS Reyes,,,Segunda Federacion gp 5 España,
-2,14.09.2025,Rayo Majadahonda,Orihuela CF,,,Segunda Federacion gp 5 España,
-2,14.09.2025,RSD Alcalá,UB Conquense,,,Segunda Federacion gp 5 España,
-2,14.09.2025,CDA Navalcarnero,Rayo B,,,Segunda Federacion gp 5 España,
-2,14.09.2025,CD Coria,Getafe B,,,Segunda Federacion gp 5 España,
-2,14.09.2025,UD Socuéllamos,CDC Moscardó,,,Segunda Federacion gp 5 España,
-2,14.09.2025,CF Intercity,Elche Ilicitano,,,Segunda Federacion gp 5 España,
+2,14.09.2025,Real Madrid C,Las Palmas Atlético,2,0,Segunda Federacion gp 5 España,1
+2,14.09.2025,Tenerife B,Quintanar del Rey,1,0,Segunda Federacion gp 5 España,1
+2,14.09.2025,CF Fuenlabrada,UD SS Reyes,0,1,Segunda Federacion gp 5 España,2
+2,14.09.2025,Rayo Majadahonda,Orihuela CF,0,0,Segunda Federacion gp 5 España,X
+2,14.09.2025,RSD Alcalá,UB Conquense,2,1,Segunda Federacion gp 5 España,1
+2,14.09.2025,CDA Navalcarnero,Rayo B,2,1,Segunda Federacion gp 5 España,1
+2,14.09.2025,CD Coria,Getafe B,3,0,Segunda Federacion gp 5 España,1
+2,14.09.2025,UD Socuéllamos,CDC Moscardó,0,2,Segunda Federacion gp 5 España,2
+2,14.09.2025,CF Intercity,Elche Ilicitano,1,1,Segunda Federacion gp 5 España,X
 3,20.09.2025,Rayo B,Real Madrid C,,,Segunda Federacion gp 5 España,
 3,20.09.2025,CDC Moscardó,RSD Alcalá,,,Segunda Federacion gp 5 España,
 3,21.09.2025,Getafe B,CF Fuenlabrada,,,Segunda Federacion gp 5 España,

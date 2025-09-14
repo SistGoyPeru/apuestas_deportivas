@@ -467,6 +467,42 @@ class liga():
 
         return df_liga['Resultado'].count()
     
+    
+    def PPP(self, liga,equipo):
+        ppp = 0.0
+        totalVictorias= self.TotalVictoriasEquipoVisita(liga, equipo)+self.TotalVictoriasEquipoLocal(liga, equipo)
+        puntosvictoria=totalVictorias*3
+        totalEmpates=self.TotalEmpatesEquipoLocal(liga, equipo)+self.TotalEmpatesEquipoVisita(liga, equipo)
+        puntosEmpate=totalEmpates*1
+        ppp = (puntosvictoria+puntosEmpate) /(self.TotalDisputadosEquipoLocal(liga, equipo)+self.TotalDisputadosEquipoVisita(liga, equipo))
+        return ppp
+        
+    def PPP_local(self, liga,local):
+        ppp = 0.0
+        totalVictorias=self.TotalVictoriasEquipoLocal(liga, local)
+        puntosvictoria=totalVictorias*3
+        totalEmpates=self.TotalEmpatesEquipoLocal(liga, local)
+        puntosEmpate=totalEmpates*1 
+        ppp=(puntosvictoria+puntosEmpate)/self.TotalDisputadosEquipoLocal(liga, local)
+        return ppp
+    
+    def PPP_visita(self, liga,visita):
+        ppp = 0.0
+        totalVictorias=self.TotalVictoriasEquipoVisita(liga, visita)    
+        puntosvictoria=totalVictorias*3
+        totalEmpates=self.TotalEmpatesEquipoVisita(liga, visita)
+        puntosEmpate=totalEmpates*1 
+        ppp=(puntosvictoria+puntosEmpate)/self.TotalDisputadosEquipoVisita(liga, visita)
+        return ppp
+    
+          
+
+         
+        
+
+       
+
+    
     def masde05goles(self, liga,local, visita):
         masde05 = 0.0
         fuerza_local = self.fuerzaPromedioLocal(liga,local, visita)
