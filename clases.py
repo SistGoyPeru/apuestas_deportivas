@@ -1,17 +1,17 @@
 
 import polars as pl
 from datetime import datetime, date
+
 from scipy.stats import poisson
 import random
 
 
 class liga():
-    def __init__(self, archivo):
+    def __init__(self,archivo):
         self.archivo = archivo
         self.df = pl.read_csv(archivo)
 
-    def data(self):
-
+    def data(self):    
         return self.df
 
     def data_Disputados(self):

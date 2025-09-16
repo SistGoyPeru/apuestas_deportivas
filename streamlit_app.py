@@ -5,6 +5,7 @@ from datetime import datetime, date
 #------------------------------------
 
 def main():
+   
 
     df_total = liga("data_ligas.csv")
     df = df_total.data()
