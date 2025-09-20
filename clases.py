@@ -5,7 +5,7 @@ from datetime import datetime, date
 from scipy.stats import poisson
 import random
 
-
+#-------------------------------------------------------
 class liga():
     def __init__(self,archivo):
         self.archivo = archivo
