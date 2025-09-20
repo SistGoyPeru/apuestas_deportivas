@@ -10,7 +10,7 @@ def main():
     df_total = liga("data_ligas.xlsx")
     df = df_total.data()
     
-    
+    #--------------------
 
     st.set_page_config(
         page_title="Pronósticos de Ligas del Mundo - SistGoy", layout="wide", page_icon="🏠",)
