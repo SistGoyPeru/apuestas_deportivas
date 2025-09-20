@@ -9,7 +9,7 @@ import random
 class liga():
     def __init__(self,archivo):
         self.archivo = archivo
-        self.df = pl.read_csv(archivo)
+        self.df = pl.read_excel(archivo)
 
     def data(self):    
         return self.df
