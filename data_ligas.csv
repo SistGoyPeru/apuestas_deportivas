@@ -1,4 +1,184 @@
 Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
+1,22.08.2025,FK Vllaznia,Egnatia Rrogozhine,2,0,1,0,Liga Albania,1
+1,23.08.2025,KF Bylis Ballsh,KF Tiranë,0,0,0,0,Liga Albania,X
+1,23.08.2025,AF Elbasani,Flamurtari Vlorë,1,0,1,0,Liga Albania,1
+1,24.08.2025,FK Partizani,FK Vora,1,0,1,0,Liga Albania,1
+1,17.09.2025,KF Teuta Durrës,FC Dinamo City,1,0,1,0,Liga Albania,1
+2,30.08.2025,Flamurtari Vlorë,KF Bylis Ballsh,3,3,2,1,Liga Albania,X
+2,30.08.2025,Egnatia Rrogozhine,AF Elbasani,1,1,0,1,Liga Albania,X
+2,30.08.2025,FK Partizani,KF Teuta Durrës,0,0,0,0,Liga Albania,X
+2,31.08.2025,FK Vora,KF Tiranë,3,1,1,0,Liga Albania,1
+2,31.08.2025,FC Dinamo City,FK Vllaznia,3,1,1,0,Liga Albania,1
+3,13.09.2025,KF Tiranë,Flamurtari Vlorë,1,1,1,0,Liga Albania,X
+3,13.09.2025,KF Bylis Ballsh,Egnatia Rrogozhine,0,1,0,0,Liga Albania,2
+3,13.09.2025,FK Vllaznia,FK Partizani,4,1,1,1,Liga Albania,1
+3,14.09.2025,AF Elbasani,FC Dinamo City,1,0,0,0,Liga Albania,1
+3,14.09.2025,KF Teuta Durrës,FK Vora,1,1,1,0,Liga Albania,X
+4,20.09.2025,Egnatia Rrogozhine,KF Tiranë,2,0,1,0,Liga Albania,1
+4,20.09.2025,FK Partizani,AF Elbasani,0,1,0,1,Liga Albania,2
+4,21.09.2025,FC Dinamo City,KF Bylis Ballsh,,,,,Liga Albania,
+4,21.09.2025,FK Vora,Flamurtari Vlorë,,,,,Liga Albania,
+4,21.09.2025,KF Teuta Durrës,FK Vllaznia,,,,,Liga Albania,
+5,27.09.2025,KF Bylis Ballsh,FK Partizani,,,,,Liga Albania,
+5,27.09.2025,AF Elbasani,KF Teuta Durrës,,,,,Liga Albania,
+5,27.09.2025,KF Tiranë,FC Dinamo City,,,,,Liga Albania,
+5,28.09.2025,Flamurtari Vlorë,Egnatia Rrogozhine,,,,,Liga Albania,
+5,28.09.2025,FK Vllaznia,FK Vora,,,,,Liga Albania,
+6,03.10.2025,FK Partizani,KF Tiranë,,,,,Liga Albania,
+6,04.10.2025,FC Dinamo City,Flamurtari Vlorë,,,,,Liga Albania,
+6,04.10.2025,FK Vllaznia,AF Elbasani,,,,,Liga Albania,
+6,05.10.2025,FK Vora,Egnatia Rrogozhine,,,,,Liga Albania,
+6,05.10.2025,KF Teuta Durrës,KF Bylis Ballsh,,,,,Liga Albania,
+7,19.10.2025,AF Elbasani,FK Vora,,,,,Liga Albania,
+7,19.10.2025,Flamurtari Vlorë,FK Partizani,,,,,Liga Albania,
+7,19.10.2025,KF Tiranë,KF Teuta Durrës,,,,,Liga Albania,
+7,19.10.2025,KF Bylis Ballsh,FK Vllaznia,,,,,Liga Albania,
+7,19.10.2025,Egnatia Rrogozhine,FC Dinamo City,,,,,Liga Albania,
+8,25.10.2025,AF Elbasani,KF Bylis Ballsh,,,,,Liga Albania,
+8,25.10.2025,FK Partizani,Egnatia Rrogozhine,,,,,Liga Albania,
+8,25.10.2025,KF Teuta Durrës,Flamurtari Vlorë,,,,,Liga Albania,
+8,25.10.2025,FK Vllaznia,KF Tiranë,,,,,Liga Albania,
+8,25.10.2025,FK Vora,FC Dinamo City,,,,,Liga Albania,
+9,29.10.2025,FC Dinamo City,FK Partizani,,,,,Liga Albania,
+9,29.10.2025,Flamurtari Vlorë,FK Vllaznia,,,,,Liga Albania,
+9,29.10.2025,KF Tiranë,AF Elbasani,,,,,Liga Albania,
+9,29.10.2025,KF Bylis Ballsh,FK Vora,,,,,Liga Albania,
+9,29.10.2025,Egnatia Rrogozhine,KF Teuta Durrës,,,,,Liga Albania,
+10,02.11.2025,FC Dinamo City,KF Teuta Durrës,,,,,Liga Albania,
+10,02.11.2025,Flamurtari Vlorë,AF Elbasani,,,,,Liga Albania,
+10,02.11.2025,KF Tiranë,KF Bylis Ballsh,,,,,Liga Albania,
+10,02.11.2025,Egnatia Rrogozhine,FK Vllaznia,,,,,Liga Albania,
+10,02.11.2025,FK Vora,FK Partizani,,,,,Liga Albania,
+11,08.11.2025,AF Elbasani,Egnatia Rrogozhine,,,,,Liga Albania,
+11,08.11.2025,KF Tiranë,FK Vora,,,,,Liga Albania,
+11,08.11.2025,KF Bylis Ballsh,Flamurtari Vlorë,,,,,Liga Albania,
+11,08.11.2025,KF Teuta Durrës,FK Partizani,,,,,Liga Albania,
+11,08.11.2025,FK Vllaznia,FC Dinamo City,,,,,Liga Albania,
+12,22.11.2025,FC Dinamo City,AF Elbasani,,,,,Liga Albania,
+12,22.11.2025,Flamurtari Vlorë,KF Tiranë,,,,,Liga Albania,
+12,22.11.2025,Egnatia Rrogozhine,KF Bylis Ballsh,,,,,Liga Albania,
+12,22.11.2025,FK Partizani,FK Vllaznia,,,,,Liga Albania,
+12,22.11.2025,FK Vora,KF Teuta Durrës,,,,,Liga Albania,
+13,29.11.2025,AF Elbasani,FK Partizani,,,,,Liga Albania,
+13,29.11.2025,Flamurtari Vlorë,FK Vora,,,,,Liga Albania,
+13,29.11.2025,KF Tiranë,Egnatia Rrogozhine,,,,,Liga Albania,
+13,29.11.2025,KF Bylis Ballsh,FC Dinamo City,,,,,Liga Albania,
+13,29.11.2025,FK Vllaznia,KF Teuta Durrës,,,,,Liga Albania,
+14,03.12.2025,FC Dinamo City,KF Tiranë,,,,,Liga Albania,
+14,03.12.2025,Egnatia Rrogozhine,Flamurtari Vlorë,,,,,Liga Albania,
+14,03.12.2025,FK Partizani,KF Bylis Ballsh,,,,,Liga Albania,
+14,03.12.2025,KF Teuta Durrës,AF Elbasani,,,,,Liga Albania,
+14,03.12.2025,FK Vora,FK Vllaznia,,,,,Liga Albania,
+15,07.12.2025,AF Elbasani,FK Vllaznia,,,,,Liga Albania,
+15,07.12.2025,Flamurtari Vlorë,FC Dinamo City,,,,,Liga Albania,
+15,07.12.2025,KF Tiranë,FK Partizani,,,,,Liga Albania,
+15,07.12.2025,KF Bylis Ballsh,KF Teuta Durrës,,,,,Liga Albania,
+15,07.12.2025,Egnatia Rrogozhine,FK Vora,,,,,Liga Albania,
+16,13.12.2025,FC Dinamo City,Egnatia Rrogozhine,,,,,Liga Albania,
+16,13.12.2025,FK Partizani,Flamurtari Vlorë,,,,,Liga Albania,
+16,13.12.2025,KF Teuta Durrës,KF Tiranë,,,,,Liga Albania,
+16,13.12.2025,FK Vllaznia,KF Bylis Ballsh,,,,,Liga Albania,
+16,13.12.2025,FK Vora,AF Elbasani,,,,,Liga Albania,
+17,20.12.2025,FC Dinamo City,FK Vora,,,,,Liga Albania,
+17,20.12.2025,Flamurtari Vlorë,KF Teuta Durrës,,,,,Liga Albania,
+17,20.12.2025,KF Tiranë,FK Vllaznia,,,,,Liga Albania,
+17,20.12.2025,KF Bylis Ballsh,AF Elbasani,,,,,Liga Albania,
+17,20.12.2025,Egnatia Rrogozhine,FK Partizani,,,,,Liga Albania,
+18,24.12.2025,AF Elbasani,KF Tiranë,,,,,Liga Albania,
+18,24.12.2025,FK Partizani,FC Dinamo City,,,,,Liga Albania,
+18,24.12.2025,KF Teuta Durrës,Egnatia Rrogozhine,,,,,Liga Albania,
+18,24.12.2025,FK Vllaznia,Flamurtari Vlorë,,,,,Liga Albania,
+18,24.12.2025,FK Vora,KF Bylis Ballsh,,,,,Liga Albania,
+19,14.01.2026,AF Elbasani,Flamurtari Vlorë,,,,,Liga Albania,
+19,14.01.2026,KF Bylis Ballsh,KF Tiranë,,,,,Liga Albania,
+19,14.01.2026,FK Partizani,FK Vora,,,,,Liga Albania,
+19,14.01.2026,KF Teuta Durrës,FC Dinamo City,,,,,Liga Albania,
+19,14.01.2026,FK Vllaznia,Egnatia Rrogozhine,,,,,Liga Albania,
+20,18.01.2026,FC Dinamo City,FK Vllaznia,,,,,Liga Albania,
+20,18.01.2026,Flamurtari Vlorë,KF Bylis Ballsh,,,,,Liga Albania,
+20,18.01.2026,Egnatia Rrogozhine,AF Elbasani,,,,,Liga Albania,
+20,18.01.2026,FK Partizani,KF Teuta Durrës,,,,,Liga Albania,
+20,18.01.2026,FK Vora,KF Tiranë,,,,,Liga Albania,
+21,24.01.2026,AF Elbasani,FC Dinamo City,,,,,Liga Albania,
+21,24.01.2026,KF Tiranë,Flamurtari Vlorë,,,,,Liga Albania,
+21,24.01.2026,KF Bylis Ballsh,Egnatia Rrogozhine,,,,,Liga Albania,
+21,24.01.2026,KF Teuta Durrës,FK Vora,,,,,Liga Albania,
+21,24.01.2026,FK Vllaznia,FK Partizani,,,,,Liga Albania,
+22,31.01.2026,FC Dinamo City,KF Bylis Ballsh,,,,,Liga Albania,
+22,31.01.2026,Egnatia Rrogozhine,KF Tiranë,,,,,Liga Albania,
+22,31.01.2026,FK Partizani,AF Elbasani,,,,,Liga Albania,
+22,31.01.2026,KF Teuta Durrës,FK Vllaznia,,,,,Liga Albania,
+22,31.01.2026,FK Vora,Flamurtari Vlorë,,,,,Liga Albania,
+23,07.02.2026,AF Elbasani,KF Teuta Durrës,,,,,Liga Albania,
+23,07.02.2026,Flamurtari Vlorë,Egnatia Rrogozhine,,,,,Liga Albania,
+23,07.02.2026,KF Tiranë,FC Dinamo City,,,,,Liga Albania,
+23,07.02.2026,KF Bylis Ballsh,FK Partizani,,,,,Liga Albania,
+23,07.02.2026,FK Vllaznia,FK Vora,,,,,Liga Albania,
+24,15.02.2026,FC Dinamo City,Flamurtari Vlorë,,,,,Liga Albania,
+24,15.02.2026,FK Partizani,KF Tiranë,,,,,Liga Albania,
+24,15.02.2026,KF Teuta Durrës,KF Bylis Ballsh,,,,,Liga Albania,
+24,15.02.2026,FK Vllaznia,AF Elbasani,,,,,Liga Albania,
+24,15.02.2026,FK Vora,Egnatia Rrogozhine,,,,,Liga Albania,
+25,21.02.2026,AF Elbasani,FK Vora,,,,,Liga Albania,
+25,21.02.2026,Flamurtari Vlorë,FK Partizani,,,,,Liga Albania,
+25,21.02.2026,KF Tiranë,KF Teuta Durrës,,,,,Liga Albania,
+25,21.02.2026,KF Bylis Ballsh,FK Vllaznia,,,,,Liga Albania,
+25,21.02.2026,Egnatia Rrogozhine,FC Dinamo City,,,,,Liga Albania,
+26,28.02.2026,AF Elbasani,KF Bylis Ballsh,,,,,Liga Albania,
+26,28.02.2026,FK Partizani,Egnatia Rrogozhine,,,,,Liga Albania,
+26,28.02.2026,KF Teuta Durrës,Flamurtari Vlorë,,,,,Liga Albania,
+26,28.02.2026,FK Vllaznia,KF Tiranë,,,,,Liga Albania,
+26,28.02.2026,FK Vora,FC Dinamo City,,,,,Liga Albania,
+27,08.03.2026,FC Dinamo City,FK Partizani,,,,,Liga Albania,
+27,08.03.2026,Flamurtari Vlorë,FK Vllaznia,,,,,Liga Albania,
+27,08.03.2026,KF Tiranë,AF Elbasani,,,,,Liga Albania,
+27,08.03.2026,KF Bylis Ballsh,FK Vora,,,,,Liga Albania,
+27,08.03.2026,Egnatia Rrogozhine,KF Teuta Durrës,,,,,Liga Albania,
+28,14.03.2026,FC Dinamo City,KF Teuta Durrës,,,,,Liga Albania,
+28,14.03.2026,Flamurtari Vlorë,AF Elbasani,,,,,Liga Albania,
+28,14.03.2026,KF Tiranë,KF Bylis Ballsh,,,,,Liga Albania,
+28,14.03.2026,Egnatia Rrogozhine,FK Vllaznia,,,,,Liga Albania,
+28,14.03.2026,FK Vora,FK Partizani,,,,,Liga Albania,
+29,21.03.2026,AF Elbasani,Egnatia Rrogozhine,,,,,Liga Albania,
+29,21.03.2026,KF Tiranë,FK Vora,,,,,Liga Albania,
+29,21.03.2026,KF Bylis Ballsh,Flamurtari Vlorë,,,,,Liga Albania,
+29,21.03.2026,KF Teuta Durrës,FK Partizani,,,,,Liga Albania,
+29,21.03.2026,FK Vllaznia,FC Dinamo City,,,,,Liga Albania,
+30,04.04.2026,FC Dinamo City,AF Elbasani,,,,,Liga Albania,
+30,04.04.2026,Flamurtari Vlorë,KF Tiranë,,,,,Liga Albania,
+30,04.04.2026,Egnatia Rrogozhine,KF Bylis Ballsh,,,,,Liga Albania,
+30,04.04.2026,FK Partizani,FK Vllaznia,,,,,Liga Albania,
+30,04.04.2026,FK Vora,KF Teuta Durrës,,,,,Liga Albania,
+31,12.04.2026,AF Elbasani,FK Partizani,,,,,Liga Albania,
+31,12.04.2026,Flamurtari Vlorë,FK Vora,,,,,Liga Albania,
+31,12.04.2026,KF Tiranë,Egnatia Rrogozhine,,,,,Liga Albania,
+31,12.04.2026,KF Bylis Ballsh,FC Dinamo City,,,,,Liga Albania,
+31,12.04.2026,FK Vllaznia,KF Teuta Durrës,,,,,Liga Albania,
+32,18.04.2026,FC Dinamo City,KF Tiranë,,,,,Liga Albania,
+32,18.04.2026,Egnatia Rrogozhine,Flamurtari Vlorë,,,,,Liga Albania,
+32,18.04.2026,FK Partizani,KF Bylis Ballsh,,,,,Liga Albania,
+32,18.04.2026,KF Teuta Durrës,AF Elbasani,,,,,Liga Albania,
+32,18.04.2026,FK Vora,FK Vllaznia,,,,,Liga Albania,
+33,26.04.2026,AF Elbasani,FK Vllaznia,,,,,Liga Albania,
+33,26.04.2026,Flamurtari Vlorë,FC Dinamo City,,,,,Liga Albania,
+33,26.04.2026,KF Tiranë,FK Partizani,,,,,Liga Albania,
+33,26.04.2026,KF Bylis Ballsh,KF Teuta Durrës,,,,,Liga Albania,
+33,26.04.2026,Egnatia Rrogozhine,FK Vora,,,,,Liga Albania,
+34,02.05.2026,FC Dinamo City,Egnatia Rrogozhine,,,,,Liga Albania,
+34,02.05.2026,FK Partizani,Flamurtari Vlorë,,,,,Liga Albania,
+34,02.05.2026,KF Teuta Durrës,KF Tiranë,,,,,Liga Albania,
+34,02.05.2026,FK Vllaznia,KF Bylis Ballsh,,,,,Liga Albania,
+34,02.05.2026,FK Vora,AF Elbasani,,,,,Liga Albania,
+35,06.05.2026,FC Dinamo City,FK Vora,,,,,Liga Albania,
+35,06.05.2026,Flamurtari Vlorë,KF Teuta Durrës,,,,,Liga Albania,
+35,06.05.2026,KF Tiranë,FK Vllaznia,,,,,Liga Albania,
+35,06.05.2026,KF Bylis Ballsh,AF Elbasani,,,,,Liga Albania,
+35,06.05.2026,Egnatia Rrogozhine,FK Partizani,,,,,Liga Albania,
+36,10.05.2026,AF Elbasani,KF Tiranë,,,,,Liga Albania,
+36,10.05.2026,FK Partizani,FC Dinamo City,,,,,Liga Albania,
+36,10.05.2026,KF Teuta Durrës,Egnatia Rrogozhine,,,,,Liga Albania,
+36,10.05.2026,FK Vllaznia,Flamurtari Vlorë,,,,,Liga Albania,
+36,10.05.2026,FK Vora,KF Bylis Ballsh,,,,,Liga Albania,
 1,22.08.2025,Bayern Múnich,RB Leipzig,6,0,3,0,Liga Alemana,1
 1,23.08.2025,Eintracht Frankfurt,Werder Bremen,4,1,2,0,Liga Alemana,1
 1,23.08.2025,Bayer Leverkusen,Hoffenheim,1,2,1,1,Liga Alemana,2
@@ -738,7 +918,7 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 9,20.09.2025,Barracas Central,Sarmiento de Junín,0,1,0,1,Liga Argentina,2
 9,20.09.2025,Unión de Santa Fe,Independiente Rivadavia,2,2,1,1,Liga Argentina,X
 9,21.09.2025,Tigre,Aldosivi,2,0,,,Liga Argentina,1
-9,21.09.2025,Atlético Tucumán,River Plate,0,0,,,Liga Argentina,X
+9,21.09.2025,Atlético Tucumán,River Plate,2,0,1,0,Liga Argentina,1
 9,21.09.2025,Independiente,San Lorenzo,,,,,Liga Argentina,
 9,21.09.2025,Godoy Cruz,Instituto de Córdoba,,,,,Liga Argentina,
 9,22.09.2025,Rosario Central,Talleres de Córdoba,,,,,Liga Argentina,
@@ -851,6 +1031,138 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 16,16.11.2025,Newell's Old Boys,Racing Club,,,,,Liga Argentina,
 16,16.11.2025,Defensa y Justicia,Independiente Rivadavia,,,,,Liga Argentina,
 16,16.11.2025,Central Córdoba SdE,Banfield,,,,,Liga Argentina,
+1,01.08.2025,LASK,Sturm Graz,0,2,0,2,Liga Austria,2
+1,02.08.2025,Wolfsberger AC,SCR Altach,0,2,0,0,Liga Austria,2
+1,02.08.2025,WSG Tirol,TSV Hartberg,4,2,2,2,Liga Austria,1
+1,02.08.2025,SV Ried,RB Salzburg,2,2,1,1,Liga Austria,X
+1,03.08.2025,Rapid Wien,FC Blau Weiß Linz,1,0,1,0,Liga Austria,1
+1,03.08.2025,Grazer AK,Austria Wien,2,2,1,1,Liga Austria,X
+2,09.08.2025,FC Blau Weiß Linz,TSV Hartberg,0,1,0,1,Liga Austria,2
+2,09.08.2025,SCR Altach,SV Ried,1,0,0,0,Liga Austria,1
+2,09.08.2025,RB Salzburg,Grazer AK,5,0,1,0,Liga Austria,1
+2,10.08.2025,WSG Tirol,LASK,3,1,2,0,Liga Austria,1
+2,10.08.2025,Sturm Graz,Rapid Wien,1,2,0,0,Liga Austria,2
+2,10.08.2025,Austria Wien,Wolfsberger AC,0,2,0,2,Liga Austria,2
+3,16.08.2025,TSV Hartberg,RB Salzburg,1,2,0,1,Liga Austria,2
+3,16.08.2025,Grazer AK,WSG Tirol,1,1,0,1,Liga Austria,X
+3,16.08.2025,SV Ried,Sturm Graz,1,3,1,3,Liga Austria,2
+3,17.08.2025,LASK,Austria Wien,2,1,1,1,Liga Austria,1
+3,17.08.2025,Rapid Wien,SCR Altach,0,0,0,0,Liga Austria,X
+3,17.08.2025,Wolfsberger AC,FC Blau Weiß Linz,3,0,3,0,Liga Austria,1
+4,23.08.2025,RB Salzburg,LASK,3,0,2,0,Liga Austria,1
+4,23.08.2025,FC Blau Weiß Linz,SV Ried,0,2,0,0,Liga Austria,2
+4,24.08.2025,SCR Altach,Grazer AK,1,1,1,1,Liga Austria,X
+4,24.08.2025,Wolfsberger AC,Rapid Wien,1,2,0,2,Liga Austria,2
+4,24.08.2025,Austria Wien,TSV Hartberg,1,3,0,1,Liga Austria,2
+4,03.12.2025,Sturm Graz,WSG Tirol,,,,,Liga Austria,
+5,30.08.2025,RB Salzburg,FC Blau Weiß Linz,2,2,1,1,Liga Austria,X
+5,30.08.2025,LASK,SV Ried,1,3,0,2,Liga Austria,2
+5,30.08.2025,Grazer AK,Sturm Graz,0,3,0,1,Liga Austria,2
+5,31.08.2025,TSV Hartberg,Rapid Wien,0,1,0,0,Liga Austria,2
+5,31.08.2025,Austria Wien,SCR Altach,1,0,0,0,Liga Austria,1
+5,31.08.2025,WSG Tirol,Wolfsberger AC,1,1,1,1,Liga Austria,X
+6,13.09.2025,Wolfsberger AC,RB Salzburg,3,1,2,0,Liga Austria,1
+6,13.09.2025,FC Blau Weiß Linz,Grazer AK,3,0,2,0,Liga Austria,1
+6,13.09.2025,SCR Altach,LASK,1,0,1,0,Liga Austria,1
+6,14.09.2025,Rapid Wien,WSG Tirol,4,1,2,0,Liga Austria,1
+6,14.09.2025,SV Ried,TSV Hartberg,0,2,0,1,Liga Austria,2
+6,14.09.2025,Sturm Graz,Austria Wien,0,1,0,1,Liga Austria,2
+7,20.09.2025,RB Salzburg,Sturm Graz,0,2,0,1,Liga Austria,2
+7,20.09.2025,TSV Hartberg,Wolfsberger AC,2,2,1,2,Liga Austria,X
+7,20.09.2025,Austria Wien,SV Ried,3,2,0,2,Liga Austria,1
+7,21.09.2025,LASK,FC Blau Weiß Linz,,,,,Liga Austria,
+7,21.09.2025,SCR Altach,WSG Tirol,,,,,Liga Austria,
+7,21.09.2025,Grazer AK,Rapid Wien,,,,,Liga Austria,
+8,27.09.2025,SV Ried,Grazer AK,,,,,Liga Austria,
+8,27.09.2025,Wolfsberger AC,LASK,,,,,Liga Austria,
+8,27.09.2025,FC Blau Weiß Linz,SCR Altach,,,,,Liga Austria,
+8,28.09.2025,Sturm Graz,TSV Hartberg,,,,,Liga Austria,
+8,28.09.2025,WSG Tirol,RB Salzburg,,,,,Liga Austria,
+8,28.09.2025,Rapid Wien,Austria Wien,,,,,Liga Austria,
+9,04.10.2025,SV Ried,WSG Tirol,,,,,Liga Austria,
+9,04.10.2025,Austria Wien,FC Blau Weiß Linz,,,,,Liga Austria,
+9,04.10.2025,Grazer AK,Wolfsberger AC,,,,,Liga Austria,
+9,05.10.2025,LASK,TSV Hartberg,,,,,Liga Austria,
+9,05.10.2025,SCR Altach,Sturm Graz,,,,,Liga Austria,
+9,05.10.2025,RB Salzburg,Rapid Wien,,,,,Liga Austria,
+10,18.10.2025,Wolfsberger AC,SV Ried,,,,,Liga Austria,
+10,18.10.2025,WSG Tirol,Austria Wien,,,,,Liga Austria,
+10,18.10.2025,Grazer AK,TSV Hartberg,,,,,Liga Austria,
+10,19.10.2025,RB Salzburg,SCR Altach,,,,,Liga Austria,
+10,19.10.2025,FC Blau Weiß Linz,Sturm Graz,,,,,Liga Austria,
+10,19.10.2025,Rapid Wien,LASK,,,,,Liga Austria,
+11,25.10.2025,LASK,Grazer AK,,,,,Liga Austria,
+11,25.10.2025,SCR Altach,TSV Hartberg,,,,,Liga Austria,
+11,25.10.2025,WSG Tirol,FC Blau Weiß Linz,,,,,Liga Austria,
+11,26.10.2025,Sturm Graz,Wolfsberger AC,,,,,Liga Austria,
+11,26.10.2025,SV Ried,Rapid Wien,,,,,Liga Austria,
+11,26.10.2025,Austria Wien,RB Salzburg,,,,,Liga Austria,
+12,01.11.2025,Grazer AK,SCR Altach,,,,,Liga Austria,
+12,01.11.2025,TSV Hartberg,Austria Wien,,,,,Liga Austria,
+12,01.11.2025,FC Blau Weiß Linz,LASK,,,,,Liga Austria,
+12,02.11.2025,RB Salzburg,SV Ried,,,,,Liga Austria,
+12,02.11.2025,Wolfsberger AC,WSG Tirol,,,,,Liga Austria,
+12,02.11.2025,Rapid Wien,Sturm Graz,,,,,Liga Austria,
+13,08.11.2025,Austria Wien,Grazer AK,,,,,Liga Austria,
+13,08.11.2025,SV Ried,FC Blau Weiß Linz,,,,,Liga Austria,
+13,08.11.2025,Wolfsberger AC,TSV Hartberg,,,,,Liga Austria,
+13,09.11.2025,WSG Tirol,Rapid Wien,,,,,Liga Austria,
+13,09.11.2025,LASK,SCR Altach,,,,,Liga Austria,
+13,09.11.2025,Sturm Graz,RB Salzburg,,,,,Liga Austria,
+14,22.11.2025,SCR Altach,Wolfsberger AC,,,,,Liga Austria,
+14,22.11.2025,TSV Hartberg,SV Ried,,,,,Liga Austria,
+14,22.11.2025,FC Blau Weiß Linz,Austria Wien,,,,,Liga Austria,
+14,23.11.2025,Sturm Graz,LASK,,,,,Liga Austria,
+14,23.11.2025,RB Salzburg,WSG Tirol,,,,,Liga Austria,
+14,23.11.2025,Rapid Wien,Grazer AK,,,,,Liga Austria,
+15,29.11.2025,Grazer AK,FC Blau Weiß Linz,,,,,Liga Austria,
+15,29.11.2025,SV Ried,Wolfsberger AC,,,,,Liga Austria,
+15,29.11.2025,Austria Wien,WSG Tirol,,,,,Liga Austria,
+15,30.11.2025,TSV Hartberg,Sturm Graz,,,,,Liga Austria,
+15,30.11.2025,SCR Altach,RB Salzburg,,,,,Liga Austria,
+15,30.11.2025,LASK,Rapid Wien,,,,,Liga Austria,
+16,06.12.2025,FC Blau Weiß Linz,RB Salzburg,,,,,Liga Austria,
+16,06.12.2025,TSV Hartberg,LASK,,,,,Liga Austria,
+16,06.12.2025,Rapid Wien,SV Ried,,,,,Liga Austria,
+16,07.12.2025,Wolfsberger AC,Austria Wien,,,,,Liga Austria,
+16,07.12.2025,WSG Tirol,SCR Altach,,,,,Liga Austria,
+16,07.12.2025,Sturm Graz,Grazer AK,,,,,Liga Austria,
+17,13.12.2025,TSV Hartberg,WSG Tirol,,,,,Liga Austria,
+17,13.12.2025,SV Ried,SCR Altach,,,,,Liga Austria,
+17,13.12.2025,Grazer AK,LASK,,,,,Liga Austria,
+17,14.12.2025,FC Blau Weiß Linz,Rapid Wien,,,,,Liga Austria,
+17,14.12.2025,RB Salzburg,Wolfsberger AC,,,,,Liga Austria,
+17,14.12.2025,Austria Wien,Sturm Graz,,,,,Liga Austria,
+18,06.02.2026,LASK,WSG Tirol,,,,,Liga Austria,
+18,06.02.2026,Sturm Graz,SV Ried,,,,,Liga Austria,
+18,06.02.2026,Rapid Wien,TSV Hartberg,,,,,Liga Austria,
+18,06.02.2026,SCR Altach,FC Blau Weiß Linz,,,,,Liga Austria,
+18,06.02.2026,Wolfsberger AC,Grazer AK,,,,,Liga Austria,
+18,06.02.2026,RB Salzburg,Austria Wien,,,,,Liga Austria,
+19,14.02.2026,Grazer AK,RB Salzburg,,,,,Liga Austria,
+19,14.02.2026,FC Blau Weiß Linz,Wolfsberger AC,,,,,Liga Austria,
+19,14.02.2026,WSG Tirol,Sturm Graz,,,,,Liga Austria,
+19,14.02.2026,SV Ried,LASK,,,,,Liga Austria,
+19,14.02.2026,Austria Wien,Rapid Wien,,,,,Liga Austria,
+19,14.02.2026,TSV Hartberg,SCR Altach,,,,,Liga Austria,
+20,21.02.2026,LASK,RB Salzburg,,,,,Liga Austria,
+20,21.02.2026,Rapid Wien,Wolfsberger AC,,,,,Liga Austria,
+20,21.02.2026,SCR Altach,Austria Wien,,,,,Liga Austria,
+20,21.02.2026,WSG Tirol,SV Ried,,,,,Liga Austria,
+20,21.02.2026,Sturm Graz,FC Blau Weiß Linz,,,,,Liga Austria,
+20,21.02.2026,TSV Hartberg,Grazer AK,,,,,Liga Austria,
+21,28.02.2026,RB Salzburg,TSV Hartberg,,,,,Liga Austria,
+21,28.02.2026,Austria Wien,LASK,,,,,Liga Austria,
+21,28.02.2026,SCR Altach,Rapid Wien,,,,,Liga Austria,
+21,28.02.2026,Grazer AK,SV Ried,,,,,Liga Austria,
+21,28.02.2026,Wolfsberger AC,Sturm Graz,,,,,Liga Austria,
+21,28.02.2026,FC Blau Weiß Linz,WSG Tirol,,,,,Liga Austria,
+22,07.03.2026,TSV Hartberg,FC Blau Weiß Linz,,,,,Liga Austria,
+22,07.03.2026,WSG Tirol,Grazer AK,,,,,Liga Austria,
+22,07.03.2026,SV Ried,Austria Wien,,,,,Liga Austria,
+22,07.03.2026,LASK,Wolfsberger AC,,,,,Liga Austria,
+22,07.03.2026,Rapid Wien,RB Salzburg,,,,,Liga Austria,
+22,07.03.2026,Sturm Graz,SCR Altach,,,,,Liga Austria,
 1,25.07.2025,Royal Antwerp FC,Union Saint-Gilloise,1,1,1,0,Liga Belgica,X
 1,26.07.2025,FCV Dender EH,Cercle Brugge,0,0,0,0,Liga Belgica,X
 1,26.07.2025,SV Zulte Waregem,KV Mechelen,1,1,0,1,Liga Belgica,X
@@ -1508,7 +1820,7 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 24,20.09.2025,Vitória - BA,Fluminense RJ,0,1,0,1,Liga Brasileña,2
 24,20.09.2025,Botafogo - RJ,Atlético Mineiro,1,0,0,0,Liga Brasileña,1
 24,20.09.2025,Ceará - CE,Bahia - BA,1,1,1,0,Liga Brasileña,X
-24,21.09.2025,Palmeiras,Fortaleza - CE,0,0,,,Liga Brasileña,X
+24,21.09.2025,Palmeiras,Fortaleza - CE,4,1,1,1,Liga Brasileña,1
 24,21.09.2025,Mirassol - SP,Juventude - RS,,,,,Liga Brasileña,
 24,21.09.2025,Flamengo RJ,Vasco da Gama - RJ,,,,,Liga Brasileña,
 24,21.09.2025,Internacional,Grêmio Porto Alegre,,,,,Liga Brasileña,
@@ -2489,8 +2801,8 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 12,20.09.2025,América de Cali,Once Caldas,2,1,0,1,Liga Colombiana,1
 12,20.09.2025,Envigado FC,Alianza FC,0,0,0,0,Liga Colombiana,X
 12,20.09.2025,Llaneros FC,Águilas Doradas,0,1,0,0,Liga Colombiana,2
-12,21.09.2025,Deportivo Pasto,Santa Fe,0,0,,,Liga Colombiana,X
-12,21.09.2025,La Equidad,Deportivo Cali,,,,,Liga Colombiana,
+12,21.09.2025,Deportivo Pasto,Santa Fe,1,1,0,0,Liga Colombiana,X
+12,21.09.2025,La Equidad,Deportivo Cali,0,4,0,1,Liga Colombiana,2
 12,21.09.2025,Millonarios,Fortaleza FC,,,,,Liga Colombiana,
 12,21.09.2025,Unión Magdalena,Atlético Nacional,,,,,Liga Colombiana,
 12,22.09.2025,Independiente Medellín,Atlético Junior,,,,,Liga Colombiana,
@@ -3176,6 +3488,216 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 30,29.09.2025,El Nacional,Mushuc Runa,,,,,Liga Ecuatoriana,
 30,29.09.2025,Independiente del Valle,Delfín SC,,,,,Liga Ecuatoriana,
 30,29.09.2025,Universidad Catolica,Deportivo Cuenca,,,,,Liga Ecuatoriana,
+1,08.08.2025,Wadi Degla SC,Pyramids FC,0,0,0,0,Liga Egipto,X
+1,08.08.2025,Al Masry Club,Ittihad El Iskandary,3,1,1,0,Liga Egipto,1
+1,08.08.2025,Ceramica Cleopatra,Zamalek,0,2,0,0,Liga Egipto,2
+1,09.08.2025,Smouha Sporting Club,Tala'ea El Gaish SC,1,1,1,0,Liga Egipto,X
+1,09.08.2025,Al Mokawloon,ZED FC,0,2,0,1,Liga Egipto,2
+1,09.08.2025,Ismaily,PetroJet FC,0,0,0,0,Liga Egipto,X
+1,09.08.2025,Modern Sport FC,Al Ahly SC,2,2,0,0,Liga Egipto,X
+1,10.08.2025,Kahrabaa Ismailia,El Gouna,0,1,0,0,Liga Egipto,2
+1,10.08.2025,National Bank SC,Ghazl Al Mehalla,0,0,0,0,Liga Egipto,X
+1,10.08.2025,Pharco FC,ENPPI,0,0,0,0,Liga Egipto,X
+2,14.08.2025,ZED FC,Ceramica Cleopatra,0,0,0,0,Liga Egipto,X
+2,14.08.2025,Ittihad El Iskandary,Modern Sport FC,1,2,0,2,Liga Egipto,2
+2,14.08.2025,Pyramids FC,Ismaily,1,0,0,0,Liga Egipto,1
+2,14.08.2025,Tala'ea El Gaish SC,Al Masry Club,0,3,0,1,Liga Egipto,2
+2,15.08.2025,PetroJet FC,Kahrabaa Ismailia,2,2,2,0,Liga Egipto,X
+2,15.08.2025,Al Ahly SC,Pharco FC,4,1,2,0,Liga Egipto,1
+2,15.08.2025,Haras El Hodood,National Bank SC,1,0,1,0,Liga Egipto,1
+2,16.08.2025,ENPPI,Wadi Degla SC,1,0,0,0,Liga Egipto,1
+2,16.08.2025,Ghazl Al Mehalla,Smouha Sporting Club,0,0,0,0,Liga Egipto,X
+2,16.08.2025,Zamalek,Al Mokawloon,0,0,0,0,Liga Egipto,X
+3,19.08.2025,Pharco FC,Tala'ea El Gaish SC,0,1,0,0,Liga Egipto,2
+3,19.08.2025,National Bank SC,Kahrabaa Ismailia,1,1,0,0,Liga Egipto,X
+3,19.08.2025,Ismaily,Ittihad El Iskandary,0,1,0,0,Liga Egipto,2
+3,19.08.2025,Al Masry Club,Pyramids FC,2,2,0,1,Liga Egipto,X
+3,20.08.2025,Ceramica Cleopatra,ENPPI,2,0,0,0,Liga Egipto,1
+3,20.08.2025,Wadi Degla SC,PetroJet FC,0,1,0,1,Liga Egipto,2
+3,20.08.2025,El Gouna,Ghazl Al Mehalla,0,0,0,0,Liga Egipto,X
+3,21.08.2025,Al Mokawloon,Haras El Hodood,0,0,0,0,Liga Egipto,X
+3,21.08.2025,Smouha Sporting Club,ZED FC,1,1,1,1,Liga Egipto,X
+3,21.08.2025,Modern Sport FC,Zamalek,1,2,0,1,Liga Egipto,2
+4,24.08.2025,Ittihad El Iskandary,National Bank SC,0,0,0,0,Liga Egipto,X
+4,24.08.2025,ENPPI,El Gouna,0,0,0,0,Liga Egipto,X
+4,24.08.2025,Tala'ea El Gaish SC,Ismaily,0,1,0,1,Liga Egipto,2
+4,25.08.2025,Ghazl Al Mehalla,Al Ahly SC,0,0,0,0,Liga Egipto,X
+4,25.08.2025,ZED FC,Wadi Degla SC,1,2,1,1,Liga Egipto,2
+4,25.08.2025,PetroJet FC,Al Mokawloon,1,0,0,0,Liga Egipto,1
+4,25.08.2025,Pyramids FC,Modern Sport FC,1,2,0,1,Liga Egipto,2
+4,26.08.2025,Kahrabaa Ismailia,Smouha Sporting Club,1,2,0,1,Liga Egipto,2
+4,26.08.2025,Zamalek,Pharco FC,1,0,0,0,Liga Egipto,1
+4,26.08.2025,Haras El Hodood,Al Masry Club,1,1,0,1,Liga Egipto,X
+5,29.08.2025,Al Mokawloon,Ceramica Cleopatra,0,1,0,1,Liga Egipto,2
+5,29.08.2025,Ittihad El Iskandary,ENPPI,0,3,0,1,Liga Egipto,2
+5,29.08.2025,National Bank SC,Tala'ea El Gaish SC,0,0,0,0,Liga Egipto,X
+5,30.08.2025,El Gouna,ZED FC,1,1,0,0,Liga Egipto,X
+5,30.08.2025,Ismaily,Ghazl Al Mehalla,0,3,0,1,Liga Egipto,2
+5,30.08.2025,Al Ahly SC,Pyramids FC,0,2,0,1,Liga Egipto,2
+5,31.08.2025,Modern Sport FC,Haras El Hodood,1,0,1,0,Liga Egipto,1
+5,31.08.2025,Al Masry Club,Kahrabaa Ismailia,4,0,0,0,Liga Egipto,1
+5,31.08.2025,Smouha Sporting Club,PetroJet FC,0,0,0,0,Liga Egipto,X
+5,31.08.2025,Wadi Degla SC,Zamalek,2,1,0,1,Liga Egipto,1
+6,12.09.2025,PetroJet FC,National Bank SC,0,3,0,0,Liga Egipto,2
+6,12.09.2025,ZED FC,Ismaily,1,0,0,0,Liga Egipto,1
+6,12.09.2025,Pharco FC,Ittihad El Iskandary,0,0,0,0,Liga Egipto,X
+6,13.09.2025,Ghazl Al Mehalla,Al Mokawloon,1,1,0,0,Liga Egipto,X
+6,13.09.2025,Haras El Hodood,El Gouna,2,1,1,1,Liga Egipto,1
+6,13.09.2025,Ceramica Cleopatra,Smouha Sporting Club,1,0,0,0,Liga Egipto,1
+6,13.09.2025,Zamalek,Al Masry Club,3,0,1,0,Liga Egipto,1
+6,14.09.2025,Tala'ea El Gaish SC,Modern Sport FC,1,0,1,0,Liga Egipto,1
+6,14.09.2025,Kahrabaa Ismailia,Wadi Degla SC,1,4,1,0,Liga Egipto,2
+6,14.09.2025,ENPPI,Al Ahly SC,1,1,0,1,Liga Egipto,X
+7,17.09.2025,Al Mokawloon,Pharco FC,1,1,1,0,Liga Egipto,X
+7,17.09.2025,El Gouna,PetroJet FC,1,1,0,0,Liga Egipto,X
+7,17.09.2025,Al Masry Club,Ghazl Al Mehalla,2,1,1,1,Liga Egipto,1
+7,18.09.2025,Ismaily,Zamalek,0,2,0,1,Liga Egipto,2
+7,18.09.2025,Modern Sport FC,ENPPI,2,2,0,1,Liga Egipto,X
+7,18.09.2025,Ittihad El Iskandary,Kahrabaa Ismailia,0,1,0,0,Liga Egipto,2
+7,18.09.2025,Pyramids FC,ZED FC,1,0,0,0,Liga Egipto,1
+7,19.09.2025,Wadi Degla SC,Tala'ea El Gaish SC,1,0,0,0,Liga Egipto,1
+7,19.09.2025,Smouha Sporting Club,Haras El Hodood,1,0,1,0,Liga Egipto,1
+7,19.09.2025,Al Ahly SC,Ceramica Cleopatra,1,0,1,0,Liga Egipto,1
+8,22.09.2025,Pharco FC,Al Masry Club,,,,,Liga Egipto,
+8,22.09.2025,PetroJet FC,Ghazl Al Mehalla,,,,,Liga Egipto,
+8,22.09.2025,ZED FC,Ittihad El Iskandary,,,,,Liga Egipto,
+8,23.09.2025,Haras El Hodood,Al Ahly SC,,,,,Liga Egipto,
+8,23.09.2025,Zamalek,El Gouna,,,,,Liga Egipto,
+8,23.09.2025,Tala'ea El Gaish SC,Al Mokawloon,,,,,Liga Egipto,
+8,24.09.2025,ENPPI,Ismaily,,,,,Liga Egipto,
+8,24.09.2025,Ceramica Cleopatra,Modern Sport FC,,,,,Liga Egipto,
+8,24.09.2025,National Bank SC,Wadi Degla SC,,,,,Liga Egipto,
+8,24.09.2025,Kahrabaa Ismailia,Pyramids FC,,,,,Liga Egipto,
+9,27.09.2025,Al Mokawloon,Kahrabaa Ismailia,,,,,Liga Egipto,
+9,27.09.2025,ZED FC,Haras El Hodood,,,,,Liga Egipto,
+9,27.09.2025,Al Masry Club,PetroJet FC,,,,,Liga Egipto,
+9,27.09.2025,Pyramids FC,Tala'ea El Gaish SC,,,,,Liga Egipto,
+9,28.09.2025,Modern Sport FC,Pharco FC,,,,,Liga Egipto,
+9,28.09.2025,Wadi Degla SC,Smouha Sporting Club,,,,,Liga Egipto,
+9,28.09.2025,Ghazl Al Mehalla,ENPPI,,,,,Liga Egipto,
+9,29.09.2025,Ismaily,National Bank SC,,,,,Liga Egipto,
+9,29.09.2025,El Gouna,Ceramica Cleopatra,,,,,Liga Egipto,
+9,29.09.2025,Al Ahly SC,Zamalek,,,,,Liga Egipto,
+10,03.10.2025,Smouha Sporting Club,Ismaily,,,,,Liga Egipto,
+10,03.10.2025,National Bank SC,Al Masry Club,,,,,Liga Egipto,
+10,03.10.2025,Ittihad El Iskandary,Al Mokawloon,,,,,Liga Egipto,
+10,04.10.2025,Zamalek,Ghazl Al Mehalla,,,,,Liga Egipto,
+10,04.10.2025,Tala'ea El Gaish SC,El Gouna,,,,,Liga Egipto,
+10,04.10.2025,Haras El Hodood,Ceramica Cleopatra,,,,,Liga Egipto,
+10,04.10.2025,ENPPI,ZED FC,,,,,Liga Egipto,
+10,05.10.2025,Kahrabaa Ismailia,Al Ahly SC,,,,,Liga Egipto,
+10,05.10.2025,Pharco FC,Wadi Degla SC,,,,,Liga Egipto,
+10,05.10.2025,PetroJet FC,Pyramids FC,,,,,Liga Egipto,
+11,17.10.2025,Wadi Degla SC,Modern Sport FC,,,,,Liga Egipto,
+11,17.10.2025,Al Mokawloon,ENPPI,,,,,Liga Egipto,
+11,17.10.2025,Ghazl Al Mehalla,Kahrabaa Ismailia,,,,,Liga Egipto,
+11,18.10.2025,El Gouna,National Bank SC,,,,,Liga Egipto,
+11,18.10.2025,Ismaily,Haras El Hodood,,,,,Liga Egipto,
+11,19.10.2025,ZED FC,PetroJet FC,,,,,Liga Egipto,
+11,19.10.2025,Ceramica Cleopatra,Tala'ea El Gaish SC,,,,,Liga Egipto,
+11,21.10.2025,Pyramids FC,Pharco FC,,,,,Liga Egipto,
+11,21.10.2025,Al Ahly SC,Ittihad El Iskandary,,,,,Liga Egipto,
+11,21.10.2025,Smouha Sporting Club,Al Masry Club,,,,,Liga Egipto,
+12,25.10.2025,Haras El Hodood,Ghazl Al Mehalla,,,,,Liga Egipto,
+12,25.10.2025,Modern Sport FC,Al Mokawloon,,,,,Liga Egipto,
+12,26.10.2025,Kahrabaa Ismailia,Ceramica Cleopatra,,,,,Liga Egipto,
+12,26.10.2025,Pharco FC,Ismaily,,,,,Liga Egipto,
+12,26.10.2025,Tala'ea El Gaish SC,ZED FC,,,,,Liga Egipto,
+12,27.10.2025,Smouha Sporting Club,El Gouna,,,,,Liga Egipto,
+12,27.10.2025,Ittihad El Iskandary,Wadi Degla SC,,,,,Liga Egipto,
+12,29.10.2025,ENPPI,Pyramids FC,,,,,Liga Egipto,
+12,29.10.2025,PetroJet FC,Al Ahly SC,,,,,Liga Egipto,
+12,30.10.2025,National Bank SC,Zamalek,,,,,Liga Egipto,
+13,01.11.2025,Ghazl Al Mehalla,Modern Sport FC,,,,,Liga Egipto,
+13,01.11.2025,El Gouna,Pharco FC,,,,,Liga Egipto,
+13,01.11.2025,Ismaily,Kahrabaa Ismailia,,,,,Liga Egipto,
+13,02.11.2025,Ceramica Cleopatra,PetroJet FC,,,,,Liga Egipto,
+13,02.11.2025,Al Ahly SC,Al Masry Club,,,,,Liga Egipto,
+13,03.11.2025,Zamalek,Tala'ea El Gaish SC,,,,,Liga Egipto,
+13,03.11.2025,Pyramids FC,Ittihad El Iskandary,,,,,Liga Egipto,
+13,04.11.2025,Wadi Degla SC,Haras El Hodood,,,,,Liga Egipto,
+13,04.11.2025,Al Mokawloon,Smouha Sporting Club,,,,,Liga Egipto,
+13,04.11.2025,ZED FC,National Bank SC,,,,,Liga Egipto,
+14,22.11.2025,Pharco FC,Ceramica Cleopatra,,,,,Liga Egipto,
+14,22.11.2025,Modern Sport FC,National Bank SC,,,,,Liga Egipto,
+14,22.11.2025,Tala'ea El Gaish SC,ENPPI,,,,,Liga Egipto,
+14,23.11.2025,Ittihad El Iskandary,El Gouna,,,,,Liga Egipto,
+14,23.11.2025,Kahrabaa Ismailia,ZED FC,,,,,Liga Egipto,
+14,23.11.2025,PetroJet FC,Haras El Hodood,,,,,Liga Egipto,
+14,25.11.2025,Pyramids FC,Al Mokawloon,,,,,Liga Egipto,
+14,25.11.2025,Al Ahly SC,Ismaily,,,,,Liga Egipto,
+14,26.11.2025,Zamalek,Smouha Sporting Club,,,,,Liga Egipto,
+14,26.11.2025,Al Masry Club,Wadi Degla SC,,,,,Liga Egipto,
+15,19.01.2026,Tala'ea El Gaish SC,Al Ahly SC,,,,,Liga Egipto,
+15,19.01.2026,National Bank SC,Pyramids FC,,,,,Liga Egipto,
+15,20.01.2026,El Gouna,Al Masry Club,,,,,Liga Egipto,
+15,20.01.2026,ENPPI,Zamalek,,,,,Liga Egipto,
+15,21.01.2026,ZED FC,Modern Sport FC,,,,,Liga Egipto,
+15,21.01.2026,Ceramica Cleopatra,Ittihad El Iskandary,,,,,Liga Egipto,
+15,21.01.2026,Smouha Sporting Club,Pharco FC,,,,,Liga Egipto,
+15,22.01.2026,Wadi Degla SC,Ghazl Al Mehalla,,,,,Liga Egipto,
+15,22.01.2026,Haras El Hodood,Kahrabaa Ismailia,,,,,Liga Egipto,
+15,22.01.2026,Ismaily,Al Mokawloon,,,,,Liga Egipto,
+16,27.01.2026,Al Ahly SC,Wadi Degla SC,,,,,Liga Egipto,
+16,27.01.2026,Pyramids FC,El Gouna,,,,,Liga Egipto,
+16,28.01.2026,Zamalek,PetroJet FC,,,,,Liga Egipto,
+16,28.01.2026,Al Masry Club,Ceramica Cleopatra,,,,,Liga Egipto,
+16,29.01.2026,ENPPI,Smouha Sporting Club,,,,,Liga Egipto,
+16,29.01.2026,Modern Sport FC,Ismaily,,,,,Liga Egipto,
+16,29.01.2026,Ghazl Al Mehalla,Tala'ea El Gaish SC,,,,,Liga Egipto,
+16,30.01.2026,Pharco FC,ZED FC,,,,,Liga Egipto,
+16,30.01.2026,Ittihad El Iskandary,Haras El Hodood,,,,,Liga Egipto,
+16,30.01.2026,Al Mokawloon,National Bank SC,,,,,Liga Egipto,
+17,03.02.2026,Smouha Sporting Club,Pyramids FC,,,,,Liga Egipto,
+17,03.02.2026,National Bank SC,Al Ahly SC,,,,,Liga Egipto,
+17,04.02.2026,ZED FC,Al Masry Club,,,,,Liga Egipto,
+17,04.02.2026,Kahrabaa Ismailia,Zamalek,,,,,Liga Egipto,
+17,05.02.2026,Haras El Hodood,Pharco FC,,,,,Liga Egipto,
+17,05.02.2026,Ceramica Cleopatra,Ghazl Al Mehalla,,,,,Liga Egipto,
+17,05.02.2026,Wadi Degla SC,Al Mokawloon,,,,,Liga Egipto,
+17,06.02.2026,El Gouna,Modern Sport FC,,,,,Liga Egipto,
+17,06.02.2026,Tala'ea El Gaish SC,Ittihad El Iskandary,,,,,Liga Egipto,
+17,06.02.2026,PetroJet FC,ENPPI,,,,,Liga Egipto,
+18,18.02.2026,Modern Sport FC,Kahrabaa Ismailia,,,,,Liga Egipto,
+18,18.02.2026,Ittihad El Iskandary,Smouha Sporting Club,,,,,Liga Egipto,
+18,18.02.2026,ENPPI,National Bank SC,,,,,Liga Egipto,
+18,19.02.2026,Al Ahly SC,El Gouna,,,,,Liga Egipto,
+18,19.02.2026,Pharco FC,PetroJet FC,,,,,Liga Egipto,
+18,19.02.2026,Al Mokawloon,Al Masry Club,,,,,Liga Egipto,
+18,20.02.2026,Ismaily,Wadi Degla SC,,,,,Liga Egipto,
+18,20.02.2026,Pyramids FC,Ceramica Cleopatra,,,,,Liga Egipto,
+18,20.02.2026,Zamalek,Haras El Hodood,,,,,Liga Egipto,
+18,20.02.2026,Ghazl Al Mehalla,ZED FC,,,,,Liga Egipto,
+19,23.02.2026,Kahrabaa Ismailia,Tala'ea El Gaish SC,,,,,Liga Egipto,
+19,23.02.2026,El Gouna,Al Mokawloon,,,,,Liga Egipto,
+19,23.02.2026,Smouha Sporting Club,Al Ahly SC,,,,,Liga Egipto,
+19,24.02.2026,Haras El Hodood,ENPPI,,,,,Liga Egipto,
+19,24.02.2026,Ceramica Cleopatra,Ismaily,,,,,Liga Egipto,
+19,24.02.2026,Ghazl Al Mehalla,Pyramids FC,,,,,Liga Egipto,
+19,24.02.2026,ZED FC,Zamalek,,,,,Liga Egipto,
+19,25.02.2026,National Bank SC,Pharco FC,,,,,Liga Egipto,
+19,25.02.2026,Al Masry Club,Modern Sport FC,,,,,Liga Egipto,
+19,25.02.2026,PetroJet FC,Ittihad El Iskandary,,,,,Liga Egipto,
+20,28.02.2026,Ismaily,El Gouna,,,,,Liga Egipto,
+20,28.02.2026,Tala'ea El Gaish SC,Haras El Hodood,,,,,Liga Egipto,
+20,28.02.2026,Al Ahly SC,ZED FC,,,,,Liga Egipto,
+20,01.03.2026,ENPPI,Al Masry Club,,,,,Liga Egipto,
+20,01.03.2026,Pyramids FC,Zamalek,,,,,Liga Egipto,
+20,01.03.2026,Modern Sport FC,PetroJet FC,,,,,Liga Egipto,
+20,02.03.2026,National Bank SC,Smouha Sporting Club,,,,,Liga Egipto,
+20,02.03.2026,Pharco FC,Kahrabaa Ismailia,,,,,Liga Egipto,
+20,02.03.2026,Wadi Degla SC,Ceramica Cleopatra,,,,,Liga Egipto,
+20,02.03.2026,Ittihad El Iskandary,Ghazl Al Mehalla,,,,,Liga Egipto,
+21,05.03.2026,Al Mokawloon,Al Ahly SC,,,,,Liga Egipto,
+21,05.03.2026,Haras El Hodood,Pyramids FC,,,,,Liga Egipto,
+21,05.03.2026,PetroJet FC,Tala'ea El Gaish SC,,,,,Liga Egipto,
+21,05.03.2026,Al Masry Club,Ismaily,,,,,Liga Egipto,
+21,06.03.2026,Zamalek,Ittihad El Iskandary,,,,,Liga Egipto,
+21,06.03.2026,Ceramica Cleopatra,National Bank SC,,,,,Liga Egipto,
+21,06.03.2026,El Gouna,Wadi Degla SC,,,,,Liga Egipto,
+21,07.03.2026,Smouha Sporting Club,Modern Sport FC,,,,,Liga Egipto,
+21,07.03.2026,Ghazl Al Mehalla,Pharco FC,,,,,Liga Egipto,
+21,07.03.2026,Kahrabaa Ismailia,ENPPI,,,,,Liga Egipto,
 1,20.07.2025,Alianza,Inter FA,0,0,0,0,Liga El salvador,X
 1,20.07.2025,FAS,Isidro Metapán,1,0,1,0,Liga El salvador,1
 1,20.07.2025,Municipal Limeño,Luis Ángel Firpo,1,3,0,1,Liga El salvador,2
@@ -3242,7 +3764,7 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 11,14.09.2025,Alianza,Fuerte San Francisco,1,0,0,0,Liga El salvador,1
 11,14.09.2025,CD Cacahuatique,Municipal Limeño,2,1,0,0,Liga El salvador,1
 11,14.09.2025,Platense Zacatecoluca,FAS,3,3,1,1,Liga El salvador,X
-12,21.09.2025,Isidro Metapán,FAS,,,,,Liga El salvador,
+12,21.09.2025,Isidro Metapán,FAS,2,3,0,1,Liga El salvador,2
 12,21.09.2025,CD Cacahuatique,Zacatecoluca FC,,,,,Liga El salvador,
 12,21.09.2025,Hércules,Fuerte San Francisco,,,,,Liga El salvador,
 12,21.09.2025,Platense Zacatecoluca,CD Águila,,,,,Liga El salvador,
@@ -3308,6 +3830,204 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 22,14.11.2025,Hércules,Isidro Metapán,,,,,Liga El salvador,
 22,14.11.2025,Municipal Limeño,CD Cacahuatique,,,,,Liga El salvador,
 22,14.11.2025,Zacatecoluca FC,Inter FA,,,,,Liga El salvador,
+1,02.08.2025,Kilmarnock FC,Livingston FC,2,2,2,0,Liga Escocia,X
+1,02.08.2025,Motherwell FC,Rangers FC,1,1,0,1,Liga Escocia,X
+1,03.08.2025,Falkirk FC,Dundee United,2,2,0,1,Liga Escocia,X
+1,03.08.2025,Dundee FC,Hibernian FC,1,2,1,2,Liga Escocia,2
+1,03.08.2025,Celtic FC,St. Mirren FC,1,0,0,0,Liga Escocia,1
+1,04.08.2025,Heart of Midlothian,Aberdeen FC,2,0,1,0,Liga Escocia,1
+2,09.08.2025,St. Mirren FC,Motherwell FC,0,0,0,0,Liga Escocia,X
+2,09.08.2025,Livingston FC,Falkirk FC,3,1,2,0,Liga Escocia,1
+2,09.08.2025,Rangers FC,Dundee FC,1,1,0,0,Liga Escocia,X
+2,10.08.2025,Aberdeen FC,Celtic FC,0,2,0,1,Liga Escocia,2
+2,10.08.2025,Dundee United,Heart of Midlothian,2,3,2,1,Liga Escocia,2
+2,10.08.2025,Hibernian FC,Kilmarnock FC,2,2,2,1,Liga Escocia,X
+3,23.08.2025,Celtic FC,Livingston FC,3,0,0,0,Liga Escocia,1
+3,23.08.2025,Kilmarnock FC,Dundee FC,0,0,0,0,Liga Escocia,X
+3,23.08.2025,Heart of Midlothian,Motherwell FC,3,3,0,1,Liga Escocia,X
+3,24.08.2025,St. Mirren FC,Rangers FC,1,1,1,0,Liga Escocia,X
+3,23.09.2025,Dundee United,Aberdeen FC,,,,,Liga Escocia,
+3,23.09.2025,Falkirk FC,Hibernian FC,,,,,Liga Escocia,
+4,30.08.2025,Livingston FC,Heart of Midlothian,1,2,1,0,Liga Escocia,2
+4,30.08.2025,Motherwell FC,Kilmarnock FC,2,2,1,1,Liga Escocia,X
+4,31.08.2025,Rangers FC,Celtic FC,0,0,0,0,Liga Escocia,X
+4,31.08.2025,Dundee FC,Dundee United,0,2,0,1,Liga Escocia,2
+4,31.08.2025,Aberdeen FC,Falkirk FC,0,1,0,0,Liga Escocia,2
+4,31.08.2025,Hibernian FC,St. Mirren FC,1,1,0,0,Liga Escocia,X
+5,13.09.2025,Dundee FC,Motherwell FC,1,1,0,1,Liga Escocia,X
+5,13.09.2025,Falkirk FC,St. Mirren FC,1,2,0,0,Liga Escocia,2
+5,13.09.2025,Aberdeen FC,Livingston FC,0,0,0,0,Liga Escocia,X
+5,13.09.2025,Rangers FC,Heart of Midlothian,0,2,0,1,Liga Escocia,2
+5,13.09.2025,Hibernian FC,Dundee United,3,3,1,2,Liga Escocia,X
+5,14.09.2025,Kilmarnock FC,Celtic FC,1,2,0,0,Liga Escocia,2
+6,27.09.2025,Celtic FC,Hibernian FC,,,,,Liga Escocia,
+6,27.09.2025,Dundee United,Kilmarnock FC,,,,,Liga Escocia,
+6,27.09.2025,St. Mirren FC,Dundee FC,,,,,Liga Escocia,
+6,27.09.2025,Heart of Midlothian,Falkirk FC,,,,,Liga Escocia,
+6,27.09.2025,Motherwell FC,Aberdeen FC,,,,,Liga Escocia,
+6,28.09.2025,Livingston FC,Rangers FC,,,,,Liga Escocia,
+7,04.10.2025,Dundee United,Livingston FC,,,,,Liga Escocia,
+7,04.10.2025,Kilmarnock FC,St. Mirren FC,,,,,Liga Escocia,
+7,04.10.2025,Heart of Midlothian,Hibernian FC,,,,,Liga Escocia,
+7,05.10.2025,Celtic FC,Motherwell FC,,,,,Liga Escocia,
+7,05.10.2025,Falkirk FC,Rangers FC,,,,,Liga Escocia,
+7,05.10.2025,Aberdeen FC,Dundee FC,,,,,Liga Escocia,
+8,18.10.2025,St. Mirren FC,Aberdeen FC,,,,,Liga Escocia,
+8,18.10.2025,Rangers FC,Dundee United,,,,,Liga Escocia,
+8,18.10.2025,Hibernian FC,Livingston FC,,,,,Liga Escocia,
+8,18.10.2025,Motherwell FC,Falkirk FC,,,,,Liga Escocia,
+8,18.10.2025,Kilmarnock FC,Heart of Midlothian,,,,,Liga Escocia,
+8,19.10.2025,Dundee FC,Celtic FC,,,,,Liga Escocia,
+9,25.10.2025,Dundee United,St. Mirren FC,,,,,Liga Escocia,
+9,25.10.2025,Falkirk FC,Dundee FC,,,,,Liga Escocia,
+9,25.10.2025,Livingston FC,Motherwell FC,,,,,Liga Escocia,
+9,26.10.2025,Aberdeen FC,Hibernian FC,,,,,Liga Escocia,
+9,26.10.2025,Rangers FC,Kilmarnock FC,,,,,Liga Escocia,
+9,26.10.2025,Heart of Midlothian,Celtic FC,,,,,Liga Escocia,
+10,20.09.2025,Dundee FC,Livingston FC,3,2,1,0,Liga Escocia,1
+10,29.10.2025,Celtic FC,Falkirk FC,,,,,Liga Escocia,
+10,29.10.2025,Kilmarnock FC,Aberdeen FC,,,,,Liga Escocia,
+10,29.10.2025,St. Mirren FC,Heart of Midlothian,,,,,Liga Escocia,
+10,29.10.2025,Hibernian FC,Rangers FC,,,,,Liga Escocia,
+10,29.10.2025,Motherwell FC,Dundee United,,,,,Liga Escocia,
+11,01.11.2025,Dundee United,Celtic FC,,,,,Liga Escocia,
+11,01.11.2025,Falkirk FC,Kilmarnock FC,,,,,Liga Escocia,
+11,01.11.2025,Rangers FC,Aberdeen FC,,,,,Liga Escocia,
+11,01.11.2025,Heart of Midlothian,Dundee FC,,,,,Liga Escocia,
+11,01.11.2025,Livingston FC,St. Mirren FC,,,,,Liga Escocia,
+11,01.11.2025,Motherwell FC,Hibernian FC,,,,,Liga Escocia,
+12,08.11.2025,Falkirk FC,Livingston FC,,,,,Liga Escocia,
+12,09.11.2025,Dundee FC,Rangers FC,,,,,Liga Escocia,
+12,09.11.2025,Aberdeen FC,Motherwell FC,,,,,Liga Escocia,
+12,09.11.2025,St. Mirren FC,Hibernian FC,,,,,Liga Escocia,
+12,09.11.2025,Heart of Midlothian,Dundee United,,,,,Liga Escocia,
+12,09.11.2025,Celtic FC,Kilmarnock FC,,,,,Liga Escocia,
+13,22.11.2025,Dundee United,Falkirk FC,,,,,Liga Escocia,
+13,22.11.2025,Aberdeen FC,Heart of Midlothian,,,,,Liga Escocia,
+13,22.11.2025,Kilmarnock FC,Motherwell FC,,,,,Liga Escocia,
+13,22.11.2025,St. Mirren FC,Celtic FC,,,,,Liga Escocia,
+13,22.11.2025,Rangers FC,Livingston FC,,,,,Liga Escocia,
+13,22.11.2025,Hibernian FC,Dundee FC,,,,,Liga Escocia,
+14,29.11.2025,Dundee FC,St. Mirren FC,,,,,Liga Escocia,
+14,29.11.2025,Kilmarnock FC,Dundee United,,,,,Liga Escocia,
+14,29.11.2025,Motherwell FC,Heart of Midlothian,,,,,Liga Escocia,
+14,30.11.2025,Rangers FC,Falkirk FC,,,,,Liga Escocia,
+14,30.11.2025,Hibernian FC,Celtic FC,,,,,Liga Escocia,
+14,30.11.2025,Livingston FC,Aberdeen FC,,,,,Liga Escocia,
+15,03.12.2025,Celtic FC,Dundee FC,,,,,Liga Escocia,
+15,03.12.2025,Dundee United,Rangers FC,,,,,Liga Escocia,
+15,03.12.2025,Falkirk FC,Motherwell FC,,,,,Liga Escocia,
+15,03.12.2025,Aberdeen FC,St. Mirren FC,,,,,Liga Escocia,
+15,03.12.2025,Heart of Midlothian,Kilmarnock FC,,,,,Liga Escocia,
+15,03.12.2025,Livingston FC,Hibernian FC,,,,,Liga Escocia,
+16,06.12.2025,Celtic FC,Heart of Midlothian,,,,,Liga Escocia,
+16,06.12.2025,Dundee FC,Aberdeen FC,,,,,Liga Escocia,
+16,06.12.2025,Kilmarnock FC,Rangers FC,,,,,Liga Escocia,
+16,06.12.2025,St. Mirren FC,Dundee United,,,,,Liga Escocia,
+16,06.12.2025,Hibernian FC,Falkirk FC,,,,,Liga Escocia,
+16,06.12.2025,Motherwell FC,Livingston FC,,,,,Liga Escocia,
+17,13.12.2025,Dundee United,Motherwell FC,,,,,Liga Escocia,
+17,13.12.2025,Heart of Midlothian,St. Mirren FC,,,,,Liga Escocia,
+17,13.12.2025,Livingston FC,Dundee FC,,,,,Liga Escocia,
+17,14.12.2025,Falkirk FC,Celtic FC,,,,,Liga Escocia,
+17,14.12.2025,Aberdeen FC,Kilmarnock FC,,,,,Liga Escocia,
+17,14.12.2025,Rangers FC,Hibernian FC,,,,,Liga Escocia,
+18,20.12.2025,Dundee United,Hibernian FC,,,,,Liga Escocia,
+18,20.12.2025,Kilmarnock FC,Falkirk FC,,,,,Liga Escocia,
+18,20.12.2025,St. Mirren FC,Livingston FC,,,,,Liga Escocia,
+18,20.12.2025,Heart of Midlothian,Rangers FC,,,,,Liga Escocia,
+18,20.12.2025,Motherwell FC,Dundee FC,,,,,Liga Escocia,
+18,21.12.2025,Celtic FC,Aberdeen FC,,,,,Liga Escocia,
+19,27.12.2025,Hibernian FC,Heart of Midlothian,,,,,Liga Escocia,
+19,27.12.2025,Dundee FC,Falkirk FC,,,,,Liga Escocia,
+19,27.12.2025,St. Mirren FC,Kilmarnock FC,,,,,Liga Escocia,
+19,27.12.2025,Rangers FC,Motherwell FC,,,,,Liga Escocia,
+19,27.12.2025,Livingston FC,Celtic FC,,,,,Liga Escocia,
+19,27.12.2025,Aberdeen FC,Dundee United,,,,,Liga Escocia,
+20,30.12.2025,Dundee FC,Kilmarnock FC,,,,,Liga Escocia,
+20,30.12.2025,Falkirk FC,Heart of Midlothian,,,,,Liga Escocia,
+20,30.12.2025,Rangers FC,St. Mirren FC,,,,,Liga Escocia,
+20,30.12.2025,Hibernian FC,Aberdeen FC,,,,,Liga Escocia,
+20,30.12.2025,Livingston FC,Dundee United,,,,,Liga Escocia,
+20,30.12.2025,Motherwell FC,Celtic FC,,,,,Liga Escocia,
+21,03.01.2026,Celtic FC,Rangers FC,,,,,Liga Escocia,
+21,03.01.2026,Dundee United,Dundee FC,,,,,Liga Escocia,
+21,03.01.2026,Falkirk FC,Aberdeen FC,,,,,Liga Escocia,
+21,03.01.2026,Kilmarnock FC,Hibernian FC,,,,,Liga Escocia,
+21,03.01.2026,Heart of Midlothian,Livingston FC,,,,,Liga Escocia,
+21,03.01.2026,Motherwell FC,St. Mirren FC,,,,,Liga Escocia,
+22,10.01.2026,Celtic FC,Dundee United,,,,,Liga Escocia,
+22,10.01.2026,Dundee FC,Heart of Midlothian,,,,,Liga Escocia,
+22,10.01.2026,Aberdeen FC,Rangers FC,,,,,Liga Escocia,
+22,10.01.2026,St. Mirren FC,Falkirk FC,,,,,Liga Escocia,
+22,10.01.2026,Hibernian FC,Motherwell FC,,,,,Liga Escocia,
+22,10.01.2026,Livingston FC,Kilmarnock FC,,,,,Liga Escocia,
+23,24.01.2026,Dundee United,St. Mirren FC,,,,,Liga Escocia,
+23,24.01.2026,Falkirk FC,Hibernian FC,,,,,Liga Escocia,
+23,24.01.2026,Aberdeen FC,Livingston FC,,,,,Liga Escocia,
+23,24.01.2026,Motherwell FC,Kilmarnock FC,,,,,Liga Escocia,
+23,25.01.2026,Rangers FC,Dundee FC,,,,,Liga Escocia,
+23,25.01.2026,Heart of Midlothian,Celtic FC,,,,,Liga Escocia,
+24,31.01.2026,Dundee United,Heart of Midlothian,,,,,Liga Escocia,
+24,31.01.2026,Kilmarnock FC,Aberdeen FC,,,,,Liga Escocia,
+24,31.01.2026,St. Mirren FC,Dundee FC,,,,,Liga Escocia,
+24,31.01.2026,Livingston FC,Motherwell FC,,,,,Liga Escocia,
+24,01.02.2026,Celtic FC,Falkirk FC,,,,,Liga Escocia,
+24,01.02.2026,Hibernian FC,Rangers FC,,,,,Liga Escocia,
+25,04.02.2026,Dundee FC,Motherwell FC,,,,,Liga Escocia,
+25,04.02.2026,Aberdeen FC,Celtic FC,,,,,Liga Escocia,
+25,04.02.2026,St. Mirren FC,Heart of Midlothian,,,,,Liga Escocia,
+25,04.02.2026,Rangers FC,Kilmarnock FC,,,,,Liga Escocia,
+25,04.02.2026,Hibernian FC,Dundee United,,,,,Liga Escocia,
+25,04.02.2026,Livingston FC,Falkirk FC,,,,,Liga Escocia,
+26,11.02.2026,Celtic FC,Livingston FC,,,,,Liga Escocia,
+26,11.02.2026,Dundee United,Aberdeen FC,,,,,Liga Escocia,
+26,11.02.2026,Falkirk FC,Dundee FC,,,,,Liga Escocia,
+26,11.02.2026,Kilmarnock FC,St. Mirren FC,,,,,Liga Escocia,
+26,11.02.2026,Heart of Midlothian,Hibernian FC,,,,,Liga Escocia,
+26,11.02.2026,Motherwell FC,Rangers FC,,,,,Liga Escocia,
+27,14.02.2026,Dundee FC,Livingston FC,,,,,Liga Escocia,
+27,14.02.2026,Falkirk FC,Dundee United,,,,,Liga Escocia,
+27,14.02.2026,Kilmarnock FC,Celtic FC,,,,,Liga Escocia,
+27,14.02.2026,Rangers FC,Heart of Midlothian,,,,,Liga Escocia,
+27,14.02.2026,Hibernian FC,St. Mirren FC,,,,,Liga Escocia,
+27,14.02.2026,Motherwell FC,Aberdeen FC,,,,,Liga Escocia,
+28,21.02.2026,Celtic FC,Hibernian FC,,,,,Liga Escocia,
+28,21.02.2026,Dundee United,Kilmarnock FC,,,,,Liga Escocia,
+28,21.02.2026,Aberdeen FC,Dundee FC,,,,,Liga Escocia,
+28,21.02.2026,St. Mirren FC,Motherwell FC,,,,,Liga Escocia,
+28,21.02.2026,Heart of Midlothian,Falkirk FC,,,,,Liga Escocia,
+28,21.02.2026,Livingston FC,Rangers FC,,,,,Liga Escocia,
+29,28.02.2026,Dundee FC,Hibernian FC,,,,,Liga Escocia,
+29,28.02.2026,Falkirk FC,Kilmarnock FC,,,,,Liga Escocia,
+29,28.02.2026,Rangers FC,Celtic FC,,,,,Liga Escocia,
+29,28.02.2026,Heart of Midlothian,Aberdeen FC,,,,,Liga Escocia,
+29,28.02.2026,Livingston FC,St. Mirren FC,,,,,Liga Escocia,
+29,28.02.2026,Motherwell FC,Dundee United,,,,,Liga Escocia,
+30,14.03.2026,Celtic FC,Motherwell FC,,,,,Liga Escocia,
+30,14.03.2026,Dundee FC,Dundee United,,,,,Liga Escocia,
+30,14.03.2026,Aberdeen FC,Falkirk FC,,,,,Liga Escocia,
+30,14.03.2026,Kilmarnock FC,Heart of Midlothian,,,,,Liga Escocia,
+30,14.03.2026,St. Mirren FC,Rangers FC,,,,,Liga Escocia,
+30,14.03.2026,Hibernian FC,Livingston FC,,,,,Liga Escocia,
+31,21.03.2026,Dundee United,Celtic FC,,,,,Liga Escocia,
+31,21.03.2026,Falkirk FC,St. Mirren FC,,,,,Liga Escocia,
+31,21.03.2026,Kilmarnock FC,Livingston FC,,,,,Liga Escocia,
+31,21.03.2026,Rangers FC,Aberdeen FC,,,,,Liga Escocia,
+31,21.03.2026,Heart of Midlothian,Dundee FC,,,,,Liga Escocia,
+31,21.03.2026,Motherwell FC,Hibernian FC,,,,,Liga Escocia,
+32,04.04.2026,Dundee FC,Celtic FC,,,,,Liga Escocia,
+32,04.04.2026,St. Mirren FC,Aberdeen FC,,,,,Liga Escocia,
+32,04.04.2026,Rangers FC,Dundee United,,,,,Liga Escocia,
+32,04.04.2026,Hibernian FC,Kilmarnock FC,,,,,Liga Escocia,
+32,04.04.2026,Livingston FC,Heart of Midlothian,,,,,Liga Escocia,
+32,04.04.2026,Motherwell FC,Falkirk FC,,,,,Liga Escocia,
+33,11.04.2026,Celtic FC,St. Mirren FC,,,,,Liga Escocia,
+33,11.04.2026,Dundee United,Livingston FC,,,,,Liga Escocia,
+33,11.04.2026,Falkirk FC,Rangers FC,,,,,Liga Escocia,
+33,11.04.2026,Aberdeen FC,Hibernian FC,,,,,Liga Escocia,
+33,11.04.2026,Kilmarnock FC,Dundee FC,,,,,Liga Escocia,
+33,11.04.2026,Heart of Midlothian,Motherwell FC,,,,,Liga Escocia,
 1,15.08.2025,Girona,Rayo,1,3,0,3,Liga Española,2
 1,15.08.2025,Villarreal,Real Oviedo,2,0,2,0,Liga Española,1
 1,16.08.2025,Mallorca,Barcelona,0,3,0,2,Liga Española,2
@@ -5234,8 +5954,8 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 10,19.09.2025,Lobos UPNFM,CD Marathón,2,2,1,1,Liga Hondureña,X
 10,19.09.2025,CD Choloma,CD Victoria,2,1,1,0,Liga Hondureña,1
 10,24.09.2025,Juticalpa FC,Génesis - Policia Nacional,,,,,Liga Hondureña,
-11,20.09.2025,Génesis - Policia Nacional,Platense FC,,,,,Liga Hondureña,
-11,21.09.2025,CF Motagua,Juticalpa FC,,,,,Liga Hondureña,
+11,20.09.2025,Génesis - Policia Nacional,Platense FC,1,1,0,0,Liga Hondureña,X
+11,21.09.2025,CF Motagua,Juticalpa FC,0,0,0,0,Liga Hondureña,X
 11,21.09.2025,Olancho FC,CD Choloma,,,,,Liga Hondureña,
 11,22.09.2025,CD Victoria,CD Olimpia,,,,,Liga Hondureña,
 11,22.09.2025,Real España,Lobos UPNFM,,,,,Liga Hondureña,
@@ -5249,6 +5969,204 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 13,05.10.2025,CF Motagua,Génesis - Policia Nacional,,,,,Liga Hondureña,
 13,06.10.2025,Lobos UPNFM,CD Olimpia,,,,,Liga Hondureña,
 13,06.10.2025,Real España,Platense FC,,,,,Liga Hondureña,
+1,25.07.2025,Újpest FC,Diósgyöri VTK,3,1,2,0,Liga Hungria,1
+1,26.07.2025,Zalaegerszegi TE,Debreceni VSC,3,3,2,1,Liga Hungria,X
+1,26.07.2025,MTK Budapest,Ferencvárosi TC,1,1,0,1,Liga Hungria,X
+1,27.07.2025,Nyíregyháza Spartacus,Kisvárda FC,1,1,0,1,Liga Hungria,X
+1,27.07.2025,Paksi SE,Győri ETO FC,3,3,1,2,Liga Hungria,X
+1,27.07.2025,Puskás FC,Kazincbarcikai SC,2,1,0,0,Liga Hungria,1
+2,01.08.2025,Debreceni VSC,MTK Budapest,1,0,0,0,Liga Hungria,1
+2,02.08.2025,Diósgyöri VTK,Zalaegerszegi TE,2,2,2,0,Liga Hungria,X
+2,02.08.2025,Ferencvárosi TC,Kazincbarcikai SC,3,0,2,0,Liga Hungria,1
+2,03.08.2025,Puskás FC,Nyíregyháza Spartacus,3,2,1,2,Liga Hungria,1
+2,03.08.2025,Kisvárda FC,Paksi SE,1,5,1,4,Liga Hungria,2
+2,03.08.2025,Győri ETO FC,Újpest FC,1,1,0,0,Liga Hungria,X
+3,08.08.2025,Kazincbarcikai SC,Debreceni VSC,1,2,1,1,Liga Hungria,2
+3,09.08.2025,MTK Budapest,Diósgyöri VTK,5,0,4,0,Liga Hungria,1
+3,09.08.2025,Nyíregyháza Spartacus,Ferencvárosi TC,1,4,0,3,Liga Hungria,2
+3,10.08.2025,Zalaegerszegi TE,Győri ETO FC,1,1,1,0,Liga Hungria,X
+3,10.08.2025,Kisvárda FC,Puskás FC,2,1,2,1,Liga Hungria,1
+3,10.08.2025,Újpest FC,Paksi SE,1,2,1,1,Liga Hungria,2
+4,15.08.2025,Újpest FC,Kisvárda FC,0,1,0,0,Liga Hungria,2
+4,16.08.2025,Diósgyöri VTK,Kazincbarcikai SC,2,2,0,2,Liga Hungria,X
+4,16.08.2025,Ferencvárosi TC,Puskás FC,1,2,1,1,Liga Hungria,2
+4,17.08.2025,Debreceni VSC,Nyíregyháza Spartacus,1,2,1,0,Liga Hungria,2
+4,17.08.2025,MTK Budapest,Győri ETO FC,2,7,1,4,Liga Hungria,2
+4,17.08.2025,Paksi SE,Zalaegerszegi TE,2,2,0,0,Liga Hungria,X
+5,22.08.2025,Puskás FC,Debreceni VSC,1,3,0,1,Liga Hungria,2
+5,23.08.2025,Zalaegerszegi TE,Újpest FC,1,4,1,2,Liga Hungria,2
+5,23.08.2025,Nyíregyháza Spartacus,Diósgyöri VTK,1,4,0,1,Liga Hungria,2
+5,24.08.2025,MTK Budapest,Paksi SE,2,3,0,2,Liga Hungria,2
+5,03.12.2025,Kazincbarcikai SC,Győri ETO FC,,,,,Liga Hungria,
+5,03.12.2025,Kisvárda FC,Ferencvárosi TC,,,,,Liga Hungria,
+6,29.08.2025,Paksi SE,Kazincbarcikai SC,3,0,0,0,Liga Hungria,1
+6,30.08.2025,Zalaegerszegi TE,Kisvárda FC,1,2,0,2,Liga Hungria,2
+6,30.08.2025,Diósgyöri VTK,Puskás FC,1,1,1,0,Liga Hungria,X
+6,30.08.2025,Újpest FC,MTK Budapest,1,2,1,0,Liga Hungria,2
+6,31.08.2025,Győri ETO FC,Nyíregyháza Spartacus,1,0,0,0,Liga Hungria,1
+6,31.08.2025,Debreceni VSC,Ferencvárosi TC,0,3,0,2,Liga Hungria,2
+7,19.09.2025,Ferencvárosi TC,Diósgyöri VTK,2,2,0,2,Liga Hungria,X
+7,20.09.2025,Nyíregyháza Spartacus,Paksi SE,1,1,0,0,Liga Hungria,X
+7,20.09.2025,Kazincbarcikai SC,Újpest FC,2,0,2,0,Liga Hungria,1
+7,20.09.2025,Puskás FC,Győri ETO FC,0,2,0,2,Liga Hungria,2
+7,21.09.2025,Kisvárda FC,Debreceni VSC,,,,,Liga Hungria,
+7,21.09.2025,MTK Budapest,Zalaegerszegi TE,,,,,Liga Hungria,
+8,26.09.2025,Újpest FC,Nyíregyháza Spartacus,,,,,Liga Hungria,
+8,27.09.2025,Zalaegerszegi TE,Kazincbarcikai SC,,,,,Liga Hungria,
+8,27.09.2025,Diósgyöri VTK,Debreceni VSC,,,,,Liga Hungria,
+8,27.09.2025,Paksi SE,Puskás FC,,,,,Liga Hungria,
+8,28.09.2025,MTK Budapest,Kisvárda FC,,,,,Liga Hungria,
+8,28.09.2025,Győri ETO FC,Ferencvárosi TC,,,,,Liga Hungria,
+9,03.10.2025,Kazincbarcikai SC,MTK Budapest,,,,,Liga Hungria,
+9,04.10.2025,Nyíregyháza Spartacus,Zalaegerszegi TE,,,,,Liga Hungria,
+9,04.10.2025,Puskás FC,Újpest FC,,,,,Liga Hungria,
+9,04.10.2025,Debreceni VSC,Győri ETO FC,,,,,Liga Hungria,
+9,05.10.2025,Ferencvárosi TC,Paksi SE,,,,,Liga Hungria,
+9,05.10.2025,Kisvárda FC,Diósgyöri VTK,,,,,Liga Hungria,
+10,18.10.2025,Kazincbarcikai SC,Kisvárda FC,,,,,Liga Hungria,
+10,18.10.2025,MTK Budapest,Nyíregyháza Spartacus,,,,,Liga Hungria,
+10,18.10.2025,Zalaegerszegi TE,Puskás FC,,,,,Liga Hungria,
+10,18.10.2025,Újpest FC,Ferencvárosi TC,,,,,Liga Hungria,
+10,18.10.2025,Paksi SE,Debreceni VSC,,,,,Liga Hungria,
+10,18.10.2025,Győri ETO FC,Diósgyöri VTK,,,,,Liga Hungria,
+11,25.10.2025,Nyíregyháza Spartacus,Kazincbarcikai SC,,,,,Liga Hungria,
+11,25.10.2025,Diósgyöri VTK,Paksi SE,,,,,Liga Hungria,
+11,25.10.2025,Debreceni VSC,Újpest FC,,,,,Liga Hungria,
+11,25.10.2025,Ferencvárosi TC,Zalaegerszegi TE,,,,,Liga Hungria,
+11,25.10.2025,Puskás FC,MTK Budapest,,,,,Liga Hungria,
+11,25.10.2025,Kisvárda FC,Győri ETO FC,,,,,Liga Hungria,
+12,01.11.2025,Kisvárda FC,Nyíregyháza Spartacus,,,,,Liga Hungria,
+12,01.11.2025,Puskás FC,Kazincbarcikai SC,,,,,Liga Hungria,
+12,01.11.2025,Ferencvárosi TC,MTK Budapest,,,,,Liga Hungria,
+12,01.11.2025,Debreceni VSC,Zalaegerszegi TE,,,,,Liga Hungria,
+12,01.11.2025,Diósgyöri VTK,Újpest FC,,,,,Liga Hungria,
+12,01.11.2025,Győri ETO FC,Paksi SE,,,,,Liga Hungria,
+13,08.11.2025,Újpest FC,Győri ETO FC,,,,,Liga Hungria,
+13,08.11.2025,Zalaegerszegi TE,Diósgyöri VTK,,,,,Liga Hungria,
+13,08.11.2025,MTK Budapest,Debreceni VSC,,,,,Liga Hungria,
+13,08.11.2025,Kazincbarcikai SC,Ferencvárosi TC,,,,,Liga Hungria,
+13,08.11.2025,Nyíregyháza Spartacus,Puskás FC,,,,,Liga Hungria,
+13,08.11.2025,Paksi SE,Kisvárda FC,,,,,Liga Hungria,
+14,22.11.2025,Ferencvárosi TC,Nyíregyháza Spartacus,,,,,Liga Hungria,
+14,22.11.2025,Debreceni VSC,Kazincbarcikai SC,,,,,Liga Hungria,
+14,22.11.2025,Diósgyöri VTK,MTK Budapest,,,,,Liga Hungria,
+14,22.11.2025,Győri ETO FC,Zalaegerszegi TE,,,,,Liga Hungria,
+14,22.11.2025,Paksi SE,Újpest FC,,,,,Liga Hungria,
+14,22.11.2025,Puskás FC,Kisvárda FC,,,,,Liga Hungria,
+15,29.11.2025,Kisvárda FC,Újpest FC,,,,,Liga Hungria,
+15,29.11.2025,Zalaegerszegi TE,Paksi SE,,,,,Liga Hungria,
+15,29.11.2025,Győri ETO FC,MTK Budapest,,,,,Liga Hungria,
+15,29.11.2025,Kazincbarcikai SC,Diósgyöri VTK,,,,,Liga Hungria,
+15,29.11.2025,Nyíregyháza Spartacus,Debreceni VSC,,,,,Liga Hungria,
+15,29.11.2025,Puskás FC,Ferencvárosi TC,,,,,Liga Hungria,
+16,06.12.2025,Diósgyöri VTK,Nyíregyháza Spartacus,,,,,Liga Hungria,
+16,06.12.2025,Győri ETO FC,Kazincbarcikai SC,,,,,Liga Hungria,
+16,06.12.2025,Paksi SE,MTK Budapest,,,,,Liga Hungria,
+16,06.12.2025,Újpest FC,Zalaegerszegi TE,,,,,Liga Hungria,
+16,06.12.2025,Debreceni VSC,Puskás FC,,,,,Liga Hungria,
+16,06.12.2025,Ferencvárosi TC,Kisvárda FC,,,,,Liga Hungria,
+17,13.12.2025,Kisvárda FC,Zalaegerszegi TE,,,,,Liga Hungria,
+17,13.12.2025,MTK Budapest,Újpest FC,,,,,Liga Hungria,
+17,13.12.2025,Kazincbarcikai SC,Paksi SE,,,,,Liga Hungria,
+17,13.12.2025,Nyíregyháza Spartacus,Győri ETO FC,,,,,Liga Hungria,
+17,13.12.2025,Puskás FC,Diósgyöri VTK,,,,,Liga Hungria,
+17,13.12.2025,Ferencvárosi TC,Debreceni VSC,,,,,Liga Hungria,
+18,20.12.2025,Paksi SE,Nyíregyháza Spartacus,,,,,Liga Hungria,
+18,20.12.2025,Újpest FC,Kazincbarcikai SC,,,,,Liga Hungria,
+18,20.12.2025,Zalaegerszegi TE,MTK Budapest,,,,,Liga Hungria,
+18,20.12.2025,Diósgyöri VTK,Ferencvárosi TC,,,,,Liga Hungria,
+18,20.12.2025,Győri ETO FC,Puskás FC,,,,,Liga Hungria,
+18,20.12.2025,Debreceni VSC,Kisvárda FC,,,,,Liga Hungria,
+19,24.01.2026,Kisvárda FC,MTK Budapest,,,,,Liga Hungria,
+19,24.01.2026,Kazincbarcikai SC,Zalaegerszegi TE,,,,,Liga Hungria,
+19,24.01.2026,Nyíregyháza Spartacus,Újpest FC,,,,,Liga Hungria,
+19,24.01.2026,Puskás FC,Paksi SE,,,,,Liga Hungria,
+19,24.01.2026,Ferencvárosi TC,Győri ETO FC,,,,,Liga Hungria,
+19,24.01.2026,Debreceni VSC,Diósgyöri VTK,,,,,Liga Hungria,
+20,31.01.2026,Zalaegerszegi TE,Nyíregyháza Spartacus,,,,,Liga Hungria,
+20,31.01.2026,MTK Budapest,Kazincbarcikai SC,,,,,Liga Hungria,
+20,31.01.2026,Győri ETO FC,Debreceni VSC,,,,,Liga Hungria,
+20,31.01.2026,Paksi SE,Ferencvárosi TC,,,,,Liga Hungria,
+20,31.01.2026,Újpest FC,Puskás FC,,,,,Liga Hungria,
+20,31.01.2026,Diósgyöri VTK,Kisvárda FC,,,,,Liga Hungria,
+21,07.02.2026,Kisvárda FC,Kazincbarcikai SC,,,,,Liga Hungria,
+21,07.02.2026,Nyíregyháza Spartacus,MTK Budapest,,,,,Liga Hungria,
+21,07.02.2026,Puskás FC,Zalaegerszegi TE,,,,,Liga Hungria,
+21,07.02.2026,Ferencvárosi TC,Újpest FC,,,,,Liga Hungria,
+21,07.02.2026,Debreceni VSC,Paksi SE,,,,,Liga Hungria,
+21,07.02.2026,Diósgyöri VTK,Győri ETO FC,,,,,Liga Hungria,
+22,14.02.2026,Kazincbarcikai SC,Nyíregyháza Spartacus,,,,,Liga Hungria,
+22,14.02.2026,Paksi SE,Diósgyöri VTK,,,,,Liga Hungria,
+22,14.02.2026,Újpest FC,Debreceni VSC,,,,,Liga Hungria,
+22,14.02.2026,Zalaegerszegi TE,Ferencvárosi TC,,,,,Liga Hungria,
+22,14.02.2026,MTK Budapest,Puskás FC,,,,,Liga Hungria,
+22,14.02.2026,Győri ETO FC,Kisvárda FC,,,,,Liga Hungria,
+23,21.02.2026,Nyíregyháza Spartacus,Kisvárda FC,,,,,Liga Hungria,
+23,21.02.2026,Kazincbarcikai SC,Puskás FC,,,,,Liga Hungria,
+23,21.02.2026,MTK Budapest,Ferencvárosi TC,,,,,Liga Hungria,
+23,21.02.2026,Zalaegerszegi TE,Debreceni VSC,,,,,Liga Hungria,
+23,21.02.2026,Újpest FC,Diósgyöri VTK,,,,,Liga Hungria,
+23,21.02.2026,Paksi SE,Győri ETO FC,,,,,Liga Hungria,
+24,28.02.2026,Győri ETO FC,Újpest FC,,,,,Liga Hungria,
+24,28.02.2026,Diósgyöri VTK,Zalaegerszegi TE,,,,,Liga Hungria,
+24,28.02.2026,Debreceni VSC,MTK Budapest,,,,,Liga Hungria,
+24,28.02.2026,Ferencvárosi TC,Kazincbarcikai SC,,,,,Liga Hungria,
+24,28.02.2026,Puskás FC,Nyíregyháza Spartacus,,,,,Liga Hungria,
+24,28.02.2026,Kisvárda FC,Paksi SE,,,,,Liga Hungria,
+25,07.03.2026,Nyíregyháza Spartacus,Ferencvárosi TC,,,,,Liga Hungria,
+25,07.03.2026,Kazincbarcikai SC,Debreceni VSC,,,,,Liga Hungria,
+25,07.03.2026,MTK Budapest,Diósgyöri VTK,,,,,Liga Hungria,
+25,07.03.2026,Zalaegerszegi TE,Győri ETO FC,,,,,Liga Hungria,
+25,07.03.2026,Újpest FC,Paksi SE,,,,,Liga Hungria,
+25,07.03.2026,Kisvárda FC,Puskás FC,,,,,Liga Hungria,
+26,14.03.2026,Újpest FC,Kisvárda FC,,,,,Liga Hungria,
+26,14.03.2026,Paksi SE,Zalaegerszegi TE,,,,,Liga Hungria,
+26,14.03.2026,Győri ETO FC,MTK Budapest,,,,,Liga Hungria,
+26,14.03.2026,Diósgyöri VTK,Kazincbarcikai SC,,,,,Liga Hungria,
+26,14.03.2026,Debreceni VSC,Nyíregyháza Spartacus,,,,,Liga Hungria,
+26,14.03.2026,Ferencvárosi TC,Puskás FC,,,,,Liga Hungria,
+27,21.03.2026,Nyíregyháza Spartacus,Diósgyöri VTK,,,,,Liga Hungria,
+27,21.03.2026,Kazincbarcikai SC,Győri ETO FC,,,,,Liga Hungria,
+27,21.03.2026,MTK Budapest,Paksi SE,,,,,Liga Hungria,
+27,21.03.2026,Zalaegerszegi TE,Újpest FC,,,,,Liga Hungria,
+27,21.03.2026,Puskás FC,Debreceni VSC,,,,,Liga Hungria,
+27,21.03.2026,Kisvárda FC,Ferencvárosi TC,,,,,Liga Hungria,
+28,04.04.2026,Zalaegerszegi TE,Kisvárda FC,,,,,Liga Hungria,
+28,04.04.2026,Újpest FC,MTK Budapest,,,,,Liga Hungria,
+28,04.04.2026,Paksi SE,Kazincbarcikai SC,,,,,Liga Hungria,
+28,04.04.2026,Győri ETO FC,Nyíregyháza Spartacus,,,,,Liga Hungria,
+28,04.04.2026,Diósgyöri VTK,Puskás FC,,,,,Liga Hungria,
+28,04.04.2026,Debreceni VSC,Ferencvárosi TC,,,,,Liga Hungria,
+29,11.04.2026,Nyíregyháza Spartacus,Paksi SE,,,,,Liga Hungria,
+29,11.04.2026,Kazincbarcikai SC,Újpest FC,,,,,Liga Hungria,
+29,11.04.2026,MTK Budapest,Zalaegerszegi TE,,,,,Liga Hungria,
+29,11.04.2026,Ferencvárosi TC,Diósgyöri VTK,,,,,Liga Hungria,
+29,11.04.2026,Puskás FC,Győri ETO FC,,,,,Liga Hungria,
+29,11.04.2026,Kisvárda FC,Debreceni VSC,,,,,Liga Hungria,
+30,18.04.2026,MTK Budapest,Kisvárda FC,,,,,Liga Hungria,
+30,18.04.2026,Zalaegerszegi TE,Kazincbarcikai SC,,,,,Liga Hungria,
+30,18.04.2026,Újpest FC,Nyíregyháza Spartacus,,,,,Liga Hungria,
+30,18.04.2026,Paksi SE,Puskás FC,,,,,Liga Hungria,
+30,18.04.2026,Győri ETO FC,Ferencvárosi TC,,,,,Liga Hungria,
+30,18.04.2026,Diósgyöri VTK,Debreceni VSC,,,,,Liga Hungria,
+31,25.04.2026,Nyíregyháza Spartacus,Zalaegerszegi TE,,,,,Liga Hungria,
+31,25.04.2026,Kazincbarcikai SC,MTK Budapest,,,,,Liga Hungria,
+31,25.04.2026,Debreceni VSC,Győri ETO FC,,,,,Liga Hungria,
+31,25.04.2026,Ferencvárosi TC,Paksi SE,,,,,Liga Hungria,
+31,25.04.2026,Puskás FC,Újpest FC,,,,,Liga Hungria,
+31,25.04.2026,Kisvárda FC,Diósgyöri VTK,,,,,Liga Hungria,
+32,02.05.2026,Kazincbarcikai SC,Kisvárda FC,,,,,Liga Hungria,
+32,02.05.2026,MTK Budapest,Nyíregyháza Spartacus,,,,,Liga Hungria,
+32,02.05.2026,Zalaegerszegi TE,Puskás FC,,,,,Liga Hungria,
+32,02.05.2026,Újpest FC,Ferencvárosi TC,,,,,Liga Hungria,
+32,02.05.2026,Paksi SE,Debreceni VSC,,,,,Liga Hungria,
+32,02.05.2026,Győri ETO FC,Diósgyöri VTK,,,,,Liga Hungria,
+33,16.05.2026,Nyíregyháza Spartacus,Kazincbarcikai SC,,,,,Liga Hungria,
+33,16.05.2026,Diósgyöri VTK,Paksi SE,,,,,Liga Hungria,
+33,16.05.2026,Debreceni VSC,Újpest FC,,,,,Liga Hungria,
+33,16.05.2026,Ferencvárosi TC,Zalaegerszegi TE,,,,,Liga Hungria,
+33,16.05.2026,Puskás FC,MTK Budapest,,,,,Liga Hungria,
+33,16.05.2026,Kisvárda FC,Győri ETO FC,,,,,Liga Hungria,
 1,15.08.2025,Liverpool,Bournemouth,4,2,1,0,Liga Inglesa,1
 1,16.08.2025,Aston Villa,Newcastle United,0,0,0,0,Liga Inglesa,X
 1,16.08.2025,Brighton & Hove Albion,Fulham FC,1,1,0,0,Liga Inglesa,X
@@ -6465,10 +7383,10 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 9,20.09.2025,Cruz Azul,FC Juárez,3,2,3,2,Liga Mexicana,1
 9,20.09.2025,Club Tijuana,Club León,5,0,3,0,Liga Mexicana,1
 9,20.09.2025,Mazatlán FC,Atlas Guadalajara,1,1,0,0,Liga Mexicana,X
-9,21.09.2025,CF Pachuca,Gallos Blancos,0,2,,,Liga Mexicana,2
-9,21.09.2025,Pumas UNAM,UANL Tigres,,,,,Liga Mexicana,
-9,21.09.2025,Deportivo Guadalajara,Deportivo Toluca,,,,,Liga Mexicana,
-9,21.09.2025,CF Monterrey,CF América,,,,,Liga Mexicana,
+9,21.09.2025,CF Pachuca,Gallos Blancos,0,2,0,2,Liga Mexicana,2
+9,21.09.2025,Pumas UNAM,UANL Tigres,1,1,0,0,Liga Mexicana,X
+9,21.09.2025,Deportivo Guadalajara,Deportivo Toluca,0,3,0,2,Liga Mexicana,2
+9,21.09.2025,CF Monterrey,CF América,2,2,2,0,Liga Mexicana,X
 9,22.09.2025,Santos Laguna,Atlético San Luis,,,,,Liga Mexicana,
 10,24.09.2025,Puebla FC,CF Pachuca,,,,,Liga Mexicana,
 10,24.09.2025,Deportivo Guadalajara,Club Necaxa,,,,,Liga Mexicana,
@@ -6897,8 +7815,8 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 8,15.09.2025,Sporting San Miguelito,Atlético Nacional,1,1,1,0,Liga Panama,X
 8,16.09.2025,Alianza,San Francisco FC,1,1,0,0,Liga Panama,X
 9,20.09.2025,San Francisco FC,Sporting San Miguelito,0,1,0,1,Liga Panama,2
-9,21.09.2025,UD Universitario,Alianza,,,,,Liga Panama,
-9,21.09.2025,Árabe Unido,Veraguas United,,,,,Liga Panama,
+9,21.09.2025,UD Universitario,Alianza,0,0,0,0,Liga Panama,X
+9,21.09.2025,Árabe Unido,Veraguas United,1,0,1,0,Liga Panama,1
 9,21.09.2025,Atlético Nacional,Plaza Amador,,,,,Liga Panama,
 9,22.09.2025,Tauro FC,Independiente de La Chorrera,,,,,Liga Panama,
 9,23.09.2025,UMECIT,Herrera FC,,,,,Liga Panama,
@@ -7158,7 +8076,7 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 9,18.09.2025,Atlético Grau,Alianza Universidad,2,0,1,0,Liga Peruana,1
 9,19.09.2025,Deportivo Garcilaso,FBC Melgar,1,1,1,0,Liga Peruana,X
 10,14.09.2025,Deportivo Binacional,Deportivo Garcilaso,,,,,Liga Peruana,
-10,21.09.2025,Universidad Técnica,Universitario de Deportes,0,0,,,Liga Peruana,X
+10,21.09.2025,Universidad Técnica,Universitario de Deportes,1,2,0,1,Liga Peruana,2
 10,21.09.2025,FBC Melgar,Los Chankas,,,,,Liga Peruana,
 10,21.09.2025,Juan Pablo II College,Sporting Cristal,,,,,Liga Peruana,
 10,22.09.2025,Sport Huancayo,Cienciano,,,,,Liga Peruana,
@@ -7859,6 +8777,246 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 34,17.05.2026,Casa Pia AC,Rio Ave FC,,,,,Liga Portugal,
 34,17.05.2026,FC Arouca,CD Tondela,,,,,Liga Portugal,
 34,17.05.2026,Sporting Braga,Estrela Amadora,,,,,Liga Portugal,
+1,11.07.2025,Metaloglobus Bucureşti,Universitatea Cluj,1,4,0,1,Liga Rumana,2
+1,11.07.2025,Argeș Pitești,Rapid Bucureşti,0,2,0,2,Liga Rumana,2
+1,12.07.2025,UTA Arad,CS Universitatea Craiova,3,3,0,2,Liga Rumana,X
+1,12.07.2025,FCSB,FC Hermannstadt,1,1,0,0,Liga Rumana,X
+1,13.07.2025,Oţelul Galaţi,Petrolul Ploieşti,0,0,0,0,Liga Rumana,X
+1,13.07.2025,CFR Cluj,Unirea Slobozia,2,1,1,1,Liga Rumana,1
+1,14.07.2025,FC Botoşani,Farul Constanța,1,1,0,0,Liga Rumana,X
+1,14.07.2025,FK Csikszereda,FC Dinamo Bucureşti,2,2,2,2,Liga Rumana,X
+2,18.07.2025,FC Hermannstadt,Metaloglobus Bucureşti,2,2,2,0,Liga Rumana,X
+2,18.07.2025,CS Universitatea Craiova,Argeș Pitești,3,1,2,1,Liga Rumana,1
+2,19.07.2025,Universitatea Cluj,UTA Arad,1,1,0,1,Liga Rumana,X
+2,19.07.2025,Petrolul Ploieşti,FCSB,0,1,0,0,Liga Rumana,2
+2,20.07.2025,Farul Constanța,Oţelul Galaţi,3,2,2,1,Liga Rumana,1
+2,20.07.2025,Rapid Bucureşti,CFR Cluj,1,1,0,1,Liga Rumana,X
+2,21.07.2025,Unirea Slobozia,FK Csikszereda,6,1,2,1,Liga Rumana,1
+2,21.07.2025,FC Dinamo Bucureşti,FC Botoşani,0,0,0,0,Liga Rumana,X
+3,25.07.2025,Metaloglobus Bucureşti,Petrolul Ploieşti,0,3,0,3,Liga Rumana,2
+3,25.07.2025,FK Csikszereda,Rapid Bucureşti,0,2,0,2,Liga Rumana,2
+3,26.07.2025,UTA Arad,FC Hermannstadt,1,0,1,0,Liga Rumana,1
+3,26.07.2025,FCSB,Farul Constanța,1,2,1,0,Liga Rumana,2
+3,27.07.2025,CFR Cluj,Argeș Pitești,0,2,0,1,Liga Rumana,2
+3,27.07.2025,Oţelul Galaţi,FC Dinamo Bucureşti,2,1,1,0,Liga Rumana,1
+3,28.07.2025,FC Botoşani,Unirea Slobozia,4,0,2,0,Liga Rumana,1
+3,28.07.2025,CS Universitatea Craiova,Universitatea Cluj,2,1,0,1,Liga Rumana,1
+4,01.08.2025,Farul Constanța,Metaloglobus Bucureşti,2,1,1,0,Liga Rumana,1
+4,01.08.2025,Petrolul Ploieşti,UTA Arad,1,2,1,1,Liga Rumana,2
+4,02.08.2025,Argeș Pitești,FK Csikszereda,3,1,2,1,Liga Rumana,1
+4,02.08.2025,FC Dinamo Bucureşti,FCSB,4,3,2,1,Liga Rumana,1
+4,03.08.2025,FC Hermannstadt,Universitatea Cluj,2,2,0,1,Liga Rumana,X
+4,03.08.2025,CFR Cluj,CS Universitatea Craiova,2,3,0,2,Liga Rumana,2
+4,04.08.2025,Unirea Slobozia,Oţelul Galaţi,0,0,0,0,Liga Rumana,X
+4,04.08.2025,Rapid Bucureşti,FC Botoşani,2,1,0,0,Liga Rumana,1
+5,08.08.2025,Metaloglobus Bucureşti,FC Dinamo Bucureşti,0,1,0,1,Liga Rumana,2
+5,09.08.2025,UTA Arad,Farul Constanța,2,1,1,0,Liga Rumana,1
+5,09.08.2025,Universitatea Cluj,Petrolul Ploieşti,1,1,1,0,Liga Rumana,X
+5,10.08.2025,CS Universitatea Craiova,FC Hermannstadt,1,0,1,0,Liga Rumana,1
+5,10.08.2025,FCSB,Unirea Slobozia,0,1,0,1,Liga Rumana,2
+5,11.08.2025,FC Botoşani,Argeș Pitești,3,1,2,0,Liga Rumana,1
+5,11.08.2025,Oţelul Galaţi,Rapid Bucureşti,1,1,1,0,Liga Rumana,X
+5,16.10.2025,FK Csikszereda,CFR Cluj,,,,,Liga Rumana,
+6,15.08.2025,Unirea Slobozia,Metaloglobus Bucureşti,2,1,0,1,Liga Rumana,1
+6,15.08.2025,FC Dinamo Bucureşti,UTA Arad,1,1,0,1,Liga Rumana,X
+6,16.08.2025,Petrolul Ploieşti,FC Hermannstadt,1,1,0,0,Liga Rumana,X
+6,17.08.2025,FK Csikszereda,CS Universitatea Craiova,1,2,1,1,Liga Rumana,2
+6,17.08.2025,CFR Cluj,FC Botoşani,3,3,2,1,Liga Rumana,X
+6,17.08.2025,Rapid Bucureşti,FCSB,2,2,0,1,Liga Rumana,X
+6,18.08.2025,Argeș Pitești,Oţelul Galaţi,2,0,0,0,Liga Rumana,1
+6,18.08.2025,Farul Constanța,Universitatea Cluj,0,1,0,1,Liga Rumana,2
+7,22.08.2025,UTA Arad,Unirea Slobozia,1,1,1,0,Liga Rumana,X
+7,22.08.2025,Metaloglobus Bucureşti,Rapid Bucureşti,1,2,1,2,Liga Rumana,2
+7,23.08.2025,FC Botoşani,FK Csikszereda,3,1,1,0,Liga Rumana,1
+7,23.08.2025,Universitatea Cluj,FC Dinamo Bucureşti,0,1,0,0,Liga Rumana,2
+7,24.08.2025,Oţelul Galaţi,CFR Cluj,4,1,2,0,Liga Rumana,1
+7,24.08.2025,CS Universitatea Craiova,Petrolul Ploieşti,2,0,0,0,Liga Rumana,1
+7,24.08.2025,FCSB,Argeș Pitești,0,2,0,0,Liga Rumana,2
+7,25.08.2025,FC Hermannstadt,Farul Constanța,1,0,1,0,Liga Rumana,1
+8,29.08.2025,Rapid Bucureşti,UTA Arad,2,0,2,0,Liga Rumana,1
+8,30.08.2025,Unirea Slobozia,Universitatea Cluj,0,1,0,0,Liga Rumana,2
+8,30.08.2025,FC Dinamo Bucureşti,FC Hermannstadt,2,0,0,0,Liga Rumana,1
+8,31.08.2025,Argeș Pitești,Metaloglobus Bucureşti,2,1,2,1,Liga Rumana,1
+8,31.08.2025,FC Botoşani,CS Universitatea Craiova,1,1,0,0,Liga Rumana,X
+8,31.08.2025,CFR Cluj,FCSB,2,2,2,1,Liga Rumana,X
+8,01.09.2025,FK Csikszereda,Oţelul Galaţi,1,1,0,1,Liga Rumana,X
+8,01.09.2025,Farul Constanța,Petrolul Ploieşti,2,1,1,1,Liga Rumana,1
+9,12.09.2025,Universitatea Cluj,Rapid Bucureşti,0,0,0,0,Liga Rumana,X
+9,13.09.2025,UTA Arad,Argeș Pitești,3,3,2,3,Liga Rumana,X
+9,13.09.2025,Metaloglobus Bucureşti,CFR Cluj,1,1,1,1,Liga Rumana,X
+9,14.09.2025,Oţelul Galaţi,FC Botoşani,0,1,0,1,Liga Rumana,2
+9,14.09.2025,CS Universitatea Craiova,Farul Constanța,2,0,1,0,Liga Rumana,1
+9,14.09.2025,FK Csikszereda,FCSB,1,1,0,0,Liga Rumana,X
+9,15.09.2025,FC Hermannstadt,Unirea Slobozia,0,2,0,1,Liga Rumana,2
+9,15.09.2025,Petrolul Ploieşti,FC Dinamo Bucureşti,0,3,0,1,Liga Rumana,2
+10,19.09.2025,FC Botoşani,FCSB,3,1,1,1,Liga Rumana,1
+10,20.09.2025,Argeș Pitești,Universitatea Cluj,1,0,0,0,Liga Rumana,1
+10,20.09.2025,Oţelul Galaţi,CS Universitatea Craiova,1,0,1,0,Liga Rumana,1
+10,21.09.2025,Unirea Slobozia,Petrolul Ploieşti,,,,,Liga Rumana,
+10,21.09.2025,CFR Cluj,UTA Arad,,,,,Liga Rumana,
+10,21.09.2025,Rapid Bucureşti,FC Hermannstadt,,,,,Liga Rumana,
+10,22.09.2025,FK Csikszereda,Metaloglobus Bucureşti,,,,,Liga Rumana,
+10,22.09.2025,FC Dinamo Bucureşti,Farul Constanța,,,,,Liga Rumana,
+11,26.09.2025,FC Hermannstadt,Argeș Pitești,,,,,Liga Rumana,
+11,26.09.2025,CS Universitatea Craiova,FC Dinamo Bucureşti,,,,,Liga Rumana,
+11,27.09.2025,UTA Arad,FK Csikszereda,,,,,Liga Rumana,
+11,27.09.2025,Petrolul Ploieşti,Rapid Bucureşti,,,,,Liga Rumana,
+11,28.09.2025,Farul Constanța,Unirea Slobozia,,,,,Liga Rumana,
+11,28.09.2025,FCSB,Oţelul Galaţi,,,,,Liga Rumana,
+11,29.09.2025,Metaloglobus Bucureşti,FC Botoşani,,,,,Liga Rumana,
+11,29.09.2025,Universitatea Cluj,CFR Cluj,,,,,Liga Rumana,
+12,04.10.2025,FC Botoşani,UTA Arad,,,,,Liga Rumana,
+12,04.10.2025,FK Csikszereda,Universitatea Cluj,,,,,Liga Rumana,
+12,04.10.2025,CFR Cluj,FC Hermannstadt,,,,,Liga Rumana,
+12,04.10.2025,Argeș Pitești,Petrolul Ploieşti,,,,,Liga Rumana,
+12,04.10.2025,Rapid Bucureşti,Farul Constanța,,,,,Liga Rumana,
+12,04.10.2025,Oţelul Galaţi,Metaloglobus Bucureşti,,,,,Liga Rumana,
+12,04.10.2025,Unirea Slobozia,FC Dinamo Bucureşti,,,,,Liga Rumana,
+12,04.10.2025,FCSB,CS Universitatea Craiova,,,,,Liga Rumana,
+13,18.10.2025,UTA Arad,Oţelul Galaţi,,,,,Liga Rumana,
+13,18.10.2025,Universitatea Cluj,FC Botoşani,,,,,Liga Rumana,
+13,18.10.2025,FC Hermannstadt,FK Csikszereda,,,,,Liga Rumana,
+13,18.10.2025,Petrolul Ploieşti,CFR Cluj,,,,,Liga Rumana,
+13,18.10.2025,Farul Constanța,Argeș Pitești,,,,,Liga Rumana,
+13,18.10.2025,FC Dinamo Bucureşti,Rapid Bucureşti,,,,,Liga Rumana,
+13,18.10.2025,Metaloglobus Bucureşti,FCSB,,,,,Liga Rumana,
+13,18.10.2025,CS Universitatea Craiova,Unirea Slobozia,,,,,Liga Rumana,
+14,25.10.2025,FCSB,UTA Arad,,,,,Liga Rumana,
+14,25.10.2025,Oţelul Galaţi,Universitatea Cluj,,,,,Liga Rumana,
+14,25.10.2025,FC Botoşani,FC Hermannstadt,,,,,Liga Rumana,
+14,25.10.2025,FK Csikszereda,Petrolul Ploieşti,,,,,Liga Rumana,
+14,25.10.2025,CFR Cluj,Farul Constanța,,,,,Liga Rumana,
+14,25.10.2025,Argeș Pitești,FC Dinamo Bucureşti,,,,,Liga Rumana,
+14,25.10.2025,Rapid Bucureşti,Unirea Slobozia,,,,,Liga Rumana,
+14,25.10.2025,Metaloglobus Bucureşti,CS Universitatea Craiova,,,,,Liga Rumana,
+15,01.11.2025,UTA Arad,Metaloglobus Bucureşti,,,,,Liga Rumana,
+15,01.11.2025,Universitatea Cluj,FCSB,,,,,Liga Rumana,
+15,01.11.2025,FC Hermannstadt,Oţelul Galaţi,,,,,Liga Rumana,
+15,01.11.2025,Petrolul Ploieşti,FC Botoşani,,,,,Liga Rumana,
+15,01.11.2025,Farul Constanța,FK Csikszereda,,,,,Liga Rumana,
+15,01.11.2025,FC Dinamo Bucureşti,CFR Cluj,,,,,Liga Rumana,
+15,01.11.2025,Unirea Slobozia,Argeș Pitești,,,,,Liga Rumana,
+15,01.11.2025,CS Universitatea Craiova,Rapid Bucureşti,,,,,Liga Rumana,
+16,08.11.2025,CS Universitatea Craiova,UTA Arad,,,,,Liga Rumana,
+16,08.11.2025,Universitatea Cluj,Metaloglobus Bucureşti,,,,,Liga Rumana,
+16,08.11.2025,FC Hermannstadt,FCSB,,,,,Liga Rumana,
+16,08.11.2025,Petrolul Ploieşti,Oţelul Galaţi,,,,,Liga Rumana,
+16,08.11.2025,Farul Constanța,FC Botoşani,,,,,Liga Rumana,
+16,08.11.2025,FC Dinamo Bucureşti,FK Csikszereda,,,,,Liga Rumana,
+16,08.11.2025,Unirea Slobozia,CFR Cluj,,,,,Liga Rumana,
+16,08.11.2025,Rapid Bucureşti,Argeș Pitești,,,,,Liga Rumana,
+17,22.11.2025,UTA Arad,Universitatea Cluj,,,,,Liga Rumana,
+17,22.11.2025,Metaloglobus Bucureşti,FC Hermannstadt,,,,,Liga Rumana,
+17,22.11.2025,FCSB,Petrolul Ploieşti,,,,,Liga Rumana,
+17,22.11.2025,Oţelul Galaţi,Farul Constanța,,,,,Liga Rumana,
+17,22.11.2025,FC Botoşani,FC Dinamo Bucureşti,,,,,Liga Rumana,
+17,22.11.2025,FK Csikszereda,Unirea Slobozia,,,,,Liga Rumana,
+17,22.11.2025,CFR Cluj,Rapid Bucureşti,,,,,Liga Rumana,
+17,22.11.2025,Argeș Pitești,CS Universitatea Craiova,,,,,Liga Rumana,
+18,29.11.2025,FC Hermannstadt,UTA Arad,,,,,Liga Rumana,
+18,29.11.2025,Petrolul Ploieşti,Metaloglobus Bucureşti,,,,,Liga Rumana,
+18,29.11.2025,Farul Constanța,FCSB,,,,,Liga Rumana,
+18,29.11.2025,FC Dinamo Bucureşti,Oţelul Galaţi,,,,,Liga Rumana,
+18,29.11.2025,Unirea Slobozia,FC Botoşani,,,,,Liga Rumana,
+18,29.11.2025,Rapid Bucureşti,FK Csikszereda,,,,,Liga Rumana,
+18,29.11.2025,Argeș Pitești,CFR Cluj,,,,,Liga Rumana,
+18,29.11.2025,Universitatea Cluj,CS Universitatea Craiova,,,,,Liga Rumana,
+19,06.12.2025,UTA Arad,Petrolul Ploieşti,,,,,Liga Rumana,
+19,06.12.2025,Metaloglobus Bucureşti,Farul Constanța,,,,,Liga Rumana,
+19,06.12.2025,FCSB,FC Dinamo Bucureşti,,,,,Liga Rumana,
+19,06.12.2025,Oţelul Galaţi,Unirea Slobozia,,,,,Liga Rumana,
+19,06.12.2025,FC Botoşani,Rapid Bucureşti,,,,,Liga Rumana,
+19,06.12.2025,FK Csikszereda,Argeș Pitești,,,,,Liga Rumana,
+19,06.12.2025,Universitatea Cluj,FC Hermannstadt,,,,,Liga Rumana,
+19,06.12.2025,CS Universitatea Craiova,CFR Cluj,,,,,Liga Rumana,
+20,13.12.2025,Farul Constanța,UTA Arad,,,,,Liga Rumana,
+20,13.12.2025,FC Dinamo Bucureşti,Metaloglobus Bucureşti,,,,,Liga Rumana,
+20,13.12.2025,Unirea Slobozia,FCSB,,,,,Liga Rumana,
+20,13.12.2025,Rapid Bucureşti,Oţelul Galaţi,,,,,Liga Rumana,
+20,13.12.2025,Argeș Pitești,FC Botoşani,,,,,Liga Rumana,
+20,13.12.2025,Petrolul Ploieşti,Universitatea Cluj,,,,,Liga Rumana,
+20,13.12.2025,CFR Cluj,FK Csikszereda,,,,,Liga Rumana,
+20,13.12.2025,FC Hermannstadt,CS Universitatea Craiova,,,,,Liga Rumana,
+21,20.12.2025,UTA Arad,FC Dinamo Bucureşti,,,,,Liga Rumana,
+21,20.12.2025,Metaloglobus Bucureşti,Unirea Slobozia,,,,,Liga Rumana,
+21,20.12.2025,FCSB,Rapid Bucureşti,,,,,Liga Rumana,
+21,20.12.2025,Oţelul Galaţi,Argeș Pitești,,,,,Liga Rumana,
+21,20.12.2025,Universitatea Cluj,Farul Constanța,,,,,Liga Rumana,
+21,20.12.2025,FC Botoşani,CFR Cluj,,,,,Liga Rumana,
+21,20.12.2025,FC Hermannstadt,Petrolul Ploieşti,,,,,Liga Rumana,
+21,20.12.2025,CS Universitatea Craiova,FK Csikszereda,,,,,Liga Rumana,
+22,17.01.2026,Unirea Slobozia,UTA Arad,,,,,Liga Rumana,
+22,17.01.2026,Rapid Bucureşti,Metaloglobus Bucureşti,,,,,Liga Rumana,
+22,17.01.2026,Argeș Pitești,FCSB,,,,,Liga Rumana,
+22,17.01.2026,FC Dinamo Bucureşti,Universitatea Cluj,,,,,Liga Rumana,
+22,17.01.2026,CFR Cluj,Oţelul Galaţi,,,,,Liga Rumana,
+22,17.01.2026,Farul Constanța,FC Hermannstadt,,,,,Liga Rumana,
+22,17.01.2026,FK Csikszereda,FC Botoşani,,,,,Liga Rumana,
+22,17.01.2026,Petrolul Ploieşti,CS Universitatea Craiova,,,,,Liga Rumana,
+23,24.01.2026,UTA Arad,Rapid Bucureşti,,,,,Liga Rumana,
+23,24.01.2026,Metaloglobus Bucureşti,Argeș Pitești,,,,,Liga Rumana,
+23,24.01.2026,Universitatea Cluj,Unirea Slobozia,,,,,Liga Rumana,
+23,24.01.2026,FCSB,CFR Cluj,,,,,Liga Rumana,
+23,24.01.2026,FC Hermannstadt,FC Dinamo Bucureşti,,,,,Liga Rumana,
+23,24.01.2026,Oţelul Galaţi,FK Csikszereda,,,,,Liga Rumana,
+23,24.01.2026,Petrolul Ploieşti,Farul Constanța,,,,,Liga Rumana,
+23,24.01.2026,CS Universitatea Craiova,FC Botoşani,,,,,Liga Rumana,
+24,31.01.2026,Argeș Pitești,UTA Arad,,,,,Liga Rumana,
+24,31.01.2026,Rapid Bucureşti,Universitatea Cluj,,,,,Liga Rumana,
+24,31.01.2026,CFR Cluj,Metaloglobus Bucureşti,,,,,Liga Rumana,
+24,31.01.2026,Unirea Slobozia,FC Hermannstadt,,,,,Liga Rumana,
+24,31.01.2026,FCSB,FK Csikszereda,,,,,Liga Rumana,
+24,31.01.2026,FC Dinamo Bucureşti,Petrolul Ploieşti,,,,,Liga Rumana,
+24,31.01.2026,FC Botoşani,Oţelul Galaţi,,,,,Liga Rumana,
+24,31.01.2026,Farul Constanța,CS Universitatea Craiova,,,,,Liga Rumana,
+25,03.02.2026,UTA Arad,CFR Cluj,,,,,Liga Rumana,
+25,03.02.2026,Universitatea Cluj,Argeș Pitești,,,,,Liga Rumana,
+25,03.02.2026,FC Hermannstadt,Rapid Bucureşti,,,,,Liga Rumana,
+25,03.02.2026,Metaloglobus Bucureşti,FK Csikszereda,,,,,Liga Rumana,
+25,03.02.2026,Petrolul Ploieşti,Unirea Slobozia,,,,,Liga Rumana,
+25,03.02.2026,FCSB,FC Botoşani,,,,,Liga Rumana,
+25,03.02.2026,Farul Constanța,FC Dinamo Bucureşti,,,,,Liga Rumana,
+25,03.02.2026,CS Universitatea Craiova,Oţelul Galaţi,,,,,Liga Rumana,
+26,07.02.2026,FK Csikszereda,UTA Arad,,,,,Liga Rumana,
+26,07.02.2026,CFR Cluj,Universitatea Cluj,,,,,Liga Rumana,
+26,07.02.2026,Argeș Pitești,FC Hermannstadt,,,,,Liga Rumana,
+26,07.02.2026,Rapid Bucureşti,Petrolul Ploieşti,,,,,Liga Rumana,
+26,07.02.2026,FC Botoşani,Metaloglobus Bucureşti,,,,,Liga Rumana,
+26,07.02.2026,Unirea Slobozia,Farul Constanța,,,,,Liga Rumana,
+26,07.02.2026,Oţelul Galaţi,FCSB,,,,,Liga Rumana,
+26,07.02.2026,FC Dinamo Bucureşti,CS Universitatea Craiova,,,,,Liga Rumana,
+27,14.02.2026,UTA Arad,FC Botoşani,,,,,Liga Rumana,
+27,14.02.2026,Universitatea Cluj,FK Csikszereda,,,,,Liga Rumana,
+27,14.02.2026,FC Hermannstadt,CFR Cluj,,,,,Liga Rumana,
+27,14.02.2026,Petrolul Ploieşti,Argeș Pitești,,,,,Liga Rumana,
+27,14.02.2026,Farul Constanța,Rapid Bucureşti,,,,,Liga Rumana,
+27,14.02.2026,Metaloglobus Bucureşti,Oţelul Galaţi,,,,,Liga Rumana,
+27,14.02.2026,FC Dinamo Bucureşti,Unirea Slobozia,,,,,Liga Rumana,
+27,14.02.2026,CS Universitatea Craiova,FCSB,,,,,Liga Rumana,
+28,21.02.2026,Oţelul Galaţi,UTA Arad,,,,,Liga Rumana,
+28,21.02.2026,FC Botoşani,Universitatea Cluj,,,,,Liga Rumana,
+28,21.02.2026,FK Csikszereda,FC Hermannstadt,,,,,Liga Rumana,
+28,21.02.2026,CFR Cluj,Petrolul Ploieşti,,,,,Liga Rumana,
+28,21.02.2026,Argeș Pitești,Farul Constanța,,,,,Liga Rumana,
+28,21.02.2026,Rapid Bucureşti,FC Dinamo Bucureşti,,,,,Liga Rumana,
+28,21.02.2026,FCSB,Metaloglobus Bucureşti,,,,,Liga Rumana,
+28,21.02.2026,Unirea Slobozia,CS Universitatea Craiova,,,,,Liga Rumana,
+29,28.02.2026,UTA Arad,FCSB,,,,,Liga Rumana,
+29,28.02.2026,Universitatea Cluj,Oţelul Galaţi,,,,,Liga Rumana,
+29,28.02.2026,FC Hermannstadt,FC Botoşani,,,,,Liga Rumana,
+29,28.02.2026,Petrolul Ploieşti,FK Csikszereda,,,,,Liga Rumana,
+29,28.02.2026,Farul Constanța,CFR Cluj,,,,,Liga Rumana,
+29,28.02.2026,FC Dinamo Bucureşti,Argeș Pitești,,,,,Liga Rumana,
+29,28.02.2026,Unirea Slobozia,Rapid Bucureşti,,,,,Liga Rumana,
+29,28.02.2026,CS Universitatea Craiova,Metaloglobus Bucureşti,,,,,Liga Rumana,
+30,07.03.2026,Metaloglobus Bucureşti,UTA Arad,,,,,Liga Rumana,
+30,07.03.2026,FCSB,Universitatea Cluj,,,,,Liga Rumana,
+30,07.03.2026,Oţelul Galaţi,FC Hermannstadt,,,,,Liga Rumana,
+30,07.03.2026,FC Botoşani,Petrolul Ploieşti,,,,,Liga Rumana,
+30,07.03.2026,FK Csikszereda,Farul Constanța,,,,,Liga Rumana,
+30,07.03.2026,CFR Cluj,FC Dinamo Bucureşti,,,,,Liga Rumana,
+30,07.03.2026,Argeș Pitești,Unirea Slobozia,,,,,Liga Rumana,
+30,07.03.2026,Rapid Bucureşti,CS Universitatea Craiova,,,,,Liga Rumana,
 1,18.07.2025,Dinamo Moskva,Baltika Kaliningrad,1,1,0,1,Liga Rusa,X
 1,19.07.2025,Akron Tolyatti,Krylia Sovetov,1,1,1,0,Liga Rusa,X
 1,19.07.2025,Lokomotiv Moskva,FK Sochi,3,0,0,0,Liga Rusa,1
@@ -8591,6 +9749,312 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 15,14.12.2025,Chiangrai United,Lamphun Warriors,,,,,Liga Tailandia,
 15,14.12.2025,BG Pathum United,Muangthong United,,,,,Liga Tailandia,
 15,16.12.2025,Rayong FC,Ratchaburi FC,,,,,Liga Tailandia,
+1,08.08.2025,Gaziantep FK,Galatasaray,0,3,0,3,Liga Turca,2
+1,09.08.2025,Samsunspor,Gençlerbirliği,2,1,1,0,Liga Turca,1
+1,09.08.2025,Antalyaspor,Kasımpaşa SK,2,1,2,1,Liga Turca,1
+1,10.08.2025,Çaykur Rizespor,Göztepe,0,3,0,0,Liga Turca,2
+1,10.08.2025,Eyüpspor,Konyaspor,1,4,0,3,Liga Turca,2
+1,11.08.2025,Trabzonspor,Kocaelispor,1,0,0,0,Liga Turca,1
+1,17.09.2025,Fatih Karagümrük,İstanbul Başakşehir,0,2,0,0,Liga Turca,2
+1,17.09.2025,Fenerbahçe,Alanyaspor,2,2,0,1,Liga Turca,X
+1,24.09.2025,Kayserispor,Beşiktaş,,,,,Liga Turca,
+2,15.08.2025,Galatasaray,Fatih Karagümrük,3,0,1,0,Liga Turca,1
+2,16.08.2025,Kocaelispor,Samsunspor,0,1,0,0,Liga Turca,2
+2,16.08.2025,Alanyaspor,Çaykur Rizespor,0,0,0,0,Liga Turca,X
+2,16.08.2025,Göztepe,Fenerbahçe,0,0,0,0,Liga Turca,X
+2,17.08.2025,Konyaspor,Gaziantep FK,3,0,1,0,Liga Turca,1
+2,17.08.2025,Gençlerbirliği,Antalyaspor,0,1,0,0,Liga Turca,2
+2,17.08.2025,Beşiktaş,Eyüpspor,2,1,1,1,Liga Turca,1
+2,17.08.2025,İstanbul Başakşehir,Kayserispor,1,1,1,0,Liga Turca,X
+2,18.08.2025,Kasımpaşa SK,Trabzonspor,0,1,0,0,Liga Turca,2
+3,22.08.2025,Fatih Karagümrük,Göztepe,0,2,0,1,Liga Turca,2
+3,23.08.2025,Gaziantep FK,Gençlerbirliği,2,1,1,1,Liga Turca,1
+3,23.08.2025,Fenerbahçe,Kocaelispor,3,1,1,1,Liga Turca,1
+3,24.08.2025,Trabzonspor,Antalyaspor,1,0,1,0,Liga Turca,1
+3,24.08.2025,Kayserispor,Galatasaray,0,4,0,1,Liga Turca,2
+3,25.08.2025,Eyüpspor,Alanyaspor,2,1,1,0,Liga Turca,1
+3,17.09.2025,Samsunspor,Kasımpaşa SK,0,0,0,0,Liga Turca,X
+3,22.10.2025,Konyaspor,Beşiktaş,,,,,Liga Turca,
+3,22.10.2025,Çaykur Rizespor,İstanbul Başakşehir,,,,,Liga Turca,
+4,29.08.2025,Göztepe,Konyaspor,1,1,0,0,Liga Turca,X
+4,30.08.2025,Kasımpaşa SK,Gaziantep FK,2,3,0,2,Liga Turca,2
+4,30.08.2025,Kocaelispor,Kayserispor,1,1,0,0,Liga Turca,X
+4,30.08.2025,Antalyaspor,Fatih Karagümrük,1,2,1,1,Liga Turca,2
+4,30.08.2025,Galatasaray,Çaykur Rizespor,3,1,1,0,Liga Turca,1
+4,31.08.2025,İstanbul Başakşehir,Eyüpspor,0,0,0,0,Liga Turca,X
+4,31.08.2025,Gençlerbirliği,Fenerbahçe,1,3,0,3,Liga Turca,2
+4,31.08.2025,Trabzonspor,Samsunspor,1,1,1,0,Liga Turca,X
+4,31.08.2025,Alanyaspor,Beşiktaş,2,0,1,0,Liga Turca,1
+5,13.09.2025,Eyüpspor,Galatasaray,0,2,0,0,Liga Turca,2
+5,13.09.2025,Samsunspor,Antalyaspor,1,2,0,1,Liga Turca,2
+5,13.09.2025,Fatih Karagümrük,Kasımpaşa SK,0,1,0,1,Liga Turca,2
+5,13.09.2025,Konyaspor,Alanyaspor,1,2,0,1,Liga Turca,2
+5,13.09.2025,Beşiktaş,İstanbul Başakşehir,2,1,0,0,Liga Turca,1
+5,14.09.2025,Kayserispor,Göztepe,1,1,0,0,Liga Turca,X
+5,14.09.2025,Gaziantep FK,Kocaelispor,2,0,0,0,Liga Turca,1
+5,14.09.2025,Fenerbahçe,Trabzonspor,1,0,1,0,Liga Turca,1
+5,15.09.2025,Çaykur Rizespor,Gençlerbirliği,1,0,0,0,Liga Turca,1
+6,19.09.2025,Göztepe,Beşiktaş,3,0,2,0,Liga Turca,1
+6,20.09.2025,Gençlerbirliği,Eyüpspor,1,0,1,0,Liga Turca,1
+6,20.09.2025,Antalyaspor,Kayserispor,1,1,0,0,Liga Turca,X
+6,20.09.2025,Trabzonspor,Gaziantep FK,1,1,0,1,Liga Turca,X
+6,21.09.2025,İstanbul Başakşehir,Alanyaspor,,,,,Liga Turca,
+6,21.09.2025,Kocaelispor,Çaykur Rizespor,,,,,Liga Turca,
+6,21.09.2025,Kasımpaşa SK,Fenerbahçe,,,,,Liga Turca,
+6,21.09.2025,Samsunspor,Fatih Karagümrük,,,,,Liga Turca,
+6,22.09.2025,Galatasaray,Konyaspor,,,,,Liga Turca,
+7,26.09.2025,Alanyaspor,Galatasaray,,,,,Liga Turca,
+7,27.09.2025,Eyüpspor,Göztepe,,,,,Liga Turca,
+7,27.09.2025,Gaziantep FK,Samsunspor,,,,,Liga Turca,
+7,27.09.2025,Fatih Karagümrük,Trabzonspor,,,,,Liga Turca,
+7,28.09.2025,Konyaspor,İstanbul Başakşehir,,,,,Liga Turca,
+7,28.09.2025,Çaykur Rizespor,Kasımpaşa SK,,,,,Liga Turca,
+7,28.09.2025,Fenerbahçe,Antalyaspor,,,,,Liga Turca,
+7,28.09.2025,Kayserispor,Gençlerbirliği,,,,,Liga Turca,
+7,29.09.2025,Beşiktaş,Kocaelispor,,,,,Liga Turca,
+8,03.10.2025,Antalyaspor,Çaykur Rizespor,,,,,Liga Turca,
+8,03.10.2025,Trabzonspor,Kayserispor,,,,,Liga Turca,
+8,04.10.2025,Gençlerbirliği,Alanyaspor,,,,,Liga Turca,
+8,04.10.2025,Kocaelispor,Eyüpspor,,,,,Liga Turca,
+8,04.10.2025,Galatasaray,Beşiktaş,,,,,Liga Turca,
+8,05.10.2025,Kasımpaşa SK,Konyaspor,,,,,Liga Turca,
+8,05.10.2025,Fatih Karagümrük,Gaziantep FK,,,,,Liga Turca,
+8,05.10.2025,Samsunspor,Fenerbahçe,,,,,Liga Turca,
+8,05.10.2025,Göztepe,İstanbul Başakşehir,,,,,Liga Turca,
+9,18.10.2025,Konyaspor,Kocaelispor,,,,,Liga Turca,
+9,18.10.2025,Beşiktaş,Gençlerbirliği,,,,,Liga Turca,
+9,18.10.2025,Çaykur Rizespor,Trabzonspor,,,,,Liga Turca,
+9,18.10.2025,İstanbul Başakşehir,Galatasaray,,,,,Liga Turca,
+9,19.10.2025,Kayserispor,Samsunspor,,,,,Liga Turca,
+9,19.10.2025,Alanyaspor,Göztepe,,,,,Liga Turca,
+9,19.10.2025,Gaziantep FK,Antalyaspor,,,,,Liga Turca,
+9,19.10.2025,Fenerbahçe,Fatih Karagümrük,,,,,Liga Turca,
+9,20.10.2025,Eyüpspor,Kasımpaşa SK,,,,,Liga Turca,
+10,24.10.2025,Fatih Karagümrük,Kayserispor,,,,,Liga Turca,
+10,25.10.2025,Kocaelispor,Alanyaspor,,,,,Liga Turca,
+10,25.10.2025,Trabzonspor,Eyüpspor,,,,,Liga Turca,
+10,26.10.2025,Antalyaspor,İstanbul Başakşehir,,,,,Liga Turca,
+10,26.10.2025,Galatasaray,Göztepe,,,,,Liga Turca,
+10,26.10.2025,Gençlerbirliği,Konyaspor,,,,,Liga Turca,
+10,26.10.2025,Kasımpaşa SK,Beşiktaş,,,,,Liga Turca,
+10,27.10.2025,Samsunspor,Çaykur Rizespor,,,,,Liga Turca,
+10,27.10.2025,Gaziantep FK,Fenerbahçe,,,,,Liga Turca,
+11,31.10.2025,İstanbul Başakşehir,Kocaelispor,,,,,Liga Turca,
+11,01.11.2025,Göztepe,Gençlerbirliği,,,,,Liga Turca,
+11,01.11.2025,Galatasaray,Trabzonspor,,,,,Liga Turca,
+11,02.11.2025,Konyaspor,Samsunspor,,,,,Liga Turca,
+11,02.11.2025,Kayserispor,Kasımpaşa SK,,,,,Liga Turca,
+11,02.11.2025,Beşiktaş,Fenerbahçe,,,,,Liga Turca,
+11,03.11.2025,Eyüpspor,Antalyaspor,,,,,Liga Turca,
+11,03.11.2025,Alanyaspor,Gaziantep FK,,,,,Liga Turca,
+11,03.11.2025,Çaykur Rizespor,Fatih Karagümrük,,,,,Liga Turca,
+12,07.11.2025,Gençlerbirliği,İstanbul Başakşehir,,,,,Liga Turca,
+12,08.11.2025,Gaziantep FK,Çaykur Rizespor,,,,,Liga Turca,
+12,08.11.2025,Trabzonspor,Alanyaspor,,,,,Liga Turca,
+12,08.11.2025,Kasımpaşa SK,Göztepe,,,,,Liga Turca,
+12,08.11.2025,Antalyaspor,Beşiktaş,,,,,Liga Turca,
+12,09.11.2025,Fatih Karagümrük,Konyaspor,,,,,Liga Turca,
+12,09.11.2025,Kocaelispor,Galatasaray,,,,,Liga Turca,
+12,09.11.2025,Samsunspor,Eyüpspor,,,,,Liga Turca,
+12,09.11.2025,Fenerbahçe,Kayserispor,,,,,Liga Turca,
+13,22.11.2025,Kayserispor,Gaziantep FK,,,,,Liga Turca,
+13,22.11.2025,Eyüpspor,Fatih Karagümrük,,,,,Liga Turca,
+13,22.11.2025,Galatasaray,Gençlerbirliği,,,,,Liga Turca,
+13,23.11.2025,Göztepe,Kocaelispor,,,,,Liga Turca,
+13,23.11.2025,Beşiktaş,Samsunspor,,,,,Liga Turca,
+13,23.11.2025,Alanyaspor,Kasımpaşa SK,,,,,Liga Turca,
+13,23.11.2025,Çaykur Rizespor,Fenerbahçe,,,,,Liga Turca,
+13,24.11.2025,Konyaspor,Antalyaspor,,,,,Liga Turca,
+13,24.11.2025,İstanbul Başakşehir,Trabzonspor,,,,,Liga Turca,
+14,28.11.2025,Kocaelispor,Gençlerbirliği,,,,,Liga Turca,
+14,29.11.2025,Çaykur Rizespor,Kayserispor,,,,,Liga Turca,
+14,29.11.2025,Gaziantep FK,Eyüpspor,,,,,Liga Turca,
+14,29.11.2025,Kasımpaşa SK,İstanbul Başakşehir,,,,,Liga Turca,
+14,29.11.2025,Trabzonspor,Konyaspor,,,,,Liga Turca,
+14,30.11.2025,Antalyaspor,Göztepe,,,,,Liga Turca,
+14,30.11.2025,Fatih Karagümrük,Beşiktaş,,,,,Liga Turca,
+14,01.12.2025,Samsunspor,Alanyaspor,,,,,Liga Turca,
+14,01.12.2025,Fenerbahçe,Galatasaray,,,,,Liga Turca,
+15,05.12.2025,Galatasaray,Samsunspor,,,,,Liga Turca,
+15,06.12.2025,Eyüpspor,Kayserispor,,,,,Liga Turca,
+15,06.12.2025,Konyaspor,Çaykur Rizespor,,,,,Liga Turca,
+15,06.12.2025,İstanbul Başakşehir,Fenerbahçe,,,,,Liga Turca,
+15,07.12.2025,Gençlerbirliği,Fatih Karagümrük,,,,,Liga Turca,
+15,07.12.2025,Kocaelispor,Kasımpaşa SK,,,,,Liga Turca,
+15,07.12.2025,Göztepe,Trabzonspor,,,,,Liga Turca,
+15,08.12.2025,Beşiktaş,Gaziantep FK,,,,,Liga Turca,
+15,08.12.2025,Alanyaspor,Antalyaspor,,,,,Liga Turca,
+16,12.12.2025,Kasımpaşa SK,Gençlerbirliği,,,,,Liga Turca,
+16,13.12.2025,Çaykur Rizespor,Eyüpspor,,,,,Liga Turca,
+16,13.12.2025,Kayserispor,Alanyaspor,,,,,Liga Turca,
+16,13.12.2025,Antalyaspor,Galatasaray,,,,,Liga Turca,
+16,14.12.2025,Gaziantep FK,Göztepe,,,,,Liga Turca,
+16,14.12.2025,Fatih Karagümrük,Kocaelispor,,,,,Liga Turca,
+16,14.12.2025,Trabzonspor,Beşiktaş,,,,,Liga Turca,
+16,14.12.2025,Samsunspor,İstanbul Başakşehir,,,,,Liga Turca,
+16,14.12.2025,Fenerbahçe,Konyaspor,,,,,Liga Turca,
+17,21.12.2025,Eyüpspor,Fenerbahçe,,,,,Liga Turca,
+17,21.12.2025,Konyaspor,Kayserispor,,,,,Liga Turca,
+17,21.12.2025,Beşiktaş,Çaykur Rizespor,,,,,Liga Turca,
+17,21.12.2025,Alanyaspor,Fatih Karagümrük,,,,,Liga Turca,
+17,21.12.2025,İstanbul Başakşehir,Gaziantep FK,,,,,Liga Turca,
+17,21.12.2025,Göztepe,Samsunspor,,,,,Liga Turca,
+17,21.12.2025,Galatasaray,Kasımpaşa SK,,,,,Liga Turca,
+17,21.12.2025,Gençlerbirliği,Trabzonspor,,,,,Liga Turca,
+17,21.12.2025,Kocaelispor,Antalyaspor,,,,,Liga Turca,
+18,18.01.2026,Konyaspor,Eyüpspor,,,,,Liga Turca,
+18,18.01.2026,Kasımpaşa SK,Antalyaspor,,,,,Liga Turca,
+18,18.01.2026,Kocaelispor,Trabzonspor,,,,,Liga Turca,
+18,18.01.2026,Gençlerbirliği,Samsunspor,,,,,Liga Turca,
+18,18.01.2026,İstanbul Başakşehir,Fatih Karagümrük,,,,,Liga Turca,
+18,18.01.2026,Galatasaray,Gaziantep FK,,,,,Liga Turca,
+18,18.01.2026,Alanyaspor,Fenerbahçe,,,,,Liga Turca,
+18,18.01.2026,Göztepe,Çaykur Rizespor,,,,,Liga Turca,
+18,18.01.2026,Beşiktaş,Kayserispor,,,,,Liga Turca,
+19,25.01.2026,Trabzonspor,Kasımpaşa SK,,,,,Liga Turca,
+19,25.01.2026,Gaziantep FK,Konyaspor,,,,,Liga Turca,
+19,25.01.2026,Eyüpspor,Beşiktaş,,,,,Liga Turca,
+19,25.01.2026,Çaykur Rizespor,Alanyaspor,,,,,Liga Turca,
+19,25.01.2026,Kayserispor,İstanbul Başakşehir,,,,,Liga Turca,
+19,25.01.2026,Fenerbahçe,Göztepe,,,,,Liga Turca,
+19,25.01.2026,Fatih Karagümrük,Galatasaray,,,,,Liga Turca,
+19,25.01.2026,Antalyaspor,Gençlerbirliği,,,,,Liga Turca,
+19,25.01.2026,Samsunspor,Kocaelispor,,,,,Liga Turca,
+20,01.02.2026,Alanyaspor,Eyüpspor,,,,,Liga Turca,
+20,01.02.2026,Beşiktaş,Konyaspor,,,,,Liga Turca,
+20,01.02.2026,Antalyaspor,Trabzonspor,,,,,Liga Turca,
+20,01.02.2026,Kasımpaşa SK,Samsunspor,,,,,Liga Turca,
+20,01.02.2026,Göztepe,Fatih Karagümrük,,,,,Liga Turca,
+20,01.02.2026,Gençlerbirliği,Gaziantep FK,,,,,Liga Turca,
+20,01.02.2026,Kocaelispor,Fenerbahçe,,,,,Liga Turca,
+20,01.02.2026,İstanbul Başakşehir,Çaykur Rizespor,,,,,Liga Turca,
+20,01.02.2026,Galatasaray,Kayserispor,,,,,Liga Turca,
+21,08.02.2026,Gaziantep FK,Kasımpaşa SK,,,,,Liga Turca,
+21,08.02.2026,Fatih Karagümrük,Antalyaspor,,,,,Liga Turca,
+21,08.02.2026,Samsunspor,Trabzonspor,,,,,Liga Turca,
+21,08.02.2026,Beşiktaş,Alanyaspor,,,,,Liga Turca,
+21,08.02.2026,Eyüpspor,İstanbul Başakşehir,,,,,Liga Turca,
+21,08.02.2026,Konyaspor,Göztepe,,,,,Liga Turca,
+21,08.02.2026,Çaykur Rizespor,Galatasaray,,,,,Liga Turca,
+21,08.02.2026,Fenerbahçe,Gençlerbirliği,,,,,Liga Turca,
+21,08.02.2026,Kayserispor,Kocaelispor,,,,,Liga Turca,
+22,15.02.2026,Galatasaray,Eyüpspor,,,,,Liga Turca,
+22,15.02.2026,Alanyaspor,Konyaspor,,,,,Liga Turca,
+22,15.02.2026,İstanbul Başakşehir,Beşiktaş,,,,,Liga Turca,
+22,15.02.2026,Antalyaspor,Samsunspor,,,,,Liga Turca,
+22,15.02.2026,Kasımpaşa SK,Fatih Karagümrük,,,,,Liga Turca,
+22,15.02.2026,Kocaelispor,Gaziantep FK,,,,,Liga Turca,
+22,15.02.2026,Trabzonspor,Fenerbahçe,,,,,Liga Turca,
+22,15.02.2026,Gençlerbirliği,Çaykur Rizespor,,,,,Liga Turca,
+22,15.02.2026,Göztepe,Kayserispor,,,,,Liga Turca,
+23,22.02.2026,Fenerbahçe,Kasımpaşa SK,,,,,Liga Turca,
+23,22.02.2026,Kayserispor,Antalyaspor,,,,,Liga Turca,
+23,22.02.2026,Gaziantep FK,Trabzonspor,,,,,Liga Turca,
+23,22.02.2026,Fatih Karagümrük,Samsunspor,,,,,Liga Turca,
+23,22.02.2026,Alanyaspor,İstanbul Başakşehir,,,,,Liga Turca,
+23,22.02.2026,Beşiktaş,Göztepe,,,,,Liga Turca,
+23,22.02.2026,Konyaspor,Galatasaray,,,,,Liga Turca,
+23,22.02.2026,Eyüpspor,Gençlerbirliği,,,,,Liga Turca,
+23,22.02.2026,Çaykur Rizespor,Kocaelispor,,,,,Liga Turca,
+24,01.03.2026,Göztepe,Eyüpspor,,,,,Liga Turca,
+24,01.03.2026,İstanbul Başakşehir,Konyaspor,,,,,Liga Turca,
+24,01.03.2026,Kocaelispor,Beşiktaş,,,,,Liga Turca,
+24,01.03.2026,Galatasaray,Alanyaspor,,,,,Liga Turca,
+24,01.03.2026,Trabzonspor,Fatih Karagümrük,,,,,Liga Turca,
+24,01.03.2026,Samsunspor,Gaziantep FK,,,,,Liga Turca,
+24,01.03.2026,Antalyaspor,Fenerbahçe,,,,,Liga Turca,
+24,01.03.2026,Kasımpaşa SK,Çaykur Rizespor,,,,,Liga Turca,
+24,01.03.2026,Gençlerbirliği,Kayserispor,,,,,Liga Turca,
+25,08.03.2026,Konyaspor,Kasımpaşa SK,,,,,Liga Turca,
+25,08.03.2026,Çaykur Rizespor,Antalyaspor,,,,,Liga Turca,
+25,08.03.2026,Kayserispor,Trabzonspor,,,,,Liga Turca,
+25,08.03.2026,Fenerbahçe,Samsunspor,,,,,Liga Turca,
+25,08.03.2026,Gaziantep FK,Fatih Karagümrük,,,,,Liga Turca,
+25,08.03.2026,İstanbul Başakşehir,Göztepe,,,,,Liga Turca,
+25,08.03.2026,Beşiktaş,Galatasaray,,,,,Liga Turca,
+25,08.03.2026,Alanyaspor,Gençlerbirliği,,,,,Liga Turca,
+25,08.03.2026,Eyüpspor,Kocaelispor,,,,,Liga Turca,
+26,15.03.2026,Kasımpaşa SK,Eyüpspor,,,,,Liga Turca,
+26,15.03.2026,Kocaelispor,Konyaspor,,,,,Liga Turca,
+26,15.03.2026,Gençlerbirliği,Beşiktaş,,,,,Liga Turca,
+26,15.03.2026,Göztepe,Alanyaspor,,,,,Liga Turca,
+26,15.03.2026,Galatasaray,İstanbul Başakşehir,,,,,Liga Turca,
+26,15.03.2026,Antalyaspor,Gaziantep FK,,,,,Liga Turca,
+26,15.03.2026,Fatih Karagümrük,Fenerbahçe,,,,,Liga Turca,
+26,15.03.2026,Trabzonspor,Çaykur Rizespor,,,,,Liga Turca,
+26,15.03.2026,Samsunspor,Kayserispor,,,,,Liga Turca,
+27,22.03.2026,Beşiktaş,Kasımpaşa SK,,,,,Liga Turca,
+27,22.03.2026,İstanbul Başakşehir,Antalyaspor,,,,,Liga Turca,
+27,22.03.2026,Eyüpspor,Trabzonspor,,,,,Liga Turca,
+27,22.03.2026,Çaykur Rizespor,Samsunspor,,,,,Liga Turca,
+27,22.03.2026,Kayserispor,Fatih Karagümrük,,,,,Liga Turca,
+27,22.03.2026,Fenerbahçe,Gaziantep FK,,,,,Liga Turca,
+27,22.03.2026,Göztepe,Galatasaray,,,,,Liga Turca,
+27,22.03.2026,Konyaspor,Gençlerbirliği,,,,,Liga Turca,
+27,22.03.2026,Alanyaspor,Kocaelispor,,,,,Liga Turca,
+28,05.04.2026,Antalyaspor,Eyüpspor,,,,,Liga Turca,
+28,05.04.2026,Samsunspor,Konyaspor,,,,,Liga Turca,
+28,05.04.2026,Fenerbahçe,Beşiktaş,,,,,Liga Turca,
+28,05.04.2026,Gaziantep FK,Alanyaspor,,,,,Liga Turca,
+28,05.04.2026,Kocaelispor,İstanbul Başakşehir,,,,,Liga Turca,
+28,05.04.2026,Gençlerbirliği,Göztepe,,,,,Liga Turca,
+28,05.04.2026,Trabzonspor,Galatasaray,,,,,Liga Turca,
+28,05.04.2026,Fatih Karagümrük,Çaykur Rizespor,,,,,Liga Turca,
+28,05.04.2026,Kasımpaşa SK,Kayserispor,,,,,Liga Turca,
+29,12.04.2026,Göztepe,Kasımpaşa SK,,,,,Liga Turca,
+29,12.04.2026,Beşiktaş,Antalyaspor,,,,,Liga Turca,
+29,12.04.2026,Alanyaspor,Trabzonspor,,,,,Liga Turca,
+29,12.04.2026,Eyüpspor,Samsunspor,,,,,Liga Turca,
+29,12.04.2026,Konyaspor,Fatih Karagümrük,,,,,Liga Turca,
+29,12.04.2026,Çaykur Rizespor,Gaziantep FK,,,,,Liga Turca,
+29,12.04.2026,Kayserispor,Fenerbahçe,,,,,Liga Turca,
+29,12.04.2026,İstanbul Başakşehir,Gençlerbirliği,,,,,Liga Turca,
+29,12.04.2026,Galatasaray,Kocaelispor,,,,,Liga Turca,
+30,19.04.2026,Fatih Karagümrük,Eyüpspor,,,,,Liga Turca,
+30,19.04.2026,Antalyaspor,Konyaspor,,,,,Liga Turca,
+30,19.04.2026,Samsunspor,Beşiktaş,,,,,Liga Turca,
+30,19.04.2026,Kasımpaşa SK,Alanyaspor,,,,,Liga Turca,
+30,19.04.2026,Trabzonspor,İstanbul Başakşehir,,,,,Liga Turca,
+30,19.04.2026,Kocaelispor,Göztepe,,,,,Liga Turca,
+30,19.04.2026,Gençlerbirliği,Galatasaray,,,,,Liga Turca,
+30,19.04.2026,Fenerbahçe,Çaykur Rizespor,,,,,Liga Turca,
+30,19.04.2026,Gaziantep FK,Kayserispor,,,,,Liga Turca,
+31,26.04.2026,İstanbul Başakşehir,Kasımpaşa SK,,,,,Liga Turca,
+31,26.04.2026,Göztepe,Antalyaspor,,,,,Liga Turca,
+31,26.04.2026,Konyaspor,Trabzonspor,,,,,Liga Turca,
+31,26.04.2026,Alanyaspor,Samsunspor,,,,,Liga Turca,
+31,26.04.2026,Beşiktaş,Fatih Karagümrük,,,,,Liga Turca,
+31,26.04.2026,Eyüpspor,Gaziantep FK,,,,,Liga Turca,
+31,26.04.2026,Galatasaray,Fenerbahçe,,,,,Liga Turca,
+31,26.04.2026,Kayserispor,Çaykur Rizespor,,,,,Liga Turca,
+31,26.04.2026,Gençlerbirliği,Kocaelispor,,,,,Liga Turca,
+32,03.05.2026,Kayserispor,Eyüpspor,,,,,Liga Turca,
+32,03.05.2026,Çaykur Rizespor,Konyaspor,,,,,Liga Turca,
+32,03.05.2026,Gaziantep FK,Beşiktaş,,,,,Liga Turca,
+32,03.05.2026,Antalyaspor,Alanyaspor,,,,,Liga Turca,
+32,03.05.2026,Fenerbahçe,İstanbul Başakşehir,,,,,Liga Turca,
+32,03.05.2026,Trabzonspor,Göztepe,,,,,Liga Turca,
+32,03.05.2026,Samsunspor,Galatasaray,,,,,Liga Turca,
+32,03.05.2026,Fatih Karagümrük,Gençlerbirliği,,,,,Liga Turca,
+32,03.05.2026,Kasımpaşa SK,Kocaelispor,,,,,Liga Turca,
+33,10.05.2026,Gençlerbirliği,Kasımpaşa SK,,,,,Liga Turca,
+33,10.05.2026,Galatasaray,Antalyaspor,,,,,Liga Turca,
+33,10.05.2026,Beşiktaş,Trabzonspor,,,,,Liga Turca,
+33,10.05.2026,İstanbul Başakşehir,Samsunspor,,,,,Liga Turca,
+33,10.05.2026,Kocaelispor,Fatih Karagümrük,,,,,Liga Turca,
+33,10.05.2026,Göztepe,Gaziantep FK,,,,,Liga Turca,
+33,10.05.2026,Konyaspor,Fenerbahçe,,,,,Liga Turca,
+33,10.05.2026,Eyüpspor,Çaykur Rizespor,,,,,Liga Turca,
+33,10.05.2026,Alanyaspor,Kayserispor,,,,,Liga Turca,
+34,17.05.2026,Fenerbahçe,Eyüpspor,,,,,Liga Turca,
+34,17.05.2026,Kayserispor,Konyaspor,,,,,Liga Turca,
+34,17.05.2026,Çaykur Rizespor,Beşiktaş,,,,,Liga Turca,
+34,17.05.2026,Fatih Karagümrük,Alanyaspor,,,,,Liga Turca,
+34,17.05.2026,Gaziantep FK,İstanbul Başakşehir,,,,,Liga Turca,
+34,17.05.2026,Samsunspor,Göztepe,,,,,Liga Turca,
+34,17.05.2026,Kasımpaşa SK,Galatasaray,,,,,Liga Turca,
+34,17.05.2026,Trabzonspor,Gençlerbirliği,,,,,Liga Turca,
+34,17.05.2026,Antalyaspor,Kocaelispor,,,,,Liga Turca,
 1,22.02.2025,Los Angeles FC,Minnesota United FC,1,0,0,0,Liga USA,1
 1,23.02.2025,Inter Miami CF,New York City FC,2,2,1,1,Liga USA,X
 1,23.02.2025,Atlanta United FC,CF Montréal,3,2,1,0,Liga USA,1
@@ -9042,16 +10506,16 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 31,20.09.2025,New York City FC,Charlotte FC,2,0,1,0,Liga USA,1
 31,20.09.2025,Philadelphia Union,New England Revolution,1,0,0,0,Liga USA,1
 31,20.09.2025,Atlanta United FC,San Diego FC,1,1,0,1,Liga USA,X
-31,21.09.2025,CF Montréal,New York RB,0,2,,,Liga USA,2
-31,21.09.2025,Columbus Crew,Toronto FC,1,0,,,Liga USA,1
-31,21.09.2025,Inter Miami CF,D.C. United,1,0,,,Liga USA,1
-31,21.09.2025,Orlando City,Nashville SC,2,0,,,Liga USA,1
-31,21.09.2025,FC Dallas,Colorado Rapids,,,,,Liga USA,
-31,21.09.2025,Houston Dynamo,Portland Timbers,,,,,Liga USA,
-31,21.09.2025,Minnesota United FC,Chicago Fire,,,,,Liga USA,
-31,21.09.2025,Sporting Kansas City,Vancouver Whitecaps,,,,,Liga USA,
-31,21.09.2025,Los Angeles Galaxy,FC Cincinnati,,,,,Liga USA,
-31,21.09.2025,San Jose Earthquakes,St. Louis City SC,,,,,Liga USA,
+31,21.09.2025,CF Montréal,New York RB,0,2,0,2,Liga USA,2
+31,21.09.2025,Columbus Crew,Toronto FC,1,1,1,0,Liga USA,X
+31,21.09.2025,Inter Miami CF,D.C. United,3,2,1,0,Liga USA,1
+31,21.09.2025,Orlando City,Nashville SC,3,2,2,1,Liga USA,1
+31,21.09.2025,FC Dallas,Colorado Rapids,3,1,2,1,Liga USA,1
+31,21.09.2025,Houston Dynamo,Portland Timbers,1,0,1,0,Liga USA,1
+31,21.09.2025,Minnesota United FC,Chicago Fire,0,3,0,2,Liga USA,2
+31,21.09.2025,Sporting Kansas City,Vancouver Whitecaps,0,2,0,2,Liga USA,2
+31,21.09.2025,Los Angeles Galaxy,FC Cincinnati,2,3,1,2,Liga USA,2
+31,21.09.2025,San Jose Earthquakes,St. Louis City SC,1,3,1,3,Liga USA,2
 31,22.09.2025,Austin FC,Seattle Sounders,,,,,Liga USA,
 31,22.09.2025,Los Angeles FC,Real Salt Lake,,,,,Liga USA,
 32,25.09.2025,New York City FC,Inter Miami CF,,,,,Liga USA,
@@ -9294,7 +10758,7 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 11,20.09.2025,Anzoátegui FC,Carabobo FC,0,0,0,0,Liga Venezolana,X
 11,20.09.2025,Rayo Zuliano,Monagas,3,1,1,0,Liga Venezolana,1
 11,21.09.2025,Estudiantes de Mérida,Portuguesa FC,2,0,1,0,Liga Venezolana,1
-11,21.09.2025,Caracas FC,Zamora FC,,,,,Liga Venezolana,
+11,21.09.2025,Caracas FC,Zamora FC,2,0,0,0,Liga Venezolana,1
 11,21.09.2025,Deportivo La Guaira,Yaracuyanos FC,,,,,Liga Venezolana,
 11,22.09.2025,Deportivo Táchira,Academia Puerto Cabello,,,,,Liga Venezolana,
 11,23.09.2025,Universidad Central,Metropolitanos FC,,,,,Liga Venezolana,
@@ -9358,7 +10822,7 @@ Jornada,Fecha,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 9,18.09.2025,CS Herediano,Deportivo Saprissa,3,3,2,2,Liga costa Rica,X
 9,19.09.2025,CS Cartaginés,Municipal Pérez Zeledón,1,1,1,0,Liga costa Rica,X
 10,21.09.2025,Puntarenas FC,CS Herediano,1,0,0,0,Liga costa Rica,1
-10,21.09.2025,Guadalupe,LD Alajuelense,,,,,Liga costa Rica,
+10,21.09.2025,Guadalupe,LD Alajuelense,0,0,0,0,Liga costa Rica,X
 10,21.09.2025,CS Cartaginés,Sporting FC,,,,,Liga costa Rica,
 10,22.09.2025,Municipal Liberia,AD San Carlos,,,,,Liga costa Rica,
 10,23.09.2025,Deportivo Saprissa,Municipal Pérez Zeledón,,,,,Liga costa Rica,
