@@ -805,12 +805,12 @@ class liga():
     def predictcombinados(self, ligas, local, visita):
         df_resultados = self.detallepronosticoscombinados(ligas, local, visita)
         
-        # Filtrar las filas con probabilidad mayor o igual al 75%
-        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 75.0)
+        # Filtrar las filas con probabilidad mayor o igual al 35%
+        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 35.0)
         
         if df_filtrado.height == 0:
             return pl.DataFrame({
-                "Tipo de Apuesta Combinada": ["No se encontraron pronósticos combinados con probabilidad >= 75%"],
+                "Tipo de Apuesta Combinada": ["No se encontraron pronósticos combinados con probabilidad >= 35%"],
                 "Probabilidad": ["N/A"],
                 "Cuota Sugerida (Decimal)": ["N/A"]
             })
