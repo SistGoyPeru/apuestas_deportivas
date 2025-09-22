@@ -863,11 +863,11 @@ class liga():
             "2X Visita o Empate y Más de 2.5 Goles":self.masde25goles(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
             "12 Local o Visita y Más de 2.5 Goles":self.masde25goles(ligas, local,visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita)) ,
             "1X Local o Empate y Ambos Marcan":self.ambosmarcan(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)) ,
-            "2X Visita o Empate y Ambos Marcan":self.ambosmarcan(liga, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)) ,
+            "2X Visita o Empate y Ambos Marcan":self.ambosmarcan(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)) ,
             "12 Local o Visita y Ambos Marcan":self.ambosmarcan(ligas, local,visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita)),
             "1X Local o Empate y Solo Uno Marca":self.solounomarca(ligas,local,visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
             "2X Visita o Empate y Solo Uno Marca":self.solounomarca(ligas,local,visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
-            "12 Local o Visita y Solo Uno Marca":self.solounomarca(ligas,local,visita)*(self.VictoriaLocal(local, visita) +self.VictoriaVisita(ligas, local, visita))
+            "12 Local o Visita y Solo Uno Marca":self.solounomarca(ligas,local,visita)*(self.VictoriaVisita(ligas, local, visita) +self.VictoriaLocal(ligas, local, visita))
             
         }
         
