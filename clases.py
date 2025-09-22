@@ -870,10 +870,12 @@ class liga():
             "12 Local o Visita y Solo Uno Marca":self.solounomarca(ligas,local,visita)*(self.VictoriaLocal(local, visita) +self.VictoriaVisita(ligas, local, visita))
             
         }
+        
         df_resultados = pl.DataFrame({
-            "Tipo de Apuesta Combinada": list(resultados.keys())
+            "Tipo de Apuesta Combinada": list(resultados.keys()),
             "Probabilidad": [f"{value:.2%}" for value in resultados.values()],
             "Cuota Sugerida (Decimal)": [f"{(1/value):.2f}" if value > 0 else "N/A" for value in resultados.values()]
-        })      
+        }) 
+             
         return df_resultados
 
