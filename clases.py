@@ -805,12 +805,12 @@ class liga():
     def predictcombinados(self, ligas, local, visita):
         df_resultados = self.detallepronosticoscombinados(ligas, local, visita)
         
-        # Filtrar las filas con probabilidad mayor o igual al 35%
-        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 35.0)
+        # Filtrar las filas con probabilidad mayor o igual al 75%
+        df_filtrado = df_resultados.filter(pl.col("Probabilidad").str.replace("%", "").cast(pl.Float64) >= 75.0)
         
         if df_filtrado.height == 0:
             return pl.DataFrame({
-                "Tipo de Apuesta Combinada": ["No se encontraron pronósticos combinados con probabilidad >= 35%"],
+                "Tipo de Apuesta Combinada": ["No se encontraron pronósticos combinados con probabilidad >= 75%"],
                 "Probabilidad": ["N/A"],
                 "Cuota Sugerida (Decimal)": ["N/A"]
             })
@@ -836,7 +836,7 @@ class liga():
         return self.VictoriaVisita(liga, local, visita) * self.masde25goles(liga, local, visita)
     
     def empatemas05(self, liga, local, visita):
-        return self.EmpateResultado(liga, local, visita) * self.congoles(liga, local, visita)
+        return self.EmpateResultado(liga, local, visita) * self.masde05goles(liga, local, visita)
     def empatemas15(self, liga, local, visita):
         return self.EmpateResultado(liga, local, visita) * self.masde15goles(liga, local, visita)
     def empatemas25(self, liga, local, visita):
@@ -852,7 +852,17 @@ class liga():
             "Victoria Visita y Más de 2.5 Goles": self.visitamas25(ligas, local, visita),
             "Empate y Más de 0.5 Goles": self.empatemas05(ligas, local, visita),
             "Empate y Más de 1.5 Goles": self.empatemas15(ligas, local, visita),
-            "Empate y Más de 2.5 Goles": self.empatemas25(ligas, local, visita)
+            "Empate y Más de 2.5 Goles": self.empatemas25(ligas, local, visita),
+            "1X Local o Empate y Más de 0.5 Goles": self.masde05goles(ligas, local, visita) *(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
+            "2X Visita o Empate y Más de 0.5 Goles": self.masde05goles(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
+            "12 Local o Visita y Más de 0.5 Goles": self.masde05goles(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita)),
+            "1X Local o Empate y Más de 1.5 Goles": self.masde15goles(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
+            "2X Visita o Empate y Más de 1.5 Goles": self.masde15goles(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
+            "12 Local o Visita y Más de 1.5 Goles": self.masde15goles(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita)),
+            "1X Local o Empate y Más de 2.5 Goles":self.masde25goles(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
+            "2X Visita o Empate y Más de 2.5 Goles":self.masde25goles(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
+            "12 Local o Visita y Más de 2.5 Goles":self.masde25goles(ligas, local,visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita))    
+            
         }
         df_resultados = pl.DataFrame({
             "Tipo de Apuesta Combinada": list(resultados.keys()),
