@@ -29,9 +29,6 @@ def main():
         data = pl.DataFrame({
             "Liga": Ligas_Fecha,
             "% Progreso Disputado": [format(df_total.totaldisputados(liga)/df_total.TotalEncuentrosLiga(liga), '.2%') for liga in Ligas_Fecha],
-            "% Victoria Local": [format(df_total.totalvictorias(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
-            "% Empate": [format(df_total.totalempates(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
-            "% Victoria Visita": [format(df_total.totalperdidas(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
             "Media de Goles": [format(df_total.medialiga(liga), '.2f') for liga in Ligas_Fecha],
             "% AEM": [format(df_total.AEM(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
             "% +0.5": [format(df_total.liga05(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
