@@ -13,7 +13,7 @@ def main():
     #--------------------
 
     st.set_page_config(
-        page_title="Pronósticos de Ligas del Mundo - SistGoy", layout="wide", page_icon="🏠",)
+        page_title="Pronósticos de Ligas del Mundo - SistGoy  alex", layout="wide", page_icon="🏠",)
     st.title("Pronósticos Deportivos ⚽")
     st.markdown("---")
 
