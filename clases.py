@@ -887,5 +887,5 @@ class liga():
             "Cuota Sugerida (Decimal)": [f"{(1/value):.2f}" if value > 0 else "N/A" for value in resultados.values()]
         }) 
              
-        return df_resultados
+        return df_resultados.sort("Probabilidad", descending=True)
 
