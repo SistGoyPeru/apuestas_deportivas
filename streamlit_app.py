@@ -11,7 +11,7 @@ def main():
     df = df_total.data()
     
     d=df.filter(
-        (pl.col("Local")=="Barcelona" | pl.col("Visita")=="Barcelona"),
+        (pl.col("Local")=="Barcelona" )| (pl.col("Visita")=="Barcelona"),
         pl.col("Liga")=="Liga España",
         )
     
