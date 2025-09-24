@@ -781,7 +781,7 @@ class liga():
             "Tipo de Apuesta": list(resultados.keys()),
             "Probabilidad": [f"{value:.2%}" for value in resultados.values()],
             "Cuota Sugerida (Decimal)": [f"{(1/value):.2f}" if value > 0 else "N/A" for value in resultados.values()]
-        }).sort("Probabilidad", descending=True)
+        })
         
         return df_resultados
     
@@ -798,7 +798,8 @@ class liga():
                 "Cuota Sugerida (Decimal)": ["N/A"]
             })
         
-        return df_filtrado.sort("Probabilidad")
+        return df_filtrado.sort("Probabilidad", descending=True)
+    
     
     def predictcombinados(self, ligas, local, visita):
         df_resultados = self.detallepronosticoscombinados(ligas, local, visita)
@@ -813,8 +814,8 @@ class liga():
                 "Cuota Sugerida (Decimal)": ["N/A"]
             })
         
-        return df_filtrado.sort("Probabilidad") 
-    #-----_aa
+        return df_filtrado.sort("Probabilidad", descending=True) 
+ 
     def localmas05(self, liga, local, visita):
         return self.VictoriaLocal(liga, local, visita) * self.masde05goles(liga, local, visita) 
     
@@ -885,7 +886,7 @@ class liga():
             "Tipo de Apuesta Combinada": list(resultados.keys()),
             "Probabilidad": [f"{value:.2%}" for value in resultados.values()],
             "Cuota Sugerida (Decimal)": [f"{(1/value):.2f}" if value > 0 else "N/A" for value in resultados.values()]
-        }).sort("Probabilidad", descending=True)
+        })
              
         return df_resultados
 
