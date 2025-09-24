@@ -851,7 +851,12 @@ class liga():
             "Empate y Más de 0.5 Goles": self.empatemas05(ligas, local, visita),
             "Empate y Más de 1.5 Goles": self.empatemas15(ligas, local, visita),
             "Empate y Más de 2.5 Goles": self.empatemas25(ligas, local, visita),
-            "1X Local o Empate y Más de 0.5 Goles": self.masde05goles(ligas, local, visita) *(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
+            "Victoria Local y menos de 3.5 Goles": self.VictoriaLocal(ligas, local, visita) * self.menosde35goles(ligas, local, visita),
+            "Victoria Local y menos de 4.5 Goles": self.VictoriaLocal(ligas, local, visita) * self.menosde45goles(ligas, local, visita),
+            "Victoria Visita y menos de 3.5 Goles": self.VictoriaVisita(ligas, local, visita) * self.menosde35goles(ligas, local, visita),
+            "Victoria Visita y menos de 4.5 Goles": self.VictoriaVisita(ligas, local, visita) * self.menosde45goles(ligas, local, visita),
+            "Empate y menos de 3.5 Goles": self.EmpateResultado(ligas, local, visita) * self.menosde35goles(ligas, local, visita),
+            "Empate y menos de 4.5 Goles": self.EmpateResultado(ligas, local, visita) * self.menosde45goles(ligas, local, visita),
             "2X Visita o Empate y Más de 0.5 Goles": self.masde05goles(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
             "12 Local o Visita y Más de 0.5 Goles": self.masde05goles(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita)),
             "1X Local o Empate y Más de 1.5 Goles": self.masde15goles(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
@@ -860,12 +865,19 @@ class liga():
             "1X Local o Empate y Más de 2.5 Goles":self.masde25goles(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
             "2X Visita o Empate y Más de 2.5 Goles":self.masde25goles(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
             "12 Local o Visita y Más de 2.5 Goles":self.masde25goles(ligas, local,visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita)) ,
+            "1X Local o Empate y menos de 3.5 Goles":self.menosde35goles(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)) ,
+            "2X Visita o Empate y menos de 3.5 Goles":self.menosde35goles(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)) ,
+            "12 Local o Visita y menos de 3.5 Goles":self.menosde35goles(ligas,local,visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita)) ,
+            "1X Local o Empate y menos de 4.5 Goles":self.menosde45goles(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)) ,
+            "2X Visita o Empate y menos de 4.5 Goles":self.menosde45goles(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)) ,
+            "12 Local o Visita y menos de 4.5 Goles":self.menosde45goles(ligas,local,visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita)) ,
             "1X Local o Empate y Ambos Marcan":self.ambosmarcan(ligas, local, visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)) ,
             "2X Visita o Empate y Ambos Marcan":self.ambosmarcan(ligas, local, visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)) ,
             "12 Local o Visita y Ambos Marcan":self.ambosmarcan(ligas, local,visita)*(self.VictoriaLocal(ligas, local, visita) +self.VictoriaVisita(ligas, local, visita)),
             "1X Local o Empate y Solo Uno Marca":self.solounomarca(ligas,local,visita)*(self.VictoriaLocal(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
             "2X Visita o Empate y Solo Uno Marca":self.solounomarca(ligas,local,visita)*(self.VictoriaVisita(ligas, local, visita) +self.EmpateResultado(ligas, local, visita)),
-            "12 Local o Visita y Solo Uno Marca":self.solounomarca(ligas,local,visita)*(self.VictoriaVisita(ligas, local, visita) +self.VictoriaLocal(ligas, local, visita))
+            "12 Local o Visita y Solo Uno Marca":self.solounomarca(ligas,local,visita)*(self.VictoriaVisita(ligas, local, visita) +self.VictoriaLocal(ligas, local, visita)),
+
             
         }
         
