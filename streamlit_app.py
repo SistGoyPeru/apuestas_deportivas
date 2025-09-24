@@ -72,6 +72,16 @@ def main():
                 
 
             if len(event.selection['rows']):
+                
+                col1, col2 = st.columns(2)
+                with col1:
+                    d=df.filter(
+                        (pl.col("Local")==local )| (pl.col("Visita")==local),
+                        pl.col("Liga")==ligas,
+                        )
+    
+                    dl= d.drop_nulls().tail(3)   
+                    st.dataframe(dl.select("Fecha","Local","Visita","GA","GC","Resultado"))
 
                 col1, col2 = st.columns(2)
                 with col1:
@@ -220,15 +230,7 @@ def main():
                     })
                     st.dataframe(pronostico)
                     
-                col1, col2 = st.columns(2)
-                with col1:
-                    d=df.filter(
-                        (pl.col("Local")==local )| (pl.col("Visita")==local),
-                        pl.col("Liga")==ligas,
-                        )
-    
-                    dl= d.drop_nulls().tail(3)   
-                    st.dataframe(dl.select("Fecha","Local","Visita","GA","GC","Resultado"))
+                
                   
 #----
             
