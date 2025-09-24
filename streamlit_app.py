@@ -14,7 +14,7 @@ def main():
         pl.col("Local")=="Barcelona"
         )
     
-    st.dataframe(d)
+    st.dataframe(d.drop_nulls())
     
     #--------------------
 
