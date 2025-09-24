@@ -12,7 +12,7 @@ def main():
     
     d=df.filter(
         pl.col("Local")=="Barcelona",
-        pl.col("Visita")=="Barcelona",
+        pl.col("Liga")=="Liga España",
         )
     
     st.dataframe(d.drop_nulls())
