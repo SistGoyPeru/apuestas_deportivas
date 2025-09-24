@@ -781,7 +781,7 @@ class liga():
             "Tipo de Apuesta": list(resultados.keys()),
             "Probabilidad": [f"{value:.2%}" for value in resultados.values()],
             "Cuota Sugerida (Decimal)": [f"{(1/value):.2f}" if value > 0 else "N/A" for value in resultados.values()]
-        })
+        }).sort("Probabilidad", descending=True)
         
         return df_resultados
     
