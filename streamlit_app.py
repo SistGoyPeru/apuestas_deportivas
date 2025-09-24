@@ -37,7 +37,7 @@ def main():
         })
 
         event = st.dataframe(
-            data,
+            data.sort("% Progreso Disputado",descending=True),
             on_select='rerun',
             selection_mode='single-row',
         )
