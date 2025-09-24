@@ -773,8 +773,6 @@ class liga():
             "Menos de 2.5 Goles": self.menosde25goles(ligas, local, visita),
             "Menos de 3.5 Goles": self.menosde35goles(ligas, local, visita),
             "Menos de 4.5 Goles": self.menosde45goles(ligas, local, visita),
-            "Cero Goles": self.cerogoles(ligas, local, visita),
-            "Con Goles": self.congoles(ligas, local, visita),
             "Ambos Marcan": self.ambosmarcan(ligas, local, visita),
             "Solo Uno Marca": self.solounomarca(ligas, local, visita)
         }
