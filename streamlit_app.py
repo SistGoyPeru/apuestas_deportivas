@@ -39,6 +39,7 @@ def main():
         event = st.dataframe(
             data,
             on_select='rerun',
+            use_container_width=True,
             selection_mode='single-row',
         )
 
