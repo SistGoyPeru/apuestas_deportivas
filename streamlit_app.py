@@ -16,7 +16,7 @@ def main():
         )
     
     dl= d.drop_nulls().tail(3)   
-    st.dataframe(dl.select("Fecha"))
+    st.dataframe(dl.select("Fecha","Local","Visita","GA","GC","Resultado"))
     
     #--------------------
 
