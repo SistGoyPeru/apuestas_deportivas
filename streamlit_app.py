@@ -11,7 +11,8 @@ def main():
     df = df_total.data()
     
     d=df.filter(
-        pl.col("Local")=="Barcelona"
+        pl.col("Local")=="Barcelona",
+        pl.col("Visita")=="Barcelona",
         )
     
     st.dataframe(d.drop_nulls())
