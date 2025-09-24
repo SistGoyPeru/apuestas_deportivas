@@ -74,7 +74,9 @@ def main():
             if len(event.selection['rows']):
                 
                 col1, col2 = st.columns(2)
+                
                 with col1:
+                    st.subheader(local)
                     d=df.filter(
                         (pl.col("Local")==local )| (pl.col("Visita")==local),
                         pl.col("Liga")==ligas,
@@ -82,10 +84,20 @@ def main():
     
                     dl= d.drop_nulls().tail(3)   
                     st.dataframe(dl.select("Fecha","Local","Visita","GA","GC","Resultado"))
+                    
+                with col2:
+                    st.subheader(visita) 
+                    d=df.filter(
+                        (pl.col("Local")==visita )| (pl.col("Visita")==visita),
+                        pl.col("Liga")==ligas,
+                        )
+    
+                    dl= d.drop_nulls().tail(3)   
+                    st.dataframe(dl.select("Fecha","Local","Visita","GA","GC","Resultado"))  
 
                 col1, col2 = st.columns(2)
                 with col1:
-                    st.subheader(local)
+                    
 
                     Elocal = pl.DataFrame({
                         "Local": [
@@ -128,7 +140,7 @@ def main():
                     st.dataframe(Elocal)
 
                 with col2:
-                    st.subheader(visita)
+                    
 
                     EVisita = pl.DataFrame({
                         "Visita": [
