@@ -75,7 +75,7 @@ def main():
                     st.subheader(local)
 
                     Elocal = pl.DataFrame({
-                        "Descripcion": [
+                        "Local": [
                             "PPP General",
                             "PPP Local",
                             "% Victoria Local",
@@ -90,7 +90,7 @@ def main():
 
                         ],
 
-                        "Local": [[format(df_total.PPP(liga_E,local), '.2f')],
+                        "Valor": [[format(df_total.PPP(liga_E,local), '.2f')],
                                   [format(df_total.PPP_local(liga_E, local), '.2f')],
                                   [format(df_total.TotalVictoriasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100, '.2f')+"%"if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.TotalEmpatesEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
