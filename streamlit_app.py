@@ -15,7 +15,7 @@ def main():
         pl.col("Liga")=="Liga España",
         )
     
-    st.dataframe(d("Fecha","Local","Visita","GA","GC").drop_nulls().tail(3))
+    st.dataframe(d("Fecha","Local","Visita","GA","GC").drop_nulls())
     
     #--------------------
 
