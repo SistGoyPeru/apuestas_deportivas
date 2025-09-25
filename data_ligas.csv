@@ -512,9 +512,9 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 3,20.09.2025,17:40,Al Hazem,Al Fateh,0,0,0,0,Liga Arabia Saudita,X
 3,20.09.2025,17:40,Al Najma,Al Ittihad,0,1,0,0,Liga Arabia Saudita,2
 3,20.09.2025,20:00,Al Nassr,Al Riyadh,5,1,3,0,Liga Arabia Saudita,1
-4,25.09.2025,17:10,Al Khaleej,Al Taawoun,,,,,Liga Arabia Saudita,
-4,25.09.2025,17:25,Al Shabab,Al Kholood,,,,,Liga Arabia Saudita,
-4,25.09.2025,20:00,Al Hilal,Al Okhdood,,,,,Liga Arabia Saudita,
+4,25.09.2025,17:10,Al Khaleej,Al Taawoun,0,1,0,0,Liga Arabia Saudita,2
+4,25.09.2025,17:25,Al Shabab,Al Kholood,1,2,0,0,Liga Arabia Saudita,2
+4,25.09.2025,20:00,Al Hilal,Al Okhdood,3,1,,,Liga Arabia Saudita,1
 4,26.09.2025,17:35,Al Hazem,Al Ahli SFC,,,,,Liga Arabia Saudita,
 4,26.09.2025,17:40,Damac FC,Al Ettifaq,,,,,Liga Arabia Saudita,
 4,26.09.2025,20:00,Al Ittihad,Al Nassr,,,,,Liga Arabia Saudita,
@@ -830,7 +830,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 5,20.09.2025,17:00,MC El Bayadh,CR Bélouizdad,1,1,0,0,Liga Argelia,X
 5,20.09.2025,17:00,USM Khenchela,ES Ben Aknoun,1,1,0,0,Liga Argelia,X
 5,20.09.2025,18:30,JS Saoura,USM Alger,1,0,1,0,Liga Argelia,1
-5,24.09.2025,20:00,JS Kabylie,ES Mostaganem,1,0,,,Liga Argelia,1
+5,24.09.2025,20:00,JS Kabylie,ES Mostaganem,1,0,1,0,Liga Argelia,1
 6,27.09.2025,"",JS Kabylie,MC Alger,,,,,Liga Argelia,
 6,27.09.2025,17:00,ES Ben Aknoun,JS Saoura,,,,,Liga Argelia,
 6,27.09.2025,18:00,ASO Chlef,MB Rouissat,,,,,Liga Argelia,
@@ -1062,21 +1062,21 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 10,29.09.2025,20:30,Barracas Central,Belgrano,,,,,Liga Argentina,
 10,30.09.2025,01:00,Vélez Sarsfield,Atlético Tucumán,,,,,Liga Argentina,
 10,01.10.2025,00:00,Newell's Old Boys,Estudiantes,,,,,Liga Argentina,
-11,05.10.2025,"",Godoy Cruz,Independiente,,,,,Liga Argentina,
-11,05.10.2025,"",Talleres de Córdoba,Belgrano,,,,,Liga Argentina,
 11,05.10.2025,"",San Martín de San Juan,Instituto de Córdoba,,,,,Liga Argentina,
 11,05.10.2025,"",CA Lanús,San Lorenzo,,,,,Liga Argentina,
-11,05.10.2025,"",Deportivo Riestra,Vélez Sarsfield,,,,,Liga Argentina,
-11,05.10.2025,"",Atlético Tucumán,Platense,,,,,Liga Argentina,
 11,05.10.2025,"",Sarmiento de Junín,Gimnasia de La Plata,,,,,Liga Argentina,
 11,05.10.2025,"",Rosario Central,River Plate,,,,,Liga Argentina,
 11,05.10.2025,"",Huracán,Banfield,,,,,Liga Argentina,
 11,05.10.2025,"",Racing Club,Independiente Rivadavia,,,,,Liga Argentina,
 11,05.10.2025,"",Unión de Santa Fe,Aldosivi,,,,,Liga Argentina,
-11,05.10.2025,"",Argentinos Juniors,Central Córdoba SdE,,,,,Liga Argentina,
-11,05.10.2025,"",Tigre,Defensa y Justicia,,,,,Liga Argentina,
-11,05.10.2025,"",Boca Juniors,Newell's Old Boys,,,,,Liga Argentina,
-11,05.10.2025,"",Estudiantes,Barracas Central,,,,,Liga Argentina,
+11,06.10.2025,"",Godoy Cruz,Independiente,,,,,Liga Argentina,
+11,06.10.2025,"",Talleres de Córdoba,Belgrano,,,,,Liga Argentina,
+11,06.10.2025,"",Deportivo Riestra,Vélez Sarsfield,,,,,Liga Argentina,
+11,06.10.2025,"",Atlético Tucumán,Platense,,,,,Liga Argentina,
+11,06.10.2025,"",Argentinos Juniors,Central Córdoba SdE,,,,,Liga Argentina,
+11,06.10.2025,"",Tigre,Defensa y Justicia,,,,,Liga Argentina,
+11,06.10.2025,"",Boca Juniors,Newell's Old Boys,,,,,Liga Argentina,
+11,06.10.2025,"",Estudiantes,Barracas Central,,,,,Liga Argentina,
 12,12.10.2025,"",Gimnasia de La Plata,Talleres de Córdoba,,,,,Liga Argentina,
 12,12.10.2025,"",Independiente Rivadavia,Godoy Cruz,,,,,Liga Argentina,
 12,12.10.2025,"",Vélez Sarsfield,Rosario Central,,,,,Liga Argentina,
@@ -1161,7 +1161,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 2,09.08.2025,17:30,FC Urartu,Gandzasar Kapan,1,0,0,0,Liga Armenia,1
 2,10.08.2025,"",FC Noah,BKMA Yerevan,,,,,Liga Armenia,
 2,11.08.2025,18:00,Shirak FC,Pyunik FC,0,0,0,0,Liga Armenia,X
-2,25.09.2025,17:00,FC Ararat-Armenia,FC Alashkert,,,,,Liga Armenia,
+2,25.09.2025,17:00,FC Ararat-Armenia,FC Alashkert,2,1,1,0,Liga Armenia,1
 3,15.08.2025,15:00,FK Van,FC Urartu,0,2,0,1,Liga Armenia,2
 3,16.08.2025,15:00,FC Alashkert,FC Ararat,3,0,2,0,Liga Armenia,1
 3,16.08.2025,17:30,BKMA Yerevan,Shirak FC,2,1,1,0,Liga Armenia,1
@@ -1531,12 +1531,12 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,27.09.2025,17:00,Neftçi PFK,FK Karvan,,,,,Liga Azerbaiyan,
 6,28.09.2025,14:30,Turan Tovuz,Kapaz PFK,,,,,Liga Azerbaiyan,
 6,28.09.2025,17:00,Sabah FK,Sumgayıt FK,,,,,Liga Azerbaiyan,
-7,03.10.2025,"",Gabala FK,Şamaxı FK,,,,,Liga Azerbaiyan,
 7,03.10.2025,15:00,Araz-Naxçıvan PFK,İmişli FK,,,,,Liga Azerbaiyan,
 7,03.10.2025,17:30,Zira FK,Neftçi PFK,,,,,Liga Azerbaiyan,
 7,04.10.2025,15:00,Kapaz PFK,Qarabağ FK,,,,,Liga Azerbaiyan,
 7,04.10.2025,17:30,Sumgayıt FK,Turan Tovuz,,,,,Liga Azerbaiyan,
 7,05.10.2025,13:00,FK Karvan,Sabah FK,,,,,Liga Azerbaiyan,
+7,05.10.2025,15:30,Gabala FK,Şamaxı FK,,,,,Liga Azerbaiyan,
 8,17.10.2025,"",İmişli FK,Gabala FK,,,,,Liga Azerbaiyan,
 8,17.10.2025,"",Neftçi PFK,Araz-Naxçıvan PFK,,,,,Liga Azerbaiyan,
 8,17.10.2025,"",Turan Tovuz,Qarabağ FK,,,,,Liga Azerbaiyan,
@@ -1705,8 +1705,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 2,20.09.2025,18:00,Al Bahrain SC,Al Hidd,1,3,0,1,Liga Bahrein,2
 2,21.09.2025,18:00,Al Ahli,Al Khalidiya,0,1,0,1,Liga Bahrein,2
 2,21.09.2025,18:00,Al Shabab,Al Muharraq,0,3,0,1,Liga Bahrein,2
-3,25.09.2025,18:00,Al Hidd,Riffa SC,,,,,Liga Bahrein,
-3,25.09.2025,18:00,Sitra Club,Al Najma,,,,,Liga Bahrein,
+3,25.09.2025,18:00,Al Hidd,Riffa SC,0,0,0,0,Liga Bahrein,X
+3,25.09.2025,18:00,Sitra Club,Al Najma,0,0,0,0,Liga Bahrein,X
 3,26.09.2025,15:45,Al Khalidiya,Al Shabab,,,,,Liga Bahrein,
 3,26.09.2025,15:45,Al Muharraq,Malkiya Club,,,,,Liga Bahrein,
 3,27.09.2025,18:00,A'Ali FC,Al Ahli,,,,,Liga Bahrein,
@@ -1798,7 +1798,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 5,24.08.2025,19:15,FCV Dender EH,Oud-Heverlee Leuven,0,1,0,0,Liga Belgica,2
 5,17.09.2025,20:30,KRC Genk,Sporting Charleroi,0,1,0,1,Liga Belgica,2
 5,23.09.2025,20:30,RSC Anderlecht,Gante,1,0,0,0,Liga Belgica,1
-5,24.09.2025,20:30,Club Brugge KV,KVC Westerlo,0,0,,,Liga Belgica,X
+5,24.09.2025,20:30,Club Brugge KV,KVC Westerlo,5,5,1,2,Liga Belgica,X
 6,29.08.2025,20:45,Cercle Brugge,Sint-Truidense VV,1,1,1,1,Liga Belgica,X
 6,30.08.2025,16:00,KV Mechelen,RAAL La Louviére,3,2,1,0,Liga Belgica,1
 6,30.08.2025,18:15,KVC Westerlo,Royal Antwerp FC,2,0,1,0,Liga Belgica,1
@@ -2143,7 +2143,6 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 18,16.08.2025,19:00,Torpedo-BelAZ Zhodino,FK Slutsk,2,2,1,1,Liga Bielorussia,X
 18,17.08.2025,17:00,FK Minsk,FK Isloch Minsk,0,1,0,1,Liga Bielorussia,2
 18,17.08.2025,19:00,FK Maxline Vitebsk,Dinamo Brest,1,1,0,1,Liga Bielorussia,X
-19,22.08.2025,"",FK Slutsk,Neman Grodno,,,,,Liga Bielorussia,
 19,22.08.2025,18:00,FK Gomel,BATE Borisov,2,3,2,1,Liga Bielorussia,2
 19,22.08.2025,19:55,FK Maxline Vitebsk,Naftan Novopolotsk,2,0,1,0,Liga Bielorussia,1
 19,23.08.2025,14:00,FK Smorgon,Dinamo Brest,1,0,1,0,Liga Bielorussia,1
@@ -2151,7 +2150,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 19,23.08.2025,18:00,Arsenal Dzerzhinsk,Torpedo-BelAZ Zhodino,1,1,0,1,Liga Bielorussia,X
 19,24.08.2025,14:00,FK Isloch Minsk,FK Vitebsk,3,0,2,0,Liga Bielorussia,1
 19,24.08.2025,18:00,Dinamo Minsk,FK Slaviya Mozyr,3,1,2,0,Liga Bielorussia,1
-20,29.08.2025,"",Neman Grodno,Arsenal Dzerzhinsk,,,,,Liga Bielorussia,
+19,15.10.2025,14:30,FK Slutsk,Neman Grodno,,,,,Liga Bielorussia,
 20,29.08.2025,15:30,Naftan Novopolotsk,FK Isloch Minsk,2,2,0,2,Liga Bielorussia,X
 20,29.08.2025,17:30,FK Gomel,FK Minsk,1,1,1,0,Liga Bielorussia,X
 20,29.08.2025,19:30,FK Vitebsk,FK Molodechno,0,1,0,1,Liga Bielorussia,2
@@ -2159,6 +2158,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 20,30.08.2025,15:30,FK Slaviya Mozyr,FK Slutsk,2,0,1,0,Liga Bielorussia,1
 20,30.08.2025,17:30,BATE Borisov,Dinamo Minsk,2,2,1,0,Liga Bielorussia,X
 20,30.08.2025,19:30,Torpedo-BelAZ Zhodino,Dinamo Brest,2,0,1,0,Liga Bielorussia,1
+20,10.10.2025,16:45,Neman Grodno,Arsenal Dzerzhinsk,,,,,Liga Bielorussia,
 21,12.09.2025,19:15,Arsenal Dzerzhinsk,FK Slaviya Mozyr,1,0,0,0,Liga Bielorussia,1
 21,13.09.2025,13:00,FK Smorgon,Naftan Novopolotsk,1,1,1,1,Liga Bielorussia,X
 21,13.09.2025,15:00,FK Slutsk,BATE Borisov,0,3,0,0,Liga Bielorussia,2
@@ -2175,7 +2175,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 22,21.09.2025,13:00,BATE Borisov,Arsenal Dzerzhinsk,0,0,0,0,Liga Bielorussia,X
 22,21.09.2025,15:00,FK Slaviya Mozyr,Dinamo Brest,0,1,0,0,Liga Bielorussia,2
 22,21.09.2025,17:00,FK Minsk,FK Slutsk,3,0,1,0,Liga Bielorussia,1
-23,25.09.2025,17:15,Torpedo-BelAZ Zhodino,Naftan Novopolotsk,,,,,Liga Bielorussia,
+23,25.09.2025,17:15,Torpedo-BelAZ Zhodino,Naftan Novopolotsk,4,2,2,2,Liga Bielorussia,1
 23,26.09.2025,17:30,Arsenal Dzerzhinsk,FK Minsk,,,,,Liga Bielorussia,
 23,27.09.2025,14:00,FK Slutsk,FK Vitebsk,,,,,Liga Bielorussia,
 23,27.09.2025,17:00,Dinamo Brest,BATE Borisov,,,,,Liga Bielorussia,
@@ -2183,14 +2183,14 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 23,28.09.2025,13:00,FK Gomel,FK Molodechno,,,,,Liga Bielorussia,
 23,28.09.2025,15:00,FK Smorgon,Neman Grodno,,,,,Liga Bielorussia,
 23,28.09.2025,18:30,Dinamo Minsk,FK Isloch Minsk,,,,,Liga Bielorussia,
-24,03.10.2025,"",FK Isloch Minsk,FK Slutsk,,,,,Liga Bielorussia,
-24,03.10.2025,"",FK Slaviya Mozyr,FK Smorgon,,,,,Liga Bielorussia,
 24,03.10.2025,17:30,FK Minsk,Dinamo Brest,,,,,Liga Bielorussia,
 24,03.10.2025,19:30,BATE Borisov,FK Maxline Vitebsk,,,,,Liga Bielorussia,
 24,04.10.2025,12:45,Naftan Novopolotsk,FK Gomel,,,,,Liga Bielorussia,
 24,04.10.2025,14:45,FK Molodechno,Dinamo Minsk,,,,,Liga Bielorussia,
 24,04.10.2025,16:45,Neman Grodno,Torpedo-BelAZ Zhodino,,,,,Liga Bielorussia,
 24,04.10.2025,18:45,FK Vitebsk,Arsenal Dzerzhinsk,,,,,Liga Bielorussia,
+24,05.10.2025,14:00,FK Isloch Minsk,FK Slutsk,,,,,Liga Bielorussia,
+24,05.10.2025,18:00,FK Slaviya Mozyr,FK Smorgon,,,,,Liga Bielorussia,
 25,17.10.2025,"",Neman Grodno,Naftan Novopolotsk,,,,,Liga Bielorussia,
 25,17.10.2025,"",Torpedo-BelAZ Zhodino,FK Slaviya Mozyr,,,,,Liga Bielorussia,
 25,17.10.2025,"",FK Smorgon,BATE Borisov,,,,,Liga Bielorussia,
@@ -2408,9 +2408,9 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 21,22.09.2025,01:30,GV San José,Blooming,1,4,1,3,Liga Bolivia,2
 21,22.09.2025,21:00,Universitario de Vinto,CDT Real Oruro,2,2,1,0,Liga Bolivia,X
 22,23.09.2025,21:00,Oriente Petrolero,Independiente Petrolero,2,1,1,1,Liga Bolivia,1
-22,24.09.2025,21:00,Nacional Potosí,GV San José,,,,,Liga Bolivia,
-22,25.09.2025,00:30,Jorge Wilstermann,Blooming,,,,,Liga Bolivia,
-22,25.09.2025,02:30,Real Tomayapo,Always Ready,,,,,Liga Bolivia,
+22,24.09.2025,21:00,Nacional Potosí,GV San José,1,2,1,0,Liga Bolivia,2
+22,25.09.2025,00:30,Jorge Wilstermann,Blooming,1,0,1,0,Liga Bolivia,1
+22,25.09.2025,02:30,Real Tomayapo,Always Ready,1,2,1,1,Liga Bolivia,2
 22,25.09.2025,21:00,San Antonio Bulo Bulo,The Strongest,,,,,Liga Bolivia,
 22,25.09.2025,23:30,ABB,Universitario de Vinto,,,,,Liga Bolivia,
 22,26.09.2025,02:00,CDT Real Oruro,CD Guabirá,,,,,Liga Bolivia,
@@ -2761,8 +2761,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 16,24.07.2025,02:30,Red Bull Bragantino,Flamengo RJ,1,2,0,0,Liga Brasil,2
 16,24.07.2025,02:30,Vitória - BA,Sport Recife - PE,2,2,0,0,Liga Brasil,X
 16,25.07.2025,00:00,Juventude - RS,São Paulo FC,0,1,0,0,Liga Brasil,2
-16,25.09.2025,00:30,Vasco da Gama - RJ,Bahia - BA,,,,,Liga Brasil,
-16,25.09.2025,00:30,Grêmio Porto Alegre,Botafogo - RJ,,,,,Liga Brasil,
+16,25.09.2025,00:30,Vasco da Gama - RJ,Bahia - BA,3,1,1,1,Liga Brasil,1
+16,25.09.2025,00:30,Grêmio Porto Alegre,Botafogo - RJ,1,1,0,0,Liga Brasil,X
 17,26.07.2025,23:30,Botafogo - RJ,Corinthians SP,1,1,1,0,Liga Brasil,X
 17,26.07.2025,23:30,Mirassol - SP,Vitória - BA,1,1,1,1,Liga Brasil,X
 17,26.07.2025,23:30,Fortaleza - CE,Red Bull Bragantino,3,1,2,1,Liga Brasil,1
@@ -3055,7 +3055,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 9,21.09.2025,19:15,Slavia Sofia,PFC Beroe,0,0,0,0,Liga Bulgara,X
 9,22.09.2025,17:00,Arda Kardzhali,Cherno More Varna,0,1,0,1,Liga Bulgara,2
 9,22.09.2025,19:30,Botev Vratsa,CSKA Sofia,1,1,0,0,Liga Bulgara,X
-10,25.09.2025,16:30,Botev Plovdiv,CSKA 1948 Sofia,,,,,Liga Bulgara,
+10,25.09.2025,16:30,Botev Plovdiv,CSKA 1948 Sofia,1,2,0,1,Liga Bulgara,2
 10,26.09.2025,19:00,Lokomotiv Plovdiv,Levski Sofia,,,,,Liga Bulgara,
 10,27.09.2025,16:30,Cherno More Varna,Septemvri Sofia,,,,,Liga Bulgara,
 10,27.09.2025,19:00,Lokomotiv Sofia,CSKA Sofia,,,,,Liga Bulgara,
@@ -3914,7 +3914,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 3,25.07.2025,01:00,Independiente Medellín,Envigado FC,3,4,1,2,Liga Colombiana,2
 3,25.07.2025,03:10,Deportivo Cali,Fortaleza FC,1,1,1,0,Liga Colombiana,X
 3,10.09.2025,03:30,Atlético Bucaramanga,Once Caldas,0,0,0,0,Liga Colombiana,X
-3,25.09.2025,03:00,Deportivo Pasto,América de Cali,,,,,Liga Colombiana,
+3,25.09.2025,03:00,Deportivo Pasto,América de Cali,0,2,0,1,Liga Colombiana,2
 4,26.07.2025,01:20,Deportes Tolima,Deportivo Pereira,1,0,1,0,Liga Colombiana,1
 4,26.07.2025,03:30,Atlético Nacional,Santa Fe,1,1,1,0,Liga Colombiana,X
 4,26.07.2025,23:00,Boyacá Chicó,Deportivo Pasto,2,2,0,2,Liga Colombiana,X
@@ -4344,10 +4344,10 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 12,06.10.2025,02:00,AD San Carlos,Deportivo Saprissa,,,,,Liga Costa Rica,
 12,07.10.2025,04:00,Municipal Liberia,Puntarenas FC,,,,,Liga Costa Rica,
 13,19.10.2025,"",Guadalupe,Sporting FC,,,,,Liga Costa Rica,
-13,19.10.2025,"",Municipal Liberia,CS Herediano,,,,,Liga Costa Rica,
-13,19.10.2025,"",Puntarenas FC,CS Cartaginés,,,,,Liga Costa Rica,
 13,19.10.2025,"",Municipal Pérez Zeledón,AD San Carlos,,,,,Liga Costa Rica,
 13,19.10.2025,04:00,LD Alajuelense,Deportivo Saprissa,,,,,Liga Costa Rica,
+13,19.10.2025,23:00,Municipal Liberia,CS Herediano,,,,,Liga Costa Rica,
+13,20.10.2025,00:00,Puntarenas FC,CS Cartaginés,,,,,Liga Costa Rica,
 14,26.10.2025,"",CS Herediano,CS Cartaginés,,,,,Liga Costa Rica,
 14,26.10.2025,"",Municipal Liberia,LD Alajuelense,,,,,Liga Costa Rica,
 14,26.10.2025,"",AD San Carlos,Guadalupe,,,,,Liga Costa Rica,
@@ -4715,8 +4715,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 4,21.09.2025,18:15,Sharjah FC,Ajman Club,0,1,0,0,Liga EAU,2
 5,24.09.2025,15:25,Khor Fakkan Club,Ittihad Kalba SCC,2,4,2,0,Liga EAU,2
 5,24.09.2025,18:15,Al Jazira Club,Al Wahda,0,1,0,1,Liga EAU,2
-5,25.09.2025,15:25,Shabab Al Ahli Club,Al Ain FC,,,,,Liga EAU,
-5,25.09.2025,18:15,Al Wasl,Sharjah FC,,,,,Liga EAU,
+5,25.09.2025,15:25,Shabab Al Ahli Club,Al Ain FC,0,1,0,0,Liga EAU,2
+5,25.09.2025,18:15,Al Wasl,Sharjah FC,2,1,0,1,Liga EAU,1
 5,26.09.2025,15:25,Al Dhafra,Al Bataeh,,,,,Liga EAU,
 5,26.09.2025,15:25,Baniyas SC,Ajman Club,,,,,Liga EAU,
 5,26.09.2025,18:15,Al Nasr SC,Dibba Al Fujairah,,,,,Liga EAU,
@@ -5052,8 +5052,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 8,23.09.2025,19:00,Tala'ea El Gaish SC,Al Mokawloon,0,0,0,0,Liga Egipto,X
 8,24.09.2025,"",Kahrabaa Ismailia,Pyramids FC,,,,,Liga Egipto,
 8,24.09.2025,16:00,ENPPI,Ismaily,1,0,0,0,Liga Egipto,1
-8,24.09.2025,19:00,Ceramica Cleopatra,Modern Sport FC,0,0,,,Liga Egipto,X
-8,24.09.2025,19:00,National Bank SC,Wadi Degla SC,0,0,,,Liga Egipto,X
+8,24.09.2025,19:00,Ceramica Cleopatra,Modern Sport FC,2,0,0,0,Liga Egipto,1
+8,24.09.2025,19:00,National Bank SC,Wadi Degla SC,1,1,0,0,Liga Egipto,X
 9,27.09.2025,16:00,Al Mokawloon,Kahrabaa Ismailia,,,,,Liga Egipto,
 9,27.09.2025,16:00,ZED FC,Haras El Hodood,,,,,Liga Egipto,
 9,27.09.2025,19:00,Al Masry Club,PetroJet FC,,,,,Liga Egipto,
@@ -5749,11 +5749,11 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,23.09.2025,19:00,Espanyol,Valencia,2,2,0,1,Liga España,X
 6,23.09.2025,21:30,Levante,Real Madrid,1,4,0,2,Liga España,2
 6,23.09.2025,21:30,Sevilla,Villarreal,1,2,0,1,Liga España,2
-6,24.09.2025,19:00,Getafe,Alavés,1,1,,,Liga España,X
-6,24.09.2025,21:30,Atlético,Rayo,,,,,Liga España,
-6,24.09.2025,21:30,Real Sociedad,Mallorca,,,,,Liga España,
-6,25.09.2025,19:30,Osasuna,Elche,,,,,Liga España,
-6,25.09.2025,21:30,Real Oviedo,Barcelona,,,,,Liga España,
+6,24.09.2025,19:00,Getafe,Alavés,1,1,0,0,Liga España,X
+6,24.09.2025,21:30,Atlético,Rayo,3,2,1,1,Liga España,1
+6,24.09.2025,21:30,Real Sociedad,Mallorca,1,0,0,0,Liga España,1
+6,25.09.2025,19:30,Osasuna,Elche,1,1,1,0,Liga España,X
+6,25.09.2025,21:30,Real Oviedo,Barcelona,0,0,,,Liga España,X
 7,26.09.2025,21:00,Girona,Espanyol,,,,,Liga España,
 7,27.09.2025,14:00,Getafe,Levante,,,,,Liga España,
 7,27.09.2025,16:15,Atlético,Real Madrid,,,,,Liga España,
@@ -8178,10 +8178,10 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 14,13.10.2025,02:00,Deportivo Marquense,Aurora FC,,,,,Liga Guatemala,
 15,18.10.2025,19:00,Aurora FC,Achuapa,,,,,Liga Guatemala,
 15,18.10.2025,23:00,Deportivo Mictlán,Antigua GFC,,,,,Liga Guatemala,
-15,19.10.2025,"",Cobán Imperial,Deportivo Marquense,,,,,Liga Guatemala,
-15,19.10.2025,"",Comunicaciones,CSD Municipal,,,,,Liga Guatemala,
-15,19.10.2025,"",Deportivo Malacateco,Deportivo Guastatoya,,,,,Liga Guatemala,
 15,19.10.2025,04:00,Xelaju MC,Deportivo Mixco,,,,,Liga Guatemala,
+15,19.10.2025,23:00,Cobán Imperial,Deportivo Marquense,,,,,Liga Guatemala,
+15,20.10.2025,01:00,Comunicaciones,CSD Municipal,,,,,Liga Guatemala,
+15,20.10.2025,03:30,Deportivo Malacateco,Deportivo Guastatoya,,,,,Liga Guatemala,
 16,26.10.2025,"",Antigua GFC,Aurora FC,,,,,Liga Guatemala,
 16,26.10.2025,"",Achuapa,Cobán Imperial,,,,,Liga Guatemala,
 16,26.10.2025,"",Deportivo Mixco,Deportivo Mictlán,,,,,Liga Guatemala,
@@ -8273,7 +8273,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 10,18.09.2025,03:30,CD Olimpia,Olancho FC,2,2,0,1,Liga Honduras,X
 10,19.09.2025,01:15,Lobos UPNFM,CD Marathón,2,2,1,1,Liga Honduras,X
 10,19.09.2025,03:30,CD Choloma,CD Victoria,2,1,1,0,Liga Honduras,1
-10,25.09.2025,02:30,Juticalpa FC,Génesis - Policia Nacional,,,,,Liga Honduras,
+10,25.09.2025,02:30,Juticalpa FC,Génesis - Policia Nacional,1,1,1,0,Liga Honduras,X
 11,20.09.2025,23:00,Génesis - Policia Nacional,Platense FC,1,1,0,0,Liga Honduras,X
 11,21.09.2025,03:30,CF Motagua,Juticalpa FC,0,0,0,0,Liga Honduras,X
 11,21.09.2025,23:00,Olancho FC,CD Choloma,6,2,5,1,Liga Honduras,1
@@ -8631,8 +8631,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,21.09.2025,14:00,PSM Makassar,Persija Jakarta,2,0,0,0,Liga Indonesia,1
 6,22.09.2025,10:30,Arema Cronus FC,Persib Bandung,1,2,1,0,Liga Indonesia,2
 6,22.09.2025,14:00,Borneo FC,Persis Solo (LI),1,0,0,0,Liga Indonesia,1
-7,25.09.2025,10:30,Bhayangkara Presisi Indonesia,Malut United FC,,,,,Liga Indonesia,
-7,25.09.2025,14:00,PSBS Biak,Madura United,,,,,Liga Indonesia,
+7,25.09.2025,10:30,Bhayangkara Presisi Indonesia,Malut United FC,0,1,0,1,Liga Indonesia,2
+7,25.09.2025,14:00,PSBS Biak,Madura United,0,0,0,0,Liga Indonesia,X
 7,26.09.2025,10:30,Semen Padang,Bali United,,,,,Liga Indonesia,
 7,26.09.2025,14:00,Dewa United FC,Persebaya Surabaya,,,,,Liga Indonesia,
 7,27.09.2025,10:30,PSM Makassar,PSIM Yogyakarta,,,,,Liga Indonesia,
@@ -9295,13 +9295,13 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 4,19.09.2025,19:00,Foolad FC,Kheybar Khorramabad,1,0,0,0,Liga Iran,1
 4,21.09.2025,16:30,Esteghlal,Paykan FC,2,2,1,1,Liga Iran,X
 4,21.09.2025,18:30,Sepahan FC,Tractor Sazi,1,2,0,1,Liga Iran,2
-5,25.09.2025,15:30,Tractor Sazi,Fajr Shahid Sepasi,,,,,Liga Iran,
-5,25.09.2025,17:30,Persepolis,Malavan FC,,,,,Liga Iran,
+5,25.09.2025,15:30,Tractor Sazi,Fajr Shahid Sepasi,0,0,0,0,Liga Iran,X
+5,25.09.2025,17:30,Persepolis,Malavan FC,0,0,0,0,Liga Iran,X
 5,26.09.2025,15:30,Gol Gohar FC,Foolad FC,,,,,Liga Iran,
 5,26.09.2025,15:30,Kheybar Khorramabad,Sepahan FC,,,,,Liga Iran,
 5,26.09.2025,17:00,FC Zob Ahan,Aluminium Arak,,,,,Liga Iran,
-5,26.09.2025,17:30,Esteghlal Khuzestan,Mes Rafsanjan,,,,,Liga Iran,
 5,26.09.2025,17:30,Shams Azar FC,Esteghlal,,,,,Liga Iran,
+5,26.09.2025,17:45,Esteghlal Khuzestan,Mes Rafsanjan,,,,,Liga Iran,
 5,27.09.2025,15:45,Paykan FC,Chadormalu SC,,,,,Liga Iran,
 6,02.10.2025,15:45,Malavan FC,Kheybar Khorramabad,,,,,Liga Iran,
 6,02.10.2025,16:45,Fajr Shahid Sepasi,Esteghlal Khuzestan,,,,,Liga Iran,
@@ -9355,9 +9355,9 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 2,21.09.2025,17:00,Amanat Baghdad,Al Mosul,0,3,0,1,Liga Iraq,2
 2,21.09.2025,19:30,Al Gharraf,Al Kahrabaa,3,1,2,1,Liga Iraq,1
 2,21.09.2025,19:30,Al Zawra’a,Al Talaba,1,1,1,0,Liga Iraq,X
-3,25.09.2025,17:00,Al Naft,Al Talaba,,,,,Liga Iraq,
-3,25.09.2025,17:00,Diyala FC,Zakho FC,,,,,Liga Iraq,
-3,25.09.2025,19:30,Al Shorta,Newroz SC,,,,,Liga Iraq,
+3,25.09.2025,17:00,Al Naft,Al Talaba,0,0,0,0,Liga Iraq,X
+3,25.09.2025,17:00,Diyala FC,Zakho FC,2,1,1,0,Liga Iraq,1
+3,25.09.2025,19:30,Al Shorta,Newroz SC,3,2,2,1,Liga Iraq,1
 3,26.09.2025,17:00,Al Qasim SC,Amanat Baghdad,,,,,Liga Iraq,
 3,26.09.2025,17:00,Naft Maysan,Al Gharraf,,,,,Liga Iraq,
 3,26.09.2025,19:30,Al Mosul,Al Najaf,,,,,Liga Iraq,
@@ -9827,7 +9827,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 17,02.08.2025,19:30,07 Vestur,Víkingur,1,2,1,1,Liga Isla Ferroe,2
 17,03.08.2025,18:15,B68 Toftir,NSÍ Runavík,1,3,0,3,Liga Isla Ferroe,2
 17,04.08.2025,17:00,FC Suðuroy,HB Tórshavn,1,2,0,1,Liga Isla Ferroe,2
-17,24.09.2025,19:30,EB/Streymur,KÍ Klaksvík,,,,,Liga Isla Ferroe,
+17,24.09.2025,19:30,EB/Streymur,KÍ Klaksvík,0,3,0,0,Liga Isla Ferroe,2
 18,08.08.2025,19:00,KÍ Klaksvík,B68 Toftir,7,0,4,0,Liga Isla Ferroe,1
 18,10.08.2025,16:00,Víkingur,B36 Tórshavn,4,2,1,1,Liga Isla Ferroe,1
 18,10.08.2025,16:00,HB Tórshavn,EB/Streymur,2,1,0,0,Liga Isla Ferroe,1
@@ -9887,7 +9887,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 3,04.10.2025,21:15,Valur Reykjavík,UMF Stjarnan,,,,,Liga Islandia,
 3,05.10.2025,21:15,Breiðablik,Fram Reykjavík,,,,,Liga Islandia,
 3,05.10.2025,21:15,Víkingur Reykjavík,FH Hafnarfjörður,,,,,Liga Islandia,
-4,18.10.2025,21:15,Breiðablik,Víkingur Reykjavík,,,,,Liga Islandia,
+4,19.10.2025,21:15,Breiðablik,Víkingur Reykjavík,,,,,Liga Islandia,
 4,19.10.2025,21:15,Valur Reykjavík,FH Hafnarfjörður,,,,,Liga Islandia,
 4,20.10.2025,21:15,Fram Reykjavík,UMF Stjarnan,,,,,Liga Islandia,
 5,26.10.2025,15:00,FH Hafnarfjörður,Fram Reykjavík,,,,,Liga Islandia,
@@ -10490,13 +10490,13 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 5,22.09.2025,00:30,Portmore United,Montego Bay United FC,2,0,1,0,Liga Jamaica,1
 5,23.09.2025,00:00,Chapelton Maroons,Spanish Town Police FC,0,0,0,0,Liga Jamaica,X
 5,23.09.2025,02:30,Arnett Gardens,Waterhouse FC,2,1,0,0,Liga Jamaica,1
+6,28.09.2025,22:00,Racing United,Tivoli Gardens,,,,,Liga Jamaica,
 6,28.09.2025,22:30,Dunbeholden FC,Cavalier FC,,,,,Liga Jamaica,
-6,28.09.2025,22:30,Molynes United,Portmore United,,,,,Liga Jamaica,
-6,28.09.2025,22:30,Montego Bay United FC,Spanish Town Police FC,,,,,Liga Jamaica,
 6,28.09.2025,22:30,Mount Pleasant Academy,Arnett Gardens,,,,,Liga Jamaica,
-6,28.09.2025,22:30,Racing United,Tivoli Gardens,,,,,Liga Jamaica,
-6,28.09.2025,22:30,Treasure Beach FC,Harbour View,,,,,Liga Jamaica,
 6,28.09.2025,22:30,Waterhouse FC,Chapelton Maroons,,,,,Liga Jamaica,
+6,28.09.2025,23:30,Treasure Beach FC,Harbour View,,,,,Liga Jamaica,
+6,29.09.2025,02:00,Montego Bay United FC,Spanish Town Police FC,,,,,Liga Jamaica,
+6,30.09.2025,00:00,Molynes United,Portmore United,,,,,Liga Jamaica,
 7,05.10.2025,22:30,Arnett Gardens,Treasure Beach FC,,,,,Liga Jamaica,
 7,05.10.2025,22:30,Chapelton Maroons,Montego Bay United FC,,,,,Liga Jamaica,
 7,05.10.2025,22:30,Harbour View,Dunbeholden FC,,,,,Liga Jamaica,
@@ -10511,13 +10511,13 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 8,12.10.2025,22:30,Racing United,Spanish Town Police FC,,,,,Liga Jamaica,
 8,12.10.2025,22:30,Tivoli Gardens,Harbour View,,,,,Liga Jamaica,
 8,12.10.2025,22:30,Treasure Beach FC,Waterhouse FC,,,,,Liga Jamaica,
-9,19.10.2025,"",Arnett Gardens,Tivoli Gardens,,,,,Liga Jamaica,
-9,19.10.2025,"",Chapelton Maroons,Molynes United,,,,,Liga Jamaica,
-9,19.10.2025,"",Montego Bay United FC,Racing United,,,,,Liga Jamaica,
-9,19.10.2025,"",Mount Pleasant Academy,Treasure Beach FC,,,,,Liga Jamaica,
-9,19.10.2025,"",Portmore United,Harbour View,,,,,Liga Jamaica,
-9,19.10.2025,"",Spanish Town Police FC,Cavalier FC,,,,,Liga Jamaica,
-9,19.10.2025,"",Waterhouse FC,Dunbeholden FC,,,,,Liga Jamaica,
+9,19.10.2025,22:30,Arnett Gardens,Tivoli Gardens,,,,,Liga Jamaica,
+9,19.10.2025,22:30,Chapelton Maroons,Molynes United,,,,,Liga Jamaica,
+9,19.10.2025,22:30,Montego Bay United FC,Racing United,,,,,Liga Jamaica,
+9,19.10.2025,22:30,Mount Pleasant Academy,Treasure Beach FC,,,,,Liga Jamaica,
+9,19.10.2025,22:30,Portmore United,Harbour View,,,,,Liga Jamaica,
+9,19.10.2025,22:30,Spanish Town Police FC,Cavalier FC,,,,,Liga Jamaica,
+9,19.10.2025,22:30,Waterhouse FC,Dunbeholden FC,,,,,Liga Jamaica,
 10,26.10.2025,"",Cavalier FC,Montego Bay United FC,,,,,Liga Jamaica,
 10,26.10.2025,"",Dunbeholden FC,Mount Pleasant Academy,,,,,Liga Jamaica,
 10,26.10.2025,"",Harbour View,Spanish Town Police FC,,,,,Liga Jamaica,
@@ -10883,9 +10883,9 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 34,18.10.2025,07:00,Kawasaki Frontale,Shimizu S-Pulse,,,,,Liga Japon,
 34,18.10.2025,07:00,Yokohama F. Marinos,Urawa Red Diamonds,,,,,Liga Japon,
 34,18.10.2025,07:00,Yokohama FC,Nagoya Grampus,,,,,Liga Japon,
-34,18.10.2025,07:00,Shonan Bellmare,Kyoto Sanga FC,,,,,Liga Japon,
 34,18.10.2025,07:00,Gamba Osaka,Kashiwa Reysol,,,,,Liga Japon,
 34,18.10.2025,07:00,Fagiano Okayama,Cerezo Osaka,,,,,Liga Japon,
+34,19.10.2025,08:00,Shonan Bellmare,Kyoto Sanga FC,,,,,Liga Japon,
 35,25.10.2025,07:00,Urawa Red Diamonds,FC Machida Zelvia,,,,,Liga Japon,
 35,25.10.2025,07:00,Kashiwa Reysol,Yokohama FC,,,,,Liga Japon,
 35,25.10.2025,07:00,FC Tokyo,Fagiano Okayama,,,,,Liga Japon,
@@ -11087,7 +11087,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 23,14.09.2025,14:00,FK Kairat,FK Aktobe,1,0,0,0,Liga Kasajistan,1
 23,14.09.2025,16:00,Astaná,FK Yelimay,3,3,2,1,Liga Kasajistan,X
 23,16.09.2025,12:00,Zhetysu Taldykorgan,Kaysar Kyzylorda,1,1,1,1,Liga Kasajistan,X
-24,27.09.2025,13:00,FK Ulytau,FK Atyrau,,,,,Liga Kasajistan,
+24,27.09.2025,12:00,FK Ulytau,FK Atyrau,,,,,Liga Kasajistan,
 24,27.09.2025,14:00,FK Zhenis,FK Turan,,,,,Liga Kasajistan,
 24,27.09.2025,16:00,FK Aktobe,FK Kyzylzhar,,,,,Liga Kasajistan,
 24,28.09.2025,12:00,FK Okzhetpes,Astaná,,,,,Liga Kasajistan,
@@ -11282,7 +11282,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 27,23.08.2025,16:00,BFC Daugavpils,FK Metta,4,2,1,1,Liga Lituania,1
 27,24.08.2025,14:00,FK Auda,Grobiņas SC,1,0,0,0,Liga Lituania,1
 27,25.08.2025,16:30,FK Liepāja,SK Super Nova,0,3,0,1,Liga Lituania,2
-27,25.09.2025,18:00,FK RFS,Riga FC,,,,,Liga Lituania,
+27,25.09.2025,18:00,FK RFS,Riga FC,0,0,0,0,Liga Lituania,X
 28,29.08.2025,16:30,FK Metta,FK Liepāja,1,2,0,2,Liga Lituania,2
 28,29.08.2025,16:30,Grobiņas SC,FS Jelgava,3,2,3,2,Liga Lituania,1
 28,30.08.2025,13:00,SK Super Nova,Riga FC,2,6,1,3,Liga Lituania,2
@@ -11376,14 +11376,15 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,14.09.2025,16:00,Jeunesse Canach,Jeunesse Esch,1,0,0,0,Liga Luxemburgo,1
 6,14.09.2025,16:00,RFCU Luxemburg,US Mondorf,0,2,0,2,Liga Luxemburgo,2
 6,14.09.2025,16:00,F91 Dudelange,FC Rodange 91,3,0,2,0,Liga Luxemburgo,1
-7,24.09.2025,20:00,F91 Dudelange,Jeunesse Canach,,,,,Liga Luxemburgo,
-7,24.09.2025,20:00,Progrès Niedercorn,US Hostert,,,,,Liga Luxemburgo,
-7,24.09.2025,20:00,Jeunesse Esch,FC Differdange 03,,,,,Liga Luxemburgo,
-7,24.09.2025,20:00,US Mondorf,FC Rodange 91,,,,,Liga Luxemburgo,
-7,24.09.2025,20:00,Swift Hesperange,RFCU Luxemburg,,,,,Liga Luxemburgo,
-7,24.09.2025,20:00,UNA Strassen,UN Käerjéng,,,,,Liga Luxemburgo,
-7,24.09.2025,20:00,Union Titus Pétange,FC Atert Bissen,,,,,Liga Luxemburgo,
-7,24.09.2025,20:00,Victoria Rosport,FC Mamer 32,,,,,Liga Luxemburgo,
+7,01.10.2025,20:00,F91 Dudelange,Jeunesse Canach,,,,,Liga Luxemburgo,
+7,01.10.2025,20:00,Progrès Niedercorn,US Hostert,,,,,Liga Luxemburgo,
+7,01.10.2025,20:00,Jeunesse Esch,FC Differdange 03,,,,,Liga Luxemburgo,
+7,01.10.2025,20:00,US Mondorf,FC Rodange 91,,,,,Liga Luxemburgo,
+7,01.10.2025,20:00,Swift Hesperange,RFCU Luxemburg,,,,,Liga Luxemburgo,
+7,01.10.2025,20:00,UNA Strassen,UN Käerjéng,,,,,Liga Luxemburgo,
+7,01.10.2025,20:00,Union Titus Pétange,FC Atert Bissen,,,,,Liga Luxemburgo,
+7,01.10.2025,20:00,Victoria Rosport,FC Mamer 32,,,,,Liga Luxemburgo,
+8,28.09.2025,"",FC Rodange 91,Swift Hesperange,,,,,Liga Luxemburgo,
 8,28.09.2025,16:00,FC Atert Bissen,UNA Strassen,,,,,Liga Luxemburgo,
 8,28.09.2025,16:00,FC Differdange 03,F91 Dudelange,,,,,Liga Luxemburgo,
 8,28.09.2025,16:00,FC Mamer 32,Union Titus Pétange,,,,,Liga Luxemburgo,
@@ -11391,15 +11392,14 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 8,28.09.2025,16:00,Jeunesse Canach,US Mondorf,,,,,Liga Luxemburgo,
 8,28.09.2025,16:00,UN Käerjéng,Progrès Niedercorn,,,,,Liga Luxemburgo,
 8,28.09.2025,16:00,RFCU Luxemburg,Victoria Rosport,,,,,Liga Luxemburgo,
-8,28.09.2025,16:00,FC Rodange 91,Swift Hesperange,,,,,Liga Luxemburgo,
-9,05.10.2025,"",F91 Dudelange,Jeunesse Esch,,,,,Liga Luxemburgo,
-9,05.10.2025,"",Progrès Niedercorn,FC Atert Bissen,,,,,Liga Luxemburgo,
-9,05.10.2025,"",UN Käerjéng,US Hostert,,,,,Liga Luxemburgo,
-9,05.10.2025,"",US Mondorf,FC Differdange 03,,,,,Liga Luxemburgo,
-9,05.10.2025,"",Swift Hesperange,Jeunesse Canach,,,,,Liga Luxemburgo,
-9,05.10.2025,"",UNA Strassen,FC Mamer 32,,,,,Liga Luxemburgo,
-9,05.10.2025,"",Union Titus Pétange,RFCU Luxemburg,,,,,Liga Luxemburgo,
-9,05.10.2025,"",Victoria Rosport,FC Rodange 91,,,,,Liga Luxemburgo,
+9,05.10.2025,16:00,F91 Dudelange,Jeunesse Esch,,,,,Liga Luxemburgo,
+9,05.10.2025,16:00,Progrès Niedercorn,FC Atert Bissen,,,,,Liga Luxemburgo,
+9,05.10.2025,16:00,UN Käerjéng,US Hostert,,,,,Liga Luxemburgo,
+9,05.10.2025,16:00,US Mondorf,FC Differdange 03,,,,,Liga Luxemburgo,
+9,05.10.2025,16:00,Swift Hesperange,Jeunesse Canach,,,,,Liga Luxemburgo,
+9,05.10.2025,16:00,UNA Strassen,FC Mamer 32,,,,,Liga Luxemburgo,
+9,05.10.2025,16:00,Union Titus Pétange,RFCU Luxemburg,,,,,Liga Luxemburgo,
+9,05.10.2025,16:00,Victoria Rosport,FC Rodange 91,,,,,Liga Luxemburgo,
 10,18.10.2025,18:30,RFCU Luxemburg,UNA Strassen,,,,,Liga Luxemburgo,
 10,19.10.2025,"",FC Atert Bissen,UN Käerjéng,,,,,Liga Luxemburgo,
 10,19.10.2025,"",FC Differdange 03,Swift Hesperange,,,,,Liga Luxemburgo,
@@ -11599,10 +11599,10 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 5,21.09.2025,14:15,Johor Darul Ta’zim,Sabah FA,8,0,5,0,Liga Malasia,1
 5,22.09.2025,14:15,DPMM FC,Kuala Lumpur City FC,0,4,0,1,Liga Malasia,2
 6,11.09.2025,14:15,Johor Darul Ta’zim,Penang FC,6,0,5,0,Liga Malasia,1
-6,26.09.2025,14:15,Kelantan Darul Naim,DPMM FC,,,,,Liga Malasia,
+6,26.09.2025,14:15,DPMM FC,Kelantan Darul Naim,,,,,Liga Malasia,
+6,27.09.2025,"",Selangor FC,Melaka FC,,,,,Liga Malasia,
 6,27.09.2025,11:00,Kuala Lumpur City FC,Terengganu FC,,,,,Liga Malasia,
 6,27.09.2025,15:00,Negeri Sembilan FA,Sabah FA,,,,,Liga Malasia,
-6,27.09.2025,15:00,Selangor FC,Melaka FC,,,,,Liga Malasia,
 6,28.09.2025,14:15,Kuching City,Imigresen FC,,,,,Liga Malasia,
 7,03.10.2025,15:00,Terengganu FC,Kelantan Darul Naim,,,,,Liga Malasia,
 7,04.10.2025,11:00,Penang FC,Negeri Sembilan FA,,,,,Liga Malasia,
@@ -11676,7 +11676,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 18,22.02.2026,14:15,Sabah FA,Johor Darul Ta’zim,,,,,Liga Malasia,
 18,22.02.2026,15:00,Kuala Lumpur City FC,DPMM FC,,,,,Liga Malasia,
 18,22.02.2026,15:00,Selangor FC,Kuching City,,,,,Liga Malasia,
-19,27.02.2026,14:15,DPMM FC,Kelantan Darul Naim,,,,,Liga Malasia,
+19,27.02.2026,14:15,Kelantan Darul Naim,DPMM FC,,,,,Liga Malasia,
 19,27.02.2026,15:00,Terengganu FC,Kuala Lumpur City FC,,,,,Liga Malasia,
 19,28.02.2026,14:15,Sabah FA,Negeri Sembilan FA,,,,,Liga Malasia,
 19,28.02.2026,15:00,Melaka FC,Selangor FC,,,,,Liga Malasia,
@@ -11841,11 +11841,11 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 10,24.09.2025,03:07,Deportivo Guadalajara,Club Necaxa,3,1,2,0,Liga Mexico,1
 10,24.09.2025,05:00,FC Juárez,Pumas UNAM,3,1,1,0,Liga Mexico,1
 10,24.09.2025,05:05,Club León,Mazatlán FC,2,2,2,0,Liga Mexico,X
-10,25.09.2025,02:00,Cruz Azul,Gallos Blancos,,,,,Liga Mexico,
-10,25.09.2025,03:00,UANL Tigres,Atlas Guadalajara,,,,,Liga Mexico,
-10,25.09.2025,04:00,Deportivo Toluca,CF Monterrey,,,,,Liga Mexico,
-10,25.09.2025,05:00,Atlético San Luis,CF América,,,,,Liga Mexico,
-10,25.09.2025,05:00,Santos Laguna,Club Tijuana,,,,,Liga Mexico,
+10,25.09.2025,02:00,Cruz Azul,Gallos Blancos,2,2,1,2,Liga Mexico,X
+10,25.09.2025,03:00,UANL Tigres,Atlas Guadalajara,2,0,1,0,Liga Mexico,1
+10,25.09.2025,04:00,Deportivo Toluca,CF Monterrey,6,2,4,2,Liga Mexico,1
+10,25.09.2025,05:00,Atlético San Luis,CF América,0,1,0,0,Liga Mexico,2
+10,25.09.2025,05:00,Santos Laguna,Club Tijuana,1,0,0,0,Liga Mexico,1
 11,27.09.2025,03:00,FC Juárez,Club León,,,,,Liga Mexico,
 11,27.09.2025,05:00,Puebla FC,Deportivo Guadalajara,,,,,Liga Mexico,
 11,28.09.2025,01:00,Atlas Guadalajara,Club Necaxa,,,,,Liga Mexico,
@@ -11854,16 +11854,16 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 11,28.09.2025,03:00,Deportivo Toluca,Mazatlán FC,,,,,Liga Mexico,
 11,28.09.2025,05:05,CF América,Pumas UNAM,,,,,Liga Mexico,
 11,29.09.2025,01:00,Gallos Blancos,UANL Tigres,,,,,Liga Mexico,
-11,29.09.2025,04:05,Club Tijuana,Cruz Azul,,,,,Liga Mexico,
+11,29.09.2025,05:05,Club Tijuana,Cruz Azul,,,,,Liga Mexico,
 12,04.10.2025,03:00,Club Necaxa,CF Pachuca,,,,,Liga Mexico,
-12,04.10.2025,04:00,Mazatlán FC,Atlético San Luis,,,,,Liga Mexico,
+12,04.10.2025,05:00,Mazatlán FC,Atlético San Luis,,,,,Liga Mexico,
 12,04.10.2025,05:05,Atlas Guadalajara,FC Juárez,,,,,Liga Mexico,
 12,05.10.2025,01:00,Gallos Blancos,Puebla FC,,,,,Liga Mexico,
 12,05.10.2025,03:00,Club León,Deportivo Toluca,,,,,Liga Mexico,
 12,05.10.2025,03:00,UANL Tigres,Cruz Azul,,,,,Liga Mexico,
 12,05.10.2025,05:05,CF América,Santos Laguna,,,,,Liga Mexico,
 12,06.10.2025,03:00,Pumas UNAM,Deportivo Guadalajara,,,,,Liga Mexico,
-12,06.10.2025,04:05,Club Tijuana,CF Monterrey,,,,,Liga Mexico,
+12,06.10.2025,05:05,Club Tijuana,CF Monterrey,,,,,Liga Mexico,
 13,18.10.2025,03:00,Puebla FC,Club Tijuana,,,,,Liga Mexico,
 13,18.10.2025,05:00,Atlético San Luis,Atlas Guadalajara,,,,,Liga Mexico,
 13,18.10.2025,05:00,UANL Tigres,Club Necaxa,,,,,Liga Mexico,
@@ -12038,11 +12038,11 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 9,27.09.2025,20:00,FK Dečić Tuzi,FK Bokelj,,,,,Liga Montenegro,
 9,27.09.2025,20:00,Jedinstvo Bijelo Polje,FK Sutjeska,,,,,Liga Montenegro,
 9,27.09.2025,20:30,FK Budućnost Podgorica,OFK Petrovac,,,,,Liga Montenegro,
-10,01.10.2025,17:00,OFK Mladost DG,FK Dečić Tuzi,,,,,Liga Montenegro,
+10,01.10.2025,14:00,OFK Mladost DG,FK Dečić Tuzi,,,,,Liga Montenegro,
 10,01.10.2025,17:00,Jedinstvo Bijelo Polje,FK Arsenal,,,,,Liga Montenegro,
-10,01.10.2025,17:00,FK Mornar,FK Sutjeska,,,,,Liga Montenegro,
-10,01.10.2025,17:00,FK Bokelj,OFK Petrovac,,,,,Liga Montenegro,
-10,01.10.2025,17:00,FK Budućnost Podgorica,FK Jezero,,,,,Liga Montenegro,
+10,01.10.2025,18:00,FK Mornar,FK Sutjeska,,,,,Liga Montenegro,
+10,01.10.2025,18:00,FK Bokelj,OFK Petrovac,,,,,Liga Montenegro,
+10,01.10.2025,20:00,FK Budućnost Podgorica,FK Jezero,,,,,Liga Montenegro,
 11,05.10.2025,17:00,OFK Mladost DG,FK Bokelj,,,,,Liga Montenegro,
 11,05.10.2025,17:00,FK Dečić Tuzi,Jedinstvo Bijelo Polje,,,,,Liga Montenegro,
 11,05.10.2025,17:00,FK Arsenal,FK Mornar,,,,,Liga Montenegro,
@@ -12116,8 +12116,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,16.08.2025,23:00,ART Municipal Jalapa,Matagalpa FC,0,2,0,2,Liga Nicaragua,2
 6,17.08.2025,01:00,Real Madriz,UNAN Managua,0,3,0,1,Liga Nicaragua,2
 6,18.08.2025,01:00,Rancho Santana,H&H Export Sébaco,1,2,0,1,Liga Nicaragua,2
-6,25.09.2025,02:00,Managua FC,CD Walter Ferretti,,,,,Liga Nicaragua,
-6,25.09.2025,04:00,Diriangén FC,Real Estelí FC,,,,,Liga Nicaragua,
+6,25.09.2025,02:00,Managua FC,CD Walter Ferretti,1,1,1,0,Liga Nicaragua,X
+6,25.09.2025,04:00,Diriangén FC,Real Estelí FC,1,1,1,0,Liga Nicaragua,X
 7,23.08.2025,23:00,H&H Export Sébaco,Diriangén FC,2,1,0,0,Liga Nicaragua,1
 7,24.08.2025,02:00,UNAN Managua,Rancho Santana,0,1,0,0,Liga Nicaragua,2
 7,24.08.2025,23:00,Matagalpa FC,Managua FC,1,2,1,0,Liga Nicaragua,2
@@ -12409,7 +12409,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 3,24.08.2025,14:30,NEC Nijmegen,NAC Breda,3,0,1,0,Liga Paises Bajos,1
 3,24.08.2025,16:45,AFC Ajax,Heracles Almelo,2,0,1,0,Liga Paises Bajos,1
 3,17.09.2025,20:00,Feyenoord,Fortuna Sittard,2,0,1,0,Liga Paises Bajos,1
-3,24.09.2025,20:00,AZ Alkmaar,PEC Zwolle,0,0,,,Liga Paises Bajos,X
+3,24.09.2025,20:00,AZ Alkmaar,PEC Zwolle,2,2,2,1,Liga Paises Bajos,X
 4,29.08.2025,20:00,FC Groningen,Heracles Almelo,4,0,3,0,Liga Paises Bajos,1
 4,30.08.2025,16:30,FC Volendam,AFC Ajax,1,1,1,0,Liga Paises Bajos,X
 4,30.08.2025,18:45,sc Heerenveen,Go Ahead Eagles,2,2,1,1,Liga Paises Bajos,X
@@ -12837,8 +12837,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,24.08.2025,14:45,Piast Gliwice,KS Cracovia,0,0,0,0,Liga Polonia,X
 6,24.08.2025,17:30,Lechia Gdańsk,Arka Gdynia,1,0,0,0,Liga Polonia,1
 6,25.08.2025,19:00,Wisła Płock,Zagłębie Lubin,2,1,0,1,Liga Polonia,1
-6,24.09.2025,18:45,Raków Częstochowa,Lech Poznań,2,2,,,Liga Polonia,X
-6,24.09.2025,21:00,Legia Warszawa,Jagiellonia Białystok,,,,,Liga Polonia,
+6,24.09.2025,18:45,Raków Częstochowa,Lech Poznań,2,2,0,2,Liga Polonia,X
+6,24.09.2025,21:00,Legia Warszawa,Jagiellonia Białystok,0,0,0,0,Liga Polonia,X
 7,29.08.2025,18:00,Arka Gdynia,Wisła Płock,1,0,0,0,Liga Polonia,1
 7,29.08.2025,20:30,GKS Katowice,Radomiak Radom,3,2,2,2,Liga Polonia,1
 7,30.08.2025,14:45,Bruk-Bet Termalica Nieciecza,Korona Kielce,1,3,1,0,Liga Polonia,2
@@ -13427,8 +13427,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 5,21.09.2025,17:00,Umm-Salal,Al Sailiya,2,1,1,0,Liga Qatar,1
 5,21.09.2025,19:00,Al Ahli Doha,Al Rayyan,0,3,0,2,Liga Qatar,2
 5,21.09.2025,19:00,Qatar SC,Al Shahaniya,1,0,0,0,Liga Qatar,1
-6,25.09.2025,17:00,Al Rayyan,Al Gharafa,,,,,Liga Qatar,
-6,25.09.2025,19:00,Al Sadd,Al Duhail SC,,,,,Liga Qatar,
+6,25.09.2025,17:00,Al Rayyan,Al Gharafa,2,3,1,2,Liga Qatar,2
+6,25.09.2025,19:00,Al Sadd,Al Duhail SC,0,0,0,0,Liga Qatar,X
 6,26.09.2025,17:00,Al Wakrah,Umm-Salal,,,,,Liga Qatar,
 6,26.09.2025,19:00,Al Shahaniya,Al Ahli Doha,,,,,Liga Qatar,
 6,27.09.2025,17:00,Al Sailiya,Al Arabi,,,,,Liga Qatar,
@@ -13742,7 +13742,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 5,10.08.2025,20:30,FCSB,Unirea Slobozia,0,1,0,1,Liga Rumana,2
 5,11.08.2025,18:00,FC Botoşani,Argeș Pitești,3,1,2,0,Liga Rumana,1
 5,11.08.2025,20:30,Oţelul Galaţi,Rapid Bucureşti,1,1,1,0,Liga Rumana,X
-5,16.10.2025,17:00,FK Csikszereda,CFR Cluj,,,,,Liga Rumana,
+5,16.10.2025,19:30,FK Csikszereda,CFR Cluj,,,,,Liga Rumana,
 6,15.08.2025,18:00,Unirea Slobozia,Metaloglobus Bucureşti,2,1,0,1,Liga Rumana,1
 6,15.08.2025,20:30,FC Dinamo Bucureşti,UTA Arad,1,1,0,1,Liga Rumana,X
 6,16.08.2025,20:30,Petrolul Ploieşti,FC Hermannstadt,1,1,0,0,Liga Rumana,X
@@ -13802,11 +13802,11 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 13,17.10.2025,19:30,Farul Constanța,Argeș Pitești,,,,,Liga Rumana,
 13,18.10.2025,"",UTA Arad,Oţelul Galaţi,,,,,Liga Rumana,
 13,18.10.2025,"",Petrolul Ploieşti,CFR Cluj,,,,,Liga Rumana,
-13,18.10.2025,"",FC Dinamo Bucureşti,Rapid Bucureşti,,,,,Liga Rumana,
 13,18.10.2025,14:00,Universitatea Cluj,FC Botoşani,,,,,Liga Rumana,
 13,18.10.2025,16:30,CS Universitatea Craiova,Unirea Slobozia,,,,,Liga Rumana,
 13,18.10.2025,19:30,Metaloglobus Bucureşti,FCSB,,,,,Liga Rumana,
 13,19.10.2025,16:30,FC Hermannstadt,FK Csikszereda,,,,,Liga Rumana,
+13,19.10.2025,19:30,FC Dinamo Bucureşti,Rapid Bucureşti,,,,,Liga Rumana,
 14,25.10.2025,"",FCSB,UTA Arad,,,,,Liga Rumana,
 14,25.10.2025,"",Oţelul Galaţi,Universitatea Cluj,,,,,Liga Rumana,
 14,25.10.2025,"",FC Botoşani,FC Hermannstadt,,,,,Liga Rumana,
@@ -14498,7 +14498,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 10,26.09.2025,18:00,Radnik Surdulica,IMT Beograd,,,,,Liga Serbia,
 10,27.09.2025,17:30,FK Javor,Radnički Niš,,,,,Liga Serbia,
 10,27.09.2025,18:30,OFK Beograd,Partizan,,,,,Liga Serbia,
-10,27.09.2025,21:00,Vojvodina,Železničar Pančevo,,,,,Liga Serbia,
+10,27.09.2025,19:30,Vojvodina,Železničar Pančevo,,,,,Liga Serbia,
 10,28.09.2025,16:00,TSC Bačka Topola,FK Novi Pazar,,,,,Liga Serbia,
 10,28.09.2025,17:00,Mladost Lučani,FK Čukarički,,,,,Liga Serbia,
 10,28.09.2025,17:00,Spartak Subotica,FK Napredak,,,,,Liga Serbia,
@@ -14666,7 +14666,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 1,23.08.2025,13:30,Albirex Niigata (S),Balestier Khalsa,2,2,2,1,Liga Singapur,X
 1,24.08.2025,13:30,Tampines Rovers,Geylang International,0,0,0,0,Liga Singapur,X
 1,25.08.2025,13:30,Lion City Sailors,Hougang United,2,1,1,1,Liga Singapur,1
-1,25.09.2025,13:30,Tanjong Pagar United,Young Lions,,,,,Liga Singapur,
+1,25.09.2025,13:30,Tanjong Pagar United,Young Lions,5,1,1,1,Liga Singapur,1
 2,12.09.2025,13:30,Geylang International,Albirex Niigata (S),0,2,0,1,Liga Singapur,2
 2,13.09.2025,13:30,Tanjong Pagar United,Tampines Rovers,0,3,0,1,Liga Singapur,2
 2,14.09.2025,13:30,Balestier Khalsa,Lion City Sailors,0,5,0,1,Liga Singapur,2
@@ -14806,11 +14806,11 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 8,23.09.2025,19:30,Siwelele FC,Orlando Pirates,0,1,0,0,Liga Sudafrica,2
 8,24.09.2025,15:00,Golden Arrows,Mamelodi Sundowns,1,0,1,0,Liga Sudafrica,1
 8,24.09.2025,17:30,Kaizer Chiefs,Marumo Gallants,1,1,1,0,Liga Sudafrica,X
-8,24.09.2025,19:30,Orbit College,Polokwane City FC,0,0,,,Liga Sudafrica,X
-8,24.09.2025,19:30,Richards Bay FC,Magesi FC,0,0,,,Liga Sudafrica,X
-8,24.09.2025,19:30,Sekhukhune United,Chippa United,0,0,,,Liga Sudafrica,X
-8,24.09.2025,19:30,Stellenbosch FC,Durban City FC,0,0,,,Liga Sudafrica,X
-8,24.09.2025,19:30,TS Galaxy,AmaZulu FC,1,0,,,Liga Sudafrica,1
+8,24.09.2025,19:30,Orbit College,Polokwane City FC,1,0,0,0,Liga Sudafrica,1
+8,24.09.2025,19:30,Richards Bay FC,Magesi FC,1,0,0,0,Liga Sudafrica,1
+8,24.09.2025,19:30,Sekhukhune United,Chippa United,1,1,0,0,Liga Sudafrica,X
+8,24.09.2025,19:30,Stellenbosch FC,Durban City FC,0,0,0,0,Liga Sudafrica,X
+8,24.09.2025,19:30,TS Galaxy,AmaZulu FC,3,1,1,0,Liga Sudafrica,1
 9,27.09.2025,15:00,Golden Arrows,Orbit College,,,,,Liga Sudafrica,
 9,27.09.2025,15:00,Polokwane City FC,Sekhukhune United,,,,,Liga Sudafrica,
 9,27.09.2025,17:30,Kaizer Chiefs,AmaZulu FC,,,,,Liga Sudafrica,
@@ -15607,7 +15607,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 1,11.08.2025,20:30,Trabzonspor,Kocaelispor,1,0,0,0,Liga Turquia,1
 1,17.09.2025,19:00,Fatih Karagümrük,İstanbul Başakşehir,0,2,0,0,Liga Turquia,2
 1,17.09.2025,19:00,Fenerbahçe,Alanyaspor,2,2,0,1,Liga Turquia,X
-1,24.09.2025,19:00,Kayserispor,Beşiktaş,0,4,,,Liga Turquia,2
+1,24.09.2025,19:00,Kayserispor,Beşiktaş,0,4,0,3,Liga Turquia,2
 2,15.08.2025,20:30,Galatasaray,Fatih Karagümrük,3,0,1,0,Liga Turquia,1
 2,16.08.2025,18:00,Kocaelispor,Samsunspor,0,1,0,0,Liga Turquia,2
 2,16.08.2025,20:30,Alanyaspor,Çaykur Rizespor,0,0,0,0,Liga Turquia,X
@@ -16368,8 +16368,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 31,21.09.2025,04:30,San Jose Earthquakes,St. Louis City SC,1,3,1,3,Liga USA,2
 31,22.09.2025,01:00,Austin FC,Seattle Sounders,2,1,1,0,Liga USA,1
 31,22.09.2025,03:00,Los Angeles FC,Real Salt Lake,4,1,2,1,Liga USA,1
-32,25.09.2025,01:30,New York City FC,Inter Miami CF,,,,,Liga USA,
-32,25.09.2025,04:30,Vancouver Whitecaps,Portland Timbers,,,,,Liga USA,
+32,25.09.2025,01:30,New York City FC,Inter Miami CF,0,4,0,1,Liga USA,2
+32,25.09.2025,04:30,Vancouver Whitecaps,Portland Timbers,1,1,0,1,Liga USA,X
 32,27.09.2025,22:30,Toronto FC,Inter Miami CF,,,,,Liga USA,
 32,28.09.2025,01:30,Charlotte FC,CF Montréal,,,,,Liga USA,
 32,28.09.2025,01:30,D.C. United,Philadelphia Union,,,,,Liga USA,
@@ -16859,12 +16859,12 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 12,28.09.2025,23:00,Carabobo FC,Deportivo La Guaira,,,,,Liga Venezuela,
 12,28.09.2025,23:00,Monagas,Caracas FC,,,,,Liga Venezuela,
 12,28.09.2025,23:00,Yaracuyanos FC,Deportivo Táchira,,,,,Liga Venezuela,
-13,04.10.2025,"",Deportivo La Guaira,Zamora FC,,,,,Liga Venezuela,
-13,04.10.2025,"",Estudiantes de Mérida,Yaracuyanos FC,,,,,Liga Venezuela,
-13,04.10.2025,"",Rayo Zuliano,Metropolitanos FC,,,,,Liga Venezuela,
-13,04.10.2025,"",Anzoátegui FC,Monagas,,,,,Liga Venezuela,
-13,04.10.2025,"",Caracas FC,Universidad Central,,,,,Liga Venezuela,
-13,04.10.2025,"",Deportivo Táchira,Carabobo FC,,,,,Liga Venezuela,
+13,05.10.2025,"",Deportivo La Guaira,Zamora FC,,,,,Liga Venezuela,
+13,05.10.2025,"",Estudiantes de Mérida,Yaracuyanos FC,,,,,Liga Venezuela,
+13,05.10.2025,"",Rayo Zuliano,Metropolitanos FC,,,,,Liga Venezuela,
+13,05.10.2025,"",Anzoátegui FC,Monagas,,,,,Liga Venezuela,
+13,05.10.2025,"",Caracas FC,Universidad Central,,,,,Liga Venezuela,
+13,05.10.2025,"",Deportivo Táchira,Carabobo FC,,,,,Liga Venezuela,
 13,05.10.2025,"",Portuguesa FC,Academia Puerto Cabello,,,,,Liga Venezuela,
 1,15.08.2025,14:15,Công An Hà Nội FC,Viettel FC,1,1,1,1,Liga Vietnam,X
 1,16.08.2025,13:00,Thep Xanh Nam Định FC,Hảiphòng FC,2,1,0,1,Liga Vietnam,1
@@ -17004,7 +17004,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 8,31.08.2025,23:15,Platense Zacatecoluca,Fuerte San Francisco,1,1,0,0,Liga el Salvador,X
 8,01.09.2025,00:00,Municipal Limeño,Zacatecoluca FC,1,0,1,0,Liga el Salvador,1
 8,01.09.2025,01:00,Isidro Metapán,Luis Ángel Firpo,2,1,0,1,Liga el Salvador,1
-8,20.09.2025,"",CD Águila,Alianza,,,,,Liga el Salvador,
+8,20.09.2025,03:30,CD Águila,Alianza,1,2,0,2,Liga el Salvador,2
 9,03.09.2025,23:00,CD Cacahuatique,FAS,0,0,0,0,Liga el Salvador,X
 9,03.09.2025,23:30,Platense Zacatecoluca,Isidro Metapán,3,0,1,0,Liga el Salvador,1
 9,04.09.2025,03:00,Alianza,Municipal Limeño,3,1,2,0,Liga el Salvador,1
@@ -17029,18 +17029,18 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 12,21.09.2025,23:00,Platense Zacatecoluca,CD Águila,2,1,2,0,Liga el Salvador,1
 12,22.09.2025,02:00,Inter FA,Alianza,0,1,0,0,Liga el Salvador,2
 12,22.09.2025,02:00,Luis Ángel Firpo,Municipal Limeño,1,1,0,0,Liga el Salvador,X
-13,24.09.2025,23:00,Fuerte San Francisco,Inter FA,,,,,Liga el Salvador,
-13,24.09.2025,23:00,Zacatecoluca FC,Luis Ángel Firpo,,,,,Liga el Salvador,
-13,25.09.2025,02:00,Municipal Limeño,Platense Zacatecoluca,,,,,Liga el Salvador,
-13,25.09.2025,03:00,CD Águila,Isidro Metapán,,,,,Liga el Salvador,
-13,25.09.2025,03:00,Alianza,CD Cacahuatique,,,,,Liga el Salvador,
-13,25.09.2025,03:30,FAS,Hércules,,,,,Liga el Salvador,
-14,27.09.2025,22:00,CD Cacahuatique,Inter FA,,,,,Liga el Salvador,
-14,27.09.2025,22:00,FAS,Fuerte San Francisco,,,,,Liga el Salvador,
-14,27.09.2025,22:00,Hércules,CD Águila,,,,,Liga el Salvador,
-14,27.09.2025,22:00,Luis Ángel Firpo,Alianza,,,,,Liga el Salvador,
-14,27.09.2025,22:00,Isidro Metapán,Municipal Limeño,,,,,Liga el Salvador,
-14,27.09.2025,22:00,Platense Zacatecoluca,Zacatecoluca FC,,,,,Liga el Salvador,
+13,24.09.2025,23:00,Fuerte San Francisco,Inter FA,2,3,1,1,Liga el Salvador,2
+13,24.09.2025,23:00,Zacatecoluca FC,Luis Ángel Firpo,2,4,1,2,Liga el Salvador,2
+13,25.09.2025,02:00,Municipal Limeño,Platense Zacatecoluca,1,0,1,0,Liga el Salvador,1
+13,25.09.2025,03:00,CD Águila,Isidro Metapán,1,2,1,2,Liga el Salvador,2
+13,25.09.2025,03:00,Alianza,CD Cacahuatique,2,1,0,1,Liga el Salvador,1
+13,25.09.2025,03:30,FAS,Hércules,2,0,0,0,Liga el Salvador,1
+14,28.09.2025,03:00,Luis Ángel Firpo,Alianza,,,,,Liga el Salvador,
+14,28.09.2025,03:00,Isidro Metapán,Municipal Limeño,,,,,Liga el Salvador,
+14,28.09.2025,23:00,CD Cacahuatique,Inter FA,,,,,Liga el Salvador,
+14,28.09.2025,23:15,Platense Zacatecoluca,Zacatecoluca FC,,,,,Liga el Salvador,
+14,29.09.2025,02:00,FAS,Fuerte San Francisco,,,,,Liga el Salvador,
+14,30.09.2025,03:30,Hércules,CD Águila,,,,,Liga el Salvador,
 15,04.10.2025,22:00,CD Águila,FAS,,,,,Liga el Salvador,
 15,04.10.2025,22:00,Alianza,Platense Zacatecoluca,,,,,Liga el Salvador,
 15,04.10.2025,22:00,Fuerte San Francisco,CD Cacahuatique,,,,,Liga el Salvador,
@@ -17253,10 +17253,10 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 5,21.09.2025,19:15,Birkirkara FC,Mosta FC,2,0,1,0,Liga malta,1
 6,23.09.2025,18:45,Marsaxlokk FC,Hamrun Spartans,0,2,0,0,Liga malta,2
 6,23.09.2025,21:00,Tarxien Rainbows,Hibernians FC,1,3,0,2,Liga malta,2
-6,24.09.2025,18:45,Birkirkara FC,Naxxar Lions FC,1,0,,,Liga malta,1
-6,24.09.2025,18:45,Sliema Wanderers,Gżira United,2,0,,,Liga malta,1
-6,24.09.2025,21:00,Valletta FC,Mosta FC,,,,,Liga malta,
-6,24.09.2025,21:00,Floriana FC,St. Patrick FC,,,,,Liga malta,
+6,24.09.2025,18:45,Birkirkara FC,Naxxar Lions FC,1,0,1,0,Liga malta,1
+6,24.09.2025,18:45,Sliema Wanderers,Gżira United,2,0,1,0,Liga malta,1
+6,24.09.2025,21:00,Valletta FC,Mosta FC,4,1,0,1,Liga malta,1
+6,24.09.2025,21:00,Floriana FC,St. Patrick FC,3,1,1,0,Liga malta,1
 7,27.09.2025,17:00,Hamrun Spartans,Hibernians FC,,,,,Liga malta,
 7,27.09.2025,19:15,Mosta FC,Floriana FC,,,,,Liga malta,
 7,28.09.2025,17:00,Tarxien Rainbows,Valletta FC,,,,,Liga malta,
@@ -17365,11 +17365,11 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 13,21.09.2025,00:00,Cerro Porteño,Sportivo Ameliano,2,0,0,0,Liga paraguay,1
 13,21.09.2025,21:30,Guaraní,Club Nacional,2,0,0,0,Liga paraguay,1
 13,22.09.2025,00:00,Libertad,2 de Mayo,0,1,0,0,Liga paraguay,2
+14,27.09.2025,00:00,Sportivo Trinidense,Guaraní,,,,,Liga paraguay,
 14,27.09.2025,22:00,Sportivo Luqueño,Cerro Porteño,,,,,Liga paraguay,
 14,28.09.2025,00:30,Club Nacional,Libertad,,,,,Liga paraguay,
 14,28.09.2025,20:30,2 de Mayo,General Caballero DJLM,,,,,Liga paraguay,
-14,28.09.2025,21:00,Sportivo Trinidense,Guaraní,,,,,Liga paraguay,
-14,29.09.2025,21:30,Sportivo Ameliano,Deportivo Recoleta,,,,,Liga paraguay,
+14,29.09.2025,22:00,Sportivo Ameliano,Deportivo Recoleta,,,,,Liga paraguay,
 14,30.09.2025,00:30,Atlético Tembetary,Club Olimpia,,,,,Liga paraguay,
 15,09.10.2025,"",Cerro Porteño,Deportivo Recoleta,,,,,Liga paraguay,
 15,09.10.2025,"",Guaraní,Atlético Tembetary,,,,,Liga paraguay,
@@ -17766,7 +17766,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 22,20.09.2025,16:15,Neftchi Farg'ona,Dinamo Samarqand,2,1,1,1,Liga uzbesquistan,1
 22,21.09.2025,14:00,FC Andijon,So’g’diyona PFK,2,2,0,0,Liga uzbesquistan,X
 22,21.09.2025,16:15,Qizilqum Zarafshon,FC Nasaf,0,1,0,0,Liga uzbesquistan,2
-23,25.09.2025,17:15,FC Nasaf,Xorazm Urganch,,,,,Liga uzbesquistan,
+23,25.09.2025,17:15,FC Nasaf,Xorazm Urganch,2,1,1,1,Liga uzbesquistan,1
 23,26.09.2025,16:00,FC Andijon,FC AGMK,,,,,Liga uzbesquistan,
 23,27.09.2025,15:00,Navbahor Namangan,Qizilqum Zarafshon,,,,,Liga uzbesquistan,
 23,28.09.2025,14:30,FK Qo’qon 1912,Bunyodkor PFK,,,,,Liga uzbesquistan,
@@ -17890,11 +17890,11 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,05.10.2025,18:15,CD Guadalajara,Real Avilés,,,,,Primera Federacion gp 1 España,
 6,05.10.2025,18:15,Ponferradina,Real Madrid Castilla,,,,,Primera Federacion gp 1 España,
 6,05.10.2025,20:30,Bilbao Athletic,Osasuna B,,,,,Primera Federacion gp 1 España,
+7,10.10.2025,"",Barakaldo CF,Bilbao Athletic,,,,,Primera Federacion gp 1 España,
 7,11.10.2025,16:00,Celta B,Ourense CF,,,,,Primera Federacion gp 1 España,
 7,11.10.2025,18:00,Unionistas CF,Mérida AD,,,,,Primera Federacion gp 1 España,
 7,11.10.2025,18:30,Arenas de Getxo,Lugo,,,,,Primera Federacion gp 1 España,
 7,11.10.2025,18:30,CF Talavera,Ponferradina,,,,,Primera Federacion gp 1 España,
-7,12.10.2025,"",Barakaldo CF,Bilbao Athletic,,,,,Primera Federacion gp 1 España,
 7,12.10.2025,12:00,Real Madrid Castilla,Pontevedra CF,,,,,Primera Federacion gp 1 España,
 7,12.10.2025,12:00,Osasuna B,Racing de Ferrol,,,,,Primera Federacion gp 1 España,
 7,12.10.2025,14:15,Zamora CF,Real Avilés,,,,,Primera Federacion gp 1 España,
@@ -17905,11 +17905,11 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 8,19.10.2025,"",Real Avilés,CF Talavera,,,,,Primera Federacion gp 1 España,
 8,19.10.2025,"",Mérida AD,CD Arenteiro,,,,,Primera Federacion gp 1 España,
 8,19.10.2025,"",Lugo,Celta B,,,,,Primera Federacion gp 1 España,
-8,19.10.2025,"",CD Guadalajara,Barakaldo CF,,,,,Primera Federacion gp 1 España,
 8,19.10.2025,"",Racing de Ferrol,Arenas de Getxo,,,,,Primera Federacion gp 1 España,
 8,19.10.2025,"",Pontevedra CF,Osasuna B,,,,,Primera Federacion gp 1 España,
 8,19.10.2025,"",Tenerife,Unionistas CF,,,,,Primera Federacion gp 1 España,
 8,19.10.2025,"",Ourense CF,Real Madrid Castilla,,,,,Primera Federacion gp 1 España,
+8,19.10.2025,17:00,CD Guadalajara,Barakaldo CF,,,,,Primera Federacion gp 1 España,
 9,26.10.2025,"",CD Arenteiro,Pontevedra CF,,,,,Primera Federacion gp 1 España,
 9,26.10.2025,"",Celta B,Racing de Ferrol,,,,,Primera Federacion gp 1 España,
 9,26.10.2025,"",Barakaldo CF,Tenerife,,,,,Primera Federacion gp 1 España,
@@ -18270,6 +18270,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,05.10.2025,12:00,Antequera CF,CE Sabadell,,,,,Primera Federacion gp 2 España,
 6,05.10.2025,16:00,CD Teruel,Hércules CF,,,,,Primera Federacion gp 2 España,
 6,05.10.2025,18:15,FC Cartagena,SD Tarazona,,,,,Primera Federacion gp 2 España,
+7,10.10.2025,19:00,Hércules CF,Atlético B,,,,,Primera Federacion gp 2 España,
 7,11.10.2025,14:00,Villarreal B,Betis B,,,,,Primera Federacion gp 2 España,
 7,11.10.2025,16:00,Marbella FC,CD Eldense,,,,,Primera Federacion gp 2 España,
 7,11.10.2025,16:15,SD Tarazona,Real Murcia,,,,,Primera Federacion gp 2 España,
@@ -18277,11 +18278,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 7,12.10.2025,12:00,CE Sabadell,CD Teruel,,,,,Primera Federacion gp 2 España,
 7,12.10.2025,12:00,Juventud Torremolinos,UD Ibiza,,,,,Primera Federacion gp 2 España,
 7,12.10.2025,16:30,Sevilla Atlético,FC Cartagena,,,,,Primera Federacion gp 2 España,
-7,12.10.2025,17:00,Hércules CF,Atlético B,,,,,Primera Federacion gp 2 España,
 7,12.10.2025,18:15,Atlético Sanluqueño CF,Antequera CF,,,,,Primera Federacion gp 2 España,
 7,12.10.2025,18:45,Gimnàstic de Tarragona,Alcorcón,,,,,Primera Federacion gp 2 España,
-8,19.10.2025,"",Atlético B,Juventud Torremolinos,,,,,Primera Federacion gp 2 España,
-8,19.10.2025,"",Alcorcón,CE Sabadell,,,,,Primera Federacion gp 2 España,
 8,19.10.2025,"",Hércules CF,Villarreal B,,,,,Primera Federacion gp 2 España,
 8,19.10.2025,"",Gimnàstic de Tarragona,SD Tarazona,,,,,Primera Federacion gp 2 España,
 8,19.10.2025,"",Antequera CF,Marbella FC,,,,,Primera Federacion gp 2 España,
@@ -18290,6 +18288,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 8,19.10.2025,"",Real Murcia,UD Ibiza,,,,,Primera Federacion gp 2 España,
 8,19.10.2025,"",FC Cartagena,Algeciras CF,,,,,Primera Federacion gp 2 España,
 8,19.10.2025,"",CD Teruel,Sevilla Atlético,,,,,Primera Federacion gp 2 España,
+8,19.10.2025,17:00,Atlético B,Juventud Torremolinos,,,,,Primera Federacion gp 2 España,
+8,19.10.2025,17:00,Alcorcón,CE Sabadell,,,,,Primera Federacion gp 2 España,
 9,26.10.2025,"",Atlético B,CE Europa,,,,,Primera Federacion gp 2 España,
 9,26.10.2025,"",CD Eldense,Real Murcia,,,,,Primera Federacion gp 2 España,
 9,26.10.2025,"",UD Ibiza,CD Teruel,,,,,Primera Federacion gp 2 España,
@@ -18636,12 +18636,12 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 5,05.10.2025,17:15,CD Lealtad,Marino de Luanco,,,,,Segunda Federacion gp 1 España,
 5,05.10.2025,18:00,Gimnástica Segoviana,Coruxo FC,,,,,Segunda Federacion gp 1 España,
 6,11.10.2025,17:00,Marino de Luanco,Gimnástica Segoviana,,,,,Segunda Federacion gp 1 España,
+6,12.10.2025,12:00,Rayo Cantabria,UD Ourense,,,,,Segunda Federacion gp 1 España,
 6,12.10.2025,12:00,Valladolid B,CD Lealtad,,,,,Segunda Federacion gp 1 España,
 6,12.10.2025,17:00,Burgos Promesas,Atlético Astorga,,,,,Segunda Federacion gp 1 España,
 6,12.10.2025,17:00,Numancia,UD Sámano,,,,,Segunda Federacion gp 1 España,
 6,12.10.2025,17:00,Coruxo FC,Bergantiños FC,,,,,Segunda Federacion gp 1 España,
 6,12.10.2025,17:00,Deportivo B,UP Langreo,,,,,Segunda Federacion gp 1 España,
-6,12.10.2025,17:00,Rayo Cantabria,UD Ourense,,,,,Segunda Federacion gp 1 España,
 6,12.10.2025,17:00,Real Ávila CF,Real Oviedo B,,,,,Segunda Federacion gp 1 España,
 6,12.10.2025,17:00,Salamanca CF UDS,SD Sarriana,,,,,Segunda Federacion gp 1 España,
 7,19.10.2025,17:00,Atlético Astorga,Rayo Cantabria,,,,,Segunda Federacion gp 1 España,
@@ -18941,12 +18941,12 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 5,05.10.2025,17:00,CD Alfaro,Utebo FC,,,,,Segunda Federacion gp 2 España,
 5,05.10.2025,17:00,Náxara CD,Eibar B,,,,,Segunda Federacion gp 2 España,
 5,05.10.2025,18:00,CD Tudelano,UD Mutilvera,,,,,Segunda Federacion gp 2 España,
+6,11.10.2025,16:30,Eibar B,SD Ejea,,,,,Segunda Federacion gp 2 España,
 6,12.10.2025,17:00,CD Basconia,Alavés B,,,,,Segunda Federacion gp 2 España,
 6,12.10.2025,17:00,CD Ebro,Real Unión,,,,,Segunda Federacion gp 2 España,
 6,12.10.2025,17:00,SD Gernika,SD Amorebieta,,,,,Segunda Federacion gp 2 España,
 6,12.10.2025,17:00,UD Mutilvera,Náxara CD,,,,,Segunda Federacion gp 2 España,
 6,12.10.2025,17:00,Zaragoza B,CD Alfaro,,,,,Segunda Federacion gp 2 España,
-6,12.10.2025,17:00,Eibar B,SD Ejea,,,,,Segunda Federacion gp 2 España,
 6,12.10.2025,17:00,Sestao River,CD Tudelano,,,,,Segunda Federacion gp 2 España,
 6,12.10.2025,17:00,UD Logroñés,SD Beasain,,,,,Segunda Federacion gp 2 España,
 6,12.10.2025,17:00,Utebo FC,SD Logroñés,,,,,Segunda Federacion gp 2 España,
@@ -19557,10 +19557,10 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,12.10.2025,17:00,Águilas FC,CA Antoniano,,,,,Segunda Federacion gp 4 España,
 6,12.10.2025,17:00,Deportiva Minera,RC Recreativo,,,,,Segunda Federacion gp 4 España,
 6,12.10.2025,17:00,CDU Malacitano,Linares Deportivo,,,,,Segunda Federacion gp 4 España,
-6,12.10.2025,17:00,Lorca Deportiva,CD Extremadura,,,,,Segunda Federacion gp 4 España,
 6,12.10.2025,17:00,Atlético Malagueño,CD Estepona,,,,,Segunda Federacion gp 4 España,
 6,12.10.2025,17:00,UCAM Murcia CF,Xerez DFC,,,,,Segunda Federacion gp 4 España,
 6,12.10.2025,17:00,Yeclano Deportivo,Puente Genil FC,,,,,Segunda Federacion gp 4 España,
+6,12.10.2025,18:00,Lorca Deportiva,CD Extremadura,,,,,Segunda Federacion gp 4 España,
 6,12.10.2025,18:00,Xerez CD,Almería B,,,,,Segunda Federacion gp 4 España,
 7,19.10.2025,17:00,CA Antoniano,CD Extremadura,,,,,Segunda Federacion gp 4 España,
 7,19.10.2025,17:00,CD Estepona,Yeclano Deportivo,,,,,Segunda Federacion gp 4 España,
@@ -19862,11 +19862,11 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,12.10.2025,12:00,CF Fuenlabrada,CF Intercity,,,,,Segunda Federacion gp 5 España,
 6,12.10.2025,12:00,Elche Ilicitano,Las Palmas Atlético,,,,,Segunda Federacion gp 5 España,
 6,12.10.2025,12:00,Rayo Majadahonda,CD Coria,,,,,Segunda Federacion gp 5 España,
+6,12.10.2025,12:00,RSD Alcalá,Quintanar del Rey,,,,,Segunda Federacion gp 5 España,
 6,12.10.2025,17:00,Tenerife B,UD Socuéllamos,,,,,Segunda Federacion gp 5 España,
 6,12.10.2025,17:00,CDC Moscardó,UB Conquense,,,,,Segunda Federacion gp 5 España,
 6,12.10.2025,17:00,CDA Navalcarnero,Orihuela CF,,,,,Segunda Federacion gp 5 España,
 6,12.10.2025,17:00,Real Madrid C,Getafe B,,,,,Segunda Federacion gp 5 España,
-6,12.10.2025,17:00,RSD Alcalá,Quintanar del Rey,,,,,Segunda Federacion gp 5 España,
 6,12.10.2025,17:00,UD SS Reyes,Rayo B,,,,,Segunda Federacion gp 5 España,
 7,19.10.2025,11:30,Getafe B,UD SS Reyes,,,,,Segunda Federacion gp 5 España,
 7,19.10.2025,13:00,Las Palmas Atlético,RSD Alcalá,,,,,Segunda Federacion gp 5 España,
