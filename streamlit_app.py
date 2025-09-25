@@ -38,7 +38,7 @@ def main():
         })
         
         config = {
-            "% Progreso Disputado": st.column_config.ProgressColumn(),
+         "% Progreso Disputado": st.column_config.ProgressColumn(),
         }
 
         event = st.dataframe(
