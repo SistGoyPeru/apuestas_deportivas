@@ -36,6 +36,10 @@ def main():
             "% +1.5": [format(df_total.liga15(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
             "% +2.5": [format(df_total.liga25(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
         })
+        
+        config = {
+            "% Progreso Disputado": st.column_config.ProgressColumn(),
+        }
 
         event = st.dataframe(
             data,
