@@ -15,7 +15,7 @@ def main():
 
     st.set_page_config(
         page_title="Pronósticos de Ligas del Mundo - SistGoy", layout="wide", page_icon="🏠",)
-    st.image("logo_sistgoy.jpg", use_column_width=True)
+    st.image("logo_sistgoy.jpg")
     st.title("Pronósticos Deportivos ⚽")
     st.markdown("---")
 
