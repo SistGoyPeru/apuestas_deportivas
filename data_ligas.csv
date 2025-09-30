@@ -1061,7 +1061,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 10,29.09.2025,01:15,Instituto de Córdoba,CA Lanús,0,0,0,0,Liga Argentina,X
 10,29.09.2025,20:30,Barracas Central,Belgrano,1,1,1,0,Liga Argentina,X
 10,30.09.2025,01:00,Vélez Sarsfield,Atlético Tucumán,3,1,2,1,Liga Argentina,1
-10,01.10.2025,00:00,Newell's Old Boys,Estudiantes,,,,,Liga Argentina,
+10,01.10.2025,00:00,Newell's Old Boys,Estudiantes,0,0,,,Liga Argentina,X
 11,04.10.2025,00:00,Tigre,Defensa y Justicia,,,,,Liga Argentina,
 11,04.10.2025,02:15,Unión de Santa Fe,Aldosivi,,,,,Liga Argentina,
 11,04.10.2025,02:15,Argentinos Juniors,Central Córdoba SdE,,,,,Liga Argentina,
@@ -3408,7 +3408,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 23,27.09.2025,00:00,Colo-Colo,Deportes Iquique,4,0,1,0,Liga Chilena,1
 23,28.09.2025,20:00,La Serena,Universidad de Chile,1,1,0,0,Liga Chilena,X
 24,11.10.2025,20:00,Unión Española,Huachipato,,,,,Liga Chilena,
-24,19.10.2025,"",Universidad de Chile,Palestino,,,,,Liga Chilena,
+24,13.10.2025,21:00,Universidad de Chile,Palestino,,,,,Liga Chilena,
 24,19.10.2025,"",Deportes Iquique,O'Higgins,,,,,Liga Chilena,
 24,19.10.2025,"",Coquimbo Unido,Colo-Colo,,,,,Liga Chilena,
 24,19.10.2025,"",Everton,Universidad Católica,,,,,Liga Chilena,
@@ -5763,7 +5763,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 7,28.09.2025,16:15,Elche,Celta,2,1,1,1,Liga España,1
 7,28.09.2025,18:30,Barcelona,Real Sociedad,2,1,1,1,Liga España,1
 7,28.09.2025,21:00,Betis,Osasuna,2,0,2,0,Liga España,1
-7,30.09.2025,20:00,Valencia,Real Oviedo,1,0,,,Liga España,1
+7,30.09.2025,20:00,Valencia,Real Oviedo,1,2,1,0,Liga España,2
 8,03.10.2025,21:00,Osasuna,Getafe,,,,,Liga España,
 8,04.10.2025,14:00,Real Oviedo,Levante,,,,,Liga España,
 8,04.10.2025,16:15,Girona,Valencia,,,,,Liga España,
@@ -14827,7 +14827,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 9,27.09.2025,20:00,Durban City FC,Magesi FC,3,1,0,1,Liga Sudafrica,1
 9,28.09.2025,15:00,Siwelele FC,Marumo Gallants,1,0,1,0,Liga Sudafrica,1
 9,28.09.2025,17:30,Chippa United,Stellenbosch FC,0,0,0,0,Liga Sudafrica,X
-9,30.09.2025,19:30,Orlando Pirates,TS Galaxy,1,0,,,Liga Sudafrica,1
+9,30.09.2025,19:30,Orlando Pirates,TS Galaxy,2,0,1,0,Liga Sudafrica,1
 9,01.10.2025,19:30,Kaizer Chiefs,AmaZulu FC,,,,,Liga Sudafrica,
 10,17.10.2025,19:30,Richards Bay FC,Orbit College,,,,,Liga Sudafrica,
 10,18.10.2025,15:30,AmaZulu FC,Durban City FC,,,,,Liga Sudafrica,
@@ -17381,12 +17381,12 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 14,28.09.2025,20:30,2 de Mayo,General Caballero DJLM,2,0,1,0,Liga paraguay,1
 14,29.09.2025,22:00,Sportivo Ameliano,Deportivo Recoleta,1,4,0,2,Liga paraguay,2
 14,30.09.2025,00:30,Atlético Tembetary,Club Olimpia,0,2,0,0,Liga paraguay,2
+15,04.10.2025,00:00,Sportivo Luqueño,2 de Mayo,,,,,Liga paraguay,
+15,05.10.2025,00:00,Club Olimpia,Sportivo Ameliano,,,,,Liga paraguay,
 15,05.10.2025,01:00,Cerro Porteño,Deportivo Recoleta,,,,,Liga paraguay,
 15,05.10.2025,22:30,Guaraní,Atlético Tembetary,,,,,Liga paraguay,
 15,06.10.2025,01:00,Libertad,Sportivo Trinidense,,,,,Liga paraguay,
-15,10.10.2025,"",General Caballero DJLM,Club Nacional,,,,,Liga paraguay,
-15,10.10.2025,"",Club Olimpia,Sportivo Ameliano,,,,,Liga paraguay,
-15,10.10.2025,"",Sportivo Luqueño,2 de Mayo,,,,,Liga paraguay,
+15,06.10.2025,23:30,General Caballero DJLM,Club Nacional,,,,,Liga paraguay,
 16,11.10.2025,01:00,Sportivo Trinidense,General Caballero DJLM,,,,,Liga paraguay,
 16,16.10.2025,"",Atlético Tembetary,Libertad,,,,,Liga paraguay,
 16,16.10.2025,"",Club Nacional,Sportivo Luqueño,,,,,Liga paraguay,
@@ -17531,8 +17531,8 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 12,"","",Deportivo Binacional,Comerciantes Unidos,,,,,Liga peruana,
 12,"",20:00,Universidad Técnica,Los Chankas,2,0,1,0,Liga peruana,1
 12,"",22:15,Sporting Cristal,Ayacucho FC,3,0,3,0,Liga peruana,1
-12,30.09.2025,20:00,Sport Huancayo,Alianza Universidad,2,1,,,Liga peruana,1
-12,30.09.2025,22:15,Juan Pablo II College,AD Tarma,,,,,Liga peruana,
+12,30.09.2025,20:00,Sport Huancayo,Alianza Universidad,5,1,2,1,Liga peruana,1
+12,30.09.2025,22:15,Juan Pablo II College,AD Tarma,1,1,0,0,Liga peruana,X
 12,01.10.2025,02:30,Cusco FC,Deportivo Garcilaso,,,,,Liga peruana,
 12,02.10.2025,01:00,Alianza Atlético,Universitario de Deportes,,,,,Liga peruana,
 12,02.10.2025,03:30,Alianza Lima,Atlético Grau,,,,,Liga peruana,
@@ -17900,7 +17900,7 @@ Jornada,Fecha,Hora,Local,Visita,GA,GC,GA1,GC1,Liga,Resultado
 6,05.10.2025,18:15,CD Guadalajara,Real Avilés,,,,,Primera Federacion gp 1 España,
 6,05.10.2025,18:15,Ponferradina,Real Madrid Castilla,,,,,Primera Federacion gp 1 España,
 6,05.10.2025,20:30,Bilbao Athletic,Osasuna B,,,,,Primera Federacion gp 1 España,
-7,10.10.2025,"",Barakaldo CF,Bilbao Athletic,,,,,Primera Federacion gp 1 España,
+7,10.10.2025,21:15,Barakaldo CF,Bilbao Athletic,,,,,Primera Federacion gp 1 España,
 7,11.10.2025,16:00,Celta B,Ourense CF,,,,,Primera Federacion gp 1 España,
 7,11.10.2025,18:00,Unionistas CF,Mérida AD,,,,,Primera Federacion gp 1 España,
 7,11.10.2025,18:30,Arenas de Getxo,Lugo,,,,,Primera Federacion gp 1 España,
