@@ -130,31 +130,31 @@ class liga():
         if self.PGFliga(liga) == 0:
             return 0.0
         else:
-            return self.PromGEFL(liga, local) / self.PGFliga(liga)
+            return self.PromGEFL(liga, local) / self.medialiga(liga)
 
     def fuerzaDefensivaLocal(self, liga, local):
         if self.PGCliga(liga) == 0:
             return 0.0
         else:
-            return self.PromGECL(liga, local) / self.PGCliga(liga)
+            return self.PromGECL(liga, local) / self.medialiga(liga)
 
     def fuerzaOfensivaVisita(self, liga, visita):
         if self.PGCliga(liga) == 0:
             return 0.0
         else:
-            return self.PromGEFV(liga, visita) / self.PGCliga(liga)
+            return self.PromGEFV(liga, visita) / self.medialiga(liga)
 
     def fuerzaDefensivaVisita(self, liga, visita):
         if self.PGFliga(liga) == 0:
             return 0.0
         else:
-            return self.PromGECV(liga, visita) / self.PGFliga(liga)
+            return self.PromGECV(liga, visita) / self.medialiga(liga)
 
     def fuerzaPromedioLocal(self, liga, local, visita):
-        return self.PromGEFL(liga, local) * self.fuerzaDefensivaVisita(liga, visita)
+        return self.PromGEFL(liga, local) * self.fuerzaDefensivaVisita(liga, visita)*self.medialiga(liga)
 
     def fuerzaPromedioVisita(self, liga, local, visita):
-        return self.PromGEFV(liga, visita) * self.fuerzaDefensivaLocal(liga, local)
+        return self.PromGEFV(liga, visita) * self.fuerzaDefensivaLocal(liga, local)*self.medialiga(liga)
 
     def VictoriaLocal(self, liga, local, visita):
         victoria = 0.0
