@@ -8,7 +8,7 @@ def main():
    
 
     df_total = liga("data_ligas.csv")
-    df = df_total.data()
+    df = df_total.data().is_null()
        
     
     #--------------------
@@ -23,7 +23,7 @@ def main():
                           date.today(), format="DD.MM.YYYY", width=250)
 
     data_filtro_fecha = df.filter(
-        pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga").is_null()
+        pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga")
 
     Ligas_Fecha = data_filtro_fecha['Liga'].unique().sort().to_list()
 
