@@ -8,7 +8,8 @@ def main():
    
 
     df_total = liga("data_ligas.csv")
-    df = df_total.data().is_null()
+    df = df_total.data()
+    df=df.is_null()
        
     
     #--------------------
