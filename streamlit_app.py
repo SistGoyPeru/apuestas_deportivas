@@ -23,7 +23,7 @@ def main():
                           date.today(), format="DD.MM.YYYY", width=250)
 
     data_filtro_fecha = df.filter(
-        pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga")
+        pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga").is_null()
 
     Ligas_Fecha = data_filtro_fecha['Liga'].unique().sort().to_list()
 
@@ -56,7 +56,7 @@ def main():
         
 
         with st.expander("Encuentros de la "+ligas, expanded=True):
-            df_final = data_filtro_fecha.filter(pl.col("Liga") == ligas).is_null()
+            df_final = data_filtro_fecha.filter(pl.col("Liga") == ligas)
 # ´´´´
             event = st.dataframe(
                 df_final,
