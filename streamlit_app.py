@@ -147,7 +147,7 @@ def main():
                                       liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
 
 
-                                  ]
+                                  
 
 
                     })
