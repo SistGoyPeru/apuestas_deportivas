@@ -132,7 +132,7 @@ def main():
                         ],
 
                         "Valor": [[format(df_total.PPP(liga_E,local), '.2f')],
-                                  [format(general15Local, '.2f')+"%" if (df_total.liga15Local(liga_E, local)+df_total.liga15Visita(liga_E, visita)) > 0 else "0.00%"],
+                                  [format(general15Local, '.2f')+"%" ],
                                   [format(df_total.PPP_local(liga_E, local), '.2f')],
                                   [format(df_total.TotalVictoriasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100, '.2f')+"%"if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.TotalEmpatesEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
