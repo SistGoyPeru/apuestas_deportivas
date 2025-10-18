@@ -9,6 +9,7 @@ def main():
 
     df_total = liga("data_ligas.csv")
     df = df_total.data()
+    df1 = df_total.data()
     df=df.filter(pl.col('GA').is_null())
     
    
@@ -87,7 +88,7 @@ def main():
                 
                 with col1:
                     st.subheader(local)
-                    d=df_total.filter(
+                    d=df1.filter(
                         (pl.col("Local")==local )| (pl.col("Visita")==local),
                         pl.col("Liga")==ligas,
                         )
@@ -97,7 +98,7 @@ def main():
                     
                 with col2:
                     st.subheader(visita) 
-                    d=df_total.filter(
+                    d=df1.filter(
                         (pl.col("Local")==visita )| (pl.col("Visita")==visita),
                         pl.col("Liga")==ligas,
                         )
