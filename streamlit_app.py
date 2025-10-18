@@ -27,7 +27,7 @@ def main():
     fecha = st.date_input("Selecciona la Fecha para Pronosticar",
                           date.today(), format="DD.MM.YYYY", width=250)
 
-    data_filtro_fecha = df.filter(
+    data_filtro_fecha = df1.filter(
         pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga")
 
    
@@ -88,7 +88,7 @@ def main():
                 
                 with col1:
                     st.subheader(local)
-                    d=df1.filter(
+                    d=df.filter(
                         (pl.col("Local")==local )| (pl.col("Visita")==local),
                         pl.col("Liga")==ligas,
                         )
@@ -98,7 +98,7 @@ def main():
                     
                 with col2:
                     st.subheader(visita) 
-                    d=df1.filter(
+                    d=df.filter(
                         (pl.col("Local")==visita )| (pl.col("Visita")==visita),
                         pl.col("Liga")==ligas,
                         )
