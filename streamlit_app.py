@@ -119,7 +119,7 @@ def main():
                             "% AEM Local",
                             "% +0.5 Local",
                             "% +1.5 Local",
-                            "% +2.5 Local",
+                            "% +2.5 Local"
                         ],
 
                         "Valor": [[format(df_total.PPP(liga_E,local), '.2f')],
