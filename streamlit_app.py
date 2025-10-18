@@ -117,7 +117,7 @@ def main():
                    Elocal = pl.DataFrame({
                         "Local": [
                             "PPP General",
-                            "% +1.5 General",
+                           
                             "PPP Local",
                             "% Victoria Local",
                             "% Empate Local",
