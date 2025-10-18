@@ -414,6 +414,12 @@ class liga():
         else:
             return df["GC"].count()
 
+
+
+    def Total15GolesEquipo(self, liga,local):
+        
+        return self.liga15Local(liga, local)+self.liga15Visita(liga, local)/self.TotalDisputadosEquipoLocal(liga, local)+self.TotalDisputadosEquipoVisita(liga, local) if (self.TotalDisputadosEquipoLocal(liga, local)+self.TotalDisputadosEquipoVisita(liga, local))>0 else "0.00%"
+
     def TotalVictoriasEquipoLocal(self, liga, local):
         df_liga = self.df.filter(pl.col('Liga') == liga).drop_nulls()
         df_liga = df_liga.filter(pl.col('Local') == local)
