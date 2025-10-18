@@ -41,7 +41,7 @@ def main():
             "Liga": Ligas_Fecha,
             "% Progreso Disputado": [format(df_total.totaldisputados(liga)/df_total.TotalEncuentrosLiga(liga), '.2%') for liga in Ligas_Fecha],
             "Media de Goles": [format(df_total.medialiga(liga), '.2f') for liga in Ligas_Fecha],
-            "% AEM": [format(df_total.AEM(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
+            "% AEM": [format(df_total.AEM(liga)/df_total.totaldisputados(liga), '.2f')+"%" for liga in Ligas_Fecha],
             "% +0.5": [format(df_total.liga05(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
             "% +1.5": [format(df_total.liga15(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
             "% +2.5": [format(df_total.liga25(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
