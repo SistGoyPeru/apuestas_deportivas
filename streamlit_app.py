@@ -27,7 +27,7 @@ def main():
     fecha = st.date_input("Selecciona la Fecha para Pronosticar",
                           date.today(), format="DD.MM.YYYY", width=250)
 
-    data_filtro_fecha = df1.filter(
+    data_filtro_fecha = df.filter(
         pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga")
 
    
