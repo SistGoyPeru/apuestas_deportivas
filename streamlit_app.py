@@ -9,6 +9,7 @@ def main():
 
     df_total = liga("data_ligas.csv")
     df = df_total.data()
+    df1=df.filter(pl.col('GA').is_null()
     
     
    
