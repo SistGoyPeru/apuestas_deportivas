@@ -119,7 +119,10 @@ def main():
                             "% AEM Local",
                             "% +0.5 Local",
                             "% +1.5 Local",
-                            "% +2.5 Local"
+                            "% +2.5 Local",
+
+
+
                         ],
 
                         "Valor": [[format(df_total.PPP(liga_E,local), '.2f')],
@@ -129,6 +132,7 @@ def main():
                                       liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.TotalPerdidasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
                                       liga_E, local)*100, '.2f')+"%"if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
+
                                   [format(df_total.AEMLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)
                                           * 100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.liga05Local(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
@@ -137,10 +141,9 @@ def main():
                                       liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
                                   [format(df_total.liga25Local(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
                                       liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
-                                 ]
 
 
-                                  
+                                  ]
 
 
                     })
