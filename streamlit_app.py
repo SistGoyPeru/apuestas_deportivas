@@ -108,7 +108,42 @@ def main():
 
                 col1, col2 = st.columns(2)
                 with col1:
-                   pass
+                    EVisita = pl.DataFrame({
+                        "Visita": [
+                            "PPP General",
+                            "PPP Visita",
+                            "% Victoria Visita",
+                            "% Empate Visita",
+                            "% Perdida Visita",
+                            "% AEM Visita",
+                            "% +0.5 Visita",
+                            "% +1.5 Visita",
+                            "% +2.5 Visita"
+
+                        ],
+
+                        "Valor": [[format(df_total.PPP(ligas, visita), '.2f')],
+                                  [format(df_total.PPP_visita(ligas, visita), '.2f')],
+                                  [format(df_total.TotalVictoriasEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(ligas, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(ligas, visita) > 0 else "0.00%"],
+                                  [format(df_total.TotalEmpatesEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(
+                                      ligas, visita)*100, '.2f')+"%" if df_total.TotalEmpatesEquipoLocal(ligas, local) > 0 else "0.00%"],
+                                  [format(df_total.TotalPerdidasEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(
+                                      ligas, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(ligas, visita) > 0 else "0.00%"],
+                                  [format(df_total.AEMVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(
+                                      ligas, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(ligas, visita) > 0 else "0.00%"],
+                                  [format(df_total.liga05Visita(liga_E, visita)/df_total.TotalDisputadosEquipoVisita(
+                                      liga_E, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(liga_E, visita) > 0 else "0.00%"],
+                                  [format(df_total.liga15Visita(liga_E, visita)/df_total.TotalDisputadosEquipoVisita(
+                                      liga_E, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(liga_E, visita) > 0 else "0.00%"],
+                                  [format(df_total.liga25Visita(liga_E, visita)/df_total.TotalDisputadosEquipoVisita(
+                                      liga_E, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(liga_E, visita) > 0 else "0.00%"],
+
+
+
+                                  ]
+
+                    })
+                    st.dataframe(EVisita)
                   
                   
 
