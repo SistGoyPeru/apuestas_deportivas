@@ -24,7 +24,9 @@ def main():
                           date.today(), format="DD.MM.YYYY", width=250)
 
     data_filtro_fecha = df.filter(
-        pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga").is_null()
+        pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga")
+
+   data_filtro_fecha=data_filtro_fecha.filter(pl.col('GA').is_null())
 
    
 
