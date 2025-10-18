@@ -109,45 +109,7 @@ def main():
                 col1, col2 = st.columns(2)
                 with col1:
                   
-                   Elocal = pl.DataFrame({
-                        "Local": [
-                            "PPP General",
-                            "PPP Local",
-                            "% Victoria Local",
-                            "% Empate Local",
-                            "% Perdida Local",
-                            "% AEM Local",
-                            "% +0.5 Local",
-                            "% +1.5 Local",
-                            "% +2.5 Local",
-
-
-
-                        ],
-
-                        "Valor": [[format(df_total.PPP(liga_E,local), '.2f')],
-                                  [format(df_total.PPP_local(liga_E, local), '.2f')],
-                                  [format(df_total.TotalVictoriasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)*100, '.2f')+"%"if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
-                                  [format(df_total.TotalEmpatesEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
-                                      liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
-                                  [format(df_total.TotalPerdidasEquipoLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
-                                      liga_E, local)*100, '.2f')+"%"if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
-
-                                  [format(df_total.AEMLocal(liga_E, local)/df_total.TotalDisputadosEquipoLocal(liga_E, local)
-                                          * 100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
-                                  [format(df_total.liga05Local(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
-                                      liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
-                                  [format(df_total.liga15Local(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
-                                      liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
-                                  [format(df_total.liga25Local(liga_E, local)/df_total.TotalDisputadosEquipoLocal(
-                                      liga_E, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(liga_E, local) > 0 else "0.00%"],
-
-
-                                  ]
-
-
-                    })
-                    st.dataframe(Elocal)
+                  
 
                 with col2:
                     
