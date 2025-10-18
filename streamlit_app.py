@@ -9,6 +9,7 @@ def main():
 
     df_total = liga("data_ligas.csv")
     df = df_total.data()
+    df=df.filter(pl.col('GA').is_null())
  
        
     
@@ -26,7 +27,7 @@ def main():
     data_filtro_fecha = df.filter(
         pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga")
 
-   data_filtro_fecha=data_filtro_fecha.filter(pl.col('GA').is_null())
+   
 
    
 
