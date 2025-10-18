@@ -124,7 +124,7 @@ def main():
                         ],
 
                         "Valor": [[format(df_total.PPP(ligas, local), '.2f')],
-                                  [format(df_total.Total15GolesEquipo(ligas, local)*10, '.2f')+"%"],
+                                  [format(df_total.Total15GolesEquipo(ligas, local)*100, '.2f')+"%"],
                                   [format(df_total.PPP_local(ligas, local), '.2f')],
                                   [format(df_total.TotalVictoriasEquipoLocal(ligas, local)/df_total.TotalDisputadosEquipoLocal(ligas, local)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoLocal(ligas, local) > 0 else "0.00%"],
                                   [format(df_total.TotalEmpatesEquipoLocal(ligas, local)/df_total.TotalDisputadosEquipoLocal(
@@ -168,7 +168,7 @@ def main():
                         ],
 
                         "Valor": [[format(df_total.PPP(ligas, visita), '.2f')],
-                                  [format(df_total.Total15GolesEquipo(ligas, visita)*10, '.2f')+"%"],
+                                  [format(df_total.Total15GolesEquipo(ligas, visita)*100, '.2f')+"%"],
                                   [format(df_total.PPP_visita(ligas, visita), '.2f')],
                                   [format(df_total.TotalVictoriasEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(ligas, visita)*100, '.2f')+"%" if df_total.TotalDisputadosEquipoVisita(ligas, visita) > 0 else "0.00%"],
                                   [format(df_total.TotalEmpatesEquipoVisita(ligas, visita)/df_total.TotalDisputadosEquipoVisita(
