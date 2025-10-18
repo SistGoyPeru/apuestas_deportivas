@@ -24,7 +24,9 @@ def main():
                           date.today(), format="DD.MM.YYYY", width=250)
 
     data_filtro_fecha = df.filter(
-        pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga")
+        pl.col("Fecha") == fecha.strftime("%d.%m.%Y")).sort("Liga").is_null()
+
+   
 
     Ligas_Fecha = data_filtro_fecha['Liga'].unique().sort().to_list()
 
@@ -39,7 +41,7 @@ def main():
             "% +2.5": [format(df_total.liga25(liga)/df_total.totaldisputados(liga)*100, '.2f')+"%" for liga in Ligas_Fecha],
         })
         
-     
+        
         event = st.dataframe(
             data,
             on_select='rerun',
